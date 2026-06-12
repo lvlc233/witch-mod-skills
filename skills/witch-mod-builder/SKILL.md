@@ -34,10 +34,21 @@ description: Use when creating or modifying Witch's Apocalyptic Journey mod arti
 
 1. 确认目标：Mod 骨架、Data/Text CSV、Entry.lua、资源、C# DLL Hook、修改已有 Mod。
 2. 查 `witch-mod-api`，确认 ID、CSV、Lua、资源或 Hook 规则。
-3. 从 `resources/official` 复制最接近的官方模板文件或目录到目标工作区。
-4. 在目标副本里修改 ModName、文件名、局部 ID、运行时完整 ID、Text、脚本、资源路径。
-5. 运行 `references/implementation-checklist.md`。
-6. 报告改了哪些文件、用了哪些官方模板、ID 映射和剩余运行风险。
+3. 读取 `references/template-driven-development.md`，选择官方模板。
+4. 从 `resources/official` 复制最接近的官方模板文件或目录到目标工作区。
+5. 在目标副本里修改 ModName、文件名、局部 ID、运行时完整 ID、Text、脚本、资源路径。
+6. 运行 `references/implementation-checklist.md` 和 `references/verification.md`。
+7. 报告改了哪些文件、用了哪些官方模板、ID 映射和剩余运行风险。
+
+## Reference Routing
+
+| 需要 | 读取 |
+|---|---|
+| 官方模板选择和复制改写流程 | `references/template-driven-development.md` |
+| CSV ID、表头、转义 | `references/csv-authoring.md` |
+| Lua/XLua 常用片段 | `references/lua-patterns.md` |
+| 实现前后检查 | `references/implementation-checklist.md` |
+| 静态/运行验证 | `references/verification.md` |
 
 ## 硬规则
 
@@ -49,6 +60,7 @@ description: Use when creating or modifying Witch's Apocalyptic Journey mod arti
 - ScriptExecutor 实例方法用 `self:`。
 - C# 字典/List 在 Lua 中用 XLua 访问方式。
 - typed event payload 逻辑必须标注运行验证风险。
+- 对字段语义、生命周期、事件参数、加载顺序不确定时，先交给 `witch-mod-research`。
 
 ## 输出要求
 

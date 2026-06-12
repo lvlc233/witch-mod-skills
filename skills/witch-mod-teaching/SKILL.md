@@ -18,7 +18,8 @@ description: Use when teaching Witch's Apocalyptic Journey mod concepts, explain
 
 1. 判断任务：概念解释、对比、问题表评估、学习路径、小例子。
 2. 先查 `witch-mod-api` 支持度。
-3. 按以下结构回答：
+3. 复杂教学任务读取 `references/teaching-method.md`。
+4. 按以下结构回答：
    - API 确认什么。
    - 用学习者能理解的话解释。
    - 最小例子；只在 API 支持时给。
@@ -36,6 +37,7 @@ description: Use when teaching Witch's Apocalyptic Journey mod concepts, explain
 | Lua Hook 与 C# DLL Hook 边界 | `references/concepts/hooks.md` |
 | 资源路径、动画资源 | `references/concepts/resources.md` |
 | 评估问题表 | `references/question-table-method.md` |
+| 教学结构、学习路径、练习设计 | `references/teaching-method.md` |
 | 教学小例子 | `references/examples/` |
 
 ## 支持标签
@@ -50,3 +52,4 @@ description: Use when teaching Witch's Apocalyptic Journey mod concepts, explain
 - 不要用字段名解释生命周期。
 - 不要把一个样例讲成通用规则。
 - 不要把 C# 原版脚本语法教成 Lua Mod 写法。
+- 不要把缺失事实跳过；对学习者说清楚下一步应该 research 什么。

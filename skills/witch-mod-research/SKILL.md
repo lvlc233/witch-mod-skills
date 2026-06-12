@@ -34,11 +34,21 @@ description: Use when Witch's Apocalyptic Journey mod questions require first-fa
 
 ## 调研流程
 
-1. 先把问题改写成可查证的问题，例如“`PackBelong` 如何影响卡包”。
-2. 搜索 `../../resources/official`，优先看模板、Example、README、Lib。
-3. 如果模板/Example 不足，再查反编译资料；必须记录版本或文件名。
-4. 判断证据类型：明确规则、模板字段、样例写法、源码机制、推断。
-5. 输出调研报告，不要直接改 API 文档或 skill。
+1. 先读取 `../witch-mod-api` 的相关结论，记录 API 已确认和缺失事实。
+2. 提取用户线索：用户指出的文件、问题表编号、猜测、现象、已有答案。
+3. 读取 `references/deep-research-method.md`，把问题拆成可查证子问题。
+4. 搜索 `../../resources/official`，优先看模板、Example、README、Lib。
+5. 如果模板/Example/Lib 不足，再查反编译资料；必须记录版本或文件名。
+6. 判断证据类型：明确规则、模板字段、样例写法、原版模式、源码机制、推断。
+7. 输出调研报告，不要直接改 API 文档或 skill。
+
+## Reference Routing
+
+| 需要 | 读取 |
+|---|---|
+| 资源结构、每类资料用途 | `references/source-map.md` |
+| 深度调研、用户线索、API 缺口、交叉验证 | `references/deep-research-method.md` |
+| 调研报告格式 | `references/report-format.md` |
 
 ## 输出形状
 
@@ -58,4 +68,6 @@ description: Use when Witch's Apocalyptic Journey mod questions require first-fa
 - 不要把字段名当成机制。
 - 不要把反编译观察省略版本。
 - 不要修改 `resources/official` 里的官方材料。
+- 不要忽略用户提供的线索；线索必须进入“假设”或“调研路径”。
+- 不要只看一个文件就下结论；复杂机制至少尝试模板、Example、Lib/API 交叉验证。
 - 如果要沉淀结论，先说明应进入 `witch-mod-api`、`witch-mod-teaching` 还是 `witch-mod-builder`。
