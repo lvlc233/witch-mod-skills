@@ -25,7 +25,7 @@ resources/
 | Skill | 职责 | 不做什么 | 状态 |
 |---|---|---|---|
 | `witch-mod-api` | 只回答整理后的 API references 能确认什么 | 不读取 `resources/`，不做第一事实调研 | 已完成基础版 |
-| `witch-mod-research` | 带着 API 结论、用户线索和问题假设调研第一事实 | 不直接写最终 API 文档，不生成 Mod 文件 | 已补强方法版 |
+| `witch-mod-research` | 带着 API 结论、用户线索、竞争假设和证据矩阵调研第一事实 | 不直接写最终 API 文档，不生成 Mod 文件 | 已补强深度研究版 |
 | `witch-mod-case-guide` | 给 agent 用的案例桥梁：把用户目标转成案例、API 查询点、resources 调研点和 builder brief | 不自己翻第一事实，不生产文件，不把案例当权威事实 | 已重设为案例方法版 |
 | `witch-mod-builder` | 用脚本从官方模板复制并生成/修改 Mod 文件 | 不维护自造模板，不猜复杂机制 | 已补强脚本版 |
 
@@ -41,7 +41,7 @@ resources/
 ## 设计原则
 
 - API skill 保持干净，不能因为调研需求而污染事实边界。
-- Research skill 是“深度思考和证据收集”入口，必须显式使用用户线索和 API 缺口。
+- Research skill 是“深度思考和证据收集”入口，必须显式使用用户线索、API 缺口、竞争假设、证据权重和最小可确认结论。
 - Case Guide skill 是 agent 的案例桥梁；遇到缺口时生成 research 任务，遇到可实现目标时生成 builder brief。
 - Builder skill 以官方模板为起点；所有改动发生在目标 Mod 副本，不改 `resources/official`。
 - Builder skill 优先执行 `scripts/copy_official_template.py` 和 `scripts/check_mod_artifact.py`，文档流程作为脚本后的人工确认。
@@ -60,10 +60,11 @@ resources/
 ## 已补强方法
 
 - `witch-mod-research` 需要能指导 agent：
-  - 读取 API 支持度和缺口。
-  - 使用用户线索形成调研假设。
-  - 在模板、Example、Lib、反编译之间交叉验证。
-  - 输出可沉淀、可追溯的结论。
+  - 读取 API 支持度、缺口和禁止越界点。
+  - 使用用户线索形成多个可证伪假设，而不是只验证第一个猜测。
+  - 在模板、Example、Lib、TypeHint、反编译和外部 Mod 之间做证据分级。
+  - 记录支持证据、负证据、冲突和不能证明的部分。
+  - 输出最小可确认结论、可迁移边界和给 API/case-guide/builder/user 的下游接口。
 - `witch-mod-case-guide` 需要能指导 agent：
   - 把用户目标归类到具体 Mod 案例。
   - 为案例列出 API 查询点和 resources 调研点。
@@ -88,7 +89,7 @@ resources/
 
 这些方法文件还需要用真实任务做 forward-test：
 
-- 用 `witch-mod-research` 调研一个 API 不足的问题，例如 `PackBelong` 或 EventList/Dialog 关系。
+- 用 `witch-mod-research` 调研一个 API 不足的问题，例如 `PackBelong`、EventList/Dialog 关系或宠物/使魔系统；检查报告是否包含竞争假设、证据矩阵、冲突处理、最小结论和下游建议。
 - 用 `witch-mod-case-guide` 处理“使魔/宠物系统”目标，观察是否能生成 API 查询点、resources 调研点和 builder brief。
 - 用 `witch-mod-builder` 从官方模板复制生成一个最小 Lua Mod，观察是否会误改 `resources/official`。
 

@@ -34,13 +34,13 @@ description: Use when Witch's Apocalyptic Journey mod questions require first-fa
 
 ## 调研流程
 
-1. 先读取 `../witch-mod-api` 的相关结论，记录 API 已确认和缺失事实。
-2. 提取用户线索：用户指出的文件、问题表编号、猜测、现象、已有答案。
-3. 读取 `references/deep-research-method.md`，把问题拆成可查证子问题。
-4. 搜索 `../../resources/official`，优先看模板、Example、README、Lib。
-5. 如果模板/Example/Lib 不足，再查反编译资料；必须记录版本或文件名。
-6. 判断证据类型：明确规则、模板字段、样例写法、原版模式、源码机制、推断。
-7. 输出调研报告，不要直接改 API 文档或 skill。
+1. 先读取 `references/deep-research-method.md` 和 `references/report-format.md`。
+2. 读取 `../witch-mod-api` 的相关结论，记录 API 已确认、缺失和警告/禁止项。
+3. 提取用户线索：用户指出的文件、问题表编号、猜测、现象、已有答案。
+4. 把问题建模成多个可证伪假设；每个假设写明需要什么证据。
+5. 搜索 `../../resources/official`，优先看 README、模板、Example、Lib，再看反编译。
+6. 用证据矩阵记录路径、事实等级、支持哪个假设、限制什么、不能证明什么。
+7. 输出最小可确认结论、可推测但未确认点、不可确认点和下游建议；不要直接改 API 文档或生成 Mod 文件。
 
 ## Reference Routing
 
@@ -55,11 +55,14 @@ description: Use when Witch's Apocalyptic Journey mod questions require first-fa
 ```text
 结论等级: 已确认/部分确认/不可确认
 问题:
-调研路径:
-证据:
-可推广范围:
-不能推广:
-建议沉淀到:
+用户线索:
+API 边界:
+假设:
+证据矩阵:
+冲突与处理:
+最小可确认结论:
+可迁移边界:
+下游建议:
 ```
 
 ## 硬规则
@@ -69,5 +72,7 @@ description: Use when Witch's Apocalyptic Journey mod questions require first-fa
 - 不要把反编译观察省略版本。
 - 不要修改 `resources/official` 里的官方材料。
 - 不要忽略用户提供的线索；线索必须进入“假设”或“调研路径”。
-- 不要只看一个文件就下结论；复杂机制至少尝试模板、Example、Lib/API 交叉验证。
+- 不要只看一个文件就下结论；复杂机制至少尝试 API、模板、Example、Lib 交叉验证。
+- 不要只写支持证据；API 未写、模板缺字段、Example 未使用等负证据也要进入限制。
+- 不要把“可推测但未确认”写成“已确认”。
 - 如果要沉淀结论，先说明应进入 `witch-mod-api`、`witch-mod-case-guide` 还是 `witch-mod-builder`。

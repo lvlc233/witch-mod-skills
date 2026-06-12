@@ -17,7 +17,7 @@ resources/
 ## Skill 职责
 
 - `witch-mod-api`：干净 API 边界，只回答整理后的 API references 能确认什么。
-- `witch-mod-research`：第一事实调研，读取 `resources/` 中的官方模板、Example、Lib、反编译和其他 Mod。
+- `witch-mod-research`：第一事实调研，读取 `resources/` 中的官方模板、Example、Lib、反编译和其他 Mod，输出带假设、证据矩阵和可迁移边界的研究报告。
 - `witch-mod-case-guide`：给 agent 用的 Mod 案例桥梁，把用户目标转成案例、API 查询点、resources 调研点和 builder brief。
 - `witch-mod-builder`：创建或修改 Mod 文件，优先用脚本从 `resources/official` 复制官方模板并做静态检查。
 
@@ -74,7 +74,7 @@ cp -R skills/witch-mod-builder ~/.codex/skills/
 ```
 
 ```text
-用 Witch Mod Research 从 resources 里调研 EventList 和 Dialogue 的关系，给出来源路径和可推广范围。
+用 Witch Mod Research 从 resources 里调研 EventList 和 Dialogue 的关系，给出假设、证据矩阵、最小结论和可迁移边界。
 ```
 
 ```text
