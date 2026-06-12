@@ -1,0 +1,106 @@
+﻿Id,Note,Name,Name_zh-Hant,Name_en,Name_ja,Title,Title_zh-Hant,Title_en,Title_ja,Description,Description_zh-Hant,Description_en,Description_ja,Action1,Action1_zh-Hant,Action1_en,Action1_ja,Action2,Action2_zh-Hant,Action2_en,Action2_ja,Passive1,Passive1_zh-Hant,Passive1_en,Passive1_ja,Passive2,Passive2_zh-Hant,Passive2_en,Passive2_ja
+唯一id,备注,称号,稱號,Title,称号,称号,稱號,Title,称号,描述,描述,Description,説明,主动1描述,主動1描述,Active Skill 1 Description,アクション1説明,主动2,主動2,Active Skill 2,アクション2,被动1,被動1,Passive Skill 1,パッシブ1,被动2,被動2,Passive Skill 2,パッシブ2
+1,,阿米莉娅,阿米莉娅,Amelia,アメリア,原初魔女,原初魔女,Primordial Witch,原初の魔女,"最初诞生的魔女，因为主天使早期技术不成熟的原因，这原型之作的缺点和她的优点一样丰沛
+拥有极佳的适应和成长能力，敏捷的思维，但是也因此得到了跳脱的性格，不按指示的行动的逆反性格
+作为魔女中的大前辈，却有着和脸截然相反的性格，在不说话时是冰山美人，开口之后立刻从高冷女神降格为同寝兄弟，热情而富有活力，对所有新鲜事物都能产生兴趣并在尝试后很快摆烂放弃
+
+最喜欢的事情排名前三是不劳而获，睡觉，和关注的新作发售
+","最初誕生的魔女，因為主天使早期技術不成熟的原因，這原型之作的缺點和她的優點一樣豐沛
+擁有極佳的適應和成長能力，敏捷的思維，但是也因此得到了跳脫的性格，不按指示的行動的逆反性格
+作為魔女中的大前輩，卻有著和臉截然相反的性格，在不說話時是冰山美人，開口之後立刻從高冷女神降格為同寢兄弟，熱情而富有活力，對所有新鮮事物都能產生興趣并在嘗試後很快擺爛放棄
+
+最喜歡的事情排名前三是不勞而獲，睡覺，和關注的新作發售
+","The very first witch to be born. Due to the Archangels' experimental technology at the time, this prototype possesses flaws just as abundant as her strengths.\nShe boasts exceptional adaptability, growth potential, and an agile mind; however, these traits also resulted in a flighty, rebellious nature that often defies instructions.\nAs a senior among witches, her personality contrasts sharply with her appearance. A silent ice queen, she instantly drops the ""cool goddess"" act the moment she speaks, becoming as casual as a roommate—enthusiastic and energetic, she dives into new trends only to burn out and quit shortly after.\n\nHer top three favorite things are unearned gains, sleeping, and the release dates of anticipated new games.\n",最初に生まれた魔女。主天使の初期技術が未熟だったため、この原型作の欠点は長所と同じくらい多い。\n優れた適応力と成長能力、機敏な思考を持つが、そのために奔放で指示に従わない反抗的な性格も持ち合わせている。\n魔女の中の大先輩でありながら、その顔立ちとは裏腹な性格。黙っていれば氷の美女だが、口を開けばクールな女神から寮の同室のような存在に早変わり。情熱的で活力に満ち、あらゆる新しいものに興味を持つが、試した後はすぐに飽きてしまう。\n\n好きなことトップ3は、労せずして得ること、寝ること、そして注目している新作ゲームの発売。\n,<name>神选</name><des>从牌堆中检索一张牌。</des><cd>CD:1</cd>,<name>神選</name><des>從牌堆中檢索一張牌。</des><cd>CD:1</cd>,<name>Divine Selection</name><des>Search your deck for a card.</des><cd>CD:1</cd>,<name>神選</name><des>山札からカードを1枚手札に加える。</des><cd>CD:1</cd>,,,,,<name>理性化盾</name><des>战斗开始时获得2层坚毅。</des>,<name>理性化盾</name><des>戰鬥開始時獲得2層堅毅。</des>,<name>Rationalized Shield</name><des>Gain 2 Stacks of {buff_impregnable} at the start of combat.</des>,<name>理性化の盾</name><des>戦闘開始時、{buff_impregnable}を2スタック獲得する。</des>,<name>恶念为剑</name><des>战斗开始时获得3层元素。</des>,<name>惡念為劍</name><des>戰鬥開始時獲得3層元素。</des>,<name>Malice as Blade</name><des>Gain 3 Stacks of {buff_elements} at the start of combat.</des>,<name>悪念は剣となる</name><des>戦闘開始時に{buff_elements}を3スタック獲得する。</des>
+2,,奈奈,奈奈,Nana Veloris,ナナ,见习魔女,見習魔女,Apprentice Witch,見習い魔女,"天界于奥尔德林5034年制作，崭新出炉的最新型号魔女
+拥有极具欺骗性的外表和无条件的杀戮心
+具备在毫无自觉的情况下将人从心理和情绪上同时破防的天然黑性格
+以“异常”为食滋养自身，在战斗中化身为身高六米身长数十米的巨大骨刺怪物，碾碎沿途所视的一切","天界于奧爾德林5034年製作，嶄新出爐的最新型號魔女
+擁有極具欺騙性的外表和無條件的殺戮心
+具備在毫無自覺的情況下將人從心理和情緒上同時破防的天然黑性格
+以“異常”為食滋養自身，在戰鬥中化身為身高六米身長數十米的巨大骨刺怪物，碾碎沿途所視的一切","The latest model of witch, fresh off the assembly line in the Celestial Realm (Aldrin Year 5034).\nShe possesses a deceptively innocent appearance and an unconditional bloodlust.\nA natural ""black heart,"" she psychologically and emotionally destroys those around her without even realizing it.\nShe nourishes herself by feeding on ""Abnormalities,"" transforming into a colossal, bone-spiked monstrosity—six meters tall and tens of meters long—to crush everything in her path during battle.","天界がオルドリン5034年に製造した、最新モデルの魔女。
+非常に欺瞞的な外見と、無条件の殺戮心を持つ。
+無自覚のうちに相手を心理的、感情的に同時に打ちのめす天然黒な性格。
+「異常」を糧として自身を養い、戦闘中は身長6メートル、体長数十メートルの巨大な骨の棘を持つ怪物と化し、行く手に見えるものすべてを粉砕する。","<name>可食用厄运</name>
+<des>选择一名指定对象（可以指向包括自身在内的我方和敌方），吞噬目标身上的所有负面异常，并将异常储存入奈奈的“胃囊”，获得一定的厄运魔能，(如果目标非自身)造成5点伤害</des>
+<cd>CD:5</cd>","<name>可食用厄運</name>
+<des>選擇一名指定對象（可以指向包括自身在內的我方和敵方），吞噬目標身上的所有負面異常，并將異常儲存入奈奈的“胃囊”，獲得一定的厄運魔能，(如果目標非自身)造成5點傷害</des>
+<cd>CD:5</cd>","<name>Consumable Misfortune</name>
+<des>Select a target (ally, enemy, or self). Devour all negative statuses on the target and store them in Nana's ""Stomach,"" gaining {buff_DoomPower}. If the target is not yourself, deal 5 damage.</des>
+<cd>CD:5</cd>","<name>食せる厄災</name>
+<des>対象を1体選択（自身を含む味方、または敵も選択可能）。対象の全てのデバフを捕食し、ナナの「胃袋」に保存する。一定量の厄災魔力を獲得し、（対象が自身でない場合）5ダメージを与える。</des><cd>CD:5</cd>","<name>灾祸具现化</name>
+<des>化身为厄莉克特拉，获得状态""灾厄化身""</des><cd>CD:1</cd>","<name>災禍具現化</name>
+<des>化身為厄莉克特拉，獲得狀態""災厄化身""</des><cd>CD:1</cd>","<name>Calamity Manifestation</name>
+<des>Transform into Erliktra and gain the status ""Avatar of Calamity.""</des><cd>CD:1</cd>","<name>災禍の具現化</name>
+<des>エリクトラに変身し、「災厄の化身」状態になる。</des><cd>CD:1</cd>","<name>不幸者容器</name>
+<des>奈奈的初始生命遭到削减，但可以通过厄运魔能为自身提供最大生命值加成</des>","<name>不幸者容器</name>
+<des>奈奈的初始生命遭到削減，但可以通過厄運魔能為自身提供最大生命值加成</des>","<name>Vessel of Misfortune</name>\n<des>Nana's Max Health is reduced. However, she can use {buff_DoomPower} to heal herself and increase her Max Health.</des>","<name>不幸者の器</name>
+<des>ナナの初期HPは減少しているが、厄災魔力で自身を治療し、最大HPを増加させることができる。</des>",,,,
+*3,,阿黛拉,阿黛拉,Adele,アデル,支配魔女,支配魔女,Witch of Domination,支配の魔女,"较为少见的深渊坑“原生土著”转化而来的魔女，与主天使签订契约，以永生永世为奴作为代价，换取超脱世界束缚之外的永生，既是飞升天界，也是堕入地狱
+属于公主殿下的那个奥尔德林已经归于尘埃，支撑现在的她存在的历史已无从考证
+或许在内心的某个角落，阿黛拉还期待着在另一个相似的世界中与故人重逢","較為少見的深淵坑“原生土著”轉化而來的魔女，與主天使簽訂契約，以永生永世為奴作為代價，換取超脫世界束縛之外的永生，既是飛升天界，也是墮入地獄
+屬於公主殿下的那個奧爾德林已經歸于塵埃，支撐現在的她存在的歷史已無從考證
+或許在內心的某個角落，阿黛拉還期待著在另一個相似的世界中與故人重逢","A rare witch converted from an ""indigenous native"" of the Abyssal Pit. She signed a contract with the Archangels, trading eternal servitude for immortality beyond the world's constraints—a fate that is both an ascension to Celestial Realm and a descent into hell.\nThe Aldrin that belonged to Her Highness the Princess has long turned to dust, and the history sustaining her current existence is lost to time.\nPerhaps, in some corner of her heart, Adele still yearns to reunite with old acquaintances in a similar world.","比較的珍しい、深淵の「原住民」から転化した魔女。主天使と契約を交わし、永遠の奴隷となることを代償に、世界の束縛を超えた永生を手に入れた。それは天界への昇天であると同時に、地獄への堕落でもあった。
+王女殿下のものだったオルドリンはすでに塵と化し、現在の彼女を支える歴史はもはや考証不可能である。
+心のどこかで、アデルは別の似たような世界で旧知の者たちと再会することをまだ期待しているのかもしれない。","<name>王族律令</name>
+<des>将你的手牌全部变为不高于你灵魂层数的【黑耀棋子】。每当你抽牌时，此技能冷却额外降低。</des><cd>CD:12</cd>","<name>王族律令</name>
+<des>將你的手牌全部變為不高於你靈魂層數的【黑耀棋子】。每當你抽牌時，此技能冷卻額外降低。</des><cd>CD:12</cd>","<name>Royal Decree</name>
+<des>Transform all cards in your hand into [Obsidian Chess Pieces] whose rank does not exceed your Soul stacks. Whenever you draw a card, this skill's cooldown is reduced further.</des><cd>CD:12</cd>","<name>王族律令</name>
+<des>あなたの手札をすべて、あなたの魂魄レベル以下の【黒曜の駒】に変える。カードを引くたび、このスキルのクールタイムが追加で短縮される。</des><cd>CD:12</cd>",,,,,"<name>黑棋国王</name>
+<des>战斗胜利，焚毁卡牌时获得“灵魂”。回合开始时，基于当前“灵魂”将一张黑耀棋子牌加入你的手牌</des>","<name>黑棋國王</name>
+<des>戰鬥勝利，焚毀卡牌時獲得“靈魂”。回合開始時，基于當前“靈魂”將一張黑耀棋子牌加入你的手牌</des>","<name>Black King</name>\n<des>Upon winning a battle, gain a Chess Piece. The piece obtained varies by battle difficulty.</des>","<name>黒棋の王</name>
+<des>戦闘に勝利し、カードを焼却すると「魂」を獲得する。ターン開始時、現在の「魂」に基づいて黒曜石の駒カードを1枚手札に加える</des>",,,,
+*4,,灾厄化身,災厄化身,Calamity Avatar,災禍の化身,灾厄化身,災厄化身,Avatar of Calamity,災禍の化身,"天界于奥尔德林5034年制作，崭新出炉的最新型号魔女
+拥有极具欺骗性的外表和无条件的杀戮心
+具备在毫无自觉的情况下将人从心理和情绪上同时破防的天然黑性格
+以“异常”为食滋养自身，在战斗中化身为身高六米身长数十米的巨大骨刺怪物，碾碎沿途所视的一切","天界于奧爾德林5034年製作，嶄新出爐的最新型號魔女
+擁有極具欺騙性的外表和無條件的殺戮心
+具備在毫無自覺的情況下將人從心理和情緒上同時破防的天然黑性格
+以“異常”為食滋養自身，在戰鬥中化身為身高六米身長數十米的巨大骨刺怪物，碾碎沿途所視的一切","The latest model of witch, fresh off the assembly line in the Celestial Realm (Aldrin Year 5034).\nShe possesses a deceptively innocent appearance and an unconditional bloodlust.\nA natural ""black heart,"" she psychologically and emotionally destroys those around her without even realizing it.\nShe nourishes herself by feeding on ""Abnormalities,"" transforming into a colossal, bone-spiked monstrosity—six meters tall and tens of meters long—to crush everything in her path during battle.","天界がオルドリン5034年に製造した、最新モデルの魔女。
+非常に欺瞞的な外見と、無条件の殺戮心を持つ。
+無自覚のうちに相手を心理的、感情的に同時に打ちのめす天然黒な性格。
+「異常」を糧として自身を養い、戦闘中は身長6メートル、体長数十メートルの巨大な骨の棘を持つ怪物と化し、行く手に見えるものすべてを粉砕する。","<name>可食用厄运</name>
+<des>选择一名指定对象（可以指向包括自身在内的我方和敌方），吞噬目标身上的所有负面异常，并将异常储存入奈奈的“胃囊”，获得一定的厄运魔能，(如果目标非自身)造成5点伤害</des>
+<cd>CD:5</cd>","<name>可食用厄運</name>
+<des>選擇一名指定對象（可以指向包括自身在內的我方和敵方），吞噬目標身上的所有負面異常，并將異常儲存入奈奈的“胃囊”，獲得一定的厄運魔能，(如果目標非自身)造成5點傷害</des>
+<cd>CD:5</cd>","<name>Consumable Misfortune</name>
+<des>Select a target (ally, enemy, or self). Devour all negative status effects on the target and store them in Nana's ""Stomach,"" gaining Doom Mana. If the target is not self, deal 5 damage.</des>
+<cd>CD:5</cd>","<name>食せる厄災</name>
+<des>対象を1体選択（自身を含む味方、または敵も選択可能）。対象の全てのデバフを捕食し、ナナの「胃袋」に保存する。一定量の厄災魔力を獲得し、（対象が自身でない場合）5ダメージを与える。</des><cd>CD:5</cd>","<name>灾祸具现化</name>
+<des>化身为厄莉克特拉，获得状态""灾厄化身""</des><cd>CD:1</cd>","<name>災禍具現化</name>
+<des>化身為厄莉克特拉，獲得狀態""災厄化身""</des><cd>CD:1</cd>","<name>Calamity Manifestation</name>
+<des>Transform into Erliktra and gain the status ""Avatar of Calamity.""</des><cd>CD:1</cd>","<name>災禍の具現化</name>
+<des>エリクトラに変身し、「災厄の化身」状態になる。</des><cd>CD:1</cd>","<name>不幸者容器</name>
+<des>奈奈的初始生命遭到削减，但可以通过厄运魔能为自身提供治疗和最大生命值加成</des>","<name>不幸者容器</name>
+<des>奈奈的初始生命遭到削減，但可以通過厄運魔能為自身提供治療和最大生命值加成</des>","<name>Vessel of Misfortune</name>\n<des>Nana's Max Health is reduced. However, she can use {buff_DoomPower} to heal herself and increase her Max Health.</des>","<name>不幸者の器</name>
+<des>ナナの初期HPは減少しているが、厄災魔力で自身を治療し、最大HPを増加させることができる。</des>",,,,
+*5,,卡洛琳,卡洛琳,Caroline,キャロライン,猎杀魔女,獵殺魔女,Hunting Witch,魔女を狩る,猎杀魔女,獵殺魔女,Hunting Witch,魔女を狩る,"<name>叹息之墙</name>
+<des>指定一个友方目标，抽取5张卡牌，其回合结束时，焚毁其所有未使用的手牌</des><cd>CD:3</cd>","<name>嘆息之墻</name>
+<des>指定一個友方目標，抽取5張卡牌，其回合結束時，焚毀其所有未使用的手牌</des><cd>CD:3</cd>","<name>Wall of Sighs</name>
+<des>Choose an allied target. Draw 5 cards; at the end of their turn, Burn all unplayed cards in their hand.</des><cd>CD:3</cd>","<name>嘆きの壁</name>
+<des>味方1体を指定し、カードを5枚引く。そのターン終了時、使用されなかった手札をすべて焼却する。</des><cd>CD:3</cd>","<name>无光圣盾</name>
+<des>摧毁一个敌人的第一个攻击意图。</des><cd>CD:3</cd>","<name>叹息之墙</name>
+<des>摧毀一個敵人的第一個攻擊意圖。</des><cd>CD:3</cd>","<name>Lightless Aegis</name>
+<des>Destroy an enemy's first attack intent.</des><cd>CD:3</cd>","<name>無光の聖盾</name>
+<des>敵1体の最初の攻撃意図を破壊する。</des><cd>CD:3</cd>","<name>铸盾为剑</name>
+<des>造成的伤害基于当前护盾值和反击层数额外提高，每1点护盾或1层反击+1%伤害。</des>","<name>鑄盾為劍</name>
+<des>造成的傷害基于當前護盾值和反擊層數額外提高，每1點護盾或1層反擊+1%傷害。</des>",<name>Shield to Sword</name>\n<des>Damage is increased based on current Shield value and {buff_counterattack} stacks. +1% Damage per 1 Shield or 1 {buff_counterattack}.</des>,"<name>盾を剣に変える</name>
+<des>シールド1または{buff_counterattack}1スタックごとに与ダメージ+1%。</des>",,,,
+*6,,厄米娅,厄米婭,Ermia,アーミヤ,混沌魔女,混沌魔女,Chaos Witch,カオスの魔女,混沌魔女,混沌魔女,Chaos Witch,カオスの魔女,"<name>混沌操纵</name>
+<des>重掷当前标记的混沌效果。</des>
+<cd>CD:2</cd>","<name>混沌操纵</name>
+<des>重擲當前標記的混沌效果。</des>
+<cd>CD:2</cd>","<name>Chaos Manipulation</name>
+<des>Reroll the currently marked Chaos Effect.</des>
+<cd>CD:2</cd>","<name>混沌の操縦</name>
+<des>現在マークされている混沌効果を振り直す。</des>
+<cd>CD:2</cd>",,,,,"<name>可动摇信念</name>
+<des>基础生命提高50，受到的治疗提高50%，造成的伤害会在80%~200%之间波动</des>","<name>可動搖信念</name>
+<des>基礎生命提高50，受到的治療提高50%，造成的傷害會在80%~200%之間波動</des>",<name>Shaken Faith</name>\n<des>Base Health +50. Healing Received +50%. Damage Dealt fluctuates between 80% and 200%.</des>,"<name>信念を揺るがすことができる</name>
+<des>基礎生命力が50増加し、受ける治療効果が50%増加
+与えるダメージは80%～200%の範囲で変動する</des>","<name>命运之舞台</name>
+<des>每当自己的回合开始时，随机触发一种混沌效果。</des>","<name>命運之舞臺</name>
+<des>每當自己的回合開始時，隨機觸發一種混沌效果。</des>","<name>Stage of Fate</name>
+<des>At the start of your turn, trigger a random Chaos Effect.</des>","<name>運命の舞台</name>
+<des>自分のターン開始時、ランダムで1つのカオス効果。</des>"
+*7,,可可,可可,Coco,ココ,见习天使,見習天使,Immaculate Illustrator,無垢の絵師,无暇绘者,無暇繪者,Immaculate Illustrator,無垢の絵師,<name>摹写</name><des>选择一个目标，复制其所有正面与负面buff（包含层数）到自身。</des><cd>CD:5</cd>,<name>摹寫</name><des>選擇一個目標，復制其所有正面與負面buff（包含層數）到自身。</des><cd>CD:5</cd>,<name>Imitation</name><des>Choose a target and copy all non-indicator buffs (with stacks) to self.</des><cd>CD:5</cd>,<name>模写</name><des>対象1体を選び、指示物以外のバフをスタック込みで自身に複製する。</des><cd>CD:5</cd>,<name>勾画世界</name><des>从抽牌堆选择一张牌湮灭，按其消耗与等阶获得对应漫画祝福。</des><cd>CD:2</cd>,<name>勾畫世界</name><des>從抽牌堆選擇一張牌湮滅，按其消耗與等階獲得對應漫畫祝福。</des><cd>CD:2</cd>,<name>Sketch the World</name><des>Banish 1 chosen card from the draw pile and gain a matching comic Blessing based on its cost and tier.</des><cd>CD:2</cd>,<name>世界を描く</name><des>山札から1枚を選んで消滅させ、コストとレア度に応じた漫画の祝福を得る。</des><cd>CD:2</cd>,<name>无暇童话</name><des>战斗开始时获得2层失格和2层坚毅。</des>,<name>無暇童話</name><des>戰鬥開始時獲得2層失格和2層堅毅。</des>,"<name>Immaculate Fairy Tale</name><des>At combat start, gain 2 {buff_degrade} and 2 {buff_impregnable}.</des>",<name>無垢な童話</name><des>戦闘開始時に{buff_impregnable}を3、{buff_degrade}を3獲得する。</des>,,,,
+*8,,薇薇安,薇薇安,Vivian,ヴィヴィアン,拟态魔女,擬態魔女,Crimson Nocturne,深紅の夜行,猩红夜行,猩紅夜行,Crimson Nocturne,深紅の夜行,<name>屠戮时刻</name><des>给予任意目标鬼化。</des><cd>CD:2</cd>,<name>屠戮時刻</name><des>給予任意目標鬼化。</des><cd>CD:2</cd>,<name>Slaughter Time</name><des>Grant any target {buff_oniblood}.</des><cd>CD:2</cd>,<name>屠戮の刻</name><des>任意の対象に{buff_frenzy}と{buff_oniblood}を付与する。</des><cd>CD:2</cd>,<name>猩红</name><des>对敌方全体造成场上所有单位流血总层数的伤害。</des><cd>CD:1</cd>,<name>猩紅</name><des>對敵方全體造成場上所有單位流血總層數的傷害。</des><cd>CD:1</cd>,<name>Crimson</name><des>Deal damage to all enemies equal to total {buff_bleeding} stacks on all units.</des><cd>CD:1</cd>,<name>深紅</name><des>場にいる全ユニットの{buff_bleeding}総スタック数分、敵全体にダメージを与える。</des><cd>CD:1</cd>,<name>血鬼因子</name><des>免疫流血伤害，攻击为全体敌人附带1层流血。</des>,<name>血鬼因子</name><des>免疫流血傷害，攻擊為全體敵人附帶1層流血。</des>,<name>Vampiric Factor</name><des>Immune to {buff_bleeding} damage and attacks inflict 1 {buff_bleeding}.</des>,<name>血鬼因子</name><des>{buff_bleeding}ダメージを無効化し、攻撃時に{buff_bleeding}を1付与する。</des>,,,,

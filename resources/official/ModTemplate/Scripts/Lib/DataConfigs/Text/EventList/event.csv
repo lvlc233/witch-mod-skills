@@ -1,0 +1,1537 @@
+﻿Id,Note,Name,Name_zh-Hant,Name_en,Name_ja,TotalDescribe,TotalDescribe_zh-Hant,TotalDescribe_en,TotalDescribe_ja,1Describe,1Describe_zh-Hant,1Describe_en,1Describe_ja,2Describe,2Describe_zh-Hant,2Describe_en,2Describe_ja,3Describe,3Describe_zh-Hant,3Describe_en,3Describe_ja,4Describe,4Describe_zh-Hant,4Describe_en,4Describe_ja,CompareUse,CompareUse_zh-Hant,CompareUse_en,CompareUse_ja
+Id,备注,名字,名字,Name,名前,整体文本,整體文本,Full Text,整体文本,,,,,,,,,,,,,,,,,,,,
+*999,,黑潮-序幕,黑潮-序幕,Black Tide - Prologue,黒き潮流 - プロローグ,<main> 你的眼前是一处破败不堪的圣所，好在圣泉尚未枯竭。</main>,<main> 你的眼前是一處破敗不堪的圣所，好在圣泉尚未枯竭。</main>,"<main> Before you lies a dilapidated sanctuary, but fortunately, the holy spring has not yet dried up.</main>",<main> 目の前には荒れ果てた聖域が広がっているが、幸いにも聖なる泉はまだ枯れていない。</main>,"<main> 前去疗伤……</main>
+<add></add>
+<subtip> 你沐浴在圣泉中，疲惫一扫而空。(生命+30%)</subtip>","<main> 前去療傷……</main>
+<add></add>
+<subtip> 你沐浴在圣泉中，疲憊一掃而空。(生命+30%)</subtip>","<main> Go to heal...</main>
+<add></add>
+<subtip> You bathe in the holy spring, and your fatigue disappears. (HP+30%)</subtip>","<main> 傷を癒しに行く……</main>
+<add></add>
+<subtip> 聖なる泉に身を浸すと、疲労は一掃された。(HP+30%)</subtip>","<main> 继续前进</main>
+<add></add>
+<subtip> 你继续前进</subtip>","<main> 繼續前進</main>
+<add></add>
+<subtip> 你繼續前進</subtip>","<main> Keep moving forward</main>
+<add></add>
+<subtip> You move on</subtip>","<main> 先へ進む</main>
+<add></add>
+<subtip> あなたは先へ進んだ</subtip>",,,,,,,,,,,,
+Sub_*999_2,,黑潮-序幕,黑潮-序幕,Black Tide - Prologue,黒き潮流 - プロローグ,<main> 哪怕在黑潮之下有倾覆之危，仍有人囤货居奇，想发一笔横财</main>,<main> 哪怕在黑潮之下有傾覆之危，仍有人囤貨居奇，想發一筆橫財</main>,"<main> Even under the threat of the Black Tide, there are still those who hoard goods, hoping to make a fortune.</main>",<main> 黒き潮流による崩壊の危機に瀕してもなお、一儲けを企んで物資を買い占める者がいる。</main>,"<main> 驻足购买</main>
+<add></add>
+<subtip> “时间就是金钱”我的朋友。</subtip>","<main> 駐足購買</main>
+<add></add>
+<subtip> “時間就是金錢”我的朋友。</subtip>","<main> Stop to buy</main>
+<add></add>
+<subtip> Time is money, my friend.</subtip>","<main> 立ち寄って購入する</main>
+<add></add>
+<subtip> 「時は金なり」ですよ、友よ。</subtip>","<main> 继续前进</main>
+<add></add>
+<subtip> 你继续前进</subtip>","<main> 繼續前進</main>
+<add></add>
+<subtip> 你繼續前進</subtip>","<main> Keep moving forward</main>
+<add></add>
+<subtip> You move on</subtip>","<main> 先へ進む</main>
+<add></add>
+<subtip> あなたは先へ進んだ</subtip>",,,,,,,,,,,,
+*1000,,终焉,終焉,The End,終焉,"<main> 要结束了吗,数千年的末世会在今日终结吗</main>","<main> 要結束了嗎,數千年的末世會在今日終結嗎</main>",<main> Is it ending? Will the millennia-long apocalypse finally conclude today?</main>,<main> 終わるのか？数千年にわたる終末は、今日、終わりを迎えるのか？</main>,"<main> 回望众生</main>
+<add></add>
+<subtip> 众生用最后的希望为你赐福(恢复30%生命,随机获得4个祝福)</subtip>","<main> 回望眾生</main>
+<add></add>
+<subtip> 眾生用最后的希望為你賜福(恢復30%生命,隨機獲得4個祝福)</subtip>","<main> Look back at the masses</main>
+<add></add>
+<subtip> The masses grant you their final blessing (Recover 30% HP, get 4 random blessings)</subtip>","<main> 衆生を振り返る</main>
+<add></add>
+<subtip> 衆生は最後の希望であなたを祝福する(HP30%回復、ランダムな祝福を4つ獲得)</subtip>","<main> 直面神明</main>
+<add></add>
+<subtip> 祂的恶意不能阻挡你(恢复30%生命,随机获得4个祝福)</subtip>","<main> 直面神明</main>
+<add></add>
+<subtip> 祂的惡意不能阻擋你(恢復30%生命,隨機獲得4個祝福)</subtip>","<main> Face the divine</main>
+<add></add>
+<subtip> His malice cannot stop you (Recover 30% Health and gain 4 random Blessings)</subtip>","<main> 神と対峙する</main>
+<add></add>
+<subtip> 彼の悪意はあなたを止められない(衆生は最後の祝福を4つ与え、HPが30%回復する)</subtip>",,,,,,,,,,,,
+Sub_*1000_2,,终焉,終焉,The End,終焉,"<main> 祂笑了,""你知道吗,数千年前的那些小虫子也是你这样自信的""</main>","<main> 祂笑了,""你知道嗎,數千年前的那些小蟲子也是你這樣自信的""</main>","<main> He smiled, ""You know, those little bugs thousands of years ago were just as confident as you.""</main>",<main> 彼は笑った。「知っているか？数千年前のあの小虫どもも、お前のように自信満々だったぞ」</main>,"<main> 这一次不会一样!</main>
+<add></add>
+<subtip> 战斗一触即发</subtip>","<main> 這一次不會一樣!</main>
+<add></add>
+<subtip> 戰鬥一觸即發</subtip>","<main> Not the same this time!</main>
+<add></add>
+<subtip> Battle is about to break out</subtip>","<main> 今回は違う！</main>
+<add></add>
+<subtip> 戦いは間もなくだ</subtip>","<main> 你,也配高高在上吗</main>
+<add></add>
+<subtip> 战斗一触即发</subtip>","<main> 你,也配高高在上嗎</main>
+<add></add>
+<subtip> 戰鬥一觸即發</subtip>","<main> You think you're worthy of standing above others?</main>
+<add></add>
+<subtip> The battle is about to break out</subtip>","<main> お前ごときが、高みに立つ資格などあるか</main>
+<add></add>
+<subtip> 戦いは間もなくだ</subtip>",,,,,,,,,,,,
+1,,锈蚀齿轮,銹蝕齒輪,Rusted Gear,錆びた歯車,"<main> 天谴？还是赐福？魔女脑中那根绷紧的弦此刻正濒临断裂，失忆也许就在下一秒
+你知道忘记一切意味着什么……但有时，这也不失为一种战术的选择</main>
+<tip=exclaim>真的到了必须忘记一切的地步了吗？</tip>
+<subtip> 神经颤鸣</subtip>","<main> 天譴？還是賜福？魔女腦中那根繃緊的弦此刻正瀕臨斷裂，失憶也許就在下一秒
+你知道忘記一切意味著什么……但有時，這也不失為一種戰術的選擇</main>
+<tip=exclaim>真的到了必須忘記一切的地步了嗎？</tip>
+<subtip> 神經顫鳴</subtip>","<main> Divine punishment? Or a blessing? The string in the witch's mind is about to snap; amnesia may come at any moment.
+You know what it means to forget everything... but sometimes, this too can be a tactical choice.</main>
+<tip=exclaim>Has it really come to the point where you must forget everything?</tip>
+<subtip> Nerve tremor</subtip>","<main> 天罰か？それとも祝福か？魔女の脳内で張り詰めた糸は今にも切れそうだ。記憶喪失は次の瞬間にも訪れるかもしれない。
+すべてを忘れることが何を意味するのか、あなたは知っている……だが時には、それも戦術的な選択となりうる。</main>
+<tip=exclaim>本当にすべてを忘れなければならないほど追い詰められているのか？</tip>
+<subtip> 神経の震え</subtip>","<main> 让一切从头再来</main>
+<add>拥抱混沌</add>
+<subtip>将你装备的所有卡牌和遗物替换为随机卡牌和遗物，恢复所有生命值并获得100金币</subtip>","<main> 讓一切從頭再來</main>
+<add>擁抱混沌</add>
+<subtip>將你裝備的所有卡牌和遺物替換為隨機卡牌和遺物，恢復所有生命值并獲得100金幣</subtip>","<main> Let everything start over</main>
+<add>Embrace chaos</add>
+<subtip> Replace all your equipped cards and relics with random ones, restore all HP and gain 100 gold</subtip>","<main> すべてをやり直す</main>
+<add>混沌を受け入れる</add>
+<subtip> 装備している全てのカードと遺物をランダムなものに交換し、HPを全回復して100ゴールドを獲得する</subtip>","<main> 我还能坚持</main>
+<add>保持清醒</add>
+<subtip> 获得祝福""皇后""*2</subtip>","<main> 我還能堅持</main>
+<add>保持清醒</add>
+<subtip> 獲得祝福""皇后""*2</subtip>","<main> I can still hold on</main>
+<add>Stay sober</add>
+<subtip> Get the blessing ""Queen""*2</subtip>","<main> まだ耐えられる</main>
+<add>正気を保つ</add>
+<subtip> 祝福「皇后」を獲得する*2</subtip>",,,,,,,,,,,,
+2,,灵肉延展,靈肉延展,Flesh and Spirit Extension,霊肉の拡張,"<main> “我听到了，她的声音。”“谁？”“另一个我……也可能是你”“我一般称之为精神分裂或者幻听”
+“除非我们哪天从魔女岗位毕业，这些说法才能在生理上成立。”</main>
+<tip=exclaim>我独一无二</tip>
+<subtip> 接受自我</subtip>","<main> “我聽到了，她的聲音。”“誰？”“另一個我……也可能是你”“我一般稱之為精神分裂或者幻聽”
+“除非我們哪天從魔女崗位畢業，這些說法才能在生理上成立。”</main>
+<tip=exclaim>我獨一無二</tip>
+<subtip> 接受自我</subtip>","<main> ""I heard her voice."" ""Who?"" ""Another me... or maybe you."" ""I usually call that schizophrenia or auditory hallucination.""
+""Unless we one day graduate from being witches, these terms can only be used physiologically.""</main>
+<tip=exclaim>I am unique.</tip>
+<subtip> Accept yourself</subtip>","<main> 「声が聞こえた」「誰の？」「もう一人の私……あるいは、あなたかもしれない」「私はそれを統合失調症か幻聴と呼ぶわ」
+「いつか私たちが魔女を卒業しない限り、その言葉は生理学的にしか成立しない」</main>
+<tip=exclaim>私は唯一無二</tip>
+<subtip> 自己を受け入れる</subtip>","<main> 平静心绪</main>
+<add>我始终唯一</add>
+<subtip> 精神+4</subtip>","<main> 平靜心緒</main>
+<add>我始終唯一</add>
+<subtip> 精神+4</subtip>","<main> Calm the mind</main>
+<add>I am always the only one.</add>
+<subtip> Spirit+4</subtip>","<main> 心を落ち着ける</main>
+<add>私は常に唯一</add>
+<subtip> 精神+4</subtip>","<main> 复制记忆</main>
+<add>“她应是你”</add>
+<subtip> 获得最后一张移入装备区卡牌的复制</subtip>","<main> 復制記憶</main>
+<add>“她應是你”</add>
+<subtip> 獲得最后一張移入裝備區卡牌的復制</subtip>","<main> Copy memory</main>
+<add>""She should be you""</add>
+<subtip> Obtain a copy of the last equipped card</subtip>","<main> 記憶を複製する</main>
+<add>「彼女はあなたであるべき」</add>
+<subtip> 最後に装備したカードの複製を1枚獲得する</subtip>",,,,,,,,,,,,
+3,,教廷引路人,教廷引路人,Church Guide,教会の案内人,"<main> 黑暗中一簇火苗在风中摇曳着，靠近之后才发现那是一名少女手中的提灯燃起的微光
+她身着教廷的修女制服，面带微笑，对你的到来似乎并不意外“魔女小姐，您看起来很困惑，我主或能为您指明前路……”</main>
+<tip=exclaim>接受指引卡牌或将发生变化</tip>
+<subtip> 沐浴圣恩，重归深渊</subtip>","<main> 黑暗中一簇火苗在風中搖曳著，靠近之後才發現那是一名少女手中的提燈燃起的微光
+她身著教廷的修女制服，面帶微笑，對你的到來似乎并不意外“魔女小姐，您看起來很困惑，我主或能為您指明前路……”</main>
+<tip=exclaim>接受指引卡牌或將發生變化</tip>
+<subtip> 沐浴圣恩，重歸深淵</subtip>","<main> A flicker of flame sways in the darkness, and as you approach, you see it's the faint glow of a lantern in a young girl's hand.
+She wears a nun's habit of the church, smiling as if your arrival was expected. ""Miss Witch, you look confused. Perhaps my Lord can show you the way...""</main>
+<tip=exclaim>Accepting guidance may change your cards</tip>
+<subtip> Bathe in holy grace, return to the abyss</subtip>","<main> 暗闇の中、一筋の炎が風に揺れている。近づいてみると、それは少女が持つランタンの微かな光だった。
+彼女は教会の修道女服を身にまとい、微笑んでいる。あなたの到来を予期していたかのようだ。「魔女様、お困りのご様子。我が主が道を示してくださるやもしれません……」</main>
+<tip=exclaim>導きを受け入れるとカードが変化する可能性があります</tip>
+<subtip> 聖恩に浴し、深淵へ帰る</subtip>","<main> 试试又不吃亏</main>
+<add>接受指引</add>
+<subtip> 选择3张卡牌，给予其随机一项词条</subtip>","<main> 試試又不吃虧</main>
+<add>接受指引</add>
+<subtip> 選擇3張卡牌，給予其隨機一項詞條</subtip>","<main> No harm in trying</main>
+<add>Accept guidance</add>
+<subtip> Choose 3 cards and give each a random affix</subtip>","<main> 試してみるだけなら損はない</main>
+<add>導きを受け入れる</add>
+<subtip> カードを3枚選択し、ランダムな特性を1つ付与する</subtip>","<main> 怎么看都很可疑</main>
+<add>婉言谢绝</add>
+<subtip> 精神+3</subtip>","<main> 怎么看都很可疑</main>
+<add>婉言謝絕</add>
+<subtip> 精神+3</subtip>","<main> Looks suspicious in every way</main>
+<add>Politely refuse</add>
+<subtip> Spirit+3</subtip>","<main> どう見ても怪しい</main>
+<add>丁重に断る</add>
+<subtip> 精神+3</subtip>",,,,,,,,,,,,
+4,,垃圾箱先生,垃圾箱先生,Mr. Trashcan,ゴミ箱さん,"<main> 绿色的巨大塑料箱，梯形外轮廓，上书白色的三角循环符号——毫无疑问，这是一个垃圾回收箱
+在这个有精灵和龙，骑士与狼人并存的魔法世界中，它就这么安静的杵在那里，丝毫没察觉到自己和周围的环境有多么撕裂
+“小姐……”垃圾箱开口了，他的盖子不停上下晃动着，似乎是在模拟发音“可以给我点吃的吗……我好饿……”</main>
+<tip=exclaim>吃进去可就吐不回来了</tip>
+<subtip> 献点爱心吧</subtip>","<main> 綠色的巨大塑料箱，梯形外輪廓，上書白色的三角循環符號——毫無疑問，這是一個垃圾回收箱
+在這個有精靈和龍，騎士與狼人并存的魔法世界中，它就這么安靜的杵在那里，絲毫沒察覺到自己和周圍的環境有多么撕裂
+“小姐……”垃圾箱開口了，他的蓋子不停上下晃動著，似乎是在模擬發音“可以給我點吃的嗎……我好餓……”</main>
+<tip=exclaim>吃進去可就吐不回來了</tip>
+<subtip> 獻點愛心吧</subtip>","<main> A huge green plastic box, trapezoidal in shape, with a white triangular recycling symbol—undoubtedly a trash recycling bin.
+In this magical world of elves and dragons, knights and werewolves, it stands quietly, oblivious to how out of place it is.
+""Miss..."" the trash can speaks, its lid bobbing up and down as if mimicking speech. ""Can you give me something to eat... I'm so hungry...""</main>
+<tip=exclaim>Once it eats something, you won't get it back</tip>
+<subtip> Show some kindness</subtip>","<main> 緑色の巨大なプラスチックの箱、台形の外観、上には白い三角のリサイクルマーク――間違いなく、これはリサイクルゴミ箱だ。
+エルフとドラゴン、騎士と狼男が共存するこの魔法の世界で、それは静かに佇んでおり、周囲の環境からどれほど浮いているかに全く気づいていない。
+「お嬢さん……」ゴミ箱が口を開いた。その蓋は発声を真似るかのように上下に揺れている。「何か食べるものをくれませんか……お腹が空いて……」</main>
+<tip=exclaim>一度食べさせたらもう戻ってこない</tip>
+<subtip> 少し優しさを見せよう</subtip>","<main> 喂它点卡牌</main>
+<add>知识就是食物</add>
+<subtip> 获得随机卡牌和皇后祝福</subtip>","<main> 喂它點卡牌</main>
+<add>知識就是食物</add>
+<subtip> 獲得隨機卡牌和皇后祝福</subtip>","<main> Feed it a card</main>
+<add>Knowledge is food</add>
+<subtip> Gain a random card and get the blessing ""Queen""</subtip>","<main> カードをあげる</main>
+<add>知識は食料</add>
+<subtip> ランダムなカードを1枚獲得する, 祝福「皇后」を獲得する</subtip>","<main> 喂它点遗物</main>
+<add>小心魔力爆炸</add>
+<subtip> 获得随机遗物</subtip>","<main> 喂它點遺物</main>
+<add>小心魔力爆炸</add>
+<subtip> 獲得隨機遺物</subtip>","<main> Feed it a relic</main>
+<add>Beware of magic explosion</add>
+<subtip> Get random relic</subtip>","<main> 遺物をあげる</main>
+<add>魔力爆発に注意</add>
+<subtip> ランダムな遺物を1つ獲得する</subtip>","<main> 我的兜比你的壳子还干净 </main>
+<add>请自力更生</add>
+<subtip> 无事发生</subtip>","<main> 我的兜比你的殼子還干凈 </main>
+<add>請自力更生</add>
+<subtip> 無事發生</subtip>","<main> My pockets are drier than your shell</main>
+<add>Help yourself</add>
+<subtip> Nothing happens</subtip>","<main> 私の懐はあなたの殻より空っぽよ</main>
+<add>ご自分でどうぞ</add>
+<subtip> 何も起こらない</subtip>",,,,,,,,
+*7,,魔王冢,魔王冢,Demon King's Tomb,魔王の墓,"<main> 这是历代魔王最终的归宿，也是魔族的根基传说她是魔王加冕的最后一道仪式如今，你抚摸着碑文，尝试与异族先祖们共鸣</main>
+<tip=exclaim>这是一次危险的举动</tip>
+<subtip> 破坏它或许能动摇世界的根基</subtip>","<main> 這是歷代魔王最終的歸宿，也是魔族的根基傳說她是魔王加冕的最后一道儀式如今，你撫摸著碑文，嘗試與異族先祖們共鳴</main>
+<tip=exclaim>這是一次危險的舉動</tip>
+<subtip> 破壞它或許能動搖世界的根基</subtip>","<main> This is the final resting place of generations of Demon Kings, the foundation of the demon race. Legend says it is the last ritual for a Demon King's coronation. Now, you touch the inscription, trying to resonate with the ancestors of other races.</main>
+<tip=exclaim>This is a dangerous move</tip>
+<subtip> Destroying it might shake the world's foundation</subtip>","<main> ここは歴代魔王の終の棲家であり、魔族の礎。伝説によれば、魔王戴冠の最後の儀式の場でもあるという。今、あなたはその碑文に触れ、異民族の祖先たちと共鳴を試みる。</main>
+<tip=exclaim>これは危険な行為だ</tip>
+<subtip> これを破壊すれば、世界の礎を揺るがすことができるかもしれない</subtip>","<main> 挑战随机一种本源石碑</main>
+<add>不过如此</add>
+<subtip> 通关获得大量奖励并大幅减少腐化度</subtip>","<main> 挑戰隨機一種本源石碑</main>
+<add>不過如此</add>
+<subtip> 通關獲得大量獎勵并大幅減少腐化度</subtip>","<main> Challenge a random Origin monument</main>
+<add>No big deal</add>
+<subtip> Clear it to earn major rewards and greatly reduce Corruption</subtip>","<main> ランダムな根源の石碑に挑戦する</main>
+<add>この程度か</add>
+<subtip> クリアすると大量の報酬を獲得し、汚染度が大幅に減少する</subtip>","<main> 在此止步吧</main>
+<add>前方禁行</add>
+<subtip> 顺利离开</subtip>","<main> 在此止步吧</main>
+<add>前方禁行</add>
+<subtip> 順利離開</subtip>","<main> Stop here</main>
+<add>No entry ahead</add>
+<subtip> Leave smoothly</subtip>","<main> ここで止まる</main>
+<add>この先、進入禁止</add>
+<subtip> 無事に立ち去る</subtip>",,,,,,,,,,,,
+8,,帽子,帽子,Hat,帽子,"<main> 对于普拉提来说，帽子既是身份，也是立场，每个普拉提都有属于自己独一无二的帽子
+如果你想和他们建立联系，首先就要给自己制作一顶符合自己的帽子</main>
+<tip=exclaim>这当然不是免费的</tip>
+<subtip> 除非你愿意用时间代替金钱</subtip>","<main> 對於普拉提來說，帽子既是身份，也是立場，每個普拉提都有屬於自己獨一無二的帽子
+如果你想和他們建立聯系，首先就要給自己製作一頂符合自己的帽子</main>
+<tip=exclaim>這當然不是免費的</tip>
+<subtip> 除非你愿意用時間代替金錢</subtip>","<main> For a Platy, a hat is both identity and stance. Every Platy has their own unique hat.
+If you want to connect with them, you must first make a hat that suits you.</main>
+<tip=exclaim>Of course, this isn't free</tip>
+<subtip> Unless you're willing to trade time for money</subtip>","<main> プラティにとって、帽子は身分であり、立場でもある。全てのプラティは自分だけのユニークな帽子を持っている。
+彼らと繋がりを持ちたいなら、まずは自分に合った帽子を作らなければならない。</main>
+<tip=exclaim>もちろん無料ではない</tip>
+<subtip> お金の代わりに時間を使ってもいいのなら話は別だが</subtip>","<main> 自己动手，丰衣足食</main>
+<add>路障也是帽</add>
+<subtip> 获得一个随机遗物</subtip>","<main> 自己動手，豐衣足食</main>
+<add>路障也是帽</add>
+<subtip> 獲得一個隨機遺物</subtip>","<main> Do it yourself</main>
+<add>Barrier is also a hat</add>
+<subtip> Gain a random relic</subtip>","<main> 自分で作る</main>
+<add>バリケードも帽子</add>
+<subtip> ランダムな遺物を1つ獲得する</subtip>","<main> 拜托普拉提铁匠</main>
+<add>铁桶也是帽</add>
+<subtip> 花费50金币，获得遗物-铁桶</subtip>","<main> 拜托普拉提鐵匠</main>
+<add>鐵桶也是帽</add>
+<subtip> 花費50金幣，獲得遺物-鐵桶</subtip>","<main> Ask the Platy blacksmith</main>
+<add>Iron bucket is also a hat</add>
+<subtip> Spend 50 gold to get the Relic - Iron Bucket</subtip>","<main> プラティの鍛冶屋に頼む</main>
+<add>鉄のバケツも帽子</add>
+<subtip> 50ゴールドを消費し、遺物「鉄のバケツ」を獲得する</subtip>","<main> 打造一顶权力的顶点 </main>
+<add>纯金王冠</add>
+<subtip> 花费200金币，获得遗物-纯金王冠</subtip>","<main> 打造一頂權力的頂點 </main>
+<add>純金王冠</add>
+<subtip> 花費200金幣，獲得遺物-純金王冠</subtip>","<main> Forge the pinnacle of power</main>
+<add>Pure Gold Crown</add>
+<subtip> Spend 200 gold to obtain the relic Pure Gold Crown</subtip>","<main> 権力の頂点を築く</main>
+<add>純金の王冠</add>
+<subtip> 200ゴールドを消費し、遺物「純金の王冠」を獲得する</subtip>",,,,,,,,
+9,,粉色传单,粉色傳單,Pink Flyer,ピンクのチラシ,"<main> 一张粉色的传单，被大咧咧的贴在城镇外的大树上——很难想象贴广告的人出于一种什么样的心态才会认为这里是合适的营销地点
+走近看上面的内容：海报上画着一个身着性感透明纱裙和三点式泳衣的白发女人，她此时正戴着盖住半张面孔的硕大法师帽看向你。下书大字：“魔女小姐的课外辅导，精进异族语言的最佳选择，授课地址：……”</main>
+<tip=exclaim>这辅导正经吗？</tip>
+<subtip> 理性与感性的无休止斗争</subtip>","<main> 一張粉色的傳單，被大咧咧的貼在城鎮外的大樹上——很難想象貼廣告的人出于一種什么樣的心態才會認為這里是合適的營銷地點
+走近看上面的內容：海報上畫著一個身著性感透明紗裙和三點式泳衣的白發女人，她此時正戴著蓋住半張面孔的碩大法師帽看向你。下書大字：“魔女小姐的課外輔導，精進異族語言的最佳選擇，授課地址：……”</main>
+<tip=exclaim>這輔導正經嗎？</tip>
+<subtip> 理性與感性的無休止斗爭</subtip>","<main> This is a pink flyer, boldly posted on a big tree outside the town—it's hard to imagine what kind of mindset would consider this a good marketing spot.
+Looking closer: the poster shows a white-haired woman in a sexy sheer dress and bikini, wearing a huge wizard hat that covers half her face, looking at you. Large text reads: “ Miss Witch's After-School Tutoring, the best choice for improving your foreign language skills , class location: ...”</main>
+<tip=exclaim>Is this tutoring legit?</tip>
+<subtip> An endless struggle between reason and emotion</subtip>","<main> ピンク色のチラシが、町の外れの大木に大胆に貼られている――広告を貼った人間が、ここが適切なマーケティング場所だと考えた精神状態は想像しがたい。
+近づいて内容を見る：ポスターにはセクシーな透けるドレスとビキニ姿の白髪の女性が描かれ、顔の半分を覆う巨大な魔術師の帽子を被ってこちらを見ている。下には大きな文字で：「魔女様のアフタースクール、異種族言語上達の最適解、授業場所：……」</main>
+<tip=exclaim>この個人指導はまともなのか？</tip>
+<subtip> 理性と感情の終わりのない戦い</subtip>","<main> 前往授课地点</main>
+<add>我喜欢外语！</add>
+<subtip> 前往小树林</subtip>","<main> 前往授課地點</main>
+<add>我喜歡外語！</add>
+<subtip> 前往小樹林</subtip>","<main> Go to the teaching spot</main>
+<add>I love foreign languages!</add>
+<subtip> Go to the grove</subtip>","<main> 授業場所へ向かう</main>
+<add>外国語は大好き！</add>
+<subtip> 木立へ向かう</subtip>","<main> 下次不要再把广告贴在这种诡异的地方了</main>
+<add>到底谁想的？</add>
+<subtip> 感知+3</subtip>","<main> 下次不要再把廣告貼在這種詭異的地方了</main>
+<add>到底誰想的？</add>
+<subtip> 感知+3</subtip>","<main> Don't ever post ads in such creepy places next time.</main>
+<add>Whose idea was this?</add>
+<subtip> Perception +3.</subtip>","<main> 二度とこんな不気味な場所に広告を貼らないで</main>
+<add>一体誰の仕業？</add>
+<subtip> 感知+3</subtip>",,,,,,,,,,,,
+Sub_9_2,,粉色传单_1,粉色傳單_1,Pink Flyer_1,ピンクのチラシ,"<main> 你来到了传单上提示的地址，这是一处密林深处的空地，正疑惑这里为什么一个人也没有时，脚下一沉——你勉强用魔力协调住了身体让自己安稳落地而不至于摔伤，此时抬头向上看去，你已经来到了深入地底五米以上的地穴内，一群人围拢了过来，正从洞穴口向下看向你</main>
+<tip=exclaim>我就知道会变成这样</tip>
+<subtip> 但你们未免太小瞧我了</subtip>","<main> 你來到了傳單上提示的地址，這是一處密林深處的空地，正疑惑這里為什么一個人也沒有時，腳下一沉——你勉強用魔力協調住了身體讓自己安穩落地而不至于摔傷，此時抬頭向上看去，你已經來到了深入地底五米以上的地穴內，一群人圍攏了過來，正從洞穴口向下看向你</main>
+<tip=exclaim>我就知道會變成這樣</tip>
+<subtip> 但你們未免太小瞧我了</subtip>","<main> You arrive at the address on the flyer, a clearing deep in the forest. Wondering why no one is here, the ground suddenly gives way—you barely use magic to steady yourself and land safely. Looking up, you find yourself more than five meters underground in a cavern, surrounded by people peering down at you from the cave entrance.</main>
+<tip=exclaim>I knew it would turn out like this</tip>
+<subtip> But you all underestimate me</subtip>","<main> チラシに書かれた住所に到着した。そこは密林の奥深くにある空き地だ。誰もいないことを不思議に思っていると、足元が沈んだ――かろうじて魔力で体を安定させ、怪我なく着地できた。見上げると、あなたは地下5メートル以上の洞窟の中にいて、大勢の人々が洞窟の入り口からあなたを見下ろしている。</main>
+<tip=exclaim>こうなることは分かっていた</tip>
+<subtip> だが、私を甘く見すぎだ</subtip>","<main> 事到如今，唯有……</main>
+<add>鲨！</add>
+<subtip> 遭遇一场困难的战斗</subtip>","<main> 事到如今，唯有……</main>
+<add>鯊！</add>
+<subtip> 遭遇一場困難的戰鬥</subtip>","<main> At this point, only...</main>
+<add>Kill!</add>
+<subtip> Encounter a difficult battle</subtip>","<main> こうなったからには、ただ……</main>
+<add>殺！</add>
+<subtip> 困難な戦闘に遭遇する</subtip>",,,,,,,,,,,,,,,,
+10,,死亡轮盘,死亡輪盤,Death Roulette,死のルーレット,"<main> 这是一种古老的游戏，一把致命的投射器武器对着脑袋，两个人轮流扣动机关，先击发的人结束游戏也结束自己的人生
+现代的工艺经过了改良，现在庄家只负责给出奖励，那把投射器将永远只指向你的脑袋</main>
+<tip=exclaim>显而易见的危险</tip>
+<subtip> 每次扣动机关都有更高收益</subtip>","<main> 這是一種古老的遊戲，一把致命的投射器武器對著腦袋，兩個人輪流扣動機關，先擊發的人結束遊戲也結束自己的人生
+現代的工藝經過了改良，現在莊家只負責給出獎勵，那把投射器將永遠只指向你的腦袋</main>
+<tip=exclaim>顯而易見的危險</tip>
+<subtip> 每次扣動機關都有更高收益</subtip>","<main> This is an ancient game: a deadly projectile weapon pointed at your head, two people take turns pulling the trigger, and the first to fire ends both the game and their life.
+Modern craftsmanship has improved it; now the dealer only gives out rewards, and the weapon will always be pointed at your head.</main>
+<tip=exclaim>Obvious danger</tip>
+<subtip> Each pull of the trigger brings higher rewards</subtip>","<main> これは古のゲームだ。致命的な射出武器を頭に向け、二人が交互に引き金を引く。先に発射した者がゲームを、そして自らの人生を終わらせる。
+現代の技術で改良され、今やディーラーは報酬を渡すだけで、その武器は常にあなたの頭に向けられている。</main>
+<tip=exclaim>明らかな危険</tip>
+<subtip> 引き金を引くたびに、より高い報酬が得られる</subtip>","<main> 扣动机关（若击发，魔女血量变成1）</main>
+<add>富贵险中求</add>
+<subtip> 未击发时，前2次依次获得40,80金币，第3,4,5次赠予随机遗物和100金币</subtip>","<main> 扣動機關（若擊發，魔女血量變成1）</main>
+<add>富貴險中求</add>
+<subtip> 未擊發時，前2次依次獲得40,80金幣，第3,4,5次贈予隨機遺物和100金幣</subtip>","<main> Pull the trigger (if it fires, the Witch's HP becomes 1)</main>
+<add>Fortune favors the bold</add>
+<subtip> If it does not fire, the first 2 attempts grant 40 and 80 Gold respectively; the 3rd, 4th, and 5th attempts grant a random relic and 100 Gold</subtip>","<main> 引き金を引く（発射された場合、魔女のHPは1になる）</main>
+<add>富は危険の中にあり</add>
+<subtip> 不発の場合、最初の2回は40、80ゴールドを、3、4、5回目はランダムな遺物と100ゴールドを獲得する</subtip>","<main> 这并不是一场公平的游戏</main>
+<add></add>
+<subtip> 离开</subtip>","<main> 這并不是一場公平的遊戲</main>
+<add></add>
+<subtip> 離開</subtip>","<main> This is not a fair game</main>
+<add></add>
+<subtip> Leave</subtip>","<main> これは公平なゲームではない</main>
+<add></add>
+<subtip> 立ち去る</subtip>","<main> 我的命更值钱</main>
+<add></add>
+<subtip> </subtip>","<main> 我的命更值錢</main>
+<add></add>
+<subtip> </subtip>","<main> My life is worth more</main>
+<add></add>
+<subtip> </subtip>","<main> 私の命の方が価値がある</main>
+<add></add>
+<subtip> 立ち去る</subtip>",,,,,"<good> 没打中</good>
+<bad> 愿赌服输</bad>","<good> 沒打中</good>
+<bad> 愿賭服輸</bad>","<good> Missed</good>
+<bad> A bet is a bet</bad>","<good> 当たらなかった</good>
+<bad> 賭けに負けた</bad>"
+11,,小克莉斯娜,小克莉斯娜,Little Krisna,小さなクリスナ,"<main> 一台由克莉斯娜研发的模拟主天使：“小克莉斯娜”，这只小小的模拟机还有待发育
+完全无论你是要表达善意还是想诱导她往你期望的方向发展，现在都是最佳的时机</main>
+<tip=exclaim>但也有可能被诱导的是你自己</tip>
+<subtip> 点我开始聊天</subtip>","<main> 一臺由克莉斯娜研發的模擬主天使：“小克莉斯娜”，這只小小的模擬機還有待發育
+完全無論你是要表達善意還是想誘導她往你期望的方向發展，現在都是最佳的時機</main>
+<tip=exclaim>但也有可能被誘導的是你自己</tip>
+<subtip> 點我開始聊天</subtip>","<main> A simulated main angel developed by Krisna: “Little Krisna.” This little simulator is still growing.
+Whether you want to show kindness or guide her in your desired direction, now is the best time.</main>
+<tip=exclaim>But you might be the one getting guided</tip>
+<subtip> Click me to start chatting</subtip>","<main> クリスナが開発した模擬主天使：「小さなクリスナ」。この小さなシミュレーターはまだ成長途中だ。
+善意を示したいのであれ、望む方向に誘導したいのであれ、今が絶好の機会だ。</main>
+<tip=exclaim>だが、誘導されるのはあなた自身かもしれない</tip>
+<subtip> クリックしてチャット開始</subtip>","<main> 生存还是死亡？</main>
+<add>谈点哲学</add>
+<subtip> 每次对话精神和感知-1，魔力+2</subtip>","<main> 生存還是死亡？</main>
+<add>談點哲學</add>
+<subtip> 每次對話精神和感知-1，魔力+2</subtip>","<main> To live, or to die?</main>
+<add>Let's talk philosophy</add>
+<subtip> Each chat: Spirit/Perception -1, Magic +2</subtip>","<main> 生きるべきか、死ぬべきか？</main>
+<add>哲学を語る</add>
+<subtip> 会話ごと：精神と感知-1、魔力+2</subtip>","<main> 重生之我在异世界做魔女</main>
+<add>讲讲爽文</add>
+<subtip> 每次对话感知和幸运-1，精神+2</subtip>","<main> 重生之我在異世界做魔女</main>
+<add>講講爽文</add>
+<subtip> 每次對話感知和幸運-1，精神+2</subtip>","<main> Reborn as a witch in another world</main>
+<add> Let's talk about ""feel-good"" novels</add>
+<subtip> Each chat: Luck/Perception -1, Spirit+2</subtip>","<main> 転生したら異世界で魔女だった件</main>
+<add>なろう小説を語る</add>
+<subtip> 会話ごと：感知と幸運-1、精神+2</subtip>","<main> 有洞不见虫 - 猜一植物</main>
+<add>猜一植物</add>
+<subtip> 每次对话魔力和幸运-1，感知+2</subtip>","<main> 有洞不見蟲 - 猜一植物</main>
+<add>猜一植物</add>
+<subtip> 每次對話魔力和幸運-1，感知+2</subtip>","<main> There are holes and no insects - guess a plant</main>
+<add>Guess a plant</add>
+<subtip> Each chat: Magic/Luck-1, Perception +2</subtip>","<main> 穴あれど虫見えず - ある植物を当てて</main>
+<add>植物当てクイズ</add>
+<subtip> 会話ごと：魔力と幸運-1、感知+2</subtip>",<main> 溜了溜了</main>,<main> 溜了溜了</main>,<main> I'm off now</main>,<main> もう行くわ</main>,,,,
+12,,通关秘籍,通關秘籍,Cheat Guide,攻略の裏技,"<main> 这是一则通告，由你的帽子代为传达：即日起天界将向所有魔女开放一项特殊服务，以便更好的支援魔女们在前线的活动主天使将为魔女们提供不限量的知识以及祝福</main>
+<tip=exclaim>那么，代价是什么呢？</tip>
+<subtip> 市场经济</subtip>","<main> 這是一則通告，由你的帽子代為傳達：即日起天界將向所有魔女開放一項特殊服務，以便更好的支援魔女們在前線的活動主天使將為魔女們提供不限量的知識以及祝福</main>
+<tip=exclaim>那么，代價是什么呢？</tip>
+<subtip> 市場經濟</subtip>","<main> This is a notice, delivered by your hat: From now on, Heaven will offer a special service to all witches to better support their frontline activities. The main angel will provide unlimited knowledge and blessings to witches.</main>
+<tip=exclaim>So, what's the price?</tip>
+<subtip> Market economy</subtip>","<main> これはあなたへの通達です。あなたの帽子が代読します：本日より、天界は全ての魔女に対し、前線での活動をより良く支援するための特別サービスを開始します。主天使は魔女たちに無限の知識と祝福を提供します。</main>
+<tip=exclaim>では、代償は？</tip>
+<subtip> 市場経済</subtip>","<main> 用金币交换知识</main>
+<add></add>
+<subtip> 金币-20，获得随机卡牌</subtip>","<main> 用金幣交換知識</main>
+<add></add>
+<subtip> 金幣-20，獲得隨機卡牌</subtip>","<main> Spend gold for knowledge</main>
+<add></add>
+<subtip> Gold -20, gain a random card</subtip>","<main> ゴールドで知識と交換する</main>
+<add></add>
+<subtip> ゴールド-20、ランダムなカードを1枚獲得</subtip>","<main> 用真理之晶交换启示</main>
+<add></add>
+<subtip> 真理之晶-5，获得随机祝福</subtip>","<main> 用真理之晶交換啟示</main>
+<add></add>
+<subtip> 真理之晶-5，獲得隨機祝福</subtip>","<main> Exchange Truth Crystals for revelation</main>
+<add></add>
+<subtip> Truth Crystals -5, gain a random blessing</subtip>","<main> 真理の結晶で啓示と交換する</main>
+<add></add>
+<subtip> 真理の結晶-5、ランダムな祝福を1つ獲得</subtip>","<main> 离开</main>
+<add>不用轮椅</add>
+<subtip> 最强的魔女不需要秘籍！</subtip>","<main> 離開</main>
+<add>不用輪椅</add>
+<subtip> 最強的魔女不需要秘籍！</subtip>","<main> Leave</main>
+<add>No need for a wheelchair</add>
+<subtip> The strongest witch needs no cheat code!</subtip>","<main> 立ち去る</main>
+<add>車椅子は不要</add>
+<subtip> 最強の魔女に裏技は必要ない！</subtip>",,,,,,,,
+13,,模拟考核,模擬考核,Simulation Test,模擬試験,"<main> 就和所有公司员工一样，魔女们作为“天界无限责任公司”也有定期的绩效考核，不过在这个循环的模拟世界里，考核也换了形式
+它仅用于检测魔女的状态和能力，剔除了无意义的风险</main>
+<tip=exclaim>赢了有奖励，输了没惩罚，吗？</tip>
+<subtip> 没理由不试一下</subtip>","<main> 就和所有公司員工一樣，魔女們作為“天界無限責任公司”也有定期的績效考核，不過在這個循環的模擬世界裡，考核也換了形式
+它僅用於檢測魔女的狀態和能力，剔除了無意義的風險</main>
+<tip=exclaim>贏了有獎勵，輸了沒懲罰，嗎？</tip>
+<subtip> 沒理由不試一下</subtip>","<main> Just like all company employees, witches as part of the “Heaven Unlimited Liability Company” also have regular performance reviews. But in this cyclical simulation world, the reviews have changed form.
+They only test the witch's status and abilities, removing meaningless risks.</main>
+<tip=exclaim>Win and get rewards, lose and no punishment, right?</tip>
+<subtip> No reason not to try</subtip>","<main> 全ての会社員と同様に、「天界無限責任会社」の一員である魔女たちにも定期的な業績評価がある。しかし、この循環するシミュレーション世界では、評価の形式も変わっている。
+それは魔女の状態と能力を測定するためだけのもので、無意味なリスクは排除されている。</main>
+<tip=exclaim>勝てば報酬、負けても罰なし、だよね？</tip>
+<subtip> 試さない理由はない</subtip>","<main> 参与模拟</main>
+<add>让我康康</add>
+<subtip> 进入一场有额外奖励的模拟战斗</subtip>","<main> 參與模擬</main>
+<add>讓我康康</add>
+<subtip> 進入一場有額外獎勵的模擬戰鬥</subtip>","<main> Participate in simulation</main>
+<add>Let me see</add>
+<subtip> Enter a simulated battle with extra rewards</subtip>","<main> シミュレーションに参加する</main>
+<add>見せてみろ</add>
+<subtip> 追加報酬のある模擬戦闘に入る</subtip>","<main> 这次算了吧</main>
+<add></add>
+<subtip> 结束事件</subtip>","<main> 這次算了吧</main>
+<add></add>
+<subtip> 結束事件</subtip>","<main> Skip this time</main>
+<add></add>
+<subtip> End event</subtip>","<main> 今回はやめておく</main>
+<add></add>
+<subtip> イベントを終了する</subtip>",,,,,,,,,,,,
+14,,天使盲盒,天使盲盒,Angel Blind Box,天使のブラインドボックス,"<main> 天界最近流行的盲盒商品，往机器里投币（也支持生命支付）就能收获一堆包装精美的小盒子
+购买盲盒也不完全是为了里面的东西，拆包装的仪式感也是很多人给它刷销量的理由</main>
+<tip=exclaim>如果你抽过盲盒就该知道这个东西的性价比了</tip>
+<subtip> 说不定就中了呢？</subtip>","<main> 天界最近流行的盲盒商品，往機器里投幣（也支持生命支付）就能收獲一堆包裝精美的小盒子
+購買盲盒也不完全是為了里面的東西，拆包裝的儀式感也是很多人給它刷銷量的理由</main>
+<tip=exclaim>如果你抽過盲盒就該知道這個東西的性價比了</tip>
+<subtip> 說不定就中了呢？</subtip>","<main> The latest popular blind box product in Heaven: insert coins (or pay with life) into the machine to get a bunch of beautifully packaged little boxes.
+Buying blind boxes isn't just for what's inside; the ritual of unboxing is why many people keep buying them.</main>
+<tip=exclaim>If you've ever drawn a blind box, you know its value for money</tip>
+<subtip> Maybe you'll hit the jackpot?</subtip>","<main> 天界で最近流行しているブラインドボックス商品。機械にコインを入れる（生命での支払いも可）と、美しく包装された小さな箱がたくさん手に入る。
+ブラインドボックスを買うのは中身のためだけではない。開封する儀式感も、多くの人がこれを買い続ける理由だ。</main>
+<tip=exclaim>ブラインドボックスを引いたことがあるなら、この商品のコストパフォーマンスは分かるはず</tip>
+<subtip> もしかしたら大当たりかも？</subtip>","<main> 金币盲盒</main>
+<add>中！</add>
+<subtip> 金币+120</subtip>","<main> 金幣盲盒</main>
+<add>中！</add>
+<subtip> 金幣+120</subtip>","<main> Coin blind box</main>
+<add>Win!</add>
+<subtip> Gold +120</subtip>","<main> ゴールドのブラインドボックス</main>
+<add>当たり！</add>
+<subtip> ゴールド+120</subtip>","<main> 生命盲盒</main>
+<add>中！</add>
+<subtip> 最大生命值+10</subtip>","<main> 生命盲盒</main>
+<add>中！</add>
+<subtip> 最大生命值+10</subtip>","<main> Health blind box</main>
+<add>Win!</add>
+<subtip> MaxHp+10</subtip>","<main> 生命のブラインドボックス</main>
+<add>当たり！</add>
+<subtip> 最大HP+10</subtip>",,,,,,,,,,,,
+*15,,提前结算,提前結算,Early Settlement,早期精算,"<main> “小姐，告诉你一个好消息”你的帽子开口了“
+应天界驻奥尔德林办事处的要求，积极响应关于“更快、更好推进终末计划”政策号召，现允许工龄超过五年，符合条件的魔女，在所携随从的协同下，依法依规、有序办理关于魔法器械，知识技术的结算业务。”
+“简单来说就是”帽子顿了顿：“您可以提前拿到自己的那一份了。”</main>
+<tip=exclaim>从天而降的大饼</tip>
+<subtip> 没见过哪个公司会提前发工资的</subtip>","<main> “小姐，告訴你一個好消息”你的帽子開口了“
+應天界駐奧爾德林辦事處的要求，積極響應關于“更快、更好推進終末計劃”政策號召，現允許工齡超過五年，符合條件的魔女，在所攜隨從的協同下，依法依規、有序辦理關于魔法器械，知識技術的結算業務。”
+“簡單來說就是”帽子頓了頓：“您可以提前拿到自己的那一份了。”</main>
+<tip=exclaim>從天而降的大餅</tip>
+<subtip> 沒見過哪個公司會提前發工資的</subtip>","<main> ""Miss, I have good news for you,"" your hat says.
+At the request of Heaven's Aldrin office, in response to the policy of ""faster and better advancement of the End Plan,"" witches with more than five years of service and who meet the requirements may now, with the help of their followers, lawfully and orderly settle accounts for magical equipment and knowledge technology.
+""In short,"" the hat pauses, ""you can get your share in advance.""</main>
+<tip=exclaim>A windfall from the sky</tip>
+<subtip> Never seen a company pay wages in advance</subtip>","<main> 「お嬢さん、良い知らせがあります」あなたの帽子が口を開いた。
+「天界オルドリン駐在事務所の要請に応じ、『終末計画のより迅速かつ優れた推進』に関する政策を積極的に推進するため、勤続5年以上の条件を満たす魔女は、従者の協力のもと、法規に基づき、秩序だって魔法器機、知識技術に関する精算業務を辦理することが許可されます」
+「簡単に言うと」帽子は一呼吸おいて言った。「あなたは自分の分け前を前倒しで受け取れるということです」</main>
+<tip=exclaim>棚からぼたもち</tip>
+<subtip> 給料を前払いする会社なんて見たことがない</subtip>","<main> 克莉斯娜还能骗我？</main>
+<add><color=#FF0000>我要结算</color></add>
+<subtip> 结算哩（额外获得400养老金）</subtip>","<main> 克莉斯娜還能騙我？</main>
+<add><color=#FF0000>我要結算</color></add>
+<subtip> 結算哩（額外獲得400養老金）</subtip>","<main> Would Krisna still lie to me?</main>
+<add><color=#FF0000>I want to settle</color></add>
+<subtip> Settle now (gain 400 pension)</subtip>","<main> クリスナが私を騙すはずがない</main>
+<add><color=#FF0000>精算する</color></add>
+<subtip> 精算する（追加で年金400を獲得）</subtip>","<main> 克莉斯娜肯定在骗我</main>
+<add></add>
+<subtip> 获得祝福""法师"",结束事件</subtip>","<main> 克莉斯娜肯定在騙我</main>
+<add></add>
+<subtip> 獲得祝福""法師"",結束事件</subtip>","<main> Krisna must be lying to me</main>
+<add></add>
+<subtip> Obtain the blessing ""Mage"" to end the event</subtip>","<main> クリスナはきっと私を騙している</main>
+<add></add>
+<subtip> 祝福「魔術師」を獲得し、イベントを終了する</subtip>","<main> 坏女人。</main>
+<add></add>
+<subtip> </subtip>","<main> 壞女人。</main>
+<add></add>
+<subtip> </subtip>","<main> Bad woman.</main>
+<add></add>
+<subtip> </subtip>","<main> 悪い女。</main>
+<add></add>
+<subtip> </subtip>",,,,,,,,
+16,,奇美拉之血,奇美拉之血,Chimera's Blood,キメラの血,"<main>被黑色兜帽遮住面部的女性递给了你一小瓶红色的液体
+你认得这种物质，会蠕动的，介于血统论和暴力至上主义之间的，诅咒的源泉——奇美拉的血
+或者也可以说是魔王之血,历代魔王在登基之前都需得到它的认可</main>
+<tip=exclaim>没能得到认可的人去哪了？</tip>
+<subtip> Unfinished Trial</subtip>","<main>被黑色兜帽遮住面部的女性遞給了你一小瓶紅色的液體
+你認得這種物質，會蠕動的，介于血統論和暴力至上主義之間的，詛咒的源泉——奇美拉的血
+或者也可以說是魔王之血,歷代魔王在登基之前都需得到它的認可</main>
+<tip=exclaim>沒能得到認可的人去哪了？</tip>
+<subtip> Unfinished Trial</subtip>","<main>A woman with her face hidden by a black hood hands you a small vial of red liquid. You recognize it—something that writhes, between bloodline doctrine and brute supremacy: the source of the curse, Chimera's blood. Or call it the Demon King's blood; every Demon King must gain its approval before coronation.</main>
+<tip=exclaim>What became of those who failed to gain approval?</tip>
+<subtip> Unfinished Trial</subtip>","<main>黒い頭巾で顔を隠した女性が、赤い液体の入った小瓶を手渡した。あなたは知っている——蠢くあの物質、血統論と暴力至上の狭間にある呪いの源、キメラの血を。あるいは魔王の血。歴代の魔王は戴冠前にその認証を得ねばならない。</main>
+<tip=exclaim>認証を得られなかった者たちはどこへ？</tip>
+<subtip> 未完了の試練</subtip>","<main> 一饮而尽</main>
+<add>魔女不是魔王</add>
+<subtip> 获得祝福""奇美拉之血""</subtip>","<main> 一飲而盡</main>
+<add>魔女不是魔王</add>
+<subtip> 獲得祝福""奇美拉之血""</subtip>","<main> Drink it down</main>
+<add>A witch is not the Demon King</add>
+<subtip> Obtain the blessing ""Chimera's Blood""</subtip>","<main> 一気に飲み干す</main>
+<add>魔女は魔王ではない</add>
+<subtip> 祝福「キメラの血」を獲得</subtip>","<main> 魔女不是魔王</main>
+<add>中！</add>
+<subtip> 平安离开</subtip>","<main> 魔女不是魔王</main>
+<add>中！</add>
+<subtip> 平安離開</subtip>","<main> A witch is not the Demon King</main>
+<add>Hit!</add>
+<subtip> Leave safely</subtip>","<main> 魔女は魔王ではない</main>
+<add>当たり！</add>
+<subtip> 無事に立ち去る</subtip>",,,,,,,,,,,,
+17,,破败神像,破敗神像,Crumbling Idol,朽ちた神像,"<main> 一尊破败的神像伫立在你的面前，神明的头颅已被削去，往日圣洁的石像也被污斑浸染，但你仍能从神像身上感受到，主天使的一丝赐福</main>
+<tip=exclaim>多少给点</tip>
+<subtip> 未完成的试炼</subtip>","<main> 一尊破敗的神像佇立在你的面前，神明的頭顱已被削去，往日圣潔的石像也被污斑浸染，但你仍能從神像身上感受到，主天使的一絲賜福</main>
+<tip=exclaim>多少給點</tip>
+<subtip> 未完成的試煉</subtip>","<main> A crumbling idol stands before you. The deity's head has been severed, and the once-holy statue is stained with filth, yet you can still sense a trace of the main angel's blessing emanating from it.</main>
+<tip=exclaim>Give me something at least</tip>
+<subtip> Unfinished Trial</subtip>","<main> 朽ちた神像があなたの前に立っている。神の首は切断され、かつて聖なる像だったものは汚れに染まっているが、それでもあなたは神像から主天使のわずかな祝福を感じ取ることができる。</main>
+<tip=exclaim>何かくれよ</tip>
+<subtip> 未完了の試練</subtip>","<main> 祈求财富</main>
+<add>中！</add>
+<subtip> 获得100金币</subtip>","<main> 祈求財富</main>
+<add>中！</add>
+<subtip> 獲得100金幣</subtip>","<main> Pray for wealth</main>
+<add>Hit!</add>
+<subtip> Gain 100 gold</subtip>","<main> 富を祈る</main>
+<add>当たり！</add>
+<subtip> 100ゴールドを獲得する</subtip>","<main> 祈求健康</main>
+<add>中！</add>
+<subtip> 获得20点生命值上限并恢复至满血</subtip>","<main> 祈求健康</main>
+<add>中！</add>
+<subtip> 獲得20點生命值上限并恢復至滿血</subtip>","<main> Pray for health</main>
+<add>Hit!</add>
+<subtip> Gain 20 max HP and restore to full health</subtip>","<main> 健康を祈る</main>
+<add>当たり！</add>
+<subtip> 最大HPを20増加し、全回復する</subtip>","<main> 祈求健康</main>
+<add>中！</add>
+<subtip> 获得20点生命值上限并恢复至满血</subtip>","<main> 祈求健康</main>
+<add>中！</add>
+<subtip> 獲得20點生命值上限并恢復至滿血</subtip>","<main> Pray for health</main>
+<add>Hit!</add>
+<subtip> Gain 20 max HP and restore to full health</subtip>","<main> 健康を祈る</main>
+<add>当たり！</add>
+<subtip> 最大HPを20増加し、全回復する</subtip>",,,,,,,,
+18,,乐园运营,樂園運營,Paradise Trial Run,楽園テスト運営,"<main> 头戴小丑面具，身材高挑的异貌之物拦住了你的去路
+“不好意思先生，能占用您一点时间嘛？”虽然隔着面具看不到脸，但你还是能感受到他脸上散发的商务型笑意：“我司创办的游乐园即将开业，诚邀您在开业之前参与乐园的测试运营，不知您可有兴趣？”</main>
+<tip=exclaim>看起来还算友善？</tip>
+<subtip> 未完成的试炼</subtip>","<main> 頭戴小丑面具，身材高挑的異貌之物攔住了你的去路
+“不好意思先生，能占用您一點時間嘛？”雖然隔著面具看不到臉，但你還是能感受到他臉上散發的商務型笑意：“我司創辦的游樂園即將開業，誠邀您在開業之前參與樂園的測試運營，不知您可有興趣？”</main>
+<tip=exclaim>看起來還算友善？</tip>
+<subtip> 未完成的試煉</subtip>","<main> A tall, strange creature wearing a clown mask blocks your path.
+""Excuse me, sir, could I have a moment of your time?"" Though you can't see his face behind the mask, you can sense the business-like smile on his face: ""Our company is about to open an amusement park, and we sincerely invite you to participate in the trial run before the grand opening. Would you be interested?""</main>
+<tip=exclaim>Seems friendly enough?</tip>
+<subtip> Unfinished Trial</subtip>","<main> ピエロの仮面をかぶった、背の高い異形の者があなたの行く手を塞いだ。
+「すみません、少しお時間よろしいでしょうか？」仮面の向こうで顔は見えないが、彼のビジネス的な笑みを感じ取れる：「当社が運営する遊園地がまもなくオープンしますので、オープン前のテスト運営にご参加いただけませんか？」</main>
+<tip=exclaim>友好的に見える？</tip>
+<subtip> 未完了の試練</subtip>","<main> 花费20金币启动机器</main>
+<add>中！</add>
+<subtip> 20%概率获得遗物，40%概率获得卡牌</subtip>","<main> 花費20金幣啟動機器</main>
+<add>中！</add>
+<subtip> 20%概率獲得遺物，40%概率獲得卡牌</subtip>","<main> Spend 20 gold to start the machine</main>
+<add>Hit!</add>
+<subtip> 20% chance to get a relic, 40% chance to get a card</subtip>","<main> 20ゴールドを消費してマシンを起動する</main>
+<add>当たり！</add>
+<subtip> 20%の確率で遺物を、40%の確率でカードを獲得する</subtip>","<main> 走了走了</main>
+<add>中！</add>
+<subtip> 结束事件</subtip>","<main> 走了走了</main>
+<add>中！</add>
+<subtip> 結束事件</subtip>","<main> I'm leaving</main>
+<add>Hit!</add>
+<subtip> End event</subtip>","<main> 行くよ</main>
+<add>当たり！</add>
+<subtip> イベントを終了する</subtip>","<main> 走了走了</main>
+<add>中！</add>
+<subtip> 结束事件</subtip>","<main> 走了走了</main>
+<add>中！</add>
+<subtip> 結束事件</subtip>","<main> I'm leaving</main>
+<add>Hit!</add>
+<subtip> End event</subtip>","<main> 行くよ</main>
+<add>当たり！</add>
+<subtip> イベントを終了する</subtip>",,,,,"<good> 遗物！</good>
+<Normal>卡牌</Normal>
+<bad> 一无所有</bad>","<good> 遺物！</good>
+<Normal>卡牌</Normal>
+<bad> 一無所有</bad>","<good> Relic!</good>
+<Normal>Card</Normal>
+<bad> Nothing at all</bad>","<good> 遺物！</good>
+<Normal>カード</Normal>
+<bad> 何もない</bad>"
+19,,迷途天使,迷途天使,Lost Angel,迷える天使,"<main>克莉斯娜的使徒再一次困在了异界的深渊坑
+如果不是奥尔德林的信号传达不到魔女屋，真想给她安一个GPS
+想吐槽的有很多，但是当务之急是先帮可可解决返航问题……</main>
+<tip=exclaim>这忙不白帮</tip>
+<subtip> 未完成的试炼</subtip>","<main>克莉斯娜的使徒再一次困在了異界的深淵坑
+如果不是奧爾德林的信號傳達不到魔女屋，真想給她安一個GPS
+想吐槽的有很多，但是當務之急是先幫可可解決返航問題……</main>
+<tip=exclaim>這忙不白幫</tip>
+<subtip> 未完成的試煉</subtip>","<main>Krisna's apostle is once again trapped in the Abyss Pit of another world.
+If only signals could reach the Witch House from Aldrin, I'd install a GPS for her.
+There's much to complain about, but the priority is helping Coco solve her return journey problem...</main>
+<tip=exclaim>This favor won't go unrewarded</tip>
+<subtip> Unfinished Trial</subtip>","<main>クリスナの使徒がまたしても異界の深淵の穴に囚われている。
+オルドリンから魔女屋に信号が届くなら、GPSをつけてやりたいものだ。
+文句は山ほどあるが、当面の急務はココの帰還問題を解決することだ……</main>
+<tip=exclaim>この手伝いは無駄にはならない</tip>
+<subtip> 未完了の試練</subtip>","<main> 给她画张地图</main>
+<add>中！</add>
+<subtip> 获得遗物""可可的勾线笔""</subtip>","<main> 給她畫張地圖</main>
+<add>中！</add>
+<subtip> 獲得遺物""可可的勾线笔""</subtip>","<main> Draw her a map</main>
+<add>Hit!</add>
+<subtip> Obtain the relic ""Coco's Inking Pen""</subtip>","<main> 地図を描いてあげる</main>
+<add>当たり！</add>
+<subtip> 遺物「ココのペン」を獲得する</subtip>","<main> 帮助她找到回家的路</main>
+<add>中！</add>
+<subtip> 获得遗物""迷途天使之环""</subtip>","<main> 幫助她找到回家的路</main>
+<add>中！</add>
+<subtip> 獲得遺物""迷途天使之环""</subtip>","<main> Help her find her way home</main>
+<add>Hit!</add>
+<subtip> Obtain the relic ""Lost Angel's Ring""</subtip>","<main> 家への道を見つけるのを手伝う</main>
+<add>当たり！</add>
+<subtip> 遺物「迷える天使の指輪」を獲得する</subtip>","<main> 帮助她找到回家的路</main>
+<add>中！</add>
+<subtip> 获得遗物""迷途天使之环""</subtip>","<main> 幫助她找到回家的路</main>
+<add>中！</add>
+<subtip> 獲得遺物""迷途天使之环""</subtip>","<main> Help her find her way home</main>
+<add>Hit!</add>
+<subtip> Obtain the relic ""Lost Angel's Ring""</subtip>","<main> 家への道を見つけるのを手伝う</main>
+<add>当たり！</add>
+<subtip> 遺物「迷える天使の指輪」を獲得する</subtip>",,,,,,,,
+20,,占卜师,占卜師,Fortune Teller,占い師,"<main>头戴巨大灰帽的魔女教教徒正在路边摆着她的占卜小摊
+和任何路边摊贩一样，这个基于魔法的业务也安装了一部巨大的（魔能）扩音器，循环播放着教徒稚嫩声音棒读的广告词
+让人不由得心生怜悯……</main>
+<tip=exclaim>照顾一下她的生意？</tip>
+<subtip> 未完成的试炼</subtip>","<main>頭戴巨大灰帽的魔女教教徒正在路邊擺著她的占卜小攤
+和任何路邊攤販一樣，這個基于魔法的業務也安裝了一部巨大的（魔能）擴音器，循環播放著教徒稚嫩聲音棒讀的廣告詞
+讓人不由得心生憐憫……</main>
+<tip=exclaim>照顧一下她的生意？</tip>
+<subtip> 未完成的試煉</subtip>","<main>A Witch Cultist wearing a huge gray hat has set up her fortune-telling stall by the roadside.
+Like any street vendor, this magic-based business has also installed a massive (mana-powered) loudspeaker, looping advertisements read in the cultist's childish voice.
+It makes one feel quite sympathetic...</main>
+<tip=exclaim>Support her business?</tip>
+<subtip> Unfinished Trial</subtip>","<main>巨大な灰色の帽子をかぶった魔女教の信者が、道端に占いの屋台を出している。
+他の屋台と同じように、この魔法ベースの商売も巨大な（魔動力）拡声器を設置しており、信者の未熟な声で棒読みされる広告を流している。
+思わず同情してしまう……</main>
+<tip=exclaim>彼女の商売を応援する？</tip>
+<subtip> 未完了の試練</subtip>","<main> 给我占卜一下(20金币)</main>
+<add>中！</add>
+<subtip> 获得基础属性</subtip>","<main> 給我占卜一下(20金幣)</main>
+<add>中！</add>
+<subtip> 獲得基礎屬性</subtip>","<main> Tell my fortune (20 gold)</main>
+<add>Hit!</add>
+<subtip> Gain basic attributes</subtip>","<main> 占ってもらう（20ゴールド）</main>
+<add>当たり！</add>
+<subtip> 基本ステータスを獲得する</subtip>","<main> 我也很穷</main>
+<add>中！</add>
+<subtip> 离开事件</subtip>","<main> 我也很窮</main>
+<add>中！</add>
+<subtip> 離開事件</subtip>","<main> I'm also poor</main>
+<add>Hit!</add>
+<subtip> Leave event</subtip>","<main> 私も貧乏だ</main>
+<add>当たり！</add>
+<subtip> イベントを終了する</subtip>","<main> 我也很穷</main>
+<add>中！</add>
+<subtip> 离开事件</subtip>","<main> 我也很窮</main>
+<add>中！</add>
+<subtip> 離開事件</subtip>","<main> I'm also poor</main>
+<add>Hit!</add>
+<subtip> Leave event</subtip>","<main> 私も貧乏だ</main>
+<add>当たり！</add>
+<subtip> イベントを終了する</subtip>",,,,,"<wis> 精神+2！</wis>
+<str> 魔力+1</str>
+<lucky> 幸运+2</lucky>
+<per> 感知+1</per>","<wis> 精神+2！</wis>
+<str> 魔力+1</str>
+<lucky> 幸運+2</lucky>
+<per> 感知+1</per>","<wis> Spirit +2!</wis>
+<str> Magic +1</str>
+<lucky> Luck +2!</lucky>
+<per> Perception +1</per>","<wis> 精神+2！</wis>
+<str> 魔力+1</str>
+<lucky> 幸運+2！</lucky>
+<per> 感知+1</per>"
+21,,提炼真理,提煉真理,Refining Truth,真理の錬成,"<main>魔女的力量强弱由她储备的知识质量决定，因此凝结为物质的真理可以直接成为魔女的养分
+这种珍贵的物质同样广泛存在于深渊坑之中，前提是被认知到她的人提炼出来</main>
+<tip=exclaim>未完成的试炼</tip>
+<subtip> 未完成的试炼</subtip>","<main>魔女的力量強弱由她儲備的知識質量決定，因此凝結為物質的真理可以直接成為魔女的養分
+這種珍貴的物質同樣廣泛存在于深淵坑之中，前提是被認知到她的人提煉出來</main>
+<tip=exclaim>未完成的試煉</tip>
+<subtip> 未完成的試煉</subtip>","<main>A witch's power is determined by the quality of knowledge she has accumulated, so truth condensed into material form can directly become nourishment for the witch.
+This precious substance also exists widely in the Abyss Pit, provided it is extracted by those who recognize it.</main>
+<tip=exclaim>Unfinished Trial</tip>
+<subtip> Unfinished Trial</subtip>","<main>魔女の力の強さは蓄積した知識の質で決まるため、物質化した真理は魔女の養分となりうる。
+この貴重な物質も深淵の穴に広く存在するが、それを認識した者が抽出する必要がある。</main>
+<tip=exclaim>未完了の試練</tip>
+<subtip> 未完了の試練</subtip>","<main> 分析深渊</main>
+<add>中！</add>
+<subtip> 获得20真理之晶，精神+3</subtip>","<main> 分析深淵</main>
+<add>中！</add>
+<subtip> 獲得20真理之晶，精神+3</subtip>","<main> Analyze the Abyss</main>
+<add>Hit!</add>
+<subtip> Gain 20 Truth Crystals, Spirit +3</subtip>","<main> 深淵を分析する</main>
+<add>当たり！</add>
+<subtip> 真理の結晶を20個獲得し、精神+3</subtip>",,,,,,,,,,,,,,,,
+*1001,,新手考核,新手考核,Beginner Assessment,新人評価,"<main>新手考核，即将模拟对战永夜化身</main>
+<tip=exclaim>未完成的试炼</tip>
+<subtip> 未完成的试炼</subtip>","<main>新手考核，即將模擬對戰永夜化身</main>
+<tip=exclaim>未完成的試煉</tip>
+<subtip> 未完成的試煉</subtip>","<main>A beginner assessment. You are about to enter a simulated battle against the Avatar of Eternal Night.</main>
+<tip=exclaim>Unfinished Trial</tip>
+<subtip> Unfinished Trial</subtip>","<main>新人評価、まもなく永夜の化身との模擬戦闘を開始</main>
+<tip=exclaim>未完了の試練</tip>
+<subtip> 未完了の試練</subtip>","<main> 开战</main>
+<add>中！</add>
+<subtip> 开战</subtip>","<main> 開戰</main>
+<add>中！</add>
+<subtip> 開戰</subtip>","<main> Start battle</main>
+<add>Hit!</add>
+<subtip> Start battle</subtip>","<main> 戦闘開始</main>
+<add>当たり！</add>
+<subtip> 戦闘開始</subtip>",,,,,,,,,,,,,,,,
+*1002,,命运抉择,命運抉擇,Fate's Choice,運命の選択,<main> 如果你真的能走到最后，你还会有勇气挑战祂吗？</main>,<main> 如果你真的能走到最后，你還會有勇氣挑戰祂嗎？</main>,"<main> If you can really make it to the end, will you still have the courage to challenge Him?</main>",<main> 本当に最後までたどり着けたら、あなたはまだ彼に挑む勇気を持っているだろうか？</main>,"<main> 永不妥协</main>
+<add>中！</add>
+<subtip> 旅途的最后，你将直面魔王</subtip>","<main> 永不妥協</main>
+<add>中！</add>
+<subtip> 旅途的最后，你將直面魔王</subtip>","<main> Never compromise</main>
+<add>Hit!</add>
+<subtip> At the end of your journey, you will face the Demon King</subtip>","<main> 決して妥協しない</main>
+<add>当たり！</add>
+<subtip> 旅の終わりに、あなたは魔王と対峙することになる</subtip>","<main> 我会净化这腐朽的世界</main>
+<add>中！</add>
+<subtip> 旅途的最后，你将直面永夜</subtip>","<main> 我會凈化這腐朽的世界</main>
+<add>中！</add>
+<subtip> 旅途的最后，你將直面永夜</subtip>","<main> I will purify this corrupt world</main>
+<add>Hit!</add>
+<subtip> At the end of your journey, you will face the Eternal Night</subtip>","<main> この腐敗した世界を浄化する</main>
+<add>当たり！</add>
+<subtip> 旅の終わりに、あなたは永夜と対峙することになる</subtip>","<main> 永不屈服</main>
+<add>中！</add>
+<subtip> 旅途的最后，你将直面教廷</subtip>","<main> 永不屈服</main>
+<add>中！</add>
+<subtip> 旅途的最后，你將直面教廷</subtip>","<main> Never surrender</main>
+<add>Hit!</add>
+<subtip> At the end of your journey, you will face the Church</subtip>","<main> 決して屈しない</main>
+<add>命中！</add>
+<subtip> 旅の最後に、あなたは教廷と対峙する</subtip>",,,,,,,,
+*2001,一层（节点1）,传奇揭幕,傳奇揭幕,Legend Unveiled,伝説の幕開け,"<main> 很久很久以前，在奥尔德林深渊中，有那么一位……啊，这里本来应该是有初始身份选择的，但毕竟我是要模拟你之后会遇到的情况，所以只能是魔女了
+咳咳，那么我们继续
+很久很久以前，在奥尔德林深渊之上，幽暗密林之下，居住着那么一位魔女
+她名为——（原初魔女：阿米莉娅），是最初也最强大的魔女
+兼具美丽外表，无上伟力又心地善良的原初魔女大人明明如此完美，如此全能，但却有一件事始终困扰着她——她被世界所拒绝
+出个门发现忘记带树屋的钥匙只能用魔法轰开，养只使魔兔没几天就被人毒死，因为睡过头错过了晚间最爱看的投影水晶节目……只要魔女被世界所厌恶着，就有源源不断的麻烦事找上门来
+终于有一天，魔女再也忍受不了这样的生活，决心结束这一切，她打开了大书库的大门，从浩如烟海的古籍中寻找可能的线索，阿米莉娅着重寻找了——</main>","<main> 很久很久以前，在奧爾德林深淵中，有那么一位……啊，這里本來應該是有初始身份選擇的，但畢竟我是要模擬你之後會遇到的情況，所以只能是魔女了
+咳咳，那么我們繼續
+很久很久以前，在奧爾德林深淵之上，幽暗密林之下，居住著那么一位魔女
+她名為——（原初魔女：阿米莉娅），是最初也最強大的魔女
+兼具美麗外表，無上偉力又心地善良的原初魔女大人明明如此完美，如此全能，但卻有一件事始終困擾著她——她被世界所拒絕
+出個門發現忘記帶樹屋的鑰匙只能用魔法轟開，養只使魔兔沒幾天就被人毒死，因為睡過頭錯過了晚間最愛看的投影水晶節目……只要魔女被世界所厭惡著，就有源源不斷的麻煩事找上門來
+終于有一天，魔女再也忍受不了這樣的生活，決心結束這一切，她打開了大書庫的大門，從浩如煙海的古籍中尋找可能的線索，阿米莉娅著重尋找了——</main>","<main> Long, long ago, in the Aldrin Abyss, there was once a... ah, there should originally have been a starting identity selection here, but since I am simulating what you will encounter later, you can only be a witch.\nAhem, let us continue.\nLong, long ago, above the Aldrin Abyss and beneath the dark forest, there lived a witch.\nHer name was Amelia, the Primordial Witch, the first and strongest of all witches.\nThis Primordial Witch was beautiful, supremely powerful, and kind-hearted. She was so perfect and so capable, yet one thing always plagued her: the world rejected her.\nIf she went out and forgot the key to her treehouse, she had to blast the door open with magic. If she raised a familiar rabbit, it would be poisoned to death within days. If she overslept, she would miss her favorite evening projection crystal program... As long as the world loathed the witch, endless trouble would keep finding her.\nAt last, one day, the witch could no longer endure such a life and resolved to end it all. She opened the doors to the Grand Library and searched through a vast sea of ancient books for possible clues. Amelia focused her search on...</main>","<main> 昔々、オルドリンの深淵に、一人の……ああ、本来ならここで初期身分を選ぶはずだったのだけれど、これはあなたがこれから出会う状況を再現するためのものだから、魔女で固定ね。
+こほん、それでは続けましょう。
+昔々、オルドリンの深淵の上、暗き密林の下に、一人の魔女が住んでいました。
+彼女の名は――（原初の魔女：アメリア）。最初にして最強の魔女。
+美しい容姿、至高の力、そして優しい心を兼ね備えた原初の魔女様は、あまりにも完璧で、あまりにも万能だった。けれど、ただ一つだけ彼女を悩ませ続けることがあった――彼女は世界に拒まれていたのだ。
+外に出ようとしたらツリーハウスの鍵を忘れて魔法で吹き飛ばすしかなくなり、飼い始めた使い魔の兎は数日で毒殺され、寝坊して夜に楽しみにしていた投影水晶番組を見逃す……魔女が世界に嫌われている限り、厄介事は次から次へと押し寄せてくる。
+そしてついにある日、魔女はそんな生活に耐えきれなくなり、すべてを終わらせる決意をした。彼女は大書庫の扉を開き、山のような古文書の中から手がかりを探した。アメリアが重点的に調べたのは――</main>","<main> 天使的血脉宗谱资料</main>
+<subtip> 获得3个天使祝福</subtip>","<main> 天使的血脈宗譜資料</main>
+<subtip> 獲得3個天使祝福</subtip>","<main> Genealogical records of angelic bloodlines</main>
+<subtip> Gain 3 Angel blessings</subtip>","<main> 天使の血脈系譜資料</main>
+<subtip> 天使の祝福を3つ獲得する</subtip>","<main> 记录了上古物种的古籍</main>
+<subtip> 获得两个萨满祝福</subtip>","<main> 記錄了上古物種的古籍</main>
+<subtip> 獲得兩個薩滿祝福</subtip>","<main> Ancient tomes that recorded prehistoric species</main>
+<subtip> Gain 2 Shaman blessings</subtip>","<main> 古代種を記録した古文書</main>
+<subtip> シャーマンの祝福を2つ獲得する</subtip>","<main> 在家休息</main>
+<subtip> 获得20血量上限</subtip>","<main> 在家休息</main>
+<subtip> 獲得20血量上限</subtip>","<main> Stay home and rest</main>
+<subtip> Gain +20 Max Health</subtip>","<main> 家で休む</main>
+<subtip> 最大HPを20獲得する</subtip>",,,,,,,,
+*2002,二层（节点7）,踏上旅途,踏上旅途,Set Out on the Journey,旅立ち,"<main> 在翻阅了浩如烟海的各类魔法古籍，阿米莉娅终于找到了几条线索，深渊之底的魔王，世界中心的教廷，她们都可能是解开谜题的关键
+为了摆脱灾厄，过上无忧无虑，可以随便吃随便睡的日子，阿米莉娅决定——</main>","<main> 在翻閱了浩如煙海的各類魔法古籍，阿米莉娅終于找到了幾條線索，深淵之底的魔王，世界中心的教廷，她們都可能是解開謎題的關鍵
+為了擺脫災厄，過上無憂無慮，可以隨便吃隨便睡的日子，阿米莉娅決定——</main>","<main> After reading through a vast collection of magical tomes, Amelia finally found several clues. The Demon King at the bottom of the Abyss and the Church at the center of the world might both hold the key to solving the mystery.\nTo cast off calamity and live a carefree life where she could eat and sleep whenever she pleased, Amelia decided to...</main>","<main> 数え切れないほどの魔法古文書を読み漁った末、アメリアはついにいくつかの手がかりを見つけた。深淵の底の魔王、世界の中心にある教廷。どちらも謎を解く鍵かもしれない。
+災厄から逃れ、好きなだけ食べて好きなだけ眠れる気ままな日々を送るため、アメリアは――</main>","<main> 前往魔王城</main>
+<subtip> 开启魔王线</subtip>","<main> 前往魔王城</main>
+<subtip> 開啟魔王線</subtip>","<main> Head for the Demon King's castle</main>
+<subtip> Start the Demon King route</subtip>","<main> 魔王城へ向かう</main>
+<subtip> 魔王ルートを開放する</subtip>","<main> 前往均衡教廷</main>
+<subtip> 开启教廷线</subtip>","<main> 前往均衡教廷</main>
+<subtip> 開啟教廷線</subtip>","<main> Head for the Church of Equilibrium</main>
+<subtip> Start the Church route</subtip>","<main> 均衡教廷へ向かう</main>
+<subtip> 教廷ルートを開放する</subtip>","<main> 现在就挺好躺平了</main>
+<subtip> 开启永夜线&勇者线</subtip>","<main> 現在就挺好躺平了</main>
+<subtip> 開啟永夜線&勇者線</subtip>","<main> Things are fine as they are, I'll just lie flat</main>
+<subtip> Start the Eternal Night route & Hero route</subtip>","<main> 今のままでいい、寝そべる</main>
+<subtip> 永夜ルート＆勇者ルートを開放する</subtip>",,,,,,,,
+*2003,三层（节点13）,王城庆典,王城慶典,Royal Celebration,王城の祭典,"<main> 在“统合之约”已经签订的现在，抵达魔族的王城并不是一件难事，何况你还有那条尾巴为你打掩护——黑骑士大概把你当作了兽人的一种分支了吧？
+唯一出乎你意料之外的是这里几乎溢出来的节日氛围：街上挂满各色旗帜，空气中飘着烤肉和蜜酒的香气
+来往的游人除了偶尔驻足打量你那奇怪的大帽子之外，魔女大人的存在就再也无人关心
+
+“虽说没有遇到猎巫行动是好事……但这种莫名的落差感是怎么回事……”
+
+吐槽归吐槽，此行的目的还是不能忘的，首先就从收集情报着手吧——</main>",<main> 劇情在哪里，劇情還沒寫完</main>,"<main>Now that the Pact of Unity has been signed, reaching the demon capital is not difficult, especially with that tail helping you blend in. The Black Knight probably thinks you are some branch of beastkin.
+What surprises you is the festival atmosphere spilling through the streets: flags everywhere, the smell of roast meat and mead in the air, and travelers who only glance at your strange hat before moving on.
+
+""Not being hunted as a witch is good, but why does this feel so oddly disappointing...?""
+
+Complaints aside, you cannot forget why you came. Start by gathering information.</main>",<main> シナリオはどこ？ まだ書き終わっていない</main>,<main> 向黑骑士打探消息</main><subtip> 提升主要本源各4点和20点生命上限</subtip>,<main> 提升主要本源各4點和20點生命上限</main><subtip> 提升主要本源各4點和20點生命上限</subtip>,<main>Ask the Black Knight for information</main><subtip>Increase all main Origins by 4 and gain +20 Max Health</subtip>,<main> 主要本源をそれぞれ4点、最大HPを20上昇させる</main><subtip> 主要本源をそれぞれ4点、最大HPを20上昇させる</subtip>,"<main> 接入影魔的集群网络</main>
+<subtip> 随机获得1件3阶遗物和1张3阶卡牌</subtip>","<main> 隨機獲得1件3階遺物和1張3階卡牌</main>
+<subtip> 隨機獲得1件3階遺物和1張3階卡牌</subtip>","<main>Connect to the Shadow Demon's cluster network</main>
+<subtip>Randomly gain 1 tier-3 relic and 1 tier-3 card</subtip>","<main> ランダムな三次遺物を1つ、三次カードを1枚獲得する</main>
+<subtip> ランダムな三次遺物を1つ、三次カードを1枚獲得する</subtip>",,,,,,,,,,,,
+Sub_*2003_2,,王城庆典,王城慶典,Royal Celebration,王城の祝祭,<main>你用暴力手段充分证明了原初魔女的含金量，骑士们为你指了一条通路，魔王陛下对你的到来早已预知，身份验证完毕，接下来的道路必将畅行无阻。</main>,<main>你用暴力手段充分證明了原初魔女的含金量，騎士們為你指了一條通路，魔王陛下對你的到來早已預知，身份驗證完畢，接下來的道路必將暢行無阻。</main>,"<main>You proved the worth of the Primordial Witch through sheer force. The knights pointed out a path for you. His Majesty the Demon King foresaw your arrival long ago. Your identity has been verified, and the road ahead will surely be unobstructed.</main>",<main>あなたは暴力という手段で、原初の魔女の価値を十分に証明した。騎士たちは通路を示してくれた。魔王陛下はあなたの到来をすでに予見していた。身元確認は完了し、この先の道は必ず滞りなく進めるだろう。</main>,"<main> 结束事件</main>
+<subtip> 结束事件</subtip>","<main> 結束事件</main>
+<subtip> 結束事件</subtip>","<main> End event</main>
+<subtip> End event</subtip>","<main> イベントを終了する</main>
+<subtip> イベントを終了する</subtip>",,,,,,,,,,,,,,,,
+Sub_*2003_3,,王城庆典,王城慶典,Royal Celebration,王城の祝祭,<main>影魔已向你传达了魔王陛下的意思，王城的请柬以概念的形式封入了你的精神世界，接下来的道路必将畅行无阻。</main>,<main>影魔已向你傳達了魔王陛下的意思，王城的請柬以概念的形式封入了你的精神世界，接下來的道路必將暢行無阻。</main>,<main>The shadow demon has conveyed His Majesty the Demon King's will to you. The royal capital's invitation has been sealed into your mental world as a concept. The road ahead will surely be unobstructed.</main>,<main>影魔は魔王陛下の意志をあなたに伝えた。王城からの招待状は概念としてあなたの精神世界に封じ込められた。この先の道は必ず滞りなく進めるだろう。</main>,"<main> 结束事件</main>
+<subtip> 结束事件</subtip>","<main> 結束事件</main>
+<subtip> 結束事件</subtip>","<main> End event</main>
+<subtip> End event</subtip>","<main> イベントを終了する</main>
+<subtip> イベントを終了する</subtip>",,,,,,,,,,,,,,,,
+*2004,三层（节点13）,教廷奇遇,教廷奇遇,Church Encounter,教廷での奇遇,"<main> 均衡教廷——奥尔德林神权一系的权力中枢，阿米莉娅在这里没有见到她预想中戒备森严的卫兵，高大的圣骑士，圣洁的祭司和修女
+甚至于，都没在街道上见到什么人……？
+
+原因无他，此时的街道正在被42摄氏度的高温炙烤，如果没有什么特别的癖好，户外确实不是宜居的环境
+阿米莉娅决定先买个甜点解暑，不然在抵达教廷之前她可能会先变成猫肉干……
+
+在冷饮铺排了十分钟后，终于拿到了店员递过来的冰霜奶冻——这是菜单上最后一份。
+
+就在阿米莉娅的指尖距离杯沿还有三寸的时候，一个白色的身影突然从旁边窜了出来。
+那是一个看起来大约十二岁出头的小女孩——深灰色的长发，翠绿色的瞳孔，一身白色连衣裙，脖子上挂着一条金色十字架项链。
+她旁边站着一个比她高出大半身的棕发女祭司，正用一种“又开始了”的表情低头看着这孩子。
+
+“我要吃这个——我就要吃这个——你说了今天可以吃甜点的——你说过的——我现在就要——就现在——就——现——在——”
+小女孩扯着女祭司的袖子，声调抑扬顿挫，动作行云流水，显然这套流程已经演练过无数次。女祭司一脸无奈地看了看阿米莉娅，眼神里投来求助的目光。
+
+阿米莉娅决定——</main>",<main> 劇情在哪里，劇情還沒寫完</main>,"<main>The Church of Balance, center of the Aldrin theocracy, is nothing like Amelia expected. No tight security, no towering paladins, no holy priests or nuns. There are barely any people in the streets.
+
+The reason is simple: the city is baking in 42-degree heat. Unless someone has very unusual tastes, outside is not a livable place right now. Amelia decides to buy a cold dessert first, before she dries into cat jerky on the way to the church.
+
+After ten minutes in line, she finally reaches for the last cup of frost pudding.
+
+Just before her fingers touch it, a small white figure darts in. A girl of about twelve, with long dark-gray hair, emerald eyes, a white dress, and a golden cross at her neck. Beside her stands a much taller brown-haired priestess wearing an expression that says, ""Here we go again.""
+
+""I want this one! You said I could have dessert today! You promised! I want it now, right now!""
+The girl tugs the priestess's sleeve with practiced rhythm. The priestess looks helplessly at Amelia.
+
+Amelia decides...</main>",<main> シナリオはどこ？ まだ書き終わっていない</main>,<main> 不能渴着孩子了</main><subtip> 血量上限+10</subtip>,<main> 進入路線一</main><subtip> 血量上限+10</subtip>,<main>Let the child have it</main><subtip>Max Health +10</subtip>,<main> ルート一に入る</main><subtip> 最大HP+10</subtip>,<main> 想吃自己买去</main><subtip> 血量上限+10</subtip>,<main> 進入路線二</main><subtip> 血量上限+10</subtip>,<main>Buy your own if you want it</main><subtip>Max Health +10</subtip>,<main> ルート二に入る</main><subtip> 最大HP+10</subtip>,,,,,,,,,,,,
+Sub_*2004_2,,教廷奇遇,教廷奇遇,Church Encounter,教廷での奇遇,"<main>“……行行行，给你给你。”
+阿米莉娅把冰霜奶冻推到小女孩面前，白白的雪山立刻融化了两人之间的隔阂，小女孩以快到可疑的速度端起杯子，对阿米莉娅露出一个甜到发腻的笑容。一边舔着奶冻一边蹦蹦跳跳地离开了。
+
+打发走爱哭闹的小精灵，阿米莉娅回归正题，如果说教廷一方谁最有可能解决掉灾厄，那也只能是那个人了……</main>","<main>「……行行行，給你給你。」
+阿米莉婭把冰霜奶凍推到小女孩面前，白白的雪山立刻融化了兩人之間的隔閡，小女孩以快到可疑的速度端起杯子，對阿米莉婭露出一個甜到發膩的笑容。一邊舔著奶凍一邊蹦蹦跳跳地離開了。
+
+打發走愛哭鬧的小精靈，阿米莉婭回歸正題，如果說教廷一方誰最有可能解決掉災厄，那也只能是那個人了……</main>","<main>""...Fine, fine. Here, take it.""
+Amelia pushed the frost pudding in front of the little girl. The snow-white mountain immediately melted away the distance between them. The little girl lifted the cup with suspicious speed and gave Amelia a smile so sweet it was almost cloying, then bounced away while licking the pudding.
+
+After sending off the noisy little sprite, Amelia returned to the main issue. If anyone on the Church side could possibly deal with the Calamity, it could only be that person...</main>","<main>「……はいはい、わかった。あげる、あげる」
+アメリアは霜のミルクプリンを少女の前へ押し出した。真っ白な雪山は、たちまち二人の間の隔たりを溶かした。少女は怪しいほどの速さでカップを持ち上げ、アメリアに甘ったるい笑みを向けると、プリンを舐めながら跳ねるように去っていった。
+
+泣き虫の小さな精霊を追い払うと、アメリアは本題に戻った。教廷側で災厄を解決できる可能性がある者がいるとすれば、それはあの人物しかいない……</main>","<main> 结束事件</main>
+<subtip> 结束事件</subtip>","<main> 結束事件</main>
+<subtip> 結束事件</subtip>","<main> End event</main>
+<subtip> End event</subtip>","<main> イベントを終了する</main>
+<subtip> イベントを終了する</subtip>",,,,,,,,,,,,,,,,
+Sub_*2004_3,,教廷奇遇,教廷奇遇,Church Encounter,教廷での奇遇,"<main>“最后一杯，我先拿到的。想吃自己买。”
+阿米莉娅端起冰霜奶冻，当着小朋友的面挖了一大勺送进嘴里。
+
+小女孩瞪大了眼睛，嘴唇抖了几下，就在她的泪水即将喷薄而出的时候，阿米莉娅又补了一刀：“哭也没用，这么热的天气掉小珍珠小心脱水哦？”
+
+虽说有点缺德，但这句话确实是很有效的止住了一场山洪爆发，小女孩愤愤的跺了跺脚，拉着女祭司离开了。</main>","<main>「最後一杯，我先拿到的。想吃自己買。」
+阿米莉婭端起冰霜奶凍，當著小朋友的面挖了一大勺送進嘴裡。
+
+小女孩瞪大了眼睛，嘴唇抖了幾下，就在她的淚水即將噴薄而出的時候，阿米莉婭又補了一刀：「哭也沒用，這麼熱的天氣掉小珍珠小心脫水哦？」
+
+雖說有點缺德，但這句話確實是很有效地止住了一場山洪爆發，小女孩憤憤地跺了跺腳，拉著女祭司離開了。</main>","<main>""Last cup. I got it first. If you want one, buy it yourself.""
+Amelia picked up the frost pudding and, right in front of the child, scooped a big spoonful into her mouth.
+
+The little girl widened her eyes, her lips trembling. Just as her tears were about to burst forth, Amelia added another blow: ""Crying will not help. In weather this hot, be careful not to dehydrate from all those little pearls.""
+
+It was a little wicked, but the line very effectively stopped a mountain flood before it started. The little girl stomped angrily and left with the priestess.</main>","<main>「最後の一杯。先に取ったのは私。食べたいなら自分で買いなさい」
+アメリアは霜のミルクプリンを持ち上げ、子どもの目の前で大きく一口すくって口に運んだ。
+
+少女は目を見開き、唇を震わせた。涙が今にも噴き出しそうになった瞬間、アメリアはさらに追い打ちをかけた。「泣いても無駄よ。こんな暑い日に小粒の真珠をこぼしたら、脱水に気をつけなさいね？」
+
+少し性格は悪いが、その一言は確かに山津波のような泣き声を見事に止めた。少女は悔しそうに足を踏み鳴らし、女司祭を引っ張って去っていった。</main>","<main> 结束事件</main>
+<subtip> 结束事件</subtip>","<main> 結束事件</main>
+<subtip> 結束事件</subtip>","<main> End event</main>
+<subtip> End event</subtip>","<main> イベントを終了する</main>
+<subtip> イベントを終了する</subtip>",,,,,,,,,,,,,,,,
+*2005,三层（节点13）,摆烂的第一天,擺爛的第一天,The First Day of Slacking Off,怠惰な一日目,"<main> 阿米莉娅翻了一个身。
+她把脸埋进枕头里。外面的世界在等着她去拯救，深渊在等着她去探索，命运的终局在等着她去揭晓。
+
+“如果说拯救世界的代价是要剥夺我每天睡到自然醒的权利，那这样的世界还是毁灭吧……”
+阿米莉娅把小被子裹得更紧了。
+窗外的光线从淡蓝变成正午的白，又变成黄昏的橙红，直至沉入夜色。
+
+在魔女大人的梦中，她……</main>",<main> 劇情在哪里，劇情還沒寫完</main>,"<main>Amelia rolls over and buries her face in the pillow. The world is waiting to be saved, the Abyss is waiting to be explored, and fate's ending is waiting to be revealed.
+
+""If saving the world means taking away my right to sleep until I wake naturally, then maybe that world should just end...""
+
+She wraps herself more tightly in the blanket. Outside, the light shifts from pale blue to noon white, then to sunset orange, then sinks into night.
+
+In the Witch's dream, she...</main>",<main> シナリオはどこ？ まだ書き終わっていない</main>,"<main> 在深渊中醒来</main>
+<subtip> 卡组下限+1</subtip>","<main> 卡組下限+1</main>
+<subtip> 卡組下限+1</subtip>","<main>Wake up in the Abyss</main>
+<subtip>Minimum deck size +1</subtip>","<main> デッキ下限+1</main>
+<subtip> デッキ下限+1</subtip>",<main> 在魔女教会中醒来</main><subtip> 金币获取量-10%</subtip>,<main> 金幣獲取量-10%</main><subtip> 金幣獲取量-10%</subtip>,<main>Wake up in the Witch Church</main><subtip>Gold gain -10%</subtip>,<main> ゴールド獲得量-10%</main><subtip> ゴールド獲得量-10%</subtip>,,,,,,,,,,,,
+*2006,三层自选节点,行刑者,行刑者,Executioner,執行者,"<main> 阿米莉娅听到敲门声的时候，正在对着天花板发呆。
+
+准确地说——不是敲门，是砸门。门板在被人用手背反复拍打，节奏均匀，力度稳定，门框此时正因来访客人的怪力发出阵阵悲鸣。
+阿米莉娅不想动。
+但那个拍门的家伙不打算停下来。她拍了三十秒，停三秒，又开始拍。
+阿米莉娅认输了，只好穿着睡衣从床上爬起来，拖着松散的脚步走到门口。
+在企图拉开门的前一秒，门板先一步寿终正寝，沦为地板上的一具尸体。
+
+门外站着的是身披银白丝质战甲的高挑女剑士，说是冒险者，装备有点过于精良了，说是教廷的圣骑士，她的武器也不是阔剑或者骑枪。
+
+白发剑士丝毫没有对破坏私人财务产生的歉意，反而从她的行囊中掏出一副画卷摊开，开始对着阿米莉娅的脸仔细比对：“魔女……阿米莉娅，是吗？”</main>",<main> 劇情在哪里，劇情還沒寫完</main>,"<main>Amelia is staring at the ceiling when she hears someone at the door.
+
+Not knocking. Hammering. The visitor strikes the door with steady, brutal rhythm until the frame begins to groan. Amelia does not want to move. The visitor waits thirty seconds, stops for three, then starts again.
+
+Amelia gives up and drags herself out of bed in her pajamas. One second before she can open the door, it gives up first and collapses onto the floor.
+
+Outside stands a tall white-haired swordswoman in silver silk armor. She looks too well equipped to be an ordinary adventurer, but a church paladin would not carry a weapon like that.
+
+Without the slightest apology for destroying private property, the swordswoman pulls out a wanted portrait and compares it carefully to Amelia's face.
+""The witch... Amelia, correct?""</main>",<main> シナリオはどこ？ まだ書き終わっていない</main>,<main> “没错，就是我。”</main><subtip> 恢复20%生命，随后迎战卡洛琳</subtip>,<main> 恢復20%生命，隨后迎戰卡洛琳</main>,"<main>""Yes, that's me.""</main><subtip>Restore 20% Health, then fight Caroline</subtip>",<main> HPを20%回復し、その後キャロラインと戦う</main>,<main> “你认错人了……”</main><subtip> 说服（幸运检定，成功获得一个高阶遗物，失败则迎战卡洛琳）</subtip>,<main> 說服（幸運檢定，成功獲得一個高階遺物，失敗則迎戰卡洛琳）</main>,"<main>""You have the wrong person...""</main><subtip>Persuasion, Luck Check: on success, gain a high-tier relic; on failure, fight Caroline</subtip>",<main> 説得（幸運判定。成功すると高階遺物を1つ獲得し、失敗するとキャロラインと戦う）</main>,,,,,,,,,<good> 遗物！</good>,<good> 遺物！</good>,<good> Relic!</good>,<good> 遺物！</good>
+Sub_*2006_2,,行刑者,行刑者,Executioner,執行者,<main> 你看到她的头上亮起了白色的光环，一柄长度超过三米的光矛从她的胸口拔出——这是勇者的能力，一场恶战在所难免了……</main>,<main> 你看到她的頭上亮起了白色的光環，一柄長度超過三米的光矛從她的胸口拔出——這是勇者的能力，一場惡戰在所難免了……</main>,<main>You saw a white halo light up above her head. A spear of light more than three meters long was drawn from her chest. This was the Hero's power. A fierce battle was now inevitable...</main>,<main>彼女の頭上に白い光輪が灯るのが見えた。胸元から三メートルを超える光の槍が引き抜かれる——勇者の能力だ。激戦は避けられない……</main>,"<main> 结束事件</main>
+<subtip> 结束事件</subtip>","<main> 結束事件</main>
+<subtip> 結束事件</subtip>","<main> End event</main>
+<subtip> End event</subtip>","<main> イベントを終了する</main>
+<subtip> イベントを終了する</subtip>",,,,,,,,,,,,,,,,
+Sub_*2006_3,,行刑者,行刑者,Executioner,執行者,"<main> “我不是阿米莉娅，我是她的妹妹米莉娅。”
+“可是你看起来……”
+“我们是双胞胎。”
+“但我看地址……”
+“我们住一起。”
+“可你身上的气息……？”
+“住一起染上相似的气息也很正常吧？”
+
+白发剑士陷入沉默，她不大的脑容量此时正在发生激烈的内耗，沉默持续了一分钟后：“对，对不起米莉娅小姐……我找错人了，如果您的姐姐在的话，请通知我一声，这是联系我的方法。”
+
+在留下一个感知魔石后，白发剑士竟然真的就那么离开了。</main>","<main>「我不是阿米莉婭，我是她的妹妹米莉婭。」
+「可是你看起來……」
+「我們是雙胞胎。」
+「但我看地址……」
+「我們住一起。」
+「可你身上的氣息……？」
+「住一起染上相似的氣息也很正常吧？」
+
+白髮劍士陷入沉默，她不大的腦容量此時正在發生激烈的內耗，沉默持續了一分鐘後：「對，對不起米莉婭小姐……我找錯人了，如果您的姐姐在的話，請通知我一聲，這是聯繫我的方法。」
+
+在留下一个感知魔石後，白髮劍士竟然真的就那麼離開了。</main>","<main>""I am not Amelia. I am her younger sister, Milia.""
+""But you look...""
+""We are twins.""
+""But the address...""
+""We live together.""
+""But the aura on you...?""
+""It is normal to pick up a similar aura when you live together, right?""
+
+The white-haired swordswoman fell silent. Her limited mental capacity was undergoing fierce internal conflict. After a full minute of silence, she said, ""R-right. I am sorry, Miss Milia... I had the wrong person. If your sister is in, please let me know. This is how to contact me.""
+
+After leaving behind a perception magic stone, the white-haired swordswoman really did just walk away.</main>","<main>「私はアメリアじゃありません。妹のミリアです」
+「でも、あなたは……」
+「双子です」
+「でも住所が……」
+「一緒に住んでいます」
+「でも、あなたの気配は……？」
+「一緒に住んでいれば似た気配が染みついても普通でしょう？」
+
+白髪の剣士は沈黙した。大きくはない彼女の脳内では、いま激しい葛藤が起きていた。一分ほど沈黙が続いた後、「そ、そうですね。申し訳ありません、ミリアさん……人違いでした。お姉さまがいらっしゃるようでしたら、私に知らせてください。こちらが連絡方法です」
+
+感知の魔石を一つ残して、白髪の剣士は本当にそのまま去っていった。</main>","<main> 结束事件</main>
+<subtip> 结束事件</subtip>","<main> 結束事件</main>
+<subtip> 結束事件</subtip>","<main> End event</main>
+<subtip> End event</subtip>","<main> イベントを終了する</main>
+<subtip> イベントを終了する</subtip>",,,,,,,,,,,,,,,,
+Sub_*2006_4,,行刑者,行刑者,Executioner,執行者,<main>很显然这种拙劣的谎言骗不到一个智力正常的成年人</main>,<main>很顯然這種拙劣的謊言騙不到一個智力正常的成年人</main>,"<main>Obviously, such a clumsy lie could not fool an adult of normal intelligence.</main>",<main>明らかに、この程度の拙い嘘で正常な知性を持つ大人を騙すことはできない。</main>,"<main> 结束事件</main>
+<subtip> 结束事件</subtip>","<main> 結束事件</main>
+<subtip> 結束事件</subtip>","<main> End event</main>
+<subtip> End event</subtip>","<main> イベントを終了する</main>
+<subtip> イベントを終了する</subtip>",,,,,,,,,,,,,,,,
+*2007,四层（节点19）,摆烂的第十三天,擺爛的第十三天,The Thirteenth Day of Slacking Off,怠惰な十三日目,"<main> 阿米莉娅整个胖了一圈，算不上臃肿但和以前的身材相比，至少在体能上确实出现了明显的下滑
+“可恶……这就是灾厄的力量吗……”
+“其实我觉得这更像是阿米莉娅姐姐躺着不动暴饮暴食的惩罚？”
+“可可，不可以说这样让姐姐难过的大实话哦？”
+
+摸了摸自己圆滚滚的小肚子，如果再不克制一下，在被灾厄腐蚀之前，魔女大人可能会先倒在甜点面前。
+
+阿米莉娅决定……</main>",<main> 劇情在哪里，劇情還沒寫完</main>,"<main>Amelia has grown noticeably rounder. It is not exactly bloated, but compared with before, her stamina has clearly declined.
+""Damn it... is this the power of calamity...?""
+""I think it is more like punishment for lying around and overeating, Sister Amelia.""
+""Coco, you should not say true things that make your sister sad.""
+
+Rubbing her round little belly, Amelia realizes that if she does not control herself soon, the Witch may fall to desserts before the calamity can corrode her.
+
+Amelia decides...</main>",<main> シナリオはどこ？ まだ書き終わっていない</main>,<main> 就这样胖着也挺好</main><subtip> 战斗开始时在弃牌堆塞入一张诅咒</subtip>,<main> 頹廢詛咒</main><subtip> 戰鬥開始時在棄牌堆塞入一張詛咒</subtip>,"<main>Maybe staying this way is fine</main><subtip>At combat start, shuffle a Curse into the discard pile</subtip>",<main> 退廃の呪い</main><subtip> 戦闘開始時、捨て札に呪いを1枚入れる</subtip>,<main> 从明天起开始减肥！</main><subtip> 生命上限-20%</subtip>,<main> 生命上限-20%</main>,<main>Start dieting tomorrow!</main><subtip>Max Health -20%</subtip>,<main> 最大HP-20%</main>,,,,,,,,,,,,
+*2008,四层（节点19）,情报交易,地下城主,Information Trade,地下城主,"<main> “应该就是这里了……”阿米莉娅看着那个用爱心圈起来散发着粉色光芒的巨大招牌，方位，距离，地标建筑，确定没搞错，这间小屋就是目的地了。
+“如果那个奸商敢骗我的话……”
+“骗你什么？”一个清脆的女声从背后传来，
+阿米莉娅转过头，看到了来人，这是一位身穿翠绿与白色交织的长跑，身形如蛇一般的女士。
+“你就是……？”
+
+“没错，斯特拉，你想找的情报贩子。我们直接开门见山吧，你想要的是信息，而我需要的是金币。”斯特拉做了一个捻手的动作：“当然，也支持灵魂结算。”</main>",<main> 劇情在哪里，劇情還沒寫完</main>,"<main>""This should be the place..."" Amelia checks the huge sign circled with hearts and glowing pink. Direction, distance, landmark: no mistake. This little house is the destination.
+""If that swindler lied to me...""
+""Lied to you about what?"" a clear female voice asks from behind.
+Amelia turns and sees a woman in a green-and-white robe, her figure as sinuous as a snake.
+""You are...?""
+
+""Exactly. Stella, the information broker you were looking for. Let us get straight to business: you want information, and I want Gold."" Stella rubs her fingers together. ""Soul payment is also accepted, of course.""</main>",<main> シナリオはどこ？ まだ書き終わっていない</main>,"<main> 灵魂支付</main><subtip> 次要本源属性归零，所有本源+5,生命上限翻倍</subtip>","<main> 次要本源屬性歸零，所有本源+5,生命上限翻倍</main>",<main>Pay with your soul</main><subtip>Set minor Origin attributes to 0; all Origins +5; double Max Health</subtip>,<main> 副本源属性が0になり、すべての本源+5、最大HPが2倍になる</main>,<main> 金币支付</main><subtip> 失去所有金币，主要和次要本源+5，并可以突破上限</subtip>,<main> 失去所有金幣，主要和次要本源+5，并可以突破上限</main>,<main>Pay with Gold</main><subtip>Lose all Gold; major and minor Origins +5 and can exceed their caps</subtip>,<main> すべてのゴールドを失い、主要本源と副本源+5。さらに上限を突破できる</main>,,,,,,,,,,,,
+Sub_*2008_2,,情报交易,情報交易,Information Trade,情報取引,"<main>“嗯~一分不少，你的诚意我就心怀感激的收下了。”斯特拉露出了一个狡黠的笑容，转身走进那栋小屋，示意阿米莉娅跟上。
+
+看到那栋破房子，阿米莉娅突然开始怀疑起自己的判断，但是钱已经付了……
+克莉斯娜说，充分的怀疑是签约前该做的事。
+“这次我就姑且相信你一次吧……”阿米莉娅跟随斯特拉的脚步走进了那栋小屋</main>","<main>「嗯~一分不少，你的誠意我就心懷感激地收下了。」斯特拉露出了一個狡黠的笑容，轉身走進那棟小屋，示意阿米莉婭跟上。
+
+看到那棟破房子，阿米莉婭突然開始懷疑起自己的判斷，但是錢已經付了……
+克莉斯娜說，充分的懷疑是簽約前該做的事。
+「這次我就姑且相信你一次吧……」阿米莉婭跟隨斯特拉的腳步走進了那棟小屋</main>","<main>""Mm~ Not a coin short. I gratefully accept your sincerity."" Stella gave a sly smile, turned, and walked into the little hut, gesturing for Amelia to follow.
+
+Seeing the shabby house, Amelia suddenly began to doubt her own judgment, but the money had already been paid...
+Krisna said that sufficient suspicion is something one should have before signing a contract.
+""I will trust you this once, for now..."" Amelia followed Stella's steps into the little hut.</main>","<main>「うん、ぴったり。あなたの誠意はありがたく受け取っておくわ」ステラは狡猾な笑みを浮かべ、あの小屋へと歩き出し、アメリアについてくるよう合図した。
+
+そのぼろ小屋を見て、アメリアは急に自分の判断を疑い始めた。だが、もう金は払ってしまった……。
+クリスナは言っていた。十分な疑いは、契約前にこそ持つべきものだ。
+「今回は、ひとまずあなたを信じてみるわ……」アメリアはステラの後を追って、その小屋へ入っていった。</main>","<main> 结束事件</main>
+<subtip> 结束事件</subtip>","<main> 結束事件</main>
+<subtip> 結束事件</subtip>","<main> End event</main>
+<subtip> End event</subtip>","<main> イベントを終了する</main>
+<subtip> イベントを終了する</subtip>",,,,,,,,,,,,,,,,
+*2009,四层（节点19）,插队,插隊,Cutting in Line,割り込み,"<main> 阿米莉娅已经预感到了要从正规流程见到教皇恐怕会相当繁琐，但是现实还要远比她想的更残酷——
+从清晨到正午，从正午到傍晚，太阳已沉入深渊，终于，在月亮升起来时候，阿米莉娅的怒气值也达到了临界点：“我好歹也是，主天使麾下唯一的原初魔女，教廷就是这样对待客人的嘛？！”
+
+“吵什么吵什么，我还是魔王恩莱斯蒂的嘞，排队就好好排！”
+
+绝望了，彻底绝望了，也许官僚主义是比灾厄更可怕的东西。“要不然干脆让一切都毁灭吧。”就在阿米莉娅开始产生一些危险的想法的时候，她的目光和另外一个人交汇在了一起，阿米莉娅认出了那张脸。
+冰淇淋摊。奶冻。撒泼打滚。
+
+那个孩子——那个靠卖萌获取甜点的小朋友——此刻穿着教皇的正装，迈着端庄而优雅的步伐，在一群神职人员的簇拥下走过长廊。
+
+教皇也看到了阿米莉娅。
+
+她的步伐顿了一下。翠绿色的瞳孔骤然放大。那张精致的小脸上，从白转粉，从粉转红，随后冒起了丝丝蒸汽。
+
+阿米莉娅张开嘴，想说点什么——
+但在她反应过来之前，一道人影已经先一步挡在了两人之间，一把捂住了阿米莉娅的嘴
+“这位来访者有点中暑，我带她去医务室”。
+阿米莉娅被连哄带拖地拉出了人群。
+
+——————————
+
+（半小时后，教皇办公室）
+“所以，这位就是现任的均衡教廷教皇，格利斯菲尔？如果我没理解错的话，你利用自己欺骗性的外表，博取爱心给自己提供便利，还不止一次？”
+
+奥罗拉不置可否，她说完了自己能说的一切，但作为教皇的助手，表态超出了她的职权范围。
+
+阿米莉娅陷入沉思，教皇的小秘密被自己发现了，那也就是说……</main>",<main> 劇情在哪里，劇情還沒寫完</main>,"<main>Amelia expected seeing the Pope through official channels to be troublesome, but reality is crueler than imagination. Morning becomes noon, noon becomes dusk, the sun sinks into the Abyss, and Amelia's anger reaches its limit.
+""I am the only Primordial Witch under the Archangel. Is this how the Church treats guests?!""
+
+""What are you yelling about? I serve Demon King Enlaesty, and I am still waiting in line!""
+
+Total despair. Perhaps bureaucracy is more terrifying than calamity. Just as Amelia begins to consider several dangerous solutions, her eyes meet someone familiar: ice cream stand, pudding, crying on the floor.
+
+That child, the one who won dessert by acting cute, is now dressed in formal papal robes, walking gracefully through the corridor surrounded by clergy.
+
+The Pope sees Amelia too.
+
+Her step stops. Emerald eyes widen. Her delicate face turns white, then pink, then red, and steam begins to rise.
+
+Before Amelia can say anything, a figure steps between them and covers her mouth.
+""This visitor seems to have heatstroke. I will take her to the infirmary.""
+Amelia is dragged away.
+
+Half an hour later, in the Pope's office, Amelia finally understands: the current Pope of the Church of Balance, Grisfir, has a little secret.</main>",<main> シナリオはどこ？ まだ書き終わっていない</main>,<main> 教皇大人，你也不想你装嫩的事情被人知道吧……</main><subtip> 获得333枚金币，一件随机遗物，一张随机卡牌，一个随机祝福</subtip>,<main> 獲得333枚金幣，一件隨機遺物，一張隨機卡牌，一個隨機祝福</main>,"<main>Your Holiness, you would not want people to know you act younger than you are...</main><subtip>Gain 333 Gold, 1 random relic, 1 random card, and 1 random blessing</subtip>",<main> 333ゴールド、ランダムな遺物1つ、ランダムなカード1枚、ランダムな祝福1つを獲得する</main>,<main> 你老实告诉我，你的真实年龄是……</main><subtip> 主要本源+5</subtip>,<main> 主要本源+5</main>,"<main>Tell me honestly, your real age is...</main><subtip>Main Origin +5</subtip>",<main> 主要本源+5</main>,,,,,,,,,,,,
+Sub_*2009_2,,插队,插隊,Cutting in Line,割り込み,"<main>“要是让全奥尔德林的人知道——堂堂均衡教廷的教皇陛下，为了吃一口冰淇淋在地上打滚……”
+
+“你敢说出去我就让圣殿骑士团把你挂在天界之门上示众。”
+这句威胁对于阿米莉娅来说没有实际的意义，但格利斯菲尔的那种愤恨确实是清晰的传达到了
+
+“说吧，封口费。你想要多少……”</main>","<main>為了不讓全新一批人得知，現在的均衡教廷教皇竟然如此幼稚，同時為了出一口被排到大半天的悶氣，阿米莉婭決定收取一筆高額的保密費。
+
+「你要是不想這件事傳出去，我覺得聖騎士插隊這件事需要表示一下。」
+「雖然我也不明白隱瞞年齡和插隊這種事有沒有實際的關係，但是格利斯菲爾羞憤又確實很難繃的表情已經給出了答案。
+
+「說吧，保密費，你要多少。」</main>","<main>To keep an entirely new batch of people from discovering that the current Pope of the Church of Equilibrium was as childish as she was, and in order to vent her anger at being delayed so long, Amelia decided to take a hefty fee for keeping the secret.
+
+""Hey, if you want me to let this go, I will need a confidentiality fee for this matter of you cutting in line as a paladin.""
+""Although I am not sure what hiding my age has to do with actually benefiting from cutting in line, Grissfel's expression of shame and anger really is the perfect answer.
+
+""So, how much is the hush money?""</main>","<main>現教皇グリスフェルがここまで子どもっぽい人物だと、新しく来た者たちに知られないようにするため。そして長時間待たされた鬱憤を晴らすため、アメリアは高額な口止め料を取ることにした。
+
+「この件を外に漏らされたくないなら、聖騎士として割り込んだ件について、少し示してもらう必要があるわね」
+「年齢を隠すことと割り込みに実際どんな関係があるのかは私にもよくわからない。でも、グリスフェルの羞恥と怒りが混ざった表情は、確かに答えを示していた。
+
+「それで、口止め料はいくら出すの？」</main>","<main> 结束事件</main>
+<subtip> 结束事件</subtip>","<main> 結束事件</main>
+<subtip> 結束事件</subtip>","<main> End event</main>
+<subtip> End event</subtip>","<main> イベントを終了する</main>
+<subtip> イベントを終了する</subtip>",,,,,,,,,,,,,,,,
+Sub_*2009_3,,插队,插隊,Cutting in Line,割り込み,"<main>阿米莉娅问出这个问题的瞬间，空气中的温度似乎降了几度。
+
+格利斯菲尔脸上那种窘迫的红晕消失了。她放下了文件，翠绿色的瞳孔直直盯着阿米莉娅，嘴角挂起一个似笑非笑的弧度。
+
+“这是一个非常不礼貌的问题。不过看在你请我吃过甜点的份上——”她微微偏头，“我研究黑魔法的时候，上一任勇者还在穿开裆裤。具体是哪个数字，你可以自己推算。”</main>","<main>辦公室陷入死寂的瞬間，周圍的溫度似乎驟然降到了冰點。
+
+格利斯菲爾發出不屬於孩童的怒吼消失了。下一刻，暮色青銅鐘直直對準阿米莉婭，那並不是一個想笑一笑的姿態。
+
+「這是一個非常不禮貌的問題。我會看在你曾經做過飯給我的份上原諒你。」她微微偏頭，「但是如果魔法鐘的時針走完一圈，你還在這裡的話，我會把你的掃帚和契約都變成適合你的東西。」</main>","<main>After the office fell into a deathly silence for an instant, the surrounding temperature seemed to drop sharply.
+
+Grissfel vanished with a roar that no child should have been able to make. In the next instant, a bronze bell of twilight color pointed straight at Amelia. It was not the posture of someone ready to joke.
+
+""That is a very impolite question. I will forgive you for the sake of the meals you once cooked for me."" She tilted her head slightly. ""But if you are still here when the hour hand of this magic clock completes one rotation, I will turn your broomstick and your pact into something suitable for you.""</main>","<main>執務室が一瞬で死のような静寂に包まれ、周囲の温度が急激に下がったように感じられた。
+
+グリスフェルは子どもとは思えない怒号を上げて姿を消した。次の瞬間、黄昏色の青銅鐘がまっすぐアメリアを指していた。それは冗談を言う者の姿勢ではなかった。
+
+「それは非常に失礼な質問です。以前あなたが私に食事を作ってくれたことに免じて、今回は許しましょう」彼女はわずかに首を傾げた。「ですが、この魔法時計の時針が一周するまであなたがここにいたなら、あなたの箒と契約を、あなたにふさわしいものに変えて差し上げます」</main>","<main> 结束事件</main>
+<subtip> 结束事件</subtip>","<main> 結束事件</main>
+<subtip> 結束事件</subtip>","<main> End event</main>
+<subtip> End event</subtip>","<main> イベントを終了する</main>
+<subtip> イベントを終了する</subtip>",,,,,,,,,,,,,,,,
+*2010,四层（节点19）,失乐园,樂園誘惑,Temptation of Paradise,楽園の誘惑,"<main> 再往里走却并没有看到魔王寝宫的大门，反而仿佛走入了吟游诗人口中传颂的童话世界
+戴着礼帽的兔子，纸壳搭建的花草，连通着异界的门扉
+这里的一切都是那么奇幻，而又那么诡异
+在这片空间的中心，一名生有双翼的魅魔嘴角带者微笑迎上前来：“原初魔女，好久不见——”
+“不，我很确信我们是第一次见。”
+
+“呀，好冷淡……”魅魔做了一个真实成分为零的委屈表情：“不过那个时候帕梅拉只能在远处看着，对于魔女大人来说见到我确实是第一次呢~”
+“所以？你想表达什么？”
+“别那么紧张~我只是想知道——现在的原初魔女，还剩下几成实力……”
+魅魔摊开双手，两张黑色的卡牌浮现在空中
+“来玩场游戏吧？就你和我。”</main>",<main> 劇情在哪里，劇情還沒寫完</main>,"<main>Farther in, Amelia does not find the Demon King's bedchamber. Instead, she seems to step into a fairy-tale world from a bard's song: rabbits in top hats, paper flowers, and doors leading to other realms.
+Everything here is fantastical and deeply strange.
+
+At the center of the space, a winged succubus smiles and approaches.
+""Primordial Witch, long time no see.""
+""No. I am quite sure this is the first time we have met.""
+
+""So cold..."" Pamela makes a perfectly fake wounded face. ""Back then I could only watch from afar, so for the Witch it really is the first time meeting me.""
+""And what are you trying to say?""
+""Relax. I only want to know how much power the current Primordial Witch has left.""
+
+The succubus opens her hands, and two black cards appear in the air.
+""Let us play a game. Just you and me.""</main>",<main> シナリオはどこ？ まだ書き終わっていない</main>,"<main> 抽取“失落之国的公主”</main><subtip> 获得1张无法移除的诅咒,300金币以及全本源+4</subtip>","<main> 獲得1張無法移除的詛咒,300金幣以及全本源+4</main>","<main>Draw ""Princess of the Lost Kingdom""</main><subtip>Gain 1 unremovable Curse, 300 Gold, and +4 to all Origins</subtip>",<main> 削除できない呪いを1枚、300ゴールド、全本源+4を獲得する</main>,<main> 抽取“隐世之神”</main><subtip> 获得遗物三倍数量的祝福</subtip>,<main> 獲得遺物三倍數量的祝福</main>,"<main>Draw ""The Hidden God""</main><subtip>Gain blessings equal to triple your relic count</subtip>",<main> 遺物数の3倍の祝福を獲得する</main>,,,,,,,,,,,,
+*2011,五层（25节点）,空王座,王城寢宮,Empty Throne,王城の寝宮,"<main> 穿过最后一道长廊，你站在了魔王城最深处的门前。
+
+推开门的那一瞬间，你下意识地调整了一下站姿——然后发现这个准备完全没有必要。没有王座。没有权杖。没有仪仗队。没有那个用气场就能压垮一整支军队的魔族的王。
+
+房间里只有书。
+
+书架从地板一直顶到天花板，每一层都塞得满满当当。有些书的封皮已经剥落，有些书的纸张泛着深浅不一的黄，还有些根本不是书——是散装的羊皮卷、叠成小块的星图、用魔族文字随手写的便条。空气里弥漫着旧纸、烛火和某种冷静的香味。
+
+这不像一个王者的房间。这像一座把主人活埋了的图书馆。
+
+而那座图书馆的主人——你环顾四周——此刻不在。
+
+屋子的中央是一张宽大的书桌，桌上摊开着一本写到一半的笔记。左手边的书架上，一枚沉重的印戒静静地躺在一摞古籍旁边，暗紫色的宝石映着烛火微微闪烁。而房间最深处，一柄通体漆黑的巨剑直直地插在石地板里，剑身上缠绕的锁链一路垂到地面，像是在等一只手重新把它握住。
+
+魔王不在这里。
+
+但她的痕迹在。每一个痕迹都在问你：你想从她这里拿到什么？</main>",<main> 劇情在哪里，劇情還沒寫完</main>,"<main>Past the final corridor, you stand before the door at the deepest part of the Demon King's castle.
+
+The moment you push it open, you instinctively adjust your stance, then realize it is unnecessary. No throne. No scepter. No honor guard. No demon king whose presence could crush an army.
+
+There are only books.
+
+Shelves stretch from floor to ceiling, packed tight with worn covers, yellowed pages, loose parchment, folded star charts, and notes written casually in demon script. The air smells of old paper, candle flame, and something calmly fragrant.
+
+This is not a king's chamber. It is a library that buried its owner alive.
+
+The owner is not here.
+
+At the center of the room is a broad desk with half-finished notes. On the left shelf, a heavy signet ring lies beside ancient books, its dark purple gem glimmering in candlelight. At the back, a black greatsword stands buried in the stone floor, chains hanging from its blade as if waiting for a hand to grip it again.
+
+The Demon King is absent, but her traces remain. Each one asks what you wish to take from her.</main>",<main> シナリオはどこ？ まだ書き終わっていない</main>,<main>翻越书桌上的笔记</main><subtip>未选择本源的上限提升到30 ，未选择本源+5</subtip>,<main>未選擇本源的上限提升到30 ，未選擇本源+5</main>,"<main>Read the notes on the desk</main><subtip>Raise the cap of unchosen Origins to 30, and unchosen Origins +5</subtip>",<main> 未選択本源の上限が30まで上昇し、未選択本源+5</main>,<main> 握住插在地板上的魔剑</main><subtip>生命上限提升100，获得500金币</subtip>,<main> 生命上限提升100，獲得500金幣</main>,<main>Grip the demon sword in the floor</main><subtip>Max Health +100; gain 500 Gold</subtip>,<main> 最大HPが100上昇し、500ゴールドを獲得する</main>,,,,,,,,,,,,
+Sub_*2011_2,,空王座,空王座,Empty Throne,空の玉座,"<main>那本笔记摊开在最后写到的那一页。字迹工整而克制，每一行的间距都像是用尺子量过。你本以为会看到战略部署或魔法公式，但纸上写的是一段没有完成的推演——
+
+“假设奥尔德林并非唯一的深渊坑……则天界之门的功能是屏障还是通道？”
+
+后面是一个被反复涂改的“不”，再后面就什么都没有了。</main>","<main>那本筆記攤開在最後寫到的那一頁。字跡工整而克制，每一行的間距都像是用尺子量過。你本以為會看到戰略部署或魔法公式，但紙上寫的是一段沒有完成的推演——
+
+「假設奧爾德林並非唯一的深淵坑……則天界之門的功能是屏障還是通道？」
+
+後面是一個被反覆塗改的「不」，再後面就什麼都沒有了。</main>","<main>The notebook lay open on the last page she had written. The handwriting was neat and restrained, each line spaced as if measured with a ruler. You thought you would see strategic deployments or magical formulas, but the paper held an unfinished deduction:
+
+""If Auldrin is not the only Abyss Pit... then is the function of Heaven's Gate a barrier, or a passage?""
+
+After that came a repeatedly crossed-out ""no,"" and then nothing more.</main>","<main>そのノートは、最後に書かれたページで開かれていた。筆跡は整い、抑制されており、行間の一つひとつまで定規で測ったかのようだった。戦略配置や魔法式が書かれているのだと思っていたが、紙面にあったのは未完成の推論だった——
+
+「もしオルドリンが唯一の深淵坑ではないと仮定するなら……天界の門の機能は障壁なのか、それとも通路なのか？」
+
+その後には何度も塗りつぶされた「否」があり、その先には何もなかった。</main>","<main> 结束事件</main>
+<subtip> 结束事件</subtip>","<main> 結束事件</main>
+<subtip> 結束事件</subtip>","<main> End event</main>
+<subtip> End event</subtip>","<main> イベントを終了する</main>
+<subtip> イベントを終了する</subtip>",,,,,,,,,,,,,,,,
+Sub_*2011_3,,空王座,空王座,Empty Throne,空の玉座,<main>你的手刚触到剑柄，剑身上缠绕的锁链就像活物一样猛地收紧，然后在下一秒——松开了。剑很重，比你用过的任何武器都重。它不是用来砍人的，它是用来宣判的。你握着这柄不属于你的剑，忽然觉得自己的影子在地上拉长了一点。</main>,<main>你的手剛觸到劍柄，劍身上纏繞的鎖鏈就像活物一樣猛地收緊，然後在下一秒——鬆開了。劍很重，比你用過的任何武器都重。它不是用來砍人的，它是用來宣判的。你握著這柄不屬於你的劍，忽然覺得自己的影子在地上拉長了一點。</main>,"<main>The moment your fingers touched the hilt, the chains wrapped around the blade tightened like living things. Then, in the next instant, they loosened. The sword was heavy, heavier than any weapon you had ever used. It was not made to cut people down. It was made to pass judgment. Holding this sword that did not belong to you, you suddenly felt your shadow stretch a little farther across the floor.</main>",<main>あなたの指が柄に触れた瞬間、剣身に巻きついた鎖が生き物のように激しく締まり、次の瞬間には緩んだ。剣は重い。これまで使ったどんな武器よりも重い。それは人を斬るためのものではない。裁きを下すためのものだった。自分のものではないその剣を握ったとき、床に伸びる自分の影が少し長くなったような気がした。</main>,"<main> 结束事件</main>
+<subtip> 结束事件</subtip>","<main> 結束事件</main>
+<subtip> 結束事件</subtip>","<main> End event</main>
+<subtip> End event</subtip>","<main> イベントを終了する</main>
+<subtip> イベントを終了する</subtip>",,,,,,,,,,,,,,,,
+*2012,五层（25节点）,公务接待,公務接待,Official Reception,公務接待,"<main> 教皇的房间和她本人一样充满矛盾——墙上挂着历代教皇的庄严画像，桌上却堆着几个没吃完的零食盒子；格利斯菲尔踢开一张椅子上的书堆，示意阿米莉娅坐下，然后自己爬上了对面那张对她来说明显太高了的扶手椅。
+她的双脚悬在离地面大约三寸的位置，无意识地晃了几下。“所以，你的来意。说吧。”
+
+“我身上有一种特殊的诅咒……用魔法界的术语，应该叫“灾厄”。”
+
+格利斯菲尔那双翠绿色的瞳孔里闪过一丝微妙的神色——不是拒绝，也不是同情，更像是某种“你提的事情正好在我待办清单上，但我不知道该高兴还是该叹气”的表情。
+
+“……清除诅咒。可以。教廷确实有办法。通过神明赐福的圣械——理论上——可以移除任何一种负面概念。问题是，那台圣械目前不在运作。”
+
+“？”
+
+“因为——它坏了。”格利斯菲尔摊了摊手，“核心圣械，教廷律法的最终裁决者和执行者——审判机关。它已经运转了上千年没有出过问题，偏偏在你来之前的一个星期——”
+
+她停顿了一下，似乎在考虑措辞，然后决定放弃委婉。
+
+“——坏了。你现在明白我刚才那个表情是什么意思了吗？”
+
+“或许我能修好它。”
+
+“你懂机械？还是懂神圣魔法？还是懂上古天使的遗物构造？——你什么都不懂。不过没关系，反正圣械司那帮家伙也不懂。”格利斯菲尔开始在屋内翻箱倒柜，一分钟后，一个精致的金属箱子已经摆到了阿米莉娅的面前。
+
+“这是给你的保险，既然是帮教廷的忙，我也不可能让你什么都不准备就进去。”
+
+看起来这并不是一个安全的工作。</main>",<main> 劇情在哪里，劇情還沒寫完</main>,"<main>The Pope's room is as contradictory as she is: solemn portraits of past popes hang on the walls, while half-eaten snack boxes cover the desk. Grisfir kicks books off a chair for Amelia, then climbs into an armchair clearly too tall for her.
+Her feet dangle above the floor. ""So. Your business. Speak.""
+
+""There is a special curse on me... In magical terms, it should be called a calamity.""
+
+A subtle look flashes through Grisfir's emerald eyes, not rejection or pity, but the expression of someone seeing a task already on her list and not knowing whether to be pleased or tired.
+
+""Removing curses is possible. The Church does have a method. A holy machine blessed by the gods can, in theory, remove any negative concept. The problem is that it is not operating right now.""
+
+""Why?""
+
+""Because it is broken."" Grisfir spreads her hands. ""The Judgment Engine, final arbiter and executor of Church law, ran for more than a thousand years without trouble. Then, one week before you arrived... it broke.""
+
+""Maybe I can fix it.""
+
+""Do you understand machinery? Sacred magic? Ancient angelic relic structures? No. But that is fine. The Sacred Machine Bureau does not understand them either."" After rummaging around, Grisfir places a delicate metal case before Amelia.
+
+""This is insurance. Since you are helping the Church, I cannot send you in unprepared.""
+
+This does not look like a safe job.</main>",<main> シナリオはどこ？ まだ書き終わっていない</main>,<main>祈愿教廷的加护</main><subtip>获得50真理之晶 </subtip>,<main>獲得50真理之晶 </main>,<main>Pray for the Church's protection</main><subtip>Gain 50 Crystals of Truth</subtip>,<main> 真理の結晶を50獲得する </main>,<main> 收下教廷的圣械</main><subtip> 选择卡组中的一张卡牌，获得一张复制</subtip>,<main> 選擇卡組中的一張卡牌，獲得一張復制</main>,<main>Accept the Church's holy machine</main><subtip>Choose 1 card in your deck and gain a copy of it</subtip>,<main> デッキ内のカードを1枚選び、そのコピーを1枚獲得する</main>,,,,,,,,,,,,
+*2013,五层（25节点）,潜入作战,潛入作戰,Infiltration Operation,潜入作戦,"<main>……阿米莉娅后悔了，对于相信了克莉斯娜的鸡汤文学，还有斯特拉的专业性这两件事，阿米莉娅充分的感受到了“后悔”这种情绪。
+
+“…………这就是你说的秘密通道？”
+“是啊，有什么问题吗？”
+阿米莉娅看着眼前散发着墨绿色气体的下水道入口，再往前一步，就是对于呼吸系统的谋杀。
+
+无声的张了张嘴，魔女大人艰难的挤出一句：“……现在还能退款吗……”
+
+“当然不行。”
+
+好吧，看来今天是非死不可了。</main>",<main> 劇情在哪里，劇情還沒寫完</main>,"<main>Amelia regrets two things: believing Krisna's inspirational nonsense, and trusting Stella's professionalism.
+
+""...This is the secret passage you mentioned?""
+""Yes. Is there a problem?""
+
+Amelia looks at the sewer entrance before her, leaking dark green fumes. One more step would be murder on the respiratory system.
+
+After silently opening and closing her mouth, the Witch barely manages to ask, ""Can I still get a refund...?""
+
+""Of course not.""
+
+Fine. Today may be the day she dies.</main>",<main> シナリオはどこ？ まだ書き終わっていない</main>,"<main> 至少提供点防护装备吧？哪怕是付费的</main><subtip> 失去一半金币，每失去40枚金币,所有本源+1</subtip>","<main> 失去一半金幣，每失去40枚金幣,所有本源+1</main>","<main>At least provide some protective gear, even if it costs extra</main><subtip>Lose half your Gold; for every 40 Gold lost, all Origins +1</subtip>",<main> ゴールドの半分を失う。40ゴールド失うごとに、すべての本源+1</main>,<main> 我不入地狱，钱就白花了</main><subtip> 获得记忆具现化遗物</subtip>,<main> 獲得記憶具現化遺物</main>,"<main>If I do not enter hell, the money was wasted</main><subtip>Gain the Memory Manifestation relic</subtip>",<main> 記憶具現化の遺物を獲得する</main>,,,,,,,,,,,,
+*2014,五层（25节点）,摆烂的第三百六十五天,擺爛的第三百六十五天,The 365th Day of Slacking Off,怠惰な三百六十五日目,"<main> 灾厄还在持续，但已经不像之前那么难以忍受，也许向内求索磨练心性也是一种对抗灾厄有效的手段
+阿米莉娅不是没遇到过更危险的灾厄，找上门的星髓冒险家，魔族中的高阶领主，甚至是一场能够移平城市的天灾
+但是用物理手段对抗魔女，至少是原初魔女，基本是不可行的
+于是极具破坏性的灾厄转变为阿米莉娅生活中更多的，无穷无尽的骚扰，他不致命，但比夏天的蚊子更加烦人。
+在漫长的对抗中，阿米莉娅已经逐渐反向学会了控制这种抑制力（灾厄）的办法，她摊开双手，释放权能将命运收束，今日的灾厄是——</main>",<main> 劇情在哪里，劇情還沒寫完</main>,"<main>The calamity continues, but it is no longer as unbearable as before. Perhaps inner discipline is also an effective way to resist it.
+Amelia has faced more dangerous calamities: star-marrow adventurers knocking at her door, high lords among demons, even a natural disaster capable of flattening a city. But physical force is basically useless against a Witch, especially a Primordial Witch.
+
+So the destructive calamity has become endless harassment in Amelia's daily life. It is not fatal, but it is more annoying than mosquitoes in summer.
+
+After a long struggle, Amelia has gradually learned to control this suppressive force in reverse. She opens her hands, releases her authority, and gathers fate together. Today's calamity is...</main>",<main> シナリオはどこ？ まだ書き終わっていない</main>,"<main> “愚者。”</main>
+<subtip>你在战斗中每消耗6点魔能，额外流失1点魔能</subtip>","<main> 獲得一個厄運</main>
+<subtip>你在戰鬥中每消耗6點魔能，額外流失1點魔能</subtip>","<main>""The Fool.""</main>
+<subtip>For every 6 Mana you spend in combat, lose 1 additional Mana</subtip>","<main> 厄災を1つ獲得する</main>
+<subtip>戦闘中、マナを6点消費するたび、追加でマナを1点失う</subtip>",<main> 塔</main><subtip> 深渊环境+2（提高敌人的基础属性）</subtip>,<main> 深淵環境+2（提高敵人的基礎屬性）</main>,<main>The Tower</main><subtip>Abyss environment +2 (increases enemies' base attributes)</subtip>,<main> 深淵環境+2（敵の基礎属性が上昇する）</main>,,,,,,,,,,,,
+*2015,五层自选节点,复仇者,不滅之心,Avenger,不滅の心,"<main> 勇者第二次来的时候，穿了一身教廷的圣骑士重甲，头盔上还贴了不知道从哪求来的谜之黄色符咒，上面写着看不懂的红色咒语
+“魔女阿米莉娅……上次是我大意了，没想到你如此邪恶，这次我做了充分的准备，你束手就擒吧！”因为隔着圣骑士的面甲，勇者的声音听起来有点沉闷
+
+对于这个不知道该说是愚钝还是认真的少女，阿米莉娅有点无语，究竟该不该严肃对待呢……？
+阿米莉娅深深的叹了一口气……但问题既然已经找上门了，还是要解决。
+
+“好吧好吧，其实……”</main>",<main> 劇情在哪里，劇情還沒寫完</main>,"<main>The second time the Hero comes, she is wearing the heavy armor of a church paladin. A mysterious yellow talisman is stuck to her helmet, covered in unreadable red script.
+""Witch Amelia... Last time I was careless. I did not realize you were so evil. This time I am fully prepared. Surrender!""
+Her voice sounds muffled through the visor.
+
+Amelia is unsure whether to call this girl foolish or earnest, and whether she should take the matter seriously at all. She sighs deeply. Since trouble has come to the door, it must be dealt with.
+
+""Fine, fine. The truth is...""</main>",<main> シナリオはどこ？ まだ書き終わっていない</main>,<main> 我就是原初魔女阿米莉娅。”</main><subtip> 对战勇者之影</subtip>,<main> 對戰勇者之影</main>,"<main>""I am Primordial Witch Amelia.""</main><subtip>Fight the Hero's Shadow</subtip>",<main> 勇者の影と戦う</main>,<main> “其实我们根本不是敌人。”</main><subtip>检定10：若成功，获得一个四阶遗物，若失败，迎战卡洛琳</subtip>,<main> 說服</main>,"<main>""Actually, we are not enemies at all.""</main><subtip>Check 10: on success, gain 1 tier-4 relic; on failure, fight Caroline</subtip>",<main> 説得する</main>,,,,,,,,,<good> 遗物！</good>,<good> 遺物！</good>,<good> Relic!</good>,<good> 遺物！</good>
+Sub_*2015_2,,复仇者,復仇者,Avenger,復讐者,<main>阿米莉娅实在是不忍心欺骗一个纯真的少女，何况她也不需要使用那种手段达成目的。</main>,<main>阿米莉婭實在是不忍心欺騙一個純真的少女，何況她也不需要使用那種手段達成目的。</main>,"<main>Amelia simply could not bear to deceive such an innocent girl. Besides, she did not need to use that kind of method to achieve her goal.</main>",<main>アメリアは、純真な少女を欺くことにどうしても忍びなかった。それに、目的を達するためにそんな手段を使う必要もなかった。</main>,"<main> 结束事件</main>
+<subtip> 结束事件</subtip>","<main> 結束事件</main>
+<subtip> 結束事件</subtip>","<main> End event</main>
+<subtip> End event</subtip>","<main> イベントを終了する</main>
+<subtip> イベントを終了する</subtip>",,,,,,,,,,,,,,,,
+Sub_*2015_3,,复仇者,復仇者,Avenger,復讐者,"<main>“？”
+
+“你想想，你是来消灭魔女的，而我这几天一直在家里躺着，什么坏事都没干。一个什么坏事都没干的魔女，等于不是魔女。既然不是魔女，我们当然不是敌人。”
+
+勇者的大脑在头盔里艰难地运转。她看看自己手里的圣剑，又看看阿米莉娅身上的睡衣，再看看圣剑，再看看睡衣。
+
+“好像……有点道理？”
+
+→ 成功
+
+勇者放下了剑。“你说得对。也许我应该先调查清楚再行动。抱歉打扰了——门我会赔的。”</main>","<main>「？」
+
+「你想想，你是來消滅魔女的，而我這幾天一直在家裡躺著，什麼壞事都沒幹。一個什麼壞事都沒幹的魔女，等於不是魔女。既然不是魔女，我們當然不是敵人。」
+
+勇者的大腦在頭盔裡艱難地運轉。她看看自己手裡的聖劍，又看看阿米莉婭身上的睡衣，再看看聖劍，再看看睡衣。
+
+「好像……有點道理？」
+
+→ 成功
+
+勇者放下了劍。「你說得對。也許我應該先調查清楚再行動。抱歉打擾了——門我會賠的。」</main>","<main>""?""
+
+""Think about it. You came here to destroy a witch, while I have spent the past few days lying at home doing absolutely nothing bad. A witch who has done nothing bad equals not a witch. And since I am not a witch, naturally we are not enemies.""
+
+The Hero's brain worked painfully inside her helmet. She looked at the holy sword in her hand, then at Amelia's pajamas, then at the holy sword, then at the pajamas.
+
+""That... kind of makes sense?""
+
+-> Success
+
+The Hero lowered her sword. ""You are right. Maybe I should investigate properly before acting. Sorry for disturbing you. I will pay for the door.""</main>","<main>「？」
+
+「考えてみて。あなたは魔女を滅ぼしに来た。でも私はここ数日、家で寝転がっていただけで、悪いことは何もしていない。悪いことを何もしていない魔女は、つまり魔女ではない。魔女でないなら、当然私たちは敵じゃないでしょう？」
+
+勇者の頭脳は兜の中で必死に回転した。彼女は手にした聖剣を見て、アメリアの寝間着を見て、また聖剣を見て、また寝間着を見た。
+
+「なんだか……少し筋が通っている気がする？」
+
+→ 成功
+
+勇者は剣を下ろした。「あなたの言う通りです。先にきちんと調査してから動くべきだったのかもしれません。お邪魔してすみません——扉は弁償します」</main>","<main> 结束事件</main>
+<subtip> 结束事件</subtip>","<main> 結束事件</main>
+<subtip> 結束事件</subtip>","<main> End event</main>
+<subtip> End event</subtip>","<main> イベントを終了する</main>
+<subtip> イベントを終了する</subtip>",,,,,,,,,,,,,,,,
+Sub_*2015_4,,复仇者,復仇者,Avenger,復讐者,<main>“……不对。你上次就是这么骗我的。”</main>,<main>「……不對。你上次就是這麼騙我的。」</main>,"<main>""...No. You fooled me with that last time.""</main>",<main>「……違う。前回もその手で私を騙したでしょう」</main>,"<main> 结束事件</main>
+<subtip> 结束事件</subtip>","<main> 結束事件</main>
+<subtip> 結束事件</subtip>","<main> End event</main>
+<subtip> End event</subtip>","<main> イベントを終了する</main>
+<subtip> イベントを終了する</subtip>",,,,,,,,,,,,,,,,
+*2016,六层（31节点）,例行公事,例行公事,Routine Business,定例業務,"<main> 金色的装潢，大理石雕塑，竖立在大厅中央不停转动的时钟，缠绕在巨型圣械上的金色锁链，如果不是因为缺乏活物产生的死寂，这里看起来几乎像是天堂
+
+阿米莉娅抚摸那台巨大的圣械，“天使”黑色的翅膀随着她的附模微微颤动，圣械的指针咔咔作响
+
+阿米莉娅突然明白了，引导她来到此地的人没直接说出的那些话。
+“的确……难怪说你能解开名为世界的灾厄。”
+
+圣械紧闭的眼睛此时已经完全睁开，晃动身躯，她的飞行并不依赖翅膀，而是以信徒们的愿力驱动，她不断升高，升高，直到阿米莉娅几乎要以九十度角仰望这台教廷的心脏。
+
+“因为你们根本……就是同源的吧。”
+
+→ 进入教廷线最终战斗</main>",<main> 迎擊【啟明之刻】“神圣審判機關”</main>,"<main> Intercept [Dawn Phase] ""Holy Judgment Engine""</main>",<main> 【啓明の刻】“神聖審判機関”を迎撃する</main>,<main> 迎击【启明之刻】“神圣审判机关”</main>,<main> 迎擊【啟明之刻】“神圣審判機關”</main>,"<main> Intercept [Dawn Phase] ""Holy Judgment Engine""</main>",<main> 【啓明の刻】“神聖審判機関”を迎撃する</main>,,,,,,,,,,,,,,,,
+*2017,六层（31节点）,最终审判,最終審判,Final Judgment,最後の審判,"<main> 金色的装潢，大理石雕塑，竖立在大厅中央不停转动的时钟，缠绕在巨型圣械上的金色锁链，如果不是因为缺乏活物产生的死寂，这里看起来几乎像是天堂
+
+阿米莉娅抚摸那台巨大的圣械，“天使”黑色的翅膀随着她的附模微微颤动，圣械的指针咔咔作响
+
+阿米莉娅突然明白了，引导她来到此地的人没直接说出的那些话。
+“的确……难怪说你能解开名为世界的灾厄。”
+
+圣械紧闭的眼睛此时已经完全睁开，晃动身躯，她的飞行并不依赖翅膀，而是以信徒们的愿力驱动，她不断升高，升高，直到阿米莉娅几乎要以九十度角仰望这台教廷的心脏。
+
+“因为你们根本……就是同源的吧。”
+
+→ 进入教廷线最终战斗</main>",<main> 迎戰【圣械之刻】審判機關</main>,<main> Confront the Judgment Engine of [Sacred Machine Phase]</main>,<main> 【聖械の刻】審判機関と戦う</main>,<main> 迎战【圣械之刻】审判机关</main>,<main> 迎戰【圣械之刻】審判機關</main>,<main> Confront the Judgment Engine of [Sacred Machine Phase]</main>,<main> 【聖械の刻】審判機関と戦う</main>,,,,,,,,,,,,,,,,
+*2018,六层（31节点）,拟似魔王,對戰魔王,Pseudo Demon King,魔王との対決,"<main> 再往下走，就是魔族的心脏——魔王冢
+
+历代魔王的陵墓散落在奥尔德林-99层的巨大空间里，每一座陵墓前都立着一块石碑，碑上刻着名字、在位年份和一句简短的墓志铭。你快速地扫过这些名字，发现一个奇怪的现象：越是早代的墓志铭越长，越是靠近现在越短。
+
+而第五代的墓前没有石碑，只有一个高大的身影，黑色的长发，紫色的瞳孔，巨大的龙角——种族暴露了她的身份。
+但她的眼底却没有魔王应有的压迫，只有一层薄薄的、近乎透明的微光。
+
+“你来了。”她的声音在空旷的陵墓中回荡了一下，“我的本体已经不在此处。留在你面前的是一个可以回答问题的残响。你可以理解为一个……留言。”
+
+她顿了顿，似乎在寻找合适的措辞。
+
+“也可以理解为，一个棋局里最后剩下的那枚棋子。只是不知道走到这一步的，还是不是我期待的对手。”</main>",<main> 迎戰“魔王”</main>,"<main> Farther down lies the heart of the demonfolk: the Demon King's Tomb.
+
+The tombs of past Demon Kings are scattered through the vast space on Aldrin's 99th floor. A stone tablet stands before each tomb, carved with a name, years of reign, and a brief epitaph. You scan the names quickly and notice something strange: the older the generation, the longer the epitaph; the closer to the present, the shorter it becomes.
+
+There is no stone tablet before the fifth generation's tomb. Only a tall figure stands there: black hair, violet eyes, enormous dragon horns. Her race gives away who she is.
+But there is none of the pressure a Demon King should carry in her eyes, only a thin, almost transparent glimmer.
+
+""You came."" Her voice echoes once through the empty mausoleum. ""My true body is no longer here. What remains before you is a residue that can answer questions. You can think of it as... a message.""
+
+She pauses, as if searching for the right words.
+
+""Or perhaps, the last piece left on a chessboard. I just do not know whether the one who made it this far is still the opponent I was hoping for.""</main>",<main> “魔王”と戦う</main>,<main> “真正的魔王在哪？”</main>,<main> 迎戰“魔王”</main>,"<main> ""Where is the real Demon King?""</main>",<main> “魔王”と戦う</main>,<main>“你是？”</main>,<main>「你是？」</main>,<main>Who are you?</main>,<main>「あなたは？」</main>,,,,,,,,,,,,
+Sub_*2018_2,,拟似魔王,擬似魔王,Pseudo Demon King,擬似魔王,"<main>“她的去向不是秘密。”残响的声音平静得不带任何期待，“教廷的天使曾划下界限，深渊的尽头收容所有禁忌。而她翻遍了所有能翻的书，最后翻到了那堵墙。现在她去验证那个答案了。”
+
+她没有说答案是什么。但你从她的语气里听出来一件事——黛芙妮本人在离开之前，就已经知道这个残响会被什么人听到。</main>","<main>「她的去向不是秘密。」殘響的聲音平靜得不帶任何期待，「教廷的天使曾劃下界限，深淵的盡頭收容所有禁忌。而她翻遍了所有能翻的書，最後翻到了那堵牆。現在她去驗證那個答案了。」
+
+她沒有說答案是什麼。但你從她的語氣裡聽出來一件事——黛芙妮本人在離開之前，就已經知道這個殘響會被什麼人聽到。</main>","<main>""Her whereabouts are no secret."" The echo's voice was calm, without any expectation. ""The angels of the Church once drew a boundary. The end of the Abyss takes in every taboo. She searched every book she could search, and in the end she found that wall. Now she has gone to verify that answer.""
+
+She did not say what the answer was. But from her tone, you understood one thing: before Daphne herself left, she had already known what kind of person would hear this echo.</main>","<main>「彼女の行き先は秘密ではありません」残響の声は、期待を一切含まないほど静かだった。「教廷の天使はかつて境界を引きました。深淵の果ては、あらゆる禁忌を収容する場所です。そして彼女は読める限りの書をめくり、最後にあの壁へ辿り着いた。今、彼女はその答えを確かめに行っています」
+
+彼女は答えが何であるかを語らなかった。だがその口調から、あなたには一つのことがわかった。ダフネ本人は去る前から、この残響をどんな者が聞くことになるのかを知っていたのだ。</main>","<main> 结束事件</main>
+<subtip> 结束事件</subtip>","<main> 結束事件</main>
+<subtip> 結束事件</subtip>","<main> End event</main>
+<subtip> End event</subtip>","<main> イベントを終了する</main>
+<subtip> イベントを終了する</subtip>",,,,,,,,,,,,,,,,
+Sub_*2018_3,,拟似魔王,擬似魔王,Pseudo Demon King,擬似魔王,"<main>“我已经说了——一个留言。一段被剥离的记忆。一次不能亲自出席所以提前录制的对白。”
+
+她微微偏头，像是在打量你。
+
+“虽然不是真正的魔王，但我比她更诚实。”</main>","<main>「我已經說了——一個留言。一段被剝離的記憶。一次不能親自出席所以提前錄製的對白。」
+
+她微微偏頭，像是在打量你。
+
+「雖然不是真正的魔王，但我比她更誠實。」</main>","<main>""I already told you. A message. A memory stripped away. Dialogue recorded in advance because she could not attend in person.""
+
+She tilted her head slightly, as if appraising you.
+
+""Although I am not the real Demon King, I am more honest than she is.""</main>","<main>「もう言いました。これは伝言です。切り離された記憶です。本人が出席できないため、事前に録音された台詞です」
+
+彼女はあなたを品定めするように、わずかに首を傾げた。
+
+「本物の魔王ではありませんが、私は彼女より誠実です」</main>","<main> “你想要什么？”</main>
+<subtip> 继续事件</subtip>","<main> 「你想要什麼？」</main>
+<subtip> 繼續事件</subtip>","<main> ""What do you want?""</main>
+<subtip> Continue event</subtip>","<main> 「何が欲しいの？」</main>
+<subtip> イベントを続ける</subtip>",,,,,,,,,,,,,,,,
+Sub_*2018_4,,拟似魔王,擬似魔王,Pseudo Demon King,擬似魔王,"<main>残响沉默了片刻——对于一个可以回答问题为目的的存在来说，这个沉默本身就说明了一些事情。
+
+“她离开前跟我说：会有一个魔女来到这里。要么比我预想的晚，要么比我预想的早——永远不在我认为合适的时间点上。”
+
+她看着你，那双淡紫色的眼睛里忽然多了一点什么。
+
+“所以，阿米莉娅——你想要什么？”
+
+“你想要打破被世界拒绝的命运。而她想要一个能理解她在找什么的人。你来找她，这很好。但你找到的是我。”
+
+残响缓缓抬起手，指尖凝出一团暗紫色的光。
+
+“让我看看，一个真正的魔女，和一个虚假的魔王——谁更配得上走出这座陵墓。”</main>","<main>殘響沉默了片刻——對於一個可以回答問題為目的的存在來說，這個沉默本身就說明了一些事情。
+
+「她離開前跟我說：會有一個魔女來到這裡。要麼比我預想的晚，要麼比我預想的早——永遠不在我認為合適的時間點上。」
+
+她看著你，那雙淡紫色的眼睛裡忽然多了一點什麼。
+
+「所以，阿米莉婭——你想要什麼？」
+
+「你想要打破被世界拒絕的命運。而她想要一個能理解她在找什麼的人。你來找她，這很好。但你找到的是我。」
+
+殘響緩緩抬起手，指尖凝出一團暗紫色的光。
+
+「讓我看看，一個真正的魔女，和一個虛假的魔王——誰更配得上走出這座陵墓。」</main>","<main>The echo fell silent for a moment. For a being whose purpose was to answer questions, that silence itself explained something.
+
+""Before she left, she told me: a witch will come here. Either later than I expected, or earlier than I expected, never at what I would consider the proper time.""
+
+She looked at you, and something suddenly appeared in those pale violet eyes.
+
+""So, Amelia, what do you want?""
+
+""You want to break the fate of being rejected by the world. And she wants someone who can understand what she is looking for. You came looking for her. That is good. But what you found is me.""
+
+The echo slowly raised her hand, and a sphere of dark violet light condensed at her fingertips.
+
+""Let me see who is more worthy of walking out of this tomb: a true witch, or a false Demon King.""</main>","<main>残響はしばらく沈黙した。問いに答えるための存在にとって、その沈黙自体がいくつかのことを物語っていた。
+
+「彼女は去る前に私に言いました。ここへ一人の魔女が来る、と。私の予想より遅いか、私の予想より早いか——決して、私が適切だと思う時点ではない、と」
+
+彼女はあなたを見つめた。その淡い紫の瞳に、ふと何かが宿る。
+
+「だから、アメリア。あなたは何が欲しいのですか？」
+
+「あなたは世界に拒まれた運命を打ち砕きたい。そして彼女は、自分が何を探しているのか理解できる者を求めている。あなたが彼女を探しに来たことは、よいことです。けれど、あなたが見つけたのは私です」
+
+残響はゆっくりと手を上げ、指先に暗紫色の光を凝らした。
+
+「見せてください。本物の魔女と偽りの魔王、どちらがこの墓を出るにふさわしいのかを」</main>","<main> 这就是最后一战了</main>
+<subtip> 结束事件</subtip>","<main> 這就是最後一戰了</main>
+<subtip> 結束事件</subtip>","<main> This is the final battle</main>
+<subtip> End event</subtip>","<main> これが最後の戦いだ</main>
+<subtip> イベントを終了する</subtip>",,,,,,,,,,,,,,,,
+*2019,六层（31节点）,历战勇者,歷戰勇者,Battle-Hardened Hero,歴戦の勇者,"<main>勇者第三次来的时候，没有敲门。
+
+圣剑的光刃直接扫平了魔女屋的屋顶。碎砖和木屑如雨点般落下，薇薇安从沙发上弹起来，尾巴炸成平时的两倍粗，奈奈的果冻布丁被气刃斜切成了两瓣。
+
+天空中，勇者立于圣器“瑟兰提尔”之上，那是由愿力凝结成白色骑士，曾经湛蓝的瞳孔此时已收束为灰白的杀意：“魔女——阿米莉娅。”
+她念出这个名字的时候，声音不大，但每个字都像是从牙缝里挤出来的。
+
+“……哇。她真的气疯了。”
+阿米莉娅按住帽子，猫耳朵压成了飞机耳。这次没有撒谎的余地，没有精神控制的窗口，没有认错人的借口。一个认真的勇者，一把能造成即死的圣剑，一座被掀飞屋顶的魔女屋。
+
+除了战斗，别无选择。</main>",<main> 對戰勇者</main>,<main> Fight the Hero</main>,<main> 勇者と戦う</main>,<main> 对战勇者</main>,<main> 對戰勇者</main>,<main> Fight the Hero</main>,<main> 勇者と戦う</main>,,,,,,,,,,,,,,,,
+*2020,六层（31节点）,摆烂的第？年,擺爛的第？年,The ?th Year of Slacking Off,怠惰な第？年,"<main> 如果灾厄是一个有主观意识的怪物的话，那他现在基本上已经穷尽了对付阿米莉娅的手段，奈何，人只要没有欲望，确实就是无敌的
+何况这个人还难以从物理层面杀死。
+
+“原初魔女……你难道就打算这样躺一辈子？”永夜的触角从裂隙中探出头来
+“有什么不好，我又没去骚扰别人，不是你们一直来骚扰我吗？”正在自己跟自己玩桌游的阿米莉娅不置可否
+
+“……”永夜没有出声，不过这段沉默基本也表达清楚他的态度了。
+“我们还是简单一点吧，用最原始的手段。”
+空间崩落，黑暗自天际吞没整个晴空——永夜的躯干正从影界被投送到魔女屋
+
+“早该这样了。”放下手中的棋子，阿米莉娅抽出那柄名为十字星的法杖：“事先说好，你的胜率只有不足一成，输了可别哭鼻子哦？”</main>",<main> 「狩獵永夜」</main>,"<main> ""Hunt the Eternal Night""</main>",<main> 「永夜狩り」</main>,<main> 「狩猎永夜」</main>,<main> 「狩獵永夜」</main>,"<main> ""Hunt the Eternal Night""</main>",<main> 「永夜狩り」</main>,,,,,,,,,,,,,,,,

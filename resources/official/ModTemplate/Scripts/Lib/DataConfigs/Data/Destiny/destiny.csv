@@ -1,0 +1,86 @@
+﻿Id,Rarity,OwnScript,FightScript,Icon,Type
+Id（唯一标识）,稀有度,获得生效,完成生效,图片名称,类型
+1,1,,"SetStatus(""AllTarget"");
+ChangeDynamicVarPercent(""PercentDamage"",""30"");",Icon/Relic/遗物占位,SlotTag
+2,1,"PlayerInfo.SetGameVar(""EXEnemyHp"",(int.Parse(PlayerInfo.GetGameVar(""EXEnemyHp""))+30).ToString());",,Icon/Relic/遗物占位,SlotTag
+3,1,,"SetStatus(""Self"");
+ChangeDynamicVarPercent(""HealMultiplier"",""-30"");",Icon/Relic/遗物占位,SlotTag
+4,1,,"SetStatus(""AllTarget"");
+var targets = new List<IStatusManager>(Object);
+foreach (var target in targets)
+{
+ if (target == null)
+ {
+ continue;
+ }
+
+ string bindId = target.InstanceId;
+ SetStatusById(bindId);
+ AddEvent(""Hurt"", () =>
+ {
+SetStatusById(bindId);
+if (Object.Count<1)
+{
+    return;
+}
+ int heal = Math.Max(1, Object[0].MaxHp / 100);
+ ChangeHp(heal.ToString());
+ AddBuff(DataId.buff_extraordinary, ""1"");
+ });
+}",Icon/Relic/遗物占位,SlotTag
+5,1,,"SetStatus(""Self"");
+        AddEvent(""FightStart"", () =>
+        {
+            SetStatus(""AllTarget"");
+            AddBuff(DataId.buff_rebirth,""40"");
+        });
+             ",Icon/Relic/遗物占位,SlotTag
+6,1,,"SetStatus(""AllTarget"");
+AddAction(""1"");",Icon/Relic/遗物占位,SlotTag
+7,1,,"SetStatus(""Self"");
+AddEvent<ActionData>(""Action"", (actionData) =>
+{
+ if (actionData.Id != Self.InstanceId || actionData.data == null || actionData.data.Type != DataType.Card)
+ {
+ return;
+ }
+
+ var clone = actionData.data as DataConfig;
+ if (clone == null)
+ {
+ return;
+ }
+
+ AddCardToFightManager(clone.Clone() as DataConfig);
+});",Icon/Relic/遗物占位,SlotTag
+8,1,,"Vars[""ThisCount""] = ""0"";
+SetStatus(""Self"");
+AddEvent<ActionData>(""Action"", (actionData) =>
+{
+ if (actionData.Id != Self.InstanceId || actionData.data == null || actionData.data.Type != DataType.Card)
+ {
+ return;
+ }
+
+ Vars[""ThisCount""] = (int.Parse(Vars[""ThisCount""]) + 1).ToString();
+ if (int.Parse(Vars[""ThisCount""]) % 17 != 0)
+ {
+ return;
+ }
+
+ var cursePool = GameConfigManager.Instance.GetTable(DataType.Card).Getlines()
+ .Where(x => x.GetValueOrDefault(""Type"", """") == ""诅咒"" && !x.GetValueOrDefault(""Id"", """").Contains(""*""))
+ .ToList();
+ if (cursePool.Count == 0)
+ {
+ return;
+ }
+
+ var pick = cursePool[DefaultDice.WithRange(0, cursePool.Count - 1).Roll().Value];
+ AddCardToFightManager(new DataConfig(pick[""Id""], DataType.Card));
+});",Icon/Relic/遗物占位,SlotTag
+9,1,,"SetStatus(""Self"");
+AddEvent(""StartRound"", () =>
+{
+ Self.Defend=0;
+});",Icon/Relic/遗物占位,SlotTag

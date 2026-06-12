@@ -1,0 +1,47 @@
+﻿Id,Rarity,Expend,Tag,InitScript,DrawScript,UseScript,DropScript,Icon,Effects,Action,PackBelong
+唯一的标识（不能重复）,稀有度,花费,标签,卡牌初始化脚本,卡牌抽到后执行,卡牌使用后执行,卡牌进入弃牌堆后执行,图标资源的路径,特效路径,动作,
+*1,1,1,"SpellComponents, Retain, Burnout","Vars[""BaseScript""]=""AttackCardItem"";AddDescription(""1"",""Damage"",""8"");AddDescription(""2"",""Buff"",""5"");",,"SetStatus(""Target"");Damage(""8"");SetStatus(""Self"");AddBuff(DataId.buff_extraordinary,""5"");if(Self.GetBuff(DataId.buff_AllDharmas)==null){PlayerInfo.SpecialVars[""AllDharmasPendingCardId""]=DataId.SpellCard_1;AddBuff(DataId.buff_AllDharmas,""1"");}",,Icon/Card/雾枭翎羽,,Skill,cardpack_18
+*2,1,1,"SpellComponents, Retain, Burnout","Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Defence"",""8"");AddDescription(""2"",""Hp"",""3"");",,"SetStatus(""Self"");ChangeDefence(""8"");ChangeHp(""3"");if(Self.GetBuff(DataId.buff_AllDharmas)==null){PlayerInfo.SpecialVars[""AllDharmasPendingCardId""]=DataId.SpellCard_2;AddBuff(DataId.buff_AllDharmas,""1"");}",,Icon/Card/无暇百合,,,cardpack_18
+*3,2,2,"SpellComponents, Retain, Burnout","Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Draw"",""2"");AddDescription(""2"",""Power"",""2"");",,"DrawCount(""2"");SetStatus(""Self"");AddBuff(""buff_EnergyStorage"",""2"");if(Self.GetBuff(DataId.buff_AllDharmas)==null){PlayerInfo.SpecialVars[""AllDharmasPendingCardId""]=DataId.SpellCard_3;AddBuff(DataId.buff_AllDharmas,""1"");}",,Icon/Card/流星尘埃,,,cardpack_18
+*4,3,1,"SpellComponents,Burnout, Retain","Vars[""BaseScript""]=""CommonCardItem"";",,"SetStatus(""Self"");if(Self.GetBuff(DataId.buff_AllDharmas)==null){PlayerInfo.SpecialVars[""AllDharmasPendingCardId""]=DataId.SpellCard_4;AddBuff(DataId.buff_AllDharmas,""1"");}",,Icon/Card/灰色寂灭,,,cardpack_18
+5,1,1,,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Buff"",""10"");AddDescription(""2"",""Buff"",""3"");",,"SetStatus(""Self"");AddBuff(DataId.buff_extraordinary,""10"");AddBuff(DataId.buff_keenedge,""3"");CreateCard(new DataConfig(DataId.SpellCard_2,DataType.Card));",,Icon/Card/拟态爪,,,cardpack_18
+6,2,1,,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Buff"",""3"");",,"SetStatus(""Self"");AddBuff(DataId.buff_elements,""3"");CreateCard(new DataConfig(DataId.SpellCard_3,DataType.Card));",,Icon/Card/流星元素,,,cardpack_18
+7,1,1,,"Vars[""BaseScript""]=""AttackCardItem"";AddDescription(""1"",""Damage"",""1"");AddDescription(""2"",""Value"",""5"");",,"for(int i=0;i<5;i++){SetStatus(""AllRandomTarget1"");Damage(""1"");}CreateCard(new DataConfig(DataId.SpellCard_1,DataType.Card));",,Icon/Card/力场飞弹,,Skill,cardpack_18
+8,2,1,,"Vars[""BaseScript""]=""AttackCardItem"";AddDescription(""1"",""Damage"",""9"");AddDescription(""2"",""Draw"",""2"");",,"SetStatus(""Target"");Damage(""9"");
+        SetStatus(""Self"");
+        DrawCount(""2"");CreateCard(new DataConfig(DataId.SpellCard_1,DataType.Card));",,Icon/Card/咒闪刃,,Skill,cardpack_18
+9,2,1,,"Vars[""BaseScript""]=""AttackCardItem"";AddDescription(""1"",""TrueDamage"",""10"");AddDescription(""2"",""Buff"",""2"");",,"SetStatus(""Target"");Damage(""10"",""True"");AddBuff(DataId.buff_vulnerability,""2"");CreateCard(new DataConfig(DataId.SpellCard_1,DataType.Card));",,Icon/Card/棘影弓,,Attack,cardpack_18
+10,1,2,,"Vars[""BaseScript""]=""AttackCardItem"";AddDescription(""1"",""Damage"",""18"");",,"SetStatus(""AllTarget"");Damage(""18"");CreateCard(new DataConfig(DataId.SpellCard_1,DataType.Card));",,Icon/Card/覆灭雷枪,,Skill,cardpack_18
+11,1,2,,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Defence"",""17"");AddDescription(""2"",""Power"",""2"");",,"SetStatus(""Self"");ChangeDefence(""17"");AddBuff(""buff_EnergyStorage"",""2"");CreateCard(new DataConfig(DataId.SpellCard_2,DataType.Card));",,Icon/Card/永冻术,,,cardpack_18
+12,2,1,,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Defence"",""9"");AddDescription(""2"",""Buff"",""1"");",,"SetStatus(""Self"");ChangeDefence(""9"");AddBuff(DataId.buff_poised,""1"");CreateCard(new DataConfig(DataId.SpellCard_2,DataType.Card));",,Icon/Card/荆棘护身,,,cardpack_18
+13,2,1,,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Buff"",""2"");AddDescription(""2"",""Draw"",""1"");",,"SetStatus(""Self"");AddBuff(DataId.buff_resilient,""2"");DrawCount(""1"");CreateCard(new DataConfig(DataId.SpellCard_2,DataType.Card));",,Icon/Card/法术护盾,,,cardpack_18
+14,2,1,,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Percent"",""0.1"");",,"SetStatus(""Self"");ChangeHp((-Math.Max(1,Self.MaxHp/10)).ToString());CreateCard(new DataConfig(DataId.SpellCard_4,DataType.Card));",,Icon/Card/血殁,,,cardpack_18
+15,3,1,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";",,"int c=HandCard.Count;for(int i=0;i<c;i++){if(HandCard.Count==0){break;}HandCard[0].InternalThrow();}var pool=new List<string>{DataId.SpellCard_1,DataId.SpellCard_2,DataId.SpellCard_3,DataId.SpellCard_4};for(int i=0;i<c;i++){int idx=DefaultDice.WithRange(0,pool.Count-1).Roll().Value;CreateCard(new DataConfig(pool[idx],DataType.Card));}",,Icon/Card/序列重构,,,cardpack_18
+*16,3,0,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";float cast=1;
+        if (Self.GetBuff(""buff_AllDharmas"")!=null)
+        {
+            cast=float.Parse(Self.GetBuff(""buff_AllDharmas"").buffConfig.dataConfig.Vars.GetValueOrDefault(""SpecialCount"",""1""));
+            if (cast<1)
+            {
+                cast=1;
+            }
+        }
+        cast=(int)(cast);
+        AddDescription(""1"",""Value"",cast.ToString());",,"SetStatus(""Target"");if(Target==null){return;}
+        float cast=1;
+        if (Self.GetBuff(""buff_AllDharmas"")!=null)
+        {
+            cast=float.Parse(Self.GetBuff(""buff_AllDharmas"").buffConfig.dataConfig.Vars.GetValueOrDefault(""SpecialCount"",""1""));
+            if (cast<1)
+            {
+                cast=1;
+            }
+        }
+        if((Target.CurHp/cast)<Self.MaxHp){Damage(Target.MaxHp.ToString(),""True"");}",,Icon/Card/律令：死亡,,Skill,cardpack_18
+*17,3,0,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Percent"",""0.6"");AddDescription(""2"",""Percent"",""2"");",,"SetStatus(""Self"");int hpLoss=Math.Max(1,(int)Math.Ceiling(Self.CurHp*0.6f));ChangeHp((-hpLoss).ToString());SetStatus(""AllTarget"");Damage((hpLoss*2).ToString());CreateCard(new DataConfig(DataId.SpellCard_4,DataType.Card));",,Icon/Card/唤灵：星陨,,Skill,cardpack_18
+*18,3,0,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Defence"",""100"");AddDescription(""2"",""Buff"",""2"");",,"SetStatus(""Self"");ChangeDefence(""100"");AddBuff(DataId.buff_impregnable,""2"");",,Icon/Card/弑神武装,,,cardpack_18
+*19,3,0,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Damage"",""15"");AddDescription(""2"",""Value"",""80"");",,"int safety=0;while(safety<30){safety++;SetStatus(""AllTarget"");Damage(""15"");if(CheckDice.Roll().Value<80){break;}}",,Icon/Card/流星爆,,Skill,cardpack_18
+*20,3,0,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Buff"",""4"");AddDescription(""2"",""Buff"",""50"");AddDescription(""3"",""Buff"",""8"");AddDescription(""4"",""Buff"",""1"");AddDescription(""5"",""Buff"",""1"");AddDescription(""6"",""Buff"",""4"");AddDescription(""7"",""Buff"",""4"");AddDescription(""8"",""Buff"",""4"");",,"SetStatus(""Self"");AddBuff(DataId.buff_elements,""4"");AddBuff(DataId.buff_extraordinary,""50"");AddBuff(DataId.buff_keenedge,""8"");AddBuff(DataId.buff_cycle,""1"");AddBuff(DataId.buff_immortal,""1"");AddBuff(DataId.buff_revelation,""4"");AddBuff(DataId.buff_poised,""4"");AddBuff(DataId.buff_evergreen,""4"");",,Icon/Card/传奇武装,,,cardpack_18
+*21,2,0,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Buff"",""6"");AddDescription(""2"",""Hp"",""20"");",,"SetStatus(""Self"");AddBuff(DataId.buff_impregnable,""6"");ChangeHp(""20"");AddBuff(""buff_SpellNextClearImpregnable"",""1"");ChangeRound();",,Icon/Card/星界门,,,cardpack_18
+*22,2,0,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Power"",""1"");",,"SetStatus(""Self"");ChangeMaxPower(""1"");CreateCard(new DataConfig(DataId.SpellCard_3,DataType.Card));",,Icon/Card/授法,,,cardpack_18
+*23,2,0,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Power"",""2"");AddDescription(""2"",""Draw"",""2"");",,"SetStatus(""Self"");AddBuff(""buff_SpellNextPower2Draw2"",""1"");",,Icon/Card/银光天阶,,,cardpack_18

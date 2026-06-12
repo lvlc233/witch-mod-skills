@@ -1,0 +1,7 @@
+﻿Id,Note,Name,Name_zh-Hant,Name_en,Name_ja,Type,Description,Description_zh-Hant,Description_en,Description_ja
+唯一的标识（不能重复）,,名称,名稱,Name,名称,卡牌类型,描述,描述,Description,説明
+*1,0,黑曜士兵,黑曜士兵,Obsidian Soldier,黒曜兵士,消耗技能牌,对所有敌人造成{0}点伤害并给与自身{1}点护盾。,對所有敵人造成{0}點傷害並給予自身{1}點護盾。,Deal {0} damage to all enemies and grant {1} shield to yourself.,全ての敵に{0}ダメージを与え、自身に{1}シールドを付与する。
+*2,0,黑曜骑士,黑曜騎士,Obsidian Knight,黒曜騎士,消耗技能牌,"对所有敌人造成{0}点伤害,{1}点真实伤害并给与自身{2}点护盾。",對所有敵人造成{0}點傷害、{1}點真實傷害並給予自身{2}點護盾。,"Deal {0} damage and {1} true damage to all enemies, and grant {2} shield to yourself.",全ての敵に{0}ダメージと{1}真実ダメージを与え、自身に{2}シールドを付与する。
+*3,1,黑曜皇后,黑曜皇后,Obsidian Queen,黒曜女王,消耗技能牌,"对所有敌人造成{0}点伤害,{1}点真实伤害并给与自身{2}点护盾与一个随机正面buff。",對所有敵人造成{0}點傷害、{1}點真實傷害並給予自身{2}點護盾與一個隨機正面buff。,"Deal {0} damage and {1} true damage to all enemies, and grant {2} shield and a random positive buff to yourself.",全ての敵に{0}ダメージと{1}真実ダメージを与え、自身に{2}シールドとランダムな正のバフを1つ付与する。
+*4,0,智慧之证4,智慧之證4,Wisdom Proof IV,知恵の証IV,消耗技能牌,"若打出时魔能大于3,增加一层智慧之证。","若打出時能量大於3,增加一層智慧之證","If your mana is greater than 3 when played, add 1 stack of Proof of Wisdom.",使用時にマナが3より大きい場合、知恵の証を1スタック追加する。
+*5,0,幸运大奖,幸运大奖,Lucky Jackpot,幸運大賞,消耗技能牌,打出时有10%概率使自身获得200金币，90%概率回复1点魔能。,打出时有10%概率使自身获得200金币，90%概率回复1点魔能。,"When played, you have a 10% chance to gain 200 Gold; otherwise, restore 1 Mana.",使用時、10%の確率で200ゴールドを獲得し、90%の確率で魔力を1回復する。

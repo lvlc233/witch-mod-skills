@@ -1,0 +1,35 @@
+﻿Id,Note,Description,Keywords,Keywords_zh-Hant,Keywords_en,Description_zh-Hant,Description_en,Keywords_ja,Description_ja,ShouldShow
+Id,备注,描述,关键词,關鍵詞,keyword,描述,description,Keywords_ja,Description_ja,
+Burnout,,该牌在使用后本场战斗中会消逝无法再次使用。,焚毁,焚毀,BurnOut,該牌在使用後本場戰鬥中會消逝無法再次使用。,"After playing this card, it is burned and cannot be used again for the rest of this battle.",焼却,このカードは使用後、この戦闘中は消滅し、再使用できなくなります。,TRUE
+Backtracking,,若魔能小于X，则魔能回复到X。,回溯,回溯,Backtrack,若魔能小於X，則魔能回復到X。,"If your mana is less than X, set it to X.",巻き戻し,マナがX未満の場合、マナはXまで回復します。,TRUE
+Froze,,该卡无法以正常出牌或者回合末弃牌以外的方式离开手卡。,凝滞,凝滯,Stagnation,該卡無法以正常出牌或者回合末棄牌以外的方式離開手卡。,This card cannot leave your hand except by being played normally or discarded at the end of your turn.,停滞,このカードは通常プレイまたはターン終了時の手札破棄以外で手札から離れることはありません。,TRUE
+Instant,,该卡牌打出时，效果封存至时之笼中。,刹那,剎那,Moment,該卡牌打出時，效果封存至時之籠中。,"When played, this card's effect is stored in the{buff_timelock}.",刹那,このカードの効果（使用効果）はプレイ後すぐに解決されず、「時の檻」に保存されます。,TRUE
+Annihilation,,从牌组中永久移除此卡,湮灭,湮滅,Annihilation,從牌組中永久移除此卡,"If you have enough Mana, X additional Mana is automatically infused, triggering the effect.",注魔,十分なマナがある場合、追加でXマナが自動的に投入され、効果が発動します。,TRUE
+Metamagic,,当数额大于等于给定要求（X)，额外执行效果。,超魔,超魔,Metamagic,當數額大於等於給定要求（X)，額外執行效果。,"When the amount of Mana spent is greater than or equal to X, execute the additional effect.",スーパーマジック,量が指定された要件（X）以上の場合、追加効果が実行されます。,TRUE
+Recycle,,这张卡牌打出后不会被丢弃。,回转,回轉,Recycle,這張卡牌打出后不會被丟棄。,This card is not discarded after being played.,回収,このカードは使用後、捨てられません。,TRUE
+Retain,,回合结束后，这张卡不进入弃牌堆。,保留,保留,Retain,回合結束后，這張卡不進入棄牌堆。,"At the end of the turn, this card does not go to the discard pile.",保留,ターン終了時、このカードは捨て札置き場に行きません。,TRUE
+Unusable,,这张牌不可以正常出牌方式被打出。,不可打出,不可打出,Unusable,這張牌不可以正常出牌方式被打出。,This card cannot be played by normal means.,使用不可,このカードは通常の方法でプレイすることはできません。,TRUE
+Curse,,诅咒牌。,诅咒,詛咒,Curse,詛咒牌。,Curse card.,呪い,これは呪いのカードです。,TRUE
+Combo,,打出后，获得一层神启，并检索一张唤神卡，如果已有神启，则执行额外效果。,唤神,喚神,Invocation,打出后，獲得一層神啓，并檢索一張喚神卡，如果已有神啓，則執行額外效果。,"After playing this card, gain 1 stack of {buff_revelation} and search your deck for an Invocation card. If you already have {buff_revelation}, trigger the additional effect instead.",神を呼ぶ,プレイ後、{buff_revelation}を1スタック獲得し、神を呼ぶカードを1枚検索する。すでに{buff_revelation}を持っている場合、代わりに追加効果を発動する。,TRUE
+Ascension,,打出后，此牌在本次冒险获得永久加强。,飞升,飛升,Ascension,打出后，此牌在本次冒險獲得永久加強。,"When played, this card gains a permanent upgrade for the rest of this adventure.",昇格,このカードをプレイすると、この冒険中に永続的な強化を得る,TRUE
+Fission,,打出后，此牌在本次战斗获得永久加强。,裂变,裂變,Fission,打出后，此牌在本次戰鬥獲得永久加強。,"When played, this card gains a permanent upgrade for the rest of this battle.",核分裂,この牌を出すと、この戦闘中、この牌は永続的な強化を得る,TRUE
+Fragmented,,打出后，会立即销毁对应卡牌。,碎裂,碎裂,Fragmented,打出后，會立即銷毀對應卡牌。,"After playing this card, destroy this card.",粉々になる,使用後、対応するカードはすぐに破棄されます。,FALSE
+Ritual,,打出后获得对应的buff，每种仪式最多叠加两次。,仪式,儀式,Ritual,打出后獲得對應的buff，每種儀式最多疊加兩次。,"After being played, gain the corresponding buff. Each Ritual can stack up to twice.",儀式,打ち出した後、対応するバフを獲得する。各儀式は最大2回まで重ねられる。,TRUE
+Inherent,,战斗开始时出现在你的抽牌堆顶部。,固有,固有,Inherent,戰鬥開始時出現在你的抽牌堆頂部。,Appears at the top of your draw pile at combat start.,固有,戦闘開始時、あなたのドローパイルの一番上に出現する。,TRUE
+LingeringResentment,,给予目标随机1种其未拥有的负面状态（若均已拥有，则改为给予1层怨念），重复X次。,缠怨,纏怨,Afflict,給予目標隨機1種其未擁有的負面狀態（若均已擁有，則改為給予1層怨念），重復X次。,"Apply 1 random negative status the target does not already have. If it already has all of them, apply 1 stack of Resentment instead. Repeat X times.",怨縛,対象がまだ持っていないランダムな悪性状態を1種付与する（すべて持っている場合は怨念を1スタック付与する）。これをX回繰り返す。,TRUE
+Preemptive,,战斗开始自动打出该卡牌。,先制,先制,Preemptive,戰鬥開始自動打出該卡牌。,This card is automatically played at combat start.,先制,戦闘開始時、このカードを自動で打ち出す。,FALSE
+SpellComponents,,"带有此词条的卡牌，每回合打出两张及以上不同素材时，将【法术序列】中的一张卡牌加入你的手牌。
+每次进行进阶施法时，检定30：制造施法素材D：灰色寂灭。",素材,素材,Spell Components,"帶有此詞條的卡牌，每回合打出兩張及以上不同素材時，將【法術序列】中的一張卡牌加入你的手牌。
+每次進行進階施法時，檢定30：制造施法素材D：灰色寂滅。","When a card with this keyword is used and you have played 2 or more different components this turn, add a card from Spell Sequence to your hand.
+Whenever you perform advanced casting, Check 30: create Spell Component D: Gray Oblivion.",素材,"この効果を持つカードは、各ターンに異なる素材を2枚以上打ち出した時、【魔術シーケンス】のカード1枚をあなたの手札に加える。
+進階詠唱を行うたび、判定30：詠唱素材D：灰色の寂滅を生成する。",TRUE
+Nihility,,回合结束时，如果此卡在你手上，则自动焚毁,虚无,虛無,Nihility,回合結束時，如果此卡在你手上，則自動焚毀,"At turn end, if this card is in your hand, it is automatically Burned.",虚無,ターン終了時、このカードがあなたの手札にある場合、自動で焼却される。,TRUE
+CheckDice,,扔一枚100面骰，结果大于检定值x时成功，否则失败；结果大于100时额外触发一次。,检定,檢定,CheckDice,扔一枚100面骰，結果大於檢定值x時成功，否則失敗；結果大於100時額外觸發一次。,"Roll a d100. If the result is greater than the check value x, it succeeds; otherwise it fails. Results above 100 trigger 1 additional time.",判定,100面ダイスを1個振り、結果が判定値xを上回れば成功、そうでなければ失敗。結果が100を上回った場合、追加で1回発動する。,TRUE
+Eternal,,该卡牌无法被从卡组中移除,永恒,永恒,Eternal,該卡牌無法被從卡組中移除,This card cannot be removed from the deck.,永恒,このカードはデッキから削除できない。,FALSE
+MaterialA,,打出造成8点伤害并获得5层超凡,施法素材A,施法素材A,Casting  Material A,打出造成8點傷害并獲得5層超凡,Play to deal 8 damage and gain 5 stack(s) of {buff_extraordinary},Material A,プレイすると8ダメージを与え、Extraordinaryを5スタック獲得する,FALSE
+MaterialB,,打出获得8点护盾并回复3点生命,施法素材B,施法素材B,Casting  Material B,打出獲得8點護盾并回復3點生命,Play to gain 8 Shield and restore 3 HP,Material B,プレイすると8 Shieldを獲得し、HPを3回復する,FALSE
+MaterialC,,抽2张卡牌，下回合额外恢复2点魔能,施法素材C,施法素材C,Casting  Material C,抽2張卡牌，下回合額外恢復2點魔能,"Play to draw 2. Next turn, restore 2 extra Mana 
+Can only be obtained from card derivation during combat",Material C,"プレイすると2枚引く。次のターン、追加で3 Manaを回復する 
+戦闘中のカード派生でのみ獲得できる",FALSE
+MaterialD,,本身无任何效果，作为大型魔法的前置步骤,施法素材D,施法素材D,Casting  Material D,本身無任何效果，作為大型魔法的前置步驟,Has no effect by itself; serves as a prerequisite step for large-scale magic,Material D,本身無任何效果，作為大型魔法的前置步驟,FALSE
+TheViolent,,仅在30%生命值以下可以打出， 对除了自身之外的所有人造成最大生命值130%的伤害,所有暴力的本我,所有暴力的本我,Id of All Violence,僅在30%生命值以下可以打出，對除了自身之外的所有人造成最大生命值130%的傷害,"Can only be triggered when below 30% HP, dealing damage equal to 130% of the target's maximum HP to everyone except oneself.",あらゆる暴力のイド,残り体力が30%以下のときのみ発動可能で、自分以外のすべての人に最大体力の130%のダメージを与える,FALSE

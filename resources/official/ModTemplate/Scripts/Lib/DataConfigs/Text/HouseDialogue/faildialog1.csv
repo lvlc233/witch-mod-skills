@@ -1,0 +1,12 @@
+﻿Id,Text,Text_zh-Hant,Text_en,Text_ja,ChoiceText1,ChoiceText1_zh-Hant,ChoiceText1_en,ChoiceText1_ja,ChoiceText2,ChoiceText2_zh-Hant,ChoiceText2_en,ChoiceText2_ja
+对话Id,对话正文,對話正文,Dialogue Text,对话正文,选项1文本,選項1文本,Choice 1 Text,选项1文本,,,,
+1,欢迎回来～,歡迎回來～,Welcome back~,おかえりなさい～,,,,,,,,
+2,（叹气）,（嘆氣）,(Sigh),（ため息）,,,,,,,,
+3,死掉了,死掉了。,I died.,死んじゃった。,,,,,,,,
+4,要来杯茶吗？,要來杯茶嗎？,Would you like some tea?,お茶でも飲む？,,,,,,,,
+5,我还以为你会嘲讽我，至少也要开会反省什么的。,我還以為你會嘲諷我，至少也要開會反省什麼的。,"I thought you would tease me, or at least call a meeting to reflect on what happened.",てっきりからかわれるか、少なくとも反省会くらい開かれると思ってた。,,,,,,,,
+6,怎么会呢，只要战斗就难免有胜负，积累经验的过程中遭遇失败也是在所难免的,怎麼會呢，只要戰鬥就難免有勝負，積累經驗的過程中遭遇失敗也是在所難免的。,"Of course not. As long as you fight, victory and defeat are inevitable. Failure is part of gaining experience.",そんなことしないよ。戦えば勝ち負けは避けられないし、経験を積む途中で失敗するのも仕方ないもの。,,,,,,,,
+7,……,……,...,……,,,,,,,,
+8,说起来我就没有什么硬性KPI吗？,說起來我就沒有什麼硬性 KPI 嗎？,"Come to think of it, do I not have any hard KPIs?",そういえば、私には何か厳格なKPIとかないの？,,,,,,,,
+9,没有哦～不过如果你想要的话……,沒有哦～不過如果你想要的話……,Nope~ But if you want one...,ないよ～ でも欲しいなら……,,,,,,,,
+10,那当然不想。,那當然不想。,Of course I do not.,もちろん欲しくない。,,,,,,,,

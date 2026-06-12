@@ -1,0 +1,7 @@
+﻿Id,Note,Name,Name_zh-Hant,Name_en,Name_ja,Description,Description_zh-Hant,Description_en,Description_ja
+地图id,备注,名字,名字,Name,名前,描述,描述,Description,説明
+1,倍率,倍率增加,倍率增加,Multiplier Increase,倍率増加,倍率增加,倍率增加,Multiplier Increase,倍率増加
+2,普通怪物,普通怪物,普通怪物,Normal Enemy,通常敵,普通怪物,普通怪物,Normal Enemy,通常敵
+3,精英怪物,精英怪物,精英怪物,Elite Enemy,エリート敵,精英怪物,精英怪物,Elite Enemy,エリート敵
+4,词条,难度词条,難度詞條,Difficulty Modifier,難易度効果,1阶卡牌,1階卡牌,Tier 1 Card,難易度効果
+5,诅咒牌,诅咒牌,詛咒牌,Curse Card,呪いカード,2阶卡牌,2階卡牌,Tier 2 Card,呪いカード

@@ -1,0 +1,9 @@
+﻿Id,Note,Name,Name_zh-Hant,Name_en,Name_ja,Description,Description_zh-Hant,Description_en,Description_ja
+地图id,备注,名字,名字,Name,名前,描述,描述,Description,説明
+1,,1阶遗物,1階遺物,Tier 1 Relic,一次遺物,1阶遗物,1階遺物,Tier 1 Relic,一次遺物
+2,,2阶遗物,2階遺物,Tier 2 Relic,二次遺物,2阶遗物,2階遺物,Tier 2 Relic,二次遺物
+3,恶魔债券,3阶遗物,3階遺物,Tier 3 Relic,三次遺物,3阶遗物,3階遺物,Tier 3 Relic,三次遺物
+4,,1阶卡牌,1階卡牌,Tier 1 Card,一次カード,1阶卡牌,1階卡牌,Tier 1 Card,一次カード
+5,,2阶卡牌,2階卡牌,Tier 2 Card,二次カード,2阶卡牌,2階卡牌,Tier 2 Card,二次カード
+6,,3阶卡牌,3階卡牌,Tier 3 Card,三次カード,3阶卡牌,3階卡牌,Tier 3 Card,三次カード
+7,,祝福选择,祝福選擇,Blessing Selection,祝福選択,祝福选择,祝福選擇,Blessing Selection,祝福選択

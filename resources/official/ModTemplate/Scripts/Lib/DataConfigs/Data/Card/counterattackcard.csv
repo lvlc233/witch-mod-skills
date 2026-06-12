@@ -1,0 +1,94 @@
+﻿Id,Rarity,Expend,Tag,InitScript,DrawScript,UseScript,DropScript,Icon,Effects,Action,PackBelong
+唯一的标识（不能重复）,稀有度,花费,标签,卡牌初始化脚本,卡牌抽到后执行,卡牌使用后执行,卡牌进入弃牌堆后执行,图标资源的路径,特效,动作,
+1,1,1,,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"", ""Buff"", ""1"");",,"SetStatus(""Self"");AddBuff(DataId.buff_poised,(1+(Self.MaxHp-Self.CurHp)/25).ToString());",,Icon/Card/绝命,,Skill,cardpack_3
+2,1,2,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"", ""Buff"", ""3"");",,"SetStatus(""Self"");AddBuff(DataId.buff_poised,""3"");",,Icon/Card/破釜之战,,,cardpack_3
+3,3,2,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"", ""Buff"", ""3"");AddDescription(""2"", ""Buff"", ""3"");AddDescription(""3"", ""Buff"", ""1"");",,"SetStatus(""Self"");AddBuff(DataId.buff_resilient,""3"");AddBuff(DataId.buff_poised,""3"");AddBuff(DataId.buff_impregnable,""1"");",,Icon/Card/反击姿态,强化,Skill,cardpack_3
+4,2,1,Recycle,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"", ""Buff"", ""1"");",,"SetStatus(""Self"");AddBuff(DataId.buff_poised,""1"");",,Icon/Card/瞬念,,Skill,cardpack_3
+5,3,1,Ascension,"Vars[""BaseScript""]=""CommonCardItem"";
+       if (Vars.ContainsKey(""counterattackcard_5""))
+       {
+        AddDescription(""1"", ""Defence"", (5 + Vars[""counterattackcard_5""].ToInt()).ToString());
+        AddDescription(""2"", ""Buff"", (1 + Vars[""counterattackcard_5""].ToInt()/6).ToString());
+       }
+       else
+       {
+        Vars[""counterattackcard_5""]=""0"";
+        AddDescription(""1"", ""Defence"", ""5"");
+        AddDescription(""2"", ""Buff"", ""1"");
+       }",,"if (!Vars.ContainsKey(""counterattackcard_5"")){ Vars[""counterattackcard_5""]=""0"";}
+       SetStatus(""Self"");
+        ChangeDefence((5 + Vars[""counterattackcard_5""].ToInt()).ToString());
+        AddBuff(DataId.buff_poised, (1 + Vars[""counterattackcard_5""].ToInt() / 6).ToString()); 
+        Vars[""counterattackcard_5""] = (Vars[""counterattackcard_5""].ToInt() + 1).ToString();",,Icon/Card/百炼成钢,强化,Skill,cardpack_3
+6,3,1,Fission,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"", ""Defence"",""5"");
+        AddDescription(""2"", ""Draw"",(int.Parse(Vars[""ThisCount""])+1).ToString());",,"ChangeDefence(""5"");Vars[""ThisCount""]= (int.Parse(Vars[""ThisCount""])+1).ToString();
+        DrawCount(Vars[""ThisCount""]);
+        ",,Icon/Card/集中,,,cardpack_3
+7,2,1,,"Vars[""BaseScript""]=""CommonCardItem"";",,"if (Self.GetBuff(DataId.buff_counterattack) == null)
+        {
+            return;
+        }
+        ChangeHp(Self.GetBuff(DataId.buff_counterattack).buffConfig.Level.ToString());",,Icon/Card/堡垒战术,,,cardpack_3
+8,2,1,,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"", ""Hp"", ""6"");AddDescription(""2"", ""Buff"", ""1"");",,"int count=1;
+        if (Self.GetBuff(DataId.buff_counterattack) != null)
+        {
+            count+= int.Parse(Self.GetBuff(DataId.buff_poised).buffConfig.dataConfig.Vars[""ThisCount""]) / 3;
+        }
+        for (int i = 0; i < count; i++)
+        {
+            ChangeHp(""6"");
+            ChangePower(""1"");
+        }",,Icon/Card/吐纳,,,cardpack_3
+9,2,2,,"Vars[""BaseScript""]=""AttackCardItem""; ",,"SetStatus(""Target"");if (Self.GetBuff(DataId.buff_counterattack) == null)
+        {
+            return;
+        }
+        int count = Self.Defend / 10;
+        if (Self.GetBuff(DataId.buff_poised) != null)
+        {
+            count += Self.GetBuff(DataId.buff_poised).buffConfig.Level / 2;
+        }
+        if (count>5)
+        {
+            count = 5;
+        }
+        string damage = Self.GetBuff(DataId.buff_counterattack).buffConfig.Level.ToString();
+        for (int i = 0; i < count; i++)
+        {
+            Damage(damage);
+        }",,Icon/Card/一瞬千刃,,Attack,cardpack_3
+10,3,2,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"", ""Buff"", ""1"");",,"SetStatus(""Self"");AddBuff(DataId.buff_swordIntent,""1"");",,Icon/Card/剑意,,,cardpack_3
+11,3,1,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"", ""Buff"", ""1"");",,"SetStatus(""Self"");AddBuff(DataId.buff_biologicalArmor,""1"");",,Icon/Card/血赐甲胄,,,cardpack_3
+12,2,1,,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"", ""Buff"", ""10"");AddDescription(""2"",""Defence"",""8"");",,"int count=1;
+         if (Self.GetBuff(DataId.buff_poised) != null)
+        {
+            count = int.Parse(Self.GetBuff(DataId.buff_poised).buffConfig.dataConfig.Vars[""ThisCount""])+1;
+        }
+        
+        if (count > 5)
+        {
+            count = 5;
+        }
+        for (int i = 0; i < count; i++)
+        {
+           ChangeDefence(""8"");
+        AddBuff(DataId.buff_extraordinary,""10""); 
+        }",,Icon/Card/觉醒,,,cardpack_3
+13,3,1,Burnout,"Vars[""BaseScript""]=""AttackCardItem"";
+if (Self!=null&&Self.GetBuff(DataId.buff_counterattack) != null)
+{
+    AddDescription(""1"",""Damage"",(Self.Defend*Self.GetBuff(DataId.buff_counterattack).buffConfig.Level/5).ToString());
+}
+else if (Self != null)
+{
+    AddDescription(""1"",""Damage"",(Self.Defend/5).ToString());
+}
+else
+{
+    AddDescription(""1"",""Damage"",""0"");
+}",,"if (Self.GetBuff(DataId.buff_counterattack) == null)
+        {SetStatus(""Target"");Damage((Self.Defend/5).ToString());
+            return;
+        }
+        SetStatus(""Target"");
+        Damage((Self.Defend*Self.GetBuff(DataId.buff_counterattack).buffConfig.Level/5).ToString());",,Icon/Card/迸裂,,Skill,cardpack_3

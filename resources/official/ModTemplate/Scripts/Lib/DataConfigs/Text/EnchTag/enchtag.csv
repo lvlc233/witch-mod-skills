@@ -1,0 +1,18 @@
+﻿Id,Note,Name,Description,Name_zh-Hant,Name_en,Description_zh-Hant,Description_en,Name_ja,Description_ja
+Id（唯一标识）,备注,名称,效果描述,名稱,Name,效果描述,Effect Description,名称,効果説明
+1,,末日,附着卡打出时恢复1点魔能。,末日,Doomsday,附著卡打出時恢復1點魔能。,"When the attached card is played, restore 1 Mana. Burn.",終末,付与されたカードを使用時、魔力を1回復する。焼却。
+2,,绝灭,附着卡打出次数+5，使用后彻底销毁。,絕滅,Extinction,附著卡打出次數+5，使用後徹底銷毀。,The attached card gains +5 uses. Permanently destroy it after use.,絶滅,付与されたカードの使用回数+5、使用後に完全に破壊される。
+3,,双生,附着卡打出次数+1。,雙生,Twin,附著卡打出次數+1。,The attached card gains +1 use. Burn.,双生,付与されたカードの使用回数+1、焼却。
+4,,无限,魔能耗费+1，附着卡获得打出时不会被丢弃。,無限,Infinity,魔能耗費+1，附著卡獲得打出時不會被丟棄。,Increase Mana cost by 1. The attached card is not discarded when played.,無限,魔力消費+1、付与されたカードは使用時に捨てられなくなるが。
+5,,相片,附着卡获得保留词条。,相片,Photo,附著卡獲得保留詞條。,Attached card gains the Retain tag.,写真,付与されたカードは保留タグを獲得する。
+6,,虔诚,给予附着卡 唤神:获得神启层数点护盾。,虔誠,Devotion,給予附著卡 喚神:獲得神啓層數點護盾。,Grants the attached card Invocation: Gain Shield equal to your {buff_revelation} stacks.,敬虔,付与されたカードに「神を呼ぶ: {buff_revelation}スタック分のシールドを獲得する」を付与する。
+*7,,时痕,给予附着卡 刹那。,時痕,Time Mark,給予附著卡 剎那。,Grants the attached card Moment.,時の痕,付与されたカードに刹那を付与する。
+8,,复仇,附着卡打出时获得1层蓄势。,復仇,Vengeance,附著卡打出時獲得1層蓄勢。,"When the attached card is played, gain 1 stack of {buff_poised}.",復讐,付与されたカードを使用時、蓄勢を1層獲得する。
+9,,超频,附着卡打出时抽1张牌，但是打出时自身受到2点真实伤害。,超頻,Overclock,附著卡打出時抽1張牌，但是打出時自身受到2點真實傷害。,"When the attached card is played, draw 1 card, but it takes 2 True Damage.",超過,付与されたカードを使用時、カードを1枚引く。魔力消費+1。
+10,,铸金,附着卡打出时获得6金币。,鑄金,Gold Casting,附著卡打出時獲得6金幣。,"When the attached card is played, gain 6 gold.",鋳金,付与されたカードを使用時、ゴールドを6獲得する。
+11,,治愈,附着卡打出时恢复4*魔能消耗点生命。,治愈,Healing,附著卡打出時恢復4*魔能消耗點生命。,"When the attached card is played, restore Health equal to 4 * Mana cost.",治癒,付与されたカードを使用時、魔力消費×4のHPを回復する。
+12,,固化,附着卡打出时获得6*魔能消耗点护盾。,固化,Solidify,附著卡打出時獲得6*魔能消耗點護盾。,"When the attached card is played, gain Shield equal to 6 * Mana cost.",固化,付与されたカードを使用時、魔力消費×6のシールドを獲得する。
+13,,刀刃,附着卡打出时对随机敌人造成7*魔能消耗点伤害。,刀刃,Blade,附著卡打出時對隨機敵人造成7*魔能消耗點傷害。,"When the attached card is played, deal damage equal to 7 * Mana cost to a random enemy.",刃,付与されたカードを使用時、魔力消費×7のダメージをランダムな敵に与える。
+14,,蓄能,附着卡打出后获得魔能消耗层储能。,蓄能,Energy Storage,附著卡打出后獲得魔能消耗層儲能。,"After the attached card is played, gain Energy stacks equal to Mana cost.",蓄能,付与されたカードを使用後、魔力消費層数分の蓄能を獲得する。
+15,,衔尾,若卡牌非焚毁，附着卡打出后返回抽牌堆。,銜尾,Ouroboros,若卡牌非焚毀，附著卡打出后返回抽牌堆。,"If the attached card is not Burned, return it to the draw pile after playing.",ウロボロス,カードが焼却でない場合、付与されたカードは使用後に山札に戻る。
+*16,,鬼牌,伪装的卡牌，带有神秘负面效果,鬼牌,Joker,偽裝的卡牌，帶有神秘負面效果,A disguised card with a mysterious negative effect,ジョーカー,偽装されたカード。謎めいた悪性効果を持つ。

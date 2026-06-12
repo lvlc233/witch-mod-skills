@@ -1,0 +1,43 @@
+﻿Id,Tag,LoadScript,DrawScript,DropScript,PreUseScript,UseScript,UnloadScript,Rarity,Icon,PackBelong
+Id（唯一标识）,添加的标签,初始效果,抽到时的效果,进入弃牌堆的效果,,使用时的效果,卸下效果,稀有度,,cardpack id
+1,Inherent,,,,,"SetStatus(""Self"");ChangeDefence(""2"");",,2,Icon/EnchIcon/鳞契,cardpack_7
+2,"Burnout,Eternal, Preemptive",,,,"var c=EnchGetCard();if(c!=null){c.Vars[""OnceExCost""]=""-999"";}RandomAddCard(DataId.cursecard_11);",,,2,Icon/EnchIcon/诀别,cardpack_5
+3,,,"var c=EnchGetCard();if(c==null)return;int exp=int.Parse(c.data[""Expend""]);
+        c.Vars[""OnceExCost""]=(1-exp).ToString();for(int i=0;i<(exp-1);i++){RandomAddCard(DataId.cursecard_11);}",,,,,3,Icon/EnchIcon/哀寂,cardpack_5
+*4,,,,,,"SetStatus(""Self"");DrawCount(""1"");AddCardToDeckById(DataId.cursecard_11,true);",,2,Icon/EnchIcon/末日,cardpack_8
+*5,Ouroboros,"var c=EnchGetCard();if(c!=null){if(c.Vars[""Tag""].Contains(""Burnout""))
+ {c.Vars[""Tag""]=c.Vars[""Tag""].Replace(""Burnout"","""");}if(!c.Vars[""Tag""].Contains(""Ouroboros""))
+ {c.Vars[""Tag""]=c.Vars[""Tag""]+"",""+""Ouroboros"";}
+ }",,,,"SetStatus(""Self"");
+        List<Dictionary<string, string>> cards = GetcardsOutLock().Where(x =>x[""Tag""].Contains(""Curse"")).ToList();
+            AddCard(cards[DefaultDice.WithRange(0, cards.Count - 1).Roll().Value][""Id""]); ",,3,Icon/EnchIcon/末日,cardpack_8
+*6,"Combo,Inherent",,,,,"SetStatus(""Self"");var br=Self.GetBuff(DataId.buff_revelation);if(br!=null){ChangeHp(br.buffConfig.Level.ToString());}",,3,Icon/EnchIcon/末日,cardpack_9
+8,,,,,"DataConfig card= EnchGetCard();
+ card.Vars[""IsAllFriend""] = ""True"";
+ card.scriptExecutor.RunScript(""UseScript"");
+ card.Vars[""IsAllFriend""] = ""False"";",,,3,Icon/EnchIcon/协奏,cardpack_13
+9,,,,,,"var c=EnchGetCard();if(c==null)return;SetStatus(""AllFriendsExSelf"");
+ IStatusManager baseStatus=c.scriptExecutor.Self;
+ foreach (var item in Object)
+ {
+ c.scriptExecutor.Self=item;
+ c.scriptExecutor.RunScript(""UseScript"");
+ }
+ c.scriptExecutor.Self=baseStatus;",,3,Icon/EnchIcon/曦落,cardpack_13
+10,Burnout,,,,,"var c=EnchGetCard();if(c==null)return;var d=c.data[""Id""];
+ SetStatus(""AllFriendsExSelf"");
+ AddCardByData(d,""Burnout"");",,2,Icon/EnchIcon/执蕊,cardpack_13
+11,Recycle,,,,,"SetStatus(""Self"");ChangeHp((-Self.MaxHp/4).ToString());",,3,Icon/EnchIcon/凝时,cardpack_7
+*12,,,,,,"SetStatus(""Self"");Damage(""1"",""True"");AddBuff(DataId.buff_evergreen,""2"");",,1,Icon/EnchIcon/末日,cardpack_16
+*13,,,,,,"SetStatus(""Self"");int hr=DefaultDice.WithRange(1,10).Roll().Value;ChangeHp((Self.MaxHp*hr/100).ToString());",,2,Icon/EnchIcon/末日,cardpack_16
+*14,"Burnout, Preemptive",,,,,,,3,Icon/EnchIcon/末日,cardpack_11
+*15,,"var c=EnchGetCard();if(c!=null){c.Vars[""TotalExCost""]=(int.Parse(c.Vars.ContainsKey(""TotalExCost"")?c.Vars[""TotalExCost""]:""0"")+1).ToString();}",,,"SetStatus(""Self"");int count=int.Parse(Vars.GetValueOrDefault(""ThisCount"",""0""));ChangeDynamicVar(""UseCount"",count.ToString());Vars[""ThisCount""]=(count+1).ToString();",,,3,Icon/EnchIcon/末日,cardpack_11
+*16,,"var c=EnchGetCard();if(c!=null){if(c.Vars[""Tag""].Contains(""Burnout"")){c.Vars[""Tag""]=c.Vars[""Tag""].Replace(""Burnout"","""");}c.Vars[""TotalExCost""]=(int.Parse(c.Vars.ContainsKey(""TotalExCost"")?c.Vars[""TotalExCost""]:""0"")+1).ToString();}",,,,,,3,Icon/EnchIcon/末日,cardpack_11
+*17,,,,,,"var c=EnchGetCard();if(c==null)return;var d=(DataConfig)c.Clone();d.Vars[""ExCost""]=(int.Parse(d.Vars.ContainsKey(""ExCost"")?d.Vars[""ExCost""]:""0"")+1).ToString();FightCardManager.Instance.cardList.Add(d);FightCardManager.Instance.CardTagCheck(d);",,2,Icon/EnchIcon/末日,cardpack_11
+*18,,,,,,"SetStatus(""AllTarget"");Resentment(""5"");",,3,Icon/EnchIcon/末日,cardpack_5
+19,,"AddDescription(""1"",""Buff"",""10"");",,,,"SetStatus(""Self"");AddBuff(DataId.buff_ReturnAgain,""10"");",,1,Icon/EnchIcon/死荫,cardpack_18
+20,,,,"var c=EnchGetCard();if(c==null)return;CreateCard(new DataConfig(c.data[""Id""],DataType.Card));",,,,2,Icon/EnchIcon/跳蛙,cardpack_12
+*21,,,,,,"SetStatus(""Self"");int fly=int.Parse(Vars.GetValueOrDefault(""ThisCount"",""0""));ChangeDefence(fly.ToString());Vars[""ThisCount""]=(fly+1).ToString();",,3,Icon/EnchIcon/末日,cardpack_10
+*22,,,,,,"if(!Vars.ContainsKey(""ThisCount""))Vars[""ThisCount""]=""1"";
+        int oe=int.Parse(Vars[""ThisCount""]);if(oe%2==1){SetStatus(""Self"");PlayerInfo.TempStrength+=3;}else{SetStatus(""Self"");AddBuff(DataId.buff_impregnable,""3"");
+        AddBuff(""buff_SpellNextClearImpregnable"",""1"");}Vars[""ThisCount""]=(oe+1).ToString();",,2,Icon/EnchIcon/末日,cardpack_12

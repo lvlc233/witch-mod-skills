@@ -1,0 +1,102 @@
+﻿Id,Type,Note,Name,Name_zh-Hant,Name_en,Name_ja,Description,Description_zh-Hant,Description_en,Description_ja
+唯一的标识（不能重复）,类型,备注,名称,Name_zh-Hant,Name_en,Name_ja,描述,Description_zh-Hant,Description_en,Description_ja
+1,技能牌,Farevell,法薇尔咒杀术,法薇尔咒殺術,Farevell Hex,ファヴェル呪殺術,缠怨{1}次。目标的所有已拥有负面状态增加{0}层。若目标的怨念层数*负面状态种数大于其生命值，对目标造成其剩余生命值的真伤。,纏怨{1}次。目標的所有已拥有負面狀態增加{0}層。若目標的怨念層數*負面狀態種數大于其生命值，目標即死。,"Apply Resentment {1} times. Increase all negative statuses the target already has by {0} stacks. If the target's {buff_resentment} stacks * negative status count exceeds its Health, deal True Damage equal to its remaining Health.",怨念を{1}回付与する。対象がすでに持つすべてのデバフを{0}スタック増加させる。対象の怨念スタック数×デバフ種数がHPを超える場合、対象は即死する。
+2,技能牌,思忆雪が（Farevell）,空寂凄冷,空寂凄冷,Bleak Hollow,空寂凄冷,给予{0}层无力；目标每有一种负面状态，额外给予{0}层无力,給予{0}層无力；目標每有一種負面狀態，额外給予{0}層无力,"Apply {0} stacks of {buff_weak}. For each negative status on the target, apply an additional {0} stacks of {buff_weak}.",脱力を{0}スタック付与する。対象のデバフ1種につき、追加で脱力を{0}スタック付与する。
+3,技能牌,玉鸢（Farevell）,裂解恶念,裂解惡念,Malice Fracture,悪念裂解,造成{0}伤害，缠怨{1}，对方每有3层怨念，造成的伤害和缠怨就+1；复制一张本牌并置于抽牌堆,造成{0}傷害，纏怨{1}，對方每有3層怨念，造成的傷害和纏怨就+1；複製一張本牌并置於抽牌堆,"Deal {0} damage and apply Resentment {1}. For every 3 {buff_resentment} on the target, damage and Resentment applied +1. Copy this card and put it into the draw pile.",{0}ダメージを与え、怨念を{1}付与する。相手の怨念3スタックごとに、与えるダメージと付与する怨念+1。このカードを1枚コピーして山札に置く。
+4,技能牌,沈枕（Farevell）,哀恨戳刺,哀恨戳刺,Spiteful Stab,哀恨の刺突,造成3次{0}点伤害，缠怨{1}。(缠怨数随伤害增加，但是最多10),造成{1}次{0}點傷害，纏怨4。,"Deal {0} damage 3 times. Apply {1} Resentment. Resentment increases with damage dealt, up to 10.",{0}ダメージを{1}回与える。怨念を4付与する。
+*5,技能牌,雪兔,哀叹之种,哀嘆之種,Seed of Lament,哀嘆の種,缠怨{0}，目标每有1种负面状态，就造成{1}点伤害。,纏怨{0}，目標每有1種負面狀態，就造成{1}點傷害。,"Apply {0} Resentment. For each type of negative status on the target, deal {1} damage.",怨念を{0}付与する。対象のデバフ1種につき、{1}ダメージを与える。
+6,技能牌,蓬莱山辉夜,探究永生,探究永生,Immortal Quest,永生探究,"这张卡每使用一次，获得1点超魔
+超魔1：获得{0}点护盾
+超魔2：恢复{1}点生命并抽{2}张卡
+超魔3：获得{3}层重生，并湮灭此卡牌","这張卡每使用一次，獲得1點超魔
+超魔1：獲得{0}點護盾
+超魔2：恢復{1}點生命并抽{2}張卡
+超魔3：獲得{3}層重生，并湮滅此卡牌（焚毀）","Each time this card is used, gain 1 Overmagic.
+Overmagic 1: gain {0} Shield.
+Overmagic 2: restore {1} Health and draw {2} cards.
+Overmagic 3: gain {3} stacks of {buff_rebirth} and Annihilate this card.","このカードを使用するたび、超魔を1獲得する。
+超魔1：{0}シールドを獲得する。
+超魔2：HPを{1}回復し、カードを{2}枚引く。
+超魔3：重生を{3}スタック獲得し、このカードを湮滅する（焼却）。"
+7,技能牌,梅比乌斯生物实验室,瞳映岐影,瞳映岐影,Forkshadow Eyes,瞳に映る岐影,选择抽牌堆中的1张卡牌将其复制到手牌。,選擇抽牌堆中的1張卡牌，將其複製到手牌。,Choose 1 card from the draw pile and copy it to your hand.,ドローパイルからカードを1枚選び、そのコピーを手札に加える。
+8,技能牌,Memento,衔尾蛇环,銜尾蛇環,Ouroboros Ring,ウロボロスの環,抽1张牌，若本场战斗重生过，额外获得【重生{0}】并拥有回转词条。,獲得【重生{0}】。,"Draw 1 card. If you have triggered {buff_rebirth} this combat, additionally gain {buff_rebirth} {0} and this card gains Recycle.",【重生{0}】を獲得する。
+9,技能牌,慧乃爱,生之礼赞,生之禮讚,Hymn to Life,生の礼賛,获得{0}层元素；若你在本次战斗中【重生】过，获得{1}金币。,獲得{0}層元素；若你在本次戰鬥中【重生】过，獲得{1}金幣；焚毀,"Gain {0} stacks of {buff_elements}. If you have triggered {buff_rebirth} in this combat, gain {1} Gold.",元素を{0}スタック獲得する。この戦闘で【重生】していた場合、{1}ゴールドを獲得する。焼却。
+10,技能牌,雏名苍岚,始源序章,始源序章,Origin Prologue,始源序章,消耗一半的【重生】层数，每消耗{0}层，获得1层锋锐,消耗一半的【重生】層數，每消耗{0}層，獲得1層鋒銳,"Spend half your {buff_rebirth} stacks. For every {0} stacks spent, gain 1 stack of {buff_keenedge}.",重生スタックの半分を消費する。{0}スタック消費するごとに、鋭利を1スタック獲得する。
+11,技能牌,雏名苍岚,真我重逢,真我重逢,True Reunion,真我との再会,对敌方全体造成1+锋锐层数点伤害{1}次，当前为{0}。本次战斗内每【重生】过一次，基础伤害*2。,對敵方全體造成{0}點直接傷害{1}次，本場戰鬥每【重生】过一次，傷害提高一倍（指數叠加）,"Deal {0} direct damage to all enemies {1} times. For each time you have triggered {buff_rebirth} this combat, double the damage, stacking exponentially.",敵全体に{0}の直接ダメージを{1}回与える。この戦闘で【重生】した回数ごとにダメージが倍になる（指数的に累積）。
+*13,技能牌,涩涩蓝狼狼,诅咒之刃,詛咒之刃,Cursed Blade,呪いの刃,"无法以常规手段获得，只能通过【七咒之戒】获得，只有在携带【七咒之戒】时生效
+获得{0}层元素，对目标造成{1}点伤害，恢复造成伤害10%的生命，制造一张随机诅咒加入弃牌堆
+每点咒力提高该卡牌10%伤害","无法以常規手段獲得，只能透過【七咒之戒】獲得，只有在攜帶【七咒之戒】時生效
+獲得{0}層元素，對目標造成{1}點傷害，恢復造成傷害10%的生命，製造一張隨機詛咒加入棄牌堆
+每點咒力提高该卡牌10%傷害","Cannot be obtained normally. Only obtained through Seven-Curse Ring and only active while carrying Seven-Curse Ring.
+Gain {0} stacks of {buff_elements}, deal {1} damage to the target, heal for 10% of damage dealt, and create a random Curse into the discard pile.
+Each Curse Power increases this card’s damage by 10%.","通常手段では獲得できない。【七咒之戒】からのみ獲得でき、【七咒之戒】を所持している時だけ有効。
+元素を{0}スタック獲得し、対象に{1}ダメージを与え、与えたダメージの10%分HPを回復し、ランダムな呪いを1枚生成して捨て札に加える。
+咒力1点ごとにこのカードのダメージ+10%。"
+*14,技能牌,阿巴阿巴,亵渎的蝴蝶赞美诗,褻瀆的蝴蝶讚美诗,Profane Hymn,冒涜の蝶賛美詩,"给予你的手牌{0}张随机诅咒
+仪式：回合结束时，若你的手牌中有7种不同的诅咒牌，获得胜利","給予你的手牌{0}張隨機詛咒
+儀式：回合結束時，若你的手牌中有7種不同的詛咒牌，獲得胜利","Add {0} random Curse cards to your hand.
+Ritual: at turn end, if you have 7 different Curse cards in hand, win the combat.","手札にランダムな呪いカードを{0}枚与える。
+儀式：ターン終了時、手札に異なる呪いカードが7種類あるなら、戦闘に勝利する。"
+*15,技能牌,申必人,月蚀,月蝕,Lunar Eclipse,月蝕,卡牌中加入随机{0}张诅咒牌，获得{0}层连斩,卡牌中加入隨機{0}張詛咒牌，獲得{0}層連斬,Add {0} random Curse cards to your deck and gain {0} stacks of {buff_contagion}.,デッキにランダムな呪いカードを{0}枚加え、連斬を{0}スタック獲得する。
+*16,技能牌,鸢桬牙,超越次元,超越次元,Dimensional Rise,次元超越,"将所有牌洗入抽牌堆，抽{0}张牌，回复所有能量；
+此卡魔能消耗降低x点(x为神启层数)","将所有牌洗入抽牌堆，抽{0}張牌，恢復所有能量；
+此卡魔能消耗降低x點(x為神啟層數)","Shuffle all cards into the draw pile, draw {0} cards, and restore all Mana.
+This card’s Mana cost is reduced by x, where x is {buff_revelation} stacks.","すべてのカードを山札に戻してシャッフルし、カードを{0}枚引き、すべての魔力を回復する。
+このカードの魔力消費はx減少する（xは啓示スタック数）。"
+*17,技能牌,屑·游玲,游玲神谕术,游玲神諭術,Youling Oracle,游玲神託術,"手牌中每有一张唤神卡，获得{0}点超魔
+唤神：获得手牌数量层数的【强韧】与【锋锐】
+超魔x：获得x/2层【坚毅】","手牌中每有一張喚神卡，獲得{0}點超魔
+喚神：獲得手牌數量層數的【強韌】與【鋒銳】
+超魔x：獲得x層【堅毅】","For each Invocation card in hand, gain {0} Metamagic.
+Invocation: Gain {buff_resilient} and {buff_keenedge} equal to the number of cards in hand.
+Metamagic X: Gain X/2 stack(s) of {buff_impregnable}.","手札の神を呼ぶカード1枚につき、スーパーマジックを{0}獲得する。
+神を呼ぶ：手札枚数に等しい{buff_resilient}と{buff_keenedge}を獲得する。
+スーパーマジックx：{buff_impregnable}をxスタック獲得する。"
+*18,技能牌,交响日向,绝唱,絕唱,Final Song,絶唱,对自身造成最大生命值{0}%的伤害（不造成死亡），获得{1}层流血，唤神：获得（神启层数+1）*{2}层超凡，对敌方所有造成（神启层数+1）*{2}伤害，并清除敌方所有行动。唤神，焚毁,對自身造成最大生命值{0}%的傷害（不造成死亡），獲得{1}層流血，喚神：獲得（神啟層數+1）*{2}層超凡，對敵方所有造成（神啟層數+1）*{2}傷害，并清除敵方所有行动。喚神，焚毀,"Deal damage to yourself equal to {0}% Max Health (cannot kill you), gain {1} {buff_bleeding}. Invocation: gain ({buff_revelation} stacks + 1) * {2} {buff_extraordinary}, deal ({buff_revelation} stacks + 1) * {2} damage to all enemies, and clear all enemy actions. Invocation. Burn.",自身に最大HP{0}%分のダメージを与える（死亡しない）。{buff_bleeding}を{1}スタック獲得する。神を呼ぶ：({buff_revelation}スタック+1)*{2}の{buff_extraordinary}を獲得し、敵全体に({buff_revelation}スタック+1)*{2}ダメージを与え、敵のすべての行動を消去する。神を呼ぶ。焼却。
+*20,技能牌,暗夜之师,新型炼金物,新型煉金物,New Alchemy,新型錬金物,"对自身造成{0}点伤害，对敌方造成敌方{1}%生命上限的真实伤害,本场战斗每次使用额外叠加2%，最高叠加至18%",對自身造成{0}點傷害，對敵方造成{1}%生命上限的真實傷害，多次使用可以叠加傷害（每次叠加2%）最高叠加至18%,"Deal {0} damage to yourself and True Damage to the enemy equal to {1}% of their Max Health. Repeated uses stack the damage, +2% each time, up to 18%.",自身に{0}ダメージを与え、敵に最大HP{1}%分の貫通ダメージを与える。複数回使用するとダメージが累積し、毎回+2%、最大18%。
+*21,技能牌,白给喵～,超位魔法 ·沧溟星蚀,超位魔法 ·滄溟星蝕,Azure Eclipse,超位魔法・滄溟星蝕,"造成{0}点伤害
+裂变：让这张牌的伤害翻一倍","造成{0}點傷害
+飛升：让这張牌的傷害翻一倍","Deal {0} damage.
+Fission: double this card’s damage.","{0}ダメージを与える。
+飛升：このカードのダメージを2倍にする。"
+*22,技能牌,絮,焦油之手,焦油之手,Tar Hand,タールの手,给予所有敌人【同心】{0}层,"給予所有敵人【同心】{0}層，焚毀
+
+【同心】所有具有该状態的目標，受到傷害時，将傷害同步给其他目標","Apply {0} stacks of {buff_lifelink} to all enemies. Burn.
+
+{buff_lifelink}: when any target with this status takes damage, that damage is mirrored to all other targets with it.","すべての敵に【同心】を{0}スタック付与する。焼却。
+
+【同心】この状態を持つ対象がダメージを受けた時、そのダメージを他の同状態の対象にも同期する。"
+*23,技能牌,蔚蓝色星光,超新星,超新星,Supernova,超新星,打出并焚毁抽卡堆中的所有卡，每焚毁{0}张卡获得1点魔能。,打出并焚毀抽卡堆中的所有卡，每焚毀{0}張卡獲得1點魔能。,Play and Burn all cards in the draw pile. Gain 1 Mana for every {0} cards Burned.,山札のすべてのカードを使用して焼却する。焼却したカード{0}枚ごとに魔力を1獲得する。
+*24,技能牌,观乐不乐观,数据溢出,數據溢出,Data Overflow,データオーバーフロー,获得{0}层启示,獲得{0}層启示,Gain {0} stacks of {buff_epiphany}.,啓示を{0}スタック獲得する。
+*25,技能牌,於昕箖,扭曲的祈愿,扭曲的祈願,Twisted Prayer,歪んだ祈願,将自身血量变为{0}%，获得{1}层连携，焚毁,将自身血量變為{0}%，獲得{1}層連攜，焚毀,"Set your Health to {0}%, gain {1} stacks of {buff_synergies}, and Burn.",自身のHPを{0}%にし、連携を{1}スタック獲得する。焼却。
+*26,技能牌,冬雨,既视感,既視感,Deja Vu,既視感,"此卡牌在手牌中时：打出卡牌获得{0}点超魔，弃牌时重置超魔
+超魔x：费用增加（x-1），使用后可以抽x张牌。","此卡牌在手牌中時：打出卡牌獲得{0}點超魔，弃牌時重置超魔
+超魔x：費用增加（x-1），使用後可以抽x張牌。
+焚毀","While this card is in hand: playing cards grants {0} Overmagic; discarding cards resets Overmagic.
+Overmagic x: cost increases by (x-1). After use, draw x cards.
+Burn.","このカードが手札にある時：カードを使用すると超魔を{0}獲得し、カードを捨てると超魔をリセットする。
+超魔x：コストが（x-1）増加する。使用後、カードをx枚引ける。
+焼却。"
+*27,技能牌,繁星雨未落,穿越穷极之门,穿越窮極之門,Extremity Gate,窮極の門を越えて,使用时给予目标{0}层时停,固有，焚毀，保留，凝滞，使用時給予目標{0}層時停,"Innate, Burn, Retain, Stagnant. On use, apply {0} stacks of {buff_timestop} to the target.",固有、焼却、保留、凝滞。使用時、対象に時停を{0}スタック付与する。
+*28,技能牌,Epitheus,星空之中,星空之中,Among the Stars,星空の中で,"舍弃此牌时获得{0}种随机强化状态并焚毁自身，在抽牌堆加入一张同名卡，下回合恢复2点魔能。
+指向非自身的友方时，可将此卡牌给予目标；凝滞","舍弃此牌時獲得{0}種隨機强化状態并焚毀自身，在抽牌堆加入一張同名卡，下回合恢復2點魔能。
+指向非自身的友方時，可将此卡牌給予目標；凝滞","When this card is discarded, gain {0} random positive statuses, Burn this card, add a card with the same name to the draw pile, and restore 2 Mana next turn.
+When targeting an ally other than self, give this card to that target. Stagnant.","このカードを捨てた時、ランダムな強化状態を{0}種類獲得し、自身を焼却し、同名カードを山札に加え、次のターンに魔力を2回復する。
+自身以外の味方を対象にした時、このカードをその対象に与える。凝滞。"
+29,技能牌,,混乱投枪,混亂投槍,Chaos Javelin,混沌の投槍,检定{0}：若成功，造成4次{1}点伤害；若失败，获得{2}点护盾；,檢定{0}：若成功，造成4次{1}點傷害；若失败，獲得{2}點護盾；,"Check {0}: if successful, deal {1} damage 4 times; if failed, gain {2} Shield.",檢定{0}：成功した場合、{1}ダメージを4回与える。失敗した場合、{2}シールドを獲得する。
+30,技能牌,,法术灵感,法術靈感,Spell Insight,法術霊感,检定{0}：若成功，抽{1}张牌；若失败，抽{2}张牌；,檢定{0}：若成功，抽{1}張牌；若失败，抽{2}張牌；,"Check {0}: if successful, draw {1} cards; if failed, draw {2} cards.",檢定{0}：成功した場合、カードを{1}枚引く。失敗した場合、カードを{2}枚引く。
+31,技能牌,,奇迹治愈,奇跡治癒,Miracle Heal,奇跡の治癒,检定{0}：若成功，恢复{1}点生命；若失败，抽{2}张牌；,檢定{0}：若成功，恢復{1}點生命；若失败，抽{2}張牌；,"Check {0}: if successful, restore {1} Health; if failed, draw {2} cards.",檢定{0}：成功した場合、HPを{1}回復する。失敗した場合、カードを{2}枚引く。
+32,技能牌,,混沌赐福,混沌賜福,Chaos Blessing,混沌の祝福,检定{0}：若成功，获得随机{1}种强化状态；若失败，获得随机{2}种负面状态；,檢定{0}：若成功，獲得隨機{1}種强化状態；若失败，獲得隨機{2}種負面狀態；,"Check {0}: if successful, gain {1} random positive statuses; if failed, gain {2} random negative statuses.",檢定{0}：成功した場合、ランダムな強化状態を{1}種類獲得する。失敗した場合、ランダムなデバフを{2}種類獲得する。
+33,技能牌,,涡流盾甲,渦流盾甲,Vortex Mail,渦流盾甲,获得{0}点护盾；检定{1}：若成功，获得{2}层元素；若失败，获得{3}层毒素；,獲得{0}點護盾；檢定{1}：若成功，獲得{2}層元素；若失败，獲得{3}層毒素；,"Gain {0} Shield. Check {1}: if successful, gain {2} stacks of {buff_elements}; if failed, gain {3} stacks of {buff_toxin}.",{0}シールドを獲得する。檢定{1}：成功した場合、元素を{2}スタック獲得する。失敗した場合、毒素を{3}スタック獲得する。
+34,技能牌,,奖励骰,獎励骰,Bonus Die,ボーナスダイス,本场战斗中，之后的检定骰会额外扔出一次，取检定值更大的结果,本場戰鬥中，之後的檢定骰会额外扔出一次，取檢定值更大的结果,"For the rest of this combat, roll Checks one extra time and use the higher result.",この戦闘中、以後の檢定ダイスは追加で1回振り、より高い結果を採用する。
+36,技能牌,,不稳定魔能,不穩定魔能,Unstable Mana,不安定な魔力,检定{0}：若成功，获得{1}点魔能；若失败，获得{2}点护盾；,檢定{0}：若成功，獲得{1}點魔能；若失败，獲得{2}點護盾；,"Check {0}: if successful, gain {1} Mana; if failed, gain {2} Shield.",檢定{0}：成功した場合、魔力を{1}獲得する。失敗した場合、{2}シールドを獲得する。
+40,技能牌,,厄米娅旋尾刃,厄米婭旋尾刃,Ermia Tailblade,エルミアの旋尾刃,对目标随机造成{0}~{1}点伤害；检定{2}：若成功，则提升10检定难度并再次使用，直至检定失败；,對目標隨機造成{0}~{1}點傷害；檢定{2}：若成功，则提升10檢定难度并再次使用，直至檢定失败；,"Deal random damage from {0} to {1} to the target. Check {2}: if successful, increase Check difficulty by 10 and use again until the Check fails.",対象に{0}～{1}のランダムダメージを与える。檢定{2}：成功した場合、檢定難度を10上げて再度使用し、失敗するまで続ける。
+41,技能牌,,变成猫猫吧~,變成貓貓吧~,Become a Cat~,猫になあれ～,检定{0}：若成功，目标变成一只使魔猫猫{1}回合，此卡牌焚毁；若失败，恢复{2}点魔能，此卡牌检定难度降低{3}；,檢定{0}：若成功，目標變成一只使魔貓貓{1}回合，此卡牌焚毀；若失败，恢復{2}點魔能，此卡牌檢定难度降低{3}；,"Check {0}: if successful, turn the target into a familiar cat for {1} turns and Burn this card; if failed, restore {2} Mana and reduce this card’s Check difficulty by {3}.",檢定{0}：成功した場合、対象を{1}ターンの間、使い魔猫に変え、このカードを焼却する。失敗した場合、魔力を{2}回復し、このカードの檢定難度を{3}下げる。
+42,技能牌,,成为神明吧~,成為神明吧~,Become a God~,神様になあれ～,检定{0}：若成功，获得{1}种极其强大的强化状态并焚毁；若失败，此卡牌检定值降低{3}；,檢定{0}：若成功，獲得{1}種極其強大的强化狀態並焚毀；若失敗，此卡牌檢定值降低{3}；,"Check {0}: if successful, gain {1} kinds of extremely powerful buffs and Burn; if failed, reduce this card's Check value by {3}.",檢定{0}：成功した場合、{1}種類の極めて強力な強化状態を獲得して焚毀する。失敗した場合、このカードの檢定値を{3}下げる。
+43,技能牌,,终曲,終曲,Finale,終曲,自身获得1层流血，空想，不朽与自身999层毒素,自身獲得1層流血，空想，不朽與自身999層毒素,"Gain 1 stack each of {buff_bleeding}, {buff_reverie}, and {buff_immortal}, plus 999 stacks of {buff_toxin}.",自身に出血、空想、不朽を各1スタック、さらに毒素を999スタック付与する。
+44,技能牌,,混血秘仪,混血祕儀,Mixed-Blood Rite,混血秘儀,检定80：若成功，获得100枚金币和随机一件遗物；若失败，受到10%生命的真实伤害。,檢定80：若成功，獲得100枚金幣和隨機一件遗物；若失败，受到10%生命的真實傷害。,"Check 80: if successful, gain 100 Gold and a random Relic; if failed, take True Damage equal to 10% Health.",檢定80：成功した場合、100ゴールドとランダムな遺物を1つ獲得する。失敗した場合、HP10%分の貫通ダメージを受ける。
+45,技能牌,,装点幸运,裝點幸运,Luck Adornment,幸運の装い,临时幸运+5.,臨時幸运+5.,Temporary Luck +5.,臨時幸運+5。
+46,技能牌,,鬼牌秘术,鬼牌祕術,Joker Arcana,ジョーカー秘術,检定60：若成功，制造1张随机的3阶卡牌；若失败，制造1张随机的1阶卡牌；因此卡牌制造的卡牌消耗为0。,檢定60：若成功，製造1張隨機的3階卡牌；若失败，製造1張隨機的1階卡牌；因此卡牌製造的卡牌消耗為0。,"Check 60: if successful, create 1 random Tier 3 card; if failed, create 1 random Tier 1 card. Cards created by this card cost 0.",檢定60：成功した場合、ランダムな3階カードを1枚生成する。失敗した場合、ランダムな1階カードを1枚生成する。このカードが生成したカードのコストは0。
+47,技能牌,,残鳞祭仪,殘鱗祭儀,Scale Rite,残鱗祭儀,焚毁你任意数量的手牌，每张获得【重生15】,焚毀你任意數量的手牌，每張獲得【重生15】,Burn any number of cards from your hand. Each burned card gains {buff_rebirth} 15.,任意の枚数の手札を焼却する。それぞれ【重生15】を得る。
+48,技能牌,,水晶果冻,水晶果冻,Crystal Jelly,水晶ゼリー,为自身恢复{0}点生命值与1点魔能,為自身恢復{0}點生命值與1點魔能,Restore {0} Health and 1 Mana to yourself.,自身のHPを{0}回復し、魔力を1回復する。
+49,技能牌,,绯咏弦奏,緋詠弦奏,Scarlet Aria,緋詠弦奏,流失20%最大生命值，获得等同于流失生命四分之一的重生及锋锐。当前为{0}。,流失20%最大生命值，獲得等同于流失生命四分之一的重生及鋒銳。當前為{0}。,Lose 20% Max Health. Gain {buff_rebirth} and {buff_keenedge} equal to one quarter of Health lost. Current: {0}.,最大HPの20%を失う。失ったHPの4分の1に等しい重生と鋭利を獲得する。現在：{0}。

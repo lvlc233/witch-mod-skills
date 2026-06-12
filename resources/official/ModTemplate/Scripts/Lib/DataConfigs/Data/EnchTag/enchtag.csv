@@ -1,0 +1,53 @@
+﻿Id,Tag,LoadScript,DrawScript,DropScript,PreUseScript,UseScript,UnloadScript,Rarity,Icon
+Id（唯一标识）,添加的标签,初始效果,抽到时的效果,进入弃牌堆的效果,,使用时的效果,卸下效果,稀有度,
+1,Burnout,,,,,"SetStatus(""Self"");
+        ChangePower(""1"");",,2,Icon/EnchIcon/末日
+2,Fragmented,"var c=EnchGetCard();if(c!=null)
+        {c.Vars[""NeedRemove""]=""True"";}",,,"SetStatus(""Self"");
+        ChangeDynamicVar(""UseCount"",""5"");",,,3,Icon/EnchIcon/绝灭
+3,Burnout,,,,"SetStatus(""Self"");
+        ChangeDynamicVar(""UseCount"",""1"");",,,2,Icon/EnchIcon/双生
+4,Recycle,"var c=EnchGetCard();if(c!=null){c.Vars[""TotalExCost""]=(int.Parse(c.Vars.ContainsKey(""TotalExCost"")?c.Vars[""TotalExCost""]:""0"")+1).ToString();}",,,,,,3,Icon/EnchIcon/无限
+5,Retain,,,,,,,2,Icon/EnchIcon/相片
+6,Combo,,,,,"if (ComboCheck())
+        {
+            if (Self.GetBuff(DataId.buff_revelation)!=null)
+            {
+                SetStatus(""Self"");
+                ChangeDefence(Self.GetBuff(DataId.buff_revelation).buffConfig.Level.ToString());
+            }
+        }",,1,Icon/EnchIcon/虔诚
+*7,Instant,,,,,,,2,Icon/EnchIcon/时痕
+8,,,,,,"SetStatus(""Self"");
+        AddBuff(DataId.buff_poised,""1"");",,1,Icon/EnchIcon/复仇
+9,,,,,,"SetStatus(""Self"");
+            DrawCount(""1"");
+            Damage(""-2"",""True"");",,2,Icon/EnchIcon/超频
+10,,,,,,"SetStatus(""Self"");
+        ChangeMoney(""6"");",,1,Icon/EnchIcon/铸金
+11,,,,,,"var cardData=EnchGetCard();
+        if (cardData!=null)
+        {
+            SetStatus(""Self"");
+            ChangeHp((int.Parse(cardData.data[""Expend""])*4*Self.dynamicVariables.GetValueOrDefault(""CardCost"", 1)).ToString());
+        }",,1,Icon/EnchIcon/治愈
+12,,,,,,"var cardData=EnchGetCard();
+        if (cardData!=null)
+        {
+            SetStatus(""Self"");
+            ChangeDefence((int.Parse(cardData.data[""Expend""])*6*Self.dynamicVariables.GetValueOrDefault(""CardCost"", 1)).ToString());
+        }",,1,Icon/EnchIcon/固化
+13,,,,,,"var cardData=EnchGetCard();
+        if (cardData!=null)
+        {
+            SetStatus(""AllRandomTarget1"");
+            Damage((int.Parse(cardData.data[""Expend""])*7*Self.dynamicVariables.GetValueOrDefault(""CardCost"", 1)).ToString());
+        }",,1,Icon/EnchIcon/刀刃
+14,,,,,,"var cardData=EnchGetCard();
+        if (cardData!=null)
+        {
+            SetStatus(""Self"");
+            AddBuff(DataId.buff_EnergyStorage,(int.Parse(cardData.data[""Expend""])*Self.dynamicVariables.GetValueOrDefault(""CardCost"", 1)).ToString());
+        }",,2,Icon/EnchIcon/储能
+15,Ouroboros,,,,,,,2,Icon/EnchIcon/衔尾
+*16,,,,,,,,3,Icon/EnchIcon/鬼牌印记

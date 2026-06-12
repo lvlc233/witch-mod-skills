@@ -1,0 +1,23 @@
+﻿Id,Note,Chapter,Chapter_zh-Hant,Chapter_en,Chapter_ja,Name,Name_zh-Hant,Name_en,Name_ja,Description,Description_zh-Hant,Description_en,Description_ja,Tip,Tip_zh-Hant,Tip_en,Tip_ja,Text,Text_zh-Hant,Text_en,Text_ja
+Id,Note,Chapter,Chapter,Chapter_en,Chapter,Chapter,Name,Name,名前,Name_en,Name,Description,説明,Description,Description_en,Description,ヒント,Tip,Tip,Tip_en,テキスト
+1,,战斗,戰鬥,Combat,戦闘,戦闘,魔力,Magic,魔力,Magic,基礎四屬性之一,One of the four basic attributes,基本四属性の一つ,基礎四屬性之一,基礎四屬性之一,One of the four basic attributes,基本四属性の一つ,基础属性,基礎屬性,Basic Attribute,基礎属性
+2,,战斗,戰鬥,Combat,戦闘,戦闘,幸运,Luck,幸運,Luck,基礎四屬性之一,One of the four basic attributes,基本四属性の一つ,基礎四屬性之一,基礎四屬性之一,One of the four basic attributes,基本四属性の一つ,基础属性,基礎屬性,Basic Attribute,基礎属性
+3,,战斗,戰鬥,Combat,戦闘,戦闘,精神,Spirit,精神,Spirit,基礎四屬性之一,One of the four basic attributes,基本四属性の一つ,基礎四屬性之一,基礎四屬性之一,One of the four basic attributes,基本四属性の一つ,基础属性,基礎屬性,Basic Attribute,基礎属性
+4,,战斗,戰鬥,Combat,戦闘,戦闘,感知,Perception,感知,Perception,基礎四屬性之一,One of the four basic attributes,基本四属性の一つ,基礎四屬性之一,基礎四屬性之一,One of the four basic attributes,基本四属性の一つ,基础属性,基礎屬性,Basic Attribute,基礎属性
+5,,战斗,戰鬥,Combat,戦闘,戦闘,韧性,Toughness,靭性,Toughness,怪物機制,Monster Mechanic,モンスター機構,怪物機制,怪物機制,Monster Mechanic,モンスター機構,,,,
+6,,战斗,戰鬥,Combat,戦闘,戦闘,能量,Energy,エネルギー,Energy,戰鬥機制,Combat Mechanic,戦闘機構,戰鬥機制,戰鬥機制,Combat Mechanic,戦闘機構,改变,改變,Change,変更
+7,,万象,萬象,Cosmos,万象,万象,遗物,Relics,遺物,Relics,戰鬥機制,Combat Mechanic,戦闘機構,戰鬥機制,戰鬥機制,Combat Mechanic,戦闘機構,最后的馈赠,最后的饋贈,Final Gifts,最後の贈り物
+8,,万象,萬象,Cosmos,万象,万象,祝福,Blessings,祝福,Blessings,探索機制,Exploration Mechanic,探索機構,探索機制,探索機制,Exploration Mechanic,探索機構,万灵的祈愿,萬靈的祈願,Prayers of All Spirits,万霊の祈願
+9,,万象,萬象,Cosmos,万象,万象,此岸,This Shore,此岸,This Shore,世界觀,Worldview,世界観,世界觀,世界觀,Worldview,世界観,"飞升,或者沉沦","飛升,或者沉淪",Ascension or Downfall,飛昇、あるいは沈淪
+10,,万象,萬象,Cosmos,万象,万象,神祗-1,Deities-1,神祇-1,Deities-1,世界觀,Worldview,世界観,世界觀,世界觀,Worldview,世界観,不朽不灭,不朽不滅,Immortal and Eternal,不朽不滅
+11,,万象,萬象,Cosmos,万象,万象,神祗-2,Deities-2,神祇-2,Deities-2,世界觀,Worldview,世界観,世界觀,世界觀,Worldview,世界観,不朽不灭,不朽不滅,Immortal and Eternal,不朽不滅
+12,,万象,萬象,Cosmos,万象,万象,黑潮,Black Tide,黒潮,Black Tide,世界觀,Worldview,世界観,世界觀,世界觀,Worldview,世界観,循环,循環,Cycle,循環
+13,,万象,萬象,Cosmos,万象,万象,贪婪之路,Path of Greed,貪欲の道,Path of Greed,世界觀,Worldview,世界観,世界觀,世界觀,Worldview,世界観,欲壑难填,欲壑難填,Insatiable Desire,満たされぬ欲
+14,,万象,萬象,Cosmos,万象,万象,真理卡牌,Truth Cards,真理カード,Truth Cards,世界觀,Worldview,世界観,世界觀,世界觀,Worldview,世界観,有涯无涯,有涯無涯,Finite and Infinite,限りあるものと限りなきもの
+15,,万象,萬象,Cosmos,万象,万象,灾,Calamity,災,Calamity,四本源說,Four Origins Theory,四本源説,四本源說,四本源說,Four Origins Theory,四本源説,命定的归宿,命定的歸宿,Destined End,定められた帰宿
+16,,万象,萬象,Cosmos,万象,万象,宙,Chronos,宙,Chronos,四本源說,Four Origins Theory,四本源説,四本源說,四本源說,Four Origins Theory,四本源説,永恒的运动,永恒的運動,Eternal Motion,永遠の運動
+17,,万象,萬象,Cosmos,万象,万象,矩,Order,矩,Order,四本源說,Four Origins Theory,四本源説,四本源說,四本源說,Four Origins Theory,四本源説,肇始的规定性,肇始的規定性,Primordial Determinacy,原初の規定性
+18,,万象,萬象,Cosmos,万象,万象,灵,Numen,霊,Numen,四本源說,Four Origins Theory,四本源説,四本源說,四本源說,Four Origins Theory,四本源説,不可言说物,不可言說物,The Ineffable,不可言説のもの
+19,,冒险,冒險,Adventure,冒険,冒険,地图,Map,マップ,Map,地圖選擇,Map Selection,マップ選択,地圖選擇,地圖選擇,Map Selection,マップ選択,,,,
+20,,冒险,冒險,Adventure,冒険,冒険,背包,Backpack,バックパック,Backpack,卡組編輯,Deck Editing,デッキ編集,卡組編輯,卡組編輯,Deck Editing,デッキ編集,,,,
+21,,冒险,冒險,Adventure,冒険,冒険,炼金,Alchemy,錬金,Alchemy,煉金,Alchemy,錬金,煉金,煉金,Alchemy,錬金,无中生有,無中生有,Something from Nothing,無から有を生む

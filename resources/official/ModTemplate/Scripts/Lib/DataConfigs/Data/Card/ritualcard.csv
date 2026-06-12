@@ -1,0 +1,77 @@
+﻿Id,Rarity,Expend,Tag,InitScript,DrawScript,UseScript,DropScript,Icon,Effects,Action,PackBelong
+唯一的标识（不能重复）,稀有度,消耗的费用,标签,卡牌初始化脚本,卡牌抽到后执行,卡牌使用后执行,卡牌进入弃牌堆后执行,图标资源的路径,特效,动作,cardpack id
+1,1,1,,"Vars[""BaseScript""]=""CommonCardItem"";",,"SetStatus(""Self"");AddCardByCardList(""2"",""Ritual"");",,Icon/Card/唤醒仪式,,,cardpack_19
+2,1,0,,"Vars[""BaseScript""]=""CommonCardItem"";",," var tempList=new List<DataConfig>(DeckCard);
+        var newList=new List<DataConfig>(UsedCard);
+        
+        int count=0;
+        for (int i = tempList.Count-1; i >=0; i--)
+        {
+            count+=1;
+            if (!TagCheck(tempList[i],""Ritual""))
+            {
+                Debug.Log(tempList[i].data[""Tag""]);
+                break;
+            }
+        }
+        if (count==tempList.Count)
+        {
+            tempList.Clear();
+        tempList.AddRange(newList);
+        for (int i = tempList.Count-1; i >=0; i--)
+        {
+            count+=1;
+            if (!TagCheck(tempList[i],""Ritual""))
+            {
+                break;
+            }
+        }
+        }
+        
+        DrawCount(count.ToString());",,Icon/Card/着魔,,,cardpack_19
+3,1,0,,"Vars[""BaseScript""]=""CommonCardItem"";",,"DrawCount(""3"");SetStatus(""Self"");var hasRitual=Self.GetBuffs().Any(x=>x!=null&&x.buffConfig.BuffId.Contains(""ritual""));if(!hasRitual){ThrowCard(""3"",""1"");}",,Icon/Card/引思,,,cardpack_19
+4,2,2,,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Damage"",""15"");",,"SetStatus(""AllTarget"");Damage(""15"");var cards=HandCard.Where(x=>x!=null&&x.data[""Tag""].Contains(""Ritual"")).ToList();
+        
+        if(cards.Count>0){UseCard(cards[DefaultDice.WithRange(0,cards.Count-1).Roll().Value].dataConfig);}",,Icon/Card/仪礼剑,,Attack,cardpack_19
+5,2,1,,"Vars[""BaseScript""]=""AttackCardItem"";int total=0;SetStatus(""Self"");
+       if (!Self.IsNull()&&!(Self.GetBuffs()==null))
+       {
+        foreach(var b in Self.GetBuffs().Where(x=>x!=null&&x.buffConfig.BuffId.Contains(""ritual"")).ToList())
+        {
+        total+=int.Parse(b.buffConfig.dataConfig.Vars[""ThisCount""]);}
+       }
+        AddDescription(""1"",""Damage"",(5+total*3).ToString()); ",,"SetStatus(""Target"");int total=0;
+        foreach(var b in Self.GetBuffs().Where(x=>x!=null&&x.buffConfig.BuffId.Contains(""ritual"")).ToList())
+        {
+        total+=int.Parse(b.buffConfig.dataConfig.Vars[""ThisCount""]);}
+        Damage((5+total*3).ToString());SetStatus(""Self"");
+        var buffs=Self.GetBuffs().Where(x=>x!=null&&x.buffConfig.BuffId.Contains(""ritual"")).ToList();
+        if(buffs.Count>0){var rb=buffs[DefaultDice.WithRange(0,buffs.Count-1).Roll().Value];rb.buffConfig.dataConfig.Vars[""ThisCount""]=(rb.buffConfig.dataConfig.Vars[""ThisCount""].ToInt()+1).ToString();}var c=new DataConfig(dataConfig.data[""Id""],DataType.Card);FightCardManager.Instance.cardList.Add(c);",,Icon/Card/祭祀之刃,,Attack,cardpack_19
+6,2,0,,"Vars[""BaseScript""]=""CommonCardItem"";",,"SetStatus(""Self"");int total=0;foreach(var b in Self.GetBuffs().Where(x=>x!=null&&x.buffConfig.BuffId.Contains(""ritual"")).ToList()){if(!b.buffConfig.dataConfig.Vars.ContainsKey(""ThisCount"")){b.buffConfig.dataConfig.Vars[""ThisCount""]=""0"";}b.buffConfig.dataConfig.Vars[""ThisCount""]=(b.buffConfig.dataConfig.Vars[""ThisCount""].ToInt()+1).ToString();total+=b.buffConfig.dataConfig.Vars[""ThisCount""].ToInt();b.ClearBuff();}DrawCount(total.ToString());SetStatus(""AllTarget"");Damage(total.ToString());",,Icon/Card/秘位：爆裂魔法,,Skill,cardpack_19
+7,1,1,"Ritual, Burnout","Vars[""BaseScript""]=""CommonCardItem"";",,"SetStatus(""Self"");AddBuff(DataId.buff_ritualenlightenment,""1"");",,Icon/Card/序位：启迪之刻,,Skill,cardpack_19
+8,1,1,"Ritual, Burnout","Vars[""BaseScript""]=""CommonCardItem"";",,"SetStatus(""Self"");AddBuff(DataId.buff_ritualcourage,""1"");",,Icon/Card/序位：刀与盾,,Skill,cardpack_19
+9,1,0,"Ritual, Burnout","Vars[""BaseScript""]=""CommonCardItem"";",,"SetStatus(""Self"");AddBuff(DataId.buff_ritualasceticism,""1"");",,Icon/Card/序位：魔力回路,,Skill,cardpack_19
+10,2,1,"Ritual, Burnout","Vars[""BaseScript""]=""CommonCardItem"";",,"SetStatus(""Self"");AddBuff(DataId.buff_ritualoverload,""1"");",,Icon/Card/秘位：大书库,,,cardpack_19
+11,1,1,"Ritual, Burnout","Vars[""BaseScript""]=""CommonCardItem"";",,"SetStatus(""Self"");AddBuff(DataId.buff_ritualcatalyst,""1"");",,Icon/Card/序位：阵列展开,,,cardpack_19
+12,1,2,"Ritual, Burnout","Vars[""BaseScript""]=""CommonCardItem"";",,"SetStatus(""Self"");AddBuff(DataId.buff_ritualechostaff,""1"");",,Icon/Card/序位：新月回响,,,cardpack_19
+13,2,2,"Ritual, Burnout","Vars[""BaseScript""]=""CommonCardItem"";",,"SetStatus(""Self"");AddBuff(DataId.buff_ritualcycle,""1"");",,Icon/Card/秘位：行星研究,,Skill,cardpack_19
+14,2,0,"Ritual, Burnout","Vars[""BaseScript""]=""CommonCardItem"";",,"SetStatus(""Self"");AddBuff(DataId.buff_ritualbloodsacrifice,""1"");",,Icon/Card/秘位：降临者,,,cardpack_19
+15,3,1,"Burnout, Ritual","Vars[""BaseScript""]=""CommonCardItem"";",,"SetStatus(""Self"");AddBuff(DataId.buff_ritualsublimation,""1"");",,Icon/Card/超位：黄昏再临,,,cardpack_19
+16,2,1,"Ritual, Burnout","Vars[""BaseScript""]=""CommonCardItem"";",,"SetStatus(""Self"");AddBuff(DataId.buff_ritualpyre,""1"");",,Icon/Card/秘位：培植红莲,,,cardpack_19
+17,2,1,Ritual,"Vars[""BaseScript""]=""CommonCardItem"";",,"SetStatus(""Self"");AddBuff(DataId.buff_ritualtimeprison,""1"");",,Icon/Card/秘位：时空囚徒,,,cardpack_19
+18,2,2,"Ritual, Burnout","Vars[""BaseScript""]=""CommonCardItem"";",,"SetStatus(""Self"");AddBuff(DataId.buff_ritualsolidify,""1"");",,Icon/Card/秘位：凝滞魔能,,,cardpack_19
+*19,3,2,Ritual,"Vars[""BaseScript""]=""CommonCardItem"";
+        if (Self!=null&&Self.CurHp>Self.MaxHp*0.3f)
+        {
+            dataConfig.Vars[""Usable""]=""0"";
+        }
+        else
+        {
+            dataConfig.Vars[""Usable""]=""1"";
+        }",,"SetStatus(""AllExSelf"");
+                var tempList=new List<IStatusManager>(Object);
+                foreach (var item in tempList)
+                {
+                    SetStatusById(item.InstanceId);
+                    ChangeHp((item.MaxHp*13/-10).ToString());
+                }",,Icon/Card/所有暴力的本我,,,cardpack_19

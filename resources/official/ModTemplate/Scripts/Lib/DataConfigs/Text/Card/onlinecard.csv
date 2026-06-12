@@ -1,0 +1,23 @@
+﻿Id,Type,Note,Name,Name_en,Name_zh-Hant,Name_ja,Description,Description_zh-Hant,Description_en,Description_ja
+唯一的标识（不能重复）,类型,备注,名称,Name,名稱,名称,描述,描述,Description,説明
+1,消耗技能牌,联机,精神灌输,Mental Infusion,精神灌輸,精神注入,焚毁你的全部手牌，指定的友方单位获得对应的同名卡牌。,焚毀你的全部手牌，指定的友方單位獲得對應的同名卡牌。,Burn all cards in your hand. The chosen allied unit gains cards with the same names.,あなたの手札をすべて焼却し、指定した味方ユニットは対応する同名カードを獲得する。
+2,消耗技能牌,联机,输血,Transfusion,輸血,輸血,流失10%生命，恢复目标友方两倍的生命值。,流失10%生命，恢復目標友方兩倍的生命值。,Lose 10% Health and restore twice that amount of Health to the target ally.,HPを10%失い、対象の味方のHPをその2倍回復する。
+3,消耗技能牌,联机,思维投影,Mind Projection,思維投影,思考投影,选择一张手牌，给予友方同名手牌。,選擇一張手牌，給予友方同名手牌。,Choose a card in your hand and give a card with the same name to a friendly ally.,手札を1枚選び、味方に同名の手札を与える。
+4,消耗技能牌,联机,战术防御,Tactical Defense,戰術防禦,戦術防御,自身获得3层易伤，目标友方单位获得3层坚毅,自身獲得3層{buff_vulnerability}，目標友方單位獲得3層{buff_impregnable}。,"Gain 3 stack(s) of {buff_vulnerability}, and the target friendly unit gains 3 stack(s) of {buff_impregnable}.",自身が{buff_vulnerability}を3スタック獲得し、対象の味方ユニットが{buff_impregnable}を3スタック獲得する。
+5,消耗技能牌,联机,魔能转移,Mana Transfer,魔能轉移,魔能転移,给予一名友方单位2点魔能,給予一名友方單位2點魔能。,Grant 2 Mana to an allied unit.,味方ユニット1体に魔力を2付与する。
+6,消耗技能牌,,争斗号角,Horn of Strife,争斗号角,争闘の角笛,所有友方单位获得50层超凡。,所有友方单位获得50层超凡。,All allied units gain 50 stacks of {buff_extraordinary}.,すべての味方ユニットが{buff_extraordinary}を50スタック獲得する。
+7,消耗技能牌,,白银委托令,Silver Writ,白银委托令,白銀の依頼書,仪式：指向一个敌方单位，当其被击杀时，所有人恢复2点魔能，抽2张牌,儀式：指向一個敵方單位，當其被擊殺時，所有人恢復2點魔能，抽2張牌。,"Ritual: target an enemy unit. When it is killed, everyone restores 2 Mana and draws 2 cards.",儀式：敵ユニット1体を対象にする。その対象が倒された時、全員が魔力を2回復し、カードを2枚引く。
+8,消耗技能牌,,祈愿 · 新生,Prayer: Newborn,祈愿 · 新生,祈願・新生,所有友方单位获得5层自愈,所有友方单位获得5层自愈,All allied units gain 5 stacks of {buff_evergreen}.,すべての味方ユニットが{buff_evergreen}を5スタック獲得する。
+9,消耗技能牌,,列阵！,Form Ranks!,列阵！,列陣！,所有友方单位获得10点护盾,所有友方单位获得10点护盾,All allied units gain 10 Shield.,すべての味方ユニットが10シールドを獲得する。
+10,消耗技能牌,,翠玉委托令,Jade Writ,翠玉委托令,翡翠の依頼書,仪式：指向一个敌方单位，当其被击杀时，击杀者获得40金币,仪式：指向一个敌方单位，当其被击杀时，击杀者获得40金币,"Ritual: target an enemy unit. When it is killed, the killer gains 40 Gold.",儀式：敵ユニット1体を対象にする。その対象が倒された時、撃破者は40ゴールドを獲得する。
+11,消耗技能牌,,祈愿 · 超频,Overclock Rite,祈愿 · 超频,祈願・オーバークロック,指向友方单位，目标的所有技能冷却-1,指向友方單位，目標的所有技能冷卻-1。,Target an allied unit. All of the target's skill cooldowns -1.,味方ユニット1体を対象にする。対象のすべてのスキルクールダウン-1。
+12,消耗技能牌,,噩梦代偿,Nightmare Due,噩梦代偿,悪夢の代償,选择一名友方单位，转移他身上的所有负面异常给你,选择一名友方单位，转移他身上的所有负面异常给你,Choose an allied unit. Transfer all of their negative abnormalities to you.,味方ユニット1体を選ぶ。そのユニットのすべての負面異常を自分に移す。
+13,消耗技能牌,,联邦交易所,Federal Exchange,联邦交易所,連邦取引所,所有友方获得60金币。,所有友方获得60金币。,All allies gain 60 Gold.,すべての味方が60ゴールドを獲得する。
+14,消耗技能牌,,祈愿 · 静谧,Stillness Prayer,祈愿 · 静谧,祈願・静謐,自身立刻死亡，给予敌方全体1层时停。,自身立刻死亡，给予敌方全体1层时停。,Die immediately. Apply 1 stack of {buff_timestop} to all enemies.,自身がただちに死亡する。すべての敵に{buff_timestop}を1スタック付与する。
+15,消耗技能牌,,战争议会,War Council,战争议会,戦争評議会,所有友方单位抽3张牌。,所有友方单位抽3张牌。,All allied units draw 3 cards.,すべての味方ユニットがカードを3枚引く。
+16,消耗技能牌,,神圣牺牲,Sacred Sacrifice,神圣牺牲,神聖なる犠牲,令一名友方复活并恢复50%最大生命，自身获得1层时停。,令一名友方复活并恢复50%最大生命，自身获得1层时停。,Revive an ally and restore 50% of their Max Health. Gain 1 stack of {buff_timestop}.,味方1体を復活させ、最大HPの50%を回復する。自身は{buff_timestop}を1スタック獲得する。
+17,消耗技能牌,,集众魔女之愿,Witches' Wish,集众魔女之愿,集いし魔女の願い,"给与所有人一层愿力。对敌方目标，造成所有人愿力层数5倍伤害； 
+给予除自己外其他友方同名卡牌 ","給予所有人1層{buff_VowPower}。對敵方目標，造成所有人{buff_VowPower}層數5倍的傷害；
+給予除自己外其他友方同名卡牌。","Give everyone 1 stack of {buff_VowPower}. Against an enemy target, deal damage equal to 5 times everyone's total {buff_VowPower} stacks.
+Give other allies a card with the same name as this one.","全員に願力を1スタック付与する。敵対象には、全員の願力スタック合計の5倍のダメージを与える。
+自分以外の味方に同名カードを与える。"

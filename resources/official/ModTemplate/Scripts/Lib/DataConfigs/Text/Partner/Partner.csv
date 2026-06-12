@@ -1,0 +1,23 @@
+﻿Id,Note,Name,Description,Name_zh-Hant,Name_en,Description_zh-Hant,Description_en,Name_ja,Description_ja,Passive1,Passive1_zh-Hant,Passive1_en,Passive1_ja
+Id,备注,名字,描述,名字,Name,描述,Description,名前,説明,,,,
+10001,,报丧偈羽,本来无名姓,報喪偈羽,Crow,本來無名姓,Originally nameless,観察者,元々名もなき存在,"<name>报丧偈羽</name>
+<des>魔女造成伤害时，对全体敌方附带一次5点真实伤害。</des>","<name>報喪偈羽</name>
+<des>魔女造成傷害時，對全體敵方附帶一次5點真實傷害。</des>","<name>Death-herald Feather</name><des>When the witch deals damage, also deal 5 True Damage to all enemies.</des>",<name>報喪偈羽</name><des>魔女がダメージを与えるとき、全ての敵に1回の真のダメージを追加で与える</des>
+*10002,,匣上黑猫,匣上黑猫,黑貓,Black Cat,黑貓,Lucky Black Cat,黒猫,幸運の黒猫,"<name>冥界追魂</name>
+<des>战斗开始时。给与魔女重生70。复活后，此祝福失效。</des>","<name>冥界追魂</name>
+<des>戰鬥開始時。給予魔女重生70。復活後，此祝福失效。</des>","<name>Lucky Black Cat</name><des>At combat start, grant the Witch 70 Rebirth. After revival, this blessing becomes invalid.</des>",<name>幸運な黒猫</name><des>魔女が死亡すると、魔女の体力を20回復する。</des>
+10003,,噩梦原型,本来无名姓,噩夢原型,Nightmare Proto,本來無名姓,Originally nameless,悪夢の原型,もとは名も姓もなかった,"<name>复合厄运</name>
+<des>魔女给与敌人负面效果时，有20%概率额外给一层。</des>","<name>復合厄運</name>
+<des>魔女給予敵人負面效果時，有20%概率額外給一層。</des>","<name>Compound Misfortune</name>
+<des>When the witch applies a negative effect to an enemy, there is a 20% chance to apply 1 extra stack.</des>","<name>複合厄災</name>
+<des>魔女が敵に悪性効果を付与する時、20%の確率で追加で1スタック付与する。</des>"
+*10004,,使魔猫猫,本来无名姓,使魔貓貓,Familiar Kitty,本來無名姓,Originally nameless,使い魔の猫,もとは名も姓もなかった,"<name>使魔猫猫</name>
+<des>战斗开始时给与魔女一张大奖。</des>","<name>使魔貓貓</name>
+<des>戰鬥開始時給予魔女一張大獎。</des>","<name>Familiar Kitty</name>
+<des>At combat start, give the witch 1 Jackpot card.</des>","<name>使い魔の猫</name>
+<des>戦闘開始時、魔女に大当たりを1枚付与する。</des>"
+*10005,,小克莉斯娜,本来无名姓,小克莉斯娜,Little Krisna,本來無名姓,Originally nameless,小さなクリスナ,もとは名も姓もなかった,"<name>万能口袋</name>
+<des>战斗开始时随机给与魔女一张带有焚毁的行动牌，此牌在本场战斗打出费用为0。</des>","<name>萬能口袋</name>
+<des>戰鬥開始時隨機給予魔女一張帶有焚毀的行動牌，此牌在本場戰鬥打出費用為0。</des>","<name>Omni Pocket</name>
+<des>At combat start, randomly give the witch 1 Action card with Burn. This card costs 0 to play this combat.</des>","<name>万能ポケット</name>
+<des>戦闘開始時、焼却を持つランダムなアクションカードを魔女に1枚付与する。このカードはこの戦闘中、打ち出すコストが0になる。</des>"

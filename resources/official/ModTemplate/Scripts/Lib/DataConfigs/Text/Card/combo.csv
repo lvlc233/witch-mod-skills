@@ -1,0 +1,29 @@
+﻿Id,Type,Note,Name,Description,Name_zh-Hant,Name_en,Description_zh-Hant,Description_en,Name_ja,Description_ja
+唯一的标识（不能重复）,类型,备注,名称,描述,名稱,Name,描述,Description,名称,説明
+1,攻击牌,唤神,圣裁,"造成{0}点伤害。
+ 唤神:造成5+神启层数点伤害。",聖裁,Holy Judgment,"造成{0}點傷害。
+ 喚神:造成5+神啓層數點傷害。","Deal {0} damage.
+Invocation: Deal 5 + {buff_revelation} stack(s) damage.",聖裁,{0}ダメージを与える。\n 神を呼ぶ：5+{buff_revelation}スタック分のダメージを与える。
+2,攻击牌,唤神,群星落,"造成{0}点伤害。
+ 唤神:造成三*(1+神启层数)点伤害。",群星落,Starfall,"造成{0}點傷害。
+ 喚神:造成三*(1+神啓層數)點傷害。","Deal {0} damage.
+Invocation: Deal 3 x (1 + {buff_revelation} stack(s)) damage.",群星落,{0}ダメージを与える。\n 神を呼ぶ：3×(1+{buff_revelation}スタック)ダメージを与える。
+3,技能牌,唤神,宣告,"对全体敌人造成神启平方点伤害,自身获得神启平方点护盾,消耗所有神启。",宣告,Proclamation,"對全體敵人造成神啓平方點傷害,自身獲得神啓平方點護盾,消耗所有神啓。","Deal {buff_revelation} squared damage to all enemies, gain {buff_revelation} squared Shield for yourself, consume all {buff_revelation}.",宣告,全ての敵に{buff_revelation}の二乗ダメージを与え、自身は{buff_revelation}の二乗ブロックを得る。全ての{buff_revelation}を消費する。
+4,技能牌,唤神,星界启示,唤神:获得{0}+神启层数一半的神启。,星界啟示,Astral Insight,喚神:獲得{0}+神啓層數一半的神啓。,Invocation: Gain {0} + half your {buff_revelation} stack(s) as {buff_revelation}.,星界啓示,神を呼ぶ：さらに{0}+{buff_revelation}スタックの半分を得る。
+5,技能牌,唤神,重塑祷告," 唤神:若神启>3,获得{0}点魔能。",重塑禱告,Reshape Prayer," 喚神:若神啓>3,獲得{0}點魔能。","Invocation: If {buff_revelation}>3, gain {0} Mana.",再構の祈り,神を呼ぶ：{buff_revelation}>3の場合、{0}マナを得る。
+6,技能牌,唤神,伪·使徒之枪,"唤神:造成{0}×神启层数点伤害。如果神启>{1},返还{2}点魔能。",偽·使徒之槍,Faux Apostle Gun,"喚神:造成{0}×神啓層數點傷害。如果神啓>{1},返還{2}點魔能。","Invocation: Deal damage equal to {0} x {buff_revelation} stacks. If {buff_revelation} > {1}, refund {2} Mana.",偽・使徒の銃,神を呼ぶ：{0}×{buff_revelation}スタック分のダメージを与える。{buff_revelation}>{1}の場合、{2}マナを返還する。
+7,技能牌,唤神,星界降灵,唤神:抽{0}张牌。,星界降靈,Astral Descent,喚神:抽{0}張牌。,Invocation: Draw {0} card(s).,星界降霊,神を呼ぶ：カードを{0}枚引く。
+8,技能牌,唤神,圣灵屏障,"获得{0}点护盾。
+ 唤神:获得{1}点护盾。",聖靈屏障,Holy Barrier,"獲得{0}點護盾。
+ 喚神:獲得{1}點護盾。","Gain {0} Shield.
+Invocation: Gain {1} Shield.",聖霊障壁,{0}ブロックを得る。\n 神を呼ぶ：{1}ブロックを得る。
+9,攻击牌,唤神,银弹装填,给予弱点。唤神:返还{0}点魔能。,銀彈裝填,Silver Reload,給予弱点。喚神:返還{0}點魔能。,Apply {buff_weakness}. Invocation: Refund {0} Mana.,銀弾装填,{buff_vulnerability}を付与。神を呼ぶ：{0}マナを返還する。
+10,消耗技能牌,唤神,克莉斯娜唤神术,将手卡中所有唤神牌的使用效果生效一次。唤神:获得手牌中唤神牌数量乘五的超凡。,克莉斯娜喚神術,Krisna Calling,將手卡中所有喚神牌的使用效果生效一次。喚神:獲得手牌中喚神牌數量乘五的超凡。,Trigger the effect of all Invocation cards in hand once. Invocation: Gain {buff_extraordinary} equal to 5× number of Invocation cards in hand.,クリスナ神召術,手札の全ての神を呼ぶカードの効果を1回発動。神を呼ぶ：手札の神を呼ぶカード数×5の{buff_extraordinary}を得る。
+11,消耗技能牌,唤神,纯化祷言,"焚毁手卡中所有非唤神牌,若神启小于八层,获得4层流血。",純化禱言,Purity Prayer,"焚毀手卡中所有非喚神牌,若神啓小於八層,獲得4層流血。","Burn all non-Invocation cards in hand. If {buff_revelation} is less than 8 stack(s), gain 4 stack(s) of {buff_bleeding}.",浄化の祈り,手札の全ての非神を呼ぶカードを消尽する。{buff_revelation}が8スタック未満の場合、{buff_bleeding}を4スタック獲得する。
+12,消耗技能牌,唤神,古蕾降神术,"获得{0}层灼烧。
+ 唤神:本回合,当你打出唤神牌时,有(神启层数*4%)概率使下一张卡额外打出一次。",古蕾降神術,Gulei Calling,"獲得{0}層灼燒。
+ 喚神:本回合,當你打出喚神牌時,有(神啓層數*4%)概率使下一張卡額外打出一次。","Gain {0} stack(s) of {buff_burn}.
+Invocation: This turn, when you play an Invocation card, there is a ({buff_revelation} stack(s) x 4%) chance to play the next card one additional time.",グレイ降神術,{buff_burn}を{0}スタック獲得する。\n 神を呼ぶ：このターン、神を呼ぶカードをプレイした時、({buff_revelation}スタック×4%)の確率で次のカードを追加でもう一度プレイする。
+13,消耗技能牌,唤神,再生祷言,"本回合,你每打出一张唤神牌,获得{0}点生命。唤神:回复神启层数%的生命值。",再生禱言,Regen Prayer,"本回合,你每打出一張喚神牌,獲得{0}點生命。喚神:回復神啓層數%的生命值。","This turn, gain {0} Health for each Invocation card you play. Invocation: Heal {buff_revelation} stack(s)% of Max Health.",再生の祈り,このターン、神を呼ぶカードをプレイする度に{0}HPを得る。神を呼ぶ：最大HPの{buff_revelation}スタック%を回復する。
+14,攻击牌,唤神,银弹连发,"造成{0}伤害。唤神:造成4+银弹连发被打出的次数/2的伤害,现在为{1}。",銀彈連發,Silver Burst,"造成{0}傷害。喚神:造成4+銀彈連發被打出的次數/2的傷害,現在為{1}。","Deal {0} damage. Invocation: Deal 4 plus (the number of times Silver Burst has been played / 2) damage, currently {1}.",銀弾連発,{0}ダメージを与える。神を呼ぶ：4+(このカードがプレイされた回数/2)ダメージを与える。現在{1}。
+15,消耗攻击牌,唤神,菲奥涅裁决术,唤神:对当前生命值小于(10+神启层数)%最大生命值的目标造成100%最大生命值的真实伤害。,菲奧涅裁決術,Fione's Judgment,喚神:對當前生命值小於(10+神啓層數)%最大生命值的目標造成100%最大生命值的真實傷害。,Invocation: Deal True Damage equal to 100% of Max Health to targets whose current Health is less than (10 + {buff_revelation} stack(s))% of Max Health.,フィオネ裁決術,神を呼ぶ：現在HPが最大HPの(10+{buff_revelation}スタック)%未満の対象に、最大HPの100%の確定ダメージを与える。

@@ -1,0 +1,13 @@
+﻿Id,Text,Text_zh-Hant,Text_en,Text_ja,ChoiceText1,ChoiceText1_zh-Hant,ChoiceText1_en,ChoiceText1_ja,ChoiceText2,ChoiceText2_zh-Hant,ChoiceText2_en,ChoiceText2_ja
+对话Id,对话正文,對話正文,Dialogue Text,对话正文,选项1文本,選項1文本,Choice 1 Text,选项1文本,,,,
+1,……这本也不是，这么多书，总不能一本一本翻过去吧……,……這本也不是，這麼多書，總不能一本一本翻過去吧……,...Not this one either. There are so many books. I cannot just check them one by one...,……これも違う。こんなに本があるのに、一冊ずつめくっていくわけにもいかないし……,,,,,,,,
+2,阿米莉娅姐姐？,阿米莉婭姐姐？,Amelia?,アメリアお姉ちゃん？,,,,,,,,
+3,可可？,可可？,Coco?,ココ？,,,,,,,,
+4,难得看到阿米莉娅姐姐读书,難得看到阿米莉婭姐姐讀書。,"It is rare to see you reading, Amelia.",アメリアお姉ちゃんが本を読んでいるなんて珍しいね。,,,,,,,,
+5,嗯……如果是我平时我肯定是懒得碰这些信息炸弹的，但我现在开始对“魔女”的起源越来越好奇了……,嗯……如果是我平時肯定懶得碰這些資訊炸彈，但我現在開始對「魔女」的起源越來越好奇了……,"Mm... Normally I would be too lazy to touch these information bombs, but I am getting more and more curious about the origin of witches...",うん……普段の私なら、こんな情報の塊には触るのも面倒だけど、今は「魔女」の起源がどんどん気になってきて……,,,,,,,,
+6,可是……我记得主天使大人说姐姐就是世界上第一位魔女,可是……我記得主天使大人說姐姐就是世界上第一位魔女。,But... I remember the Archangel saying you were the first witch in the world.,でも……主天使様は、お姉ちゃんが世界で最初の魔女だって言っていた気がする。,,,,,,,,
+7,起源什么的，姐姐居然也不清楚吗……？,起源什麼的，姐姐居然也不清楚嗎……？,You do not even know about the origin...?,起源のこと、お姉ちゃんも知らないの……？,,,,,,,,
+8,（阿米莉娅合上了那本厚厚的典籍）,（阿米莉婭合上了那本厚厚的典籍）,(Amelia closed the thick tome.),（アメリアは分厚い典籍を閉じた）,,,,,,,,
+9,……不知道是睡的太久还是一些其他的原因，我对过去完全没有印象,……不知道是睡得太久還是一些其他的原因，我對過去完全沒有印象。,"...I do not know whether I slept too long or if there is some other reason, but I have no memory of the past at all.",……長く眠りすぎたせいなのか、他に理由があるのか分からないけど、私は過去のことをまったく覚えていない。,,,,,,,,
+10,说是原初魔女，但就算是这个名号，也是别人告诉我的，她真的是事实吗……？,說是原初魔女，但就算是這個名號，也是別人告訴我的，這真的是事實嗎……？,"They call me the Primordial Witch, but even that title is something someone else told me. Is it really true...?",原初の魔女と言われているけど、その肩書きでさえ人から聞かされたもの。本当に事実なのかな……？,,,,,,,,
+11,现在也只能凭这些蛛丝马迹去倒推原因了。,現在也只能憑這些蛛絲馬跡去倒推原因了。,"For now, all I can do is work backward from these clues.",今はこうした手がかりから、原因を逆算するしかない。,,,,,,,,

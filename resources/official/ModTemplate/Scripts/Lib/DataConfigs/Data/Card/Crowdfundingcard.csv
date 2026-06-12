@@ -1,0 +1,239 @@
+﻿Id,Rarity,Expend,Tag,InitScript,DrawScript,UseScript,DropScript,Icon,Effects,Action,PackBelong
+唯一的标识（不能重复）,稀有度,花费,标签,卡牌初始化脚本,卡牌抽到后执行,卡牌使用后执行,卡牌进入弃牌堆后执行,图标资源的路径,特效,动作,cardpack id
+1,2,1,,"Vars[""BaseScript""]=""AttackCardItem"";AddDescription(""1"",""Buff"",""1"");AddDescription(""2"",""Value"",""3"");",,"SetStatus(""Target"");for(int i=0;i<3;i++){Resentment(""1"");}if(Object.Count>0){var t=Object[0];var buffs=t.GetBuffs();if(buffs!=null){var neg=buffs.Where(x=>x!=null&&x.buffConfig!=null&&x.buffConfig.dataConfig.data[""Type""]==""负面"").ToArray();foreach(var b in neg){SetStatusById(t.InstanceId);AddBuff(b.buffConfig.BuffId,""1"");}int nt=neg.Select(x=>x.buffConfig.BuffId).Distinct().Count();var re=t.GetBuff(DataId.buff_resentment);int rv=re==null?0:re.buffConfig.Level;if(rv*nt>t.CurHp){SetStatusById(t.InstanceId);Damage(t.CurHp.ToString(),""True"");}}}",,Icon/Card/法薇尔咒杀术,,Skill,cardpack_5
+2,2,1,Burnout,"Vars[""BaseScript""]=""AttackCardItem"";AddDescription(""1"",""Buff"",""1"");",,"SetStatus(""Target"");int nt=0;if(Object.Count>0){var buffs=Object[0].GetBuffs();if(buffs!=null){nt=buffs.Where(x=>x!=null&&x.buffConfig!=null&&x.buffConfig.dataConfig.data[""Type""]==""负面"").Select(x=>x.buffConfig.BuffId).Distinct().Count();}}AddBuff(DataId.buff_weak,(1+1*nt).ToString());",,Icon/Card/空寂凄冷,,,cardpack_5
+3,1,1,,"Vars[""BaseScript""]=""AttackCardItem"";AddDescription(""1"",""Damage"",""1"");AddDescription(""2"",""Buff"",""1"");",,"SetStatus(""Target"");int plus=0;if(Object.Count>0){var re=Object[0].GetBuff(DataId.buff_resentment);
+        if(re!=null){plus=re.buffConfig.Level/3;}}
+        Damage((1+plus).ToString());Resentment((1+plus).ToString());
+        AddCardToDeckById(dataConfig.data[""Id""],false);",,Icon/Card/裂解恶念,,Skill,cardpack_5
+4,1,1,,"Vars[""BaseScript""]=""AttackCardItem"";AddDescription(""1"",""Damage"",""1"");
+        int baseDa=1;
+        if (!Self.IsNull())
+        {
+            baseDa=Self.DamageCalculate(1);
+        if (Object.Count>0)
+        {
+            baseDa=Object[0].UnDamageCalucate(baseDa);
+        }
+        if (baseDa>10)
+        {
+            baseDa=10;
+        }
+        }
+        
+        AddDescription(""2"",""Value"",(baseDa).ToString());",,"SetStatus(""Target"");for(int i=0;i<3;i++){Damage(""1"");}
+        int baseDa=Self.DamageCalculate(1);
+        if (Object.Count>0)
+        {
+            baseDa=Object[0].UnDamageCalucate(baseDa);
+        }        if (baseDa>10)
+        {
+            baseDa=10;
+        }
+        Resentment(baseDa.ToString());",,Icon/Card/哀恨戳刺,,Attack,cardpack_5
+*5,2,1,,"Vars[""BaseScript""]=""AttackCardItem"";AddDescription(""1"",""Buff"",""1"");AddDescription(""2"",""Damage"",""8"");",,"SetStatus(""Target"");Resentment(""1"");int nt=0;if(Object.Count>0){var buffs=Object[0].GetBuffs();if(buffs!=null){nt=buffs.Where(x=>x!=null&&x.buffConfig!=null&&x.buffConfig.dataConfig.data[""Type""]==""负面"").Select(x=>x.buffConfig.BuffId).Distinct().Count();}}if(nt>0){Damage((8*nt).ToString());}",,Icon/Card/卡面占位,,Skill,cardpack_5
+6,3,1,,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Defence"",""10"");AddDescription(""2"",""Value"",""8"");
+       AddDescription(""3"",""Draw"",""1"");AddDescription(""4"",""Buff"",""100""); if (int.Parse(Vars[""ThisCount""])<2)
+        {
+            Vars[""NeedRemove""]=""False"";
+        }
+        else
+        {
+            Vars[""NeedRemove""]=""True"";
+        }",,"SetStatus(""Self"");int c=int.Parse(Vars.GetValueOrDefault(""ThisCount"",""0""))+1;Vars[""ThisCount""]=c.ToString();
+       if(c==1){ChangeDefence(""10"");}else if(c==2){ChangeHp(""8"");DrawCount(""1"");}
+       else if(c>=3){AddBuff(""buff_rebirth"",""100"");}",,Icon/Card/探究永生,,,cardpack_7
+7,2,1,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";",,"List<IDataConfig> cards = DeckCard.Cast<IDataConfig>().ToList();
+      CopyCardWare(""1"",cards,"""");",,Icon/Card/瞳映岐影,,,cardpack_7
+8,3,1,,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Buff"",""9"");
+       if (PlayerInfo.SpecialVars==null)
+       {
+         return;
+       }
+       int rc=PlayerInfo.SpecialVars.ContainsKey(""ResurrectionCount"")?int.Parse(PlayerInfo.SpecialVars[""ResurrectionCount""]):0;
+        if (rc!=0)
+        {
+            Vars [""SpecialTag""]=Vars.GetValueOrDefault(""SpecialTag"","""")+"",Recycle"";
+            TagCheck(dataConfig,""Recycle"");
+        }",,"SetStatus(""Self"");
+        DrawCount(""1"");
+        int rc=PlayerInfo.SpecialVars.ContainsKey(""ResurrectionCount"")?int.Parse(PlayerInfo.SpecialVars[""ResurrectionCount""]):0;
+        if (rc!=0)
+        {
+            AddBuff(""buff_rebirth"",""9"");
+        }",,Icon/Card/衔尾蛇环,,,cardpack_7
+9,2,1,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Buff"",""4"");AddDescription(""2"",""Money"",""100"");",,"SetStatus(""Self"");AddBuff(DataId.buff_elements,""4"");if(PlayerInfo.SpecialVars.ContainsKey(""ResurrectionCount"")&&int.Parse(PlayerInfo.SpecialVars[""ResurrectionCount""])>0){ChangeMoney(""100"");}",,Icon/Card/生之礼赞,,,cardpack_7
+10,2,1,,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Value"",""2"");",,"SetStatus(""Self""); var b = Self.GetBuff(""buff_rebirth"");
+         if (b == null) return; int cost = b.buffConfig.Level / 2;
+          b.buffConfig.Level -= cost; int gain=cost/2;if(gain>0){AddBuff(DataId.buff_keenedge, gain.ToString());}",,Icon/Card/始源序章,,,cardpack_7
+11,3,2,,"Vars[""BaseScript""]=""AttackCardItem"";
+        if (Self==null||Self.GetBuff(""buff_keenedge"")==null)
+        {
+           AddDescription(""1"",""Damage"",""1""); 
+        }
+        else
+        {
+            AddDescription(""1"",""Damage"",(1+Self.GetBuff(""buff_keenedge"").buffConfig.Level).ToString());
+        }
+        AddDescription(""2"",""Value"",""5""); ",,"if (Self==null)
+        {
+            return;
+        }
+        int bufflevel=Self.GetBuff(""buff_keenedge"")!=null?Self.GetBuff(""buff_keenedge"").buffConfig.Level:0;
+        int rc=PlayerInfo.SpecialVars.ContainsKey(""ResurrectionCount"")?int.Parse(PlayerInfo.SpecialVars[""ResurrectionCount""]):0;
+        int dmg=(1+bufflevel)*(int)Math.Pow(2,rc);SetStatus(""AllTarget"");for(int i=0;i<5;i++){Damage(dmg.ToString());}",,Icon/Card/真我重逢,,Skill,cardpack_7
+*13,3,1,,"Vars[""BaseScript""]=""AttackCardItem"";AddDescription(""1"",""Buff"",""1"");AddDescription(""2"",""Damage"",""10"");",,"if(!PlayerInfo.RelicList.Any(x=>x.data[""Id""]==DataId.CrowdFundingRelic_12)){return;}SetStatus(""Self"");AddBuff(DataId.buff_elements,""1"");int curse=PlayerInfo.SpecialVars.ContainsKey(""SevenCursePower"")?int.Parse(PlayerInfo.SpecialVars[""SevenCursePower""]) : 0;int dmg=(int)(10*(1+curse*0.1f));SetStatus(""Target"");Damage(dmg.ToString());SetStatus(""Self"");ChangeHp(Math.Max(1,dmg/10).ToString());var tempList=GetcardsByRarity(""1"",""3"").Where(x=>x[""Tag""].Contains(""Curse"")).ToList();if(tempList.Count>0){string id=tempList[DefaultDice.WithRange(0,tempList.Count-1).Roll().Value][""Id""];AddCardToFightManager(new DataConfig(id,DataType.Card));}",,Icon/Card/卡面占位,,Skill,cardpack_8
+*14,3,1,,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Value"",""1"");",,"SetStatus(""Self"");
+        var tempList = GetcardsOutLock().Where(x=>x[""Tag""].Contains(""Curse"")).ToList();
+            string id= tempList[DefaultDice.WithRange(0, tempList.Count-1).Roll().Value][""Id""];
+            CreateCard(new DataConfig(id,DataType.Card));
+        AddBuff(""buff_ProfaneButterflyHymn"",""1"");",,Icon/Card/卡面占位,,,cardpack_8
+*15,2,1,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Buff"",""2"");",,"SetStatus(""Self"");var tempList=GetcardsByRarity(""1"",""3"").Where(x=>x[""Tag""].Contains(""Curse"")).ToList();for(int i=0;i<2&&tempList.Count>0;i++){string id=tempList[DefaultDice.WithRange(0,tempList.Count-1).Roll().Value][""Id""];RandomAddCard(id);}AddBuff(DataId.buff_contagion,""2"");",,Icon/Card/卡面占位,,,cardpack_8
+*16,3,18,Combo,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Draw"",""5"");
+        if (Self!=null&& Self.GetBuff(DataId.buff_revelation)!=null)
+        {
+            Vars[""OnceExCost""]=(Self.GetBuff(DataId.buff_revelation).buffConfig.Level*-1).ToString();
+        }",,"ShuffleHand();ShuffleDeck();DrawCount(""5"");SetStatus(""Self"");SetPower(PlayerInfo.MaxPower.ToString());",,Icon/Card/卡面占位,,,cardpack_9
+*17,3,2,"Combo, Burnout","Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Buff"",""1"");",,"int c=HandCard.Count(x=>x!=null&&x.data[""Tag""].Contains(""Combo""));SetStatus(""Self"");if(c>0){AddBuff(DataId.buff_extraordinary,c.ToString());}int x=Self.GetBuff(DataId.buff_extraordinary)==null?0:Self.GetBuff(DataId.buff_extraordinary).buffConfig.Level;if(x>0){AddBuff(DataId.buff_impregnable,x.ToString());}if(ComboCheck()){int hc=Math.Max(1,HandCard.Count);AddBuff(DataId.buff_resilient,hc.ToString());AddBuff(DataId.buff_keenedge,hc.ToString());}",,Icon/Card/卡面占位,,,cardpack_9
+*18,3,10,"Combo,Burnout","Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Value"",""50"");AddDescription(""2"",""Buff"",""10"");AddDescription(""3"",""Value"",""50"");",,"SetStatus(""Self"");int selfDamage=Math.Min(Math.Max(1,Self.MaxHp/2),Math.Max(0,Self.CurHp-1));if(selfDamage>0)
+        {ChangeHp((-selfDamage).ToString());}AddBuff(DataId.buff_bleeding,""10"");
+        if(ComboCheck()){int r=Self.GetBuff(DataId.buff_revelation)==null?0:Self.GetBuff(DataId.buff_revelation).buffConfig.Level;
+        int v=(r+1)*50;AddBuff(DataId.buff_extraordinary,v.ToString());SetStatus(""AllTarget"");
+        Damage(v.ToString());DesEnemyAction();}",,Icon/Card/卡面占位,,Skill,cardpack_9
+*20,2,1,,"if (int.Parse(Vars[""ThisCount""])<=2)
+        {
+            Vars[""ThisCount""]=""2"";
+        }
+        Vars[""BaseScript""]=""AttackCardItem"";AddDescription(""1"",""TrueDamage"",""5"");AddDescription(""2"",""TrueDamage"",Vars[""ThisCount""]);",,"SetStatus(""Self"");ChangeHp(""-5"");int p=int.Parse(Vars.GetValueOrDefault(""ThisCount"",""2""));SetStatus(""Target"");if(Object.Count>0){int v=Math.Max(1,Object[0].MaxHp*p/100);Damage(v.ToString(),""True"");}p=Math.Min(18,p+2);Vars[""ThisCount""]=p.ToString();",,Icon/Card/卡面占位,,Skill,cardpack_10
+*21,3,1,Fission,"Vars[""BaseScript""]=""AttackCardItem"";AddDescription(""1"",""Damage"",(Mathf.Pow(2,int.Parse(Vars[""ThisCount""]))+3).ToString());",,"SetStatus(""Target"");Damage(Mathf.Pow(2,int.Parse(Vars[""ThisCount""])+3).ToString());
+        Vars[""ThisCount""]=(int.Parse(Vars[""ThisCount""])+1).ToString();",,Icon/Card/卡面占位,,Skill,cardpack_10
+*22,1,2,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Buff"",""1"");",,"SetStatus(""AllTarget"");AddBuff(DataId.buff_lifelink,""1"");",,Icon/Card/卡面占位,,,cardpack_11
+*23,3,3,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Power"",""1"");",,"SetStatus(""Self"");
+       int c=DeckCard.Count;for(int i=c-1;i>=0;i--){var d=DeckCard[i];
+       UseCard(d);
+       BurnCardByData(d);}
+       if(c>0){ChangePower(c.ToString());}",,Icon/Card/卡面占位,,,cardpack_11
+*24,1,2,,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Buff"",""1"");",,"SetStatus(""Self"");AddBuff(DataId.buff_epiphany,""1"");",,Icon/Card/卡面占位,,,cardpack_11
+*25,1,2,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Value"",""50"");AddDescription(""2"",""Buff"",""1"");",,"SetStatus(""Self"");SetHp(Math.Max(1,Self.MaxHp/2).ToString());AddBuff(DataId.buff_synergies,""1"");",,Icon/Card/卡面占位,,,cardpack_11
+*26,2,0,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Buff"",""1"");","SetStatus(""Self"");if(Vars.GetValueOrDefault(""DejaVuEvent"",""0"")!=""1""){Vars[""DejaVuEvent""]=""1"";AddEvent(""Action"",()=>{if(HandCard.Any(c=>c!=null&&c.dataConfig==dataConfig)){SetStatus(""Self"");AddBuff(DataId.buff_extraordinary,""1"");int lv=Self.GetBuff(DataId.buff_extraordinary)==null?1:Self.GetBuff(DataId.buff_extraordinary).buffConfig.Level;Vars[""ExCost""]=Math.Max(0,lv-1).ToString();var item=HandCard.FirstOrDefault(c=>c!=null&&c.dataConfig==dataConfig);if(item!=null){item.DataUpdate();}}});}int x=Self.GetBuff(DataId.buff_extraordinary)==null?1:Self.GetBuff(DataId.buff_extraordinary).buffConfig.Level;Vars[""ExCost""]=Math.Max(0,x-1).ToString();var selfItem=HandCard.FirstOrDefault(c=>c!=null&&c.dataConfig==dataConfig);if(selfItem!=null){selfItem.DataUpdate();}","SetStatus(""Self"");int x=Math.Max(1,Self.GetBuff(DataId.buff_extraordinary)==null?1:Self.GetBuff(DataId.buff_extraordinary).buffConfig.Level);DrawCount(x.ToString());","SetStatus(""Self"");var b=Self.GetBuff(DataId.buff_extraordinary);if(b!=null){b.buffConfig.Level=0;}Vars[""ExCost""]=""0"";",Icon/Card/卡面占位,,,cardpack_11
+*27,3,4,"Inherent,Burnout,Retain,Froze","Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Buff"",""1"");",,"SetStatus(""Target"");AddBuff(DataId.buff_timestop,""1"");",,Icon/Card/卡面占位,,,cardpack_11
+*28,3,2,Froze,"Vars[""BaseScript""]=""AttackCardItem"";Vars[""Obj""]=""Friends"";AddDescription(""1"",""Buff"",""5"");",,"var t=Object.FirstOrDefault();if(t!=null&&t.InstanceId!=Self.InstanceId){SetStatus(""Target"");AddCardById(dataConfig.data[""Id""]);}","SetStatus(""Self"");RandomAddGoodBuff(""5"",""1"");
+        AddCardToDeckById(dataConfig.data[""Id""],false);
+        AddBuff(""buff_SpellNextPower2"",""1"");BurnCardByData(dataConfig);",Icon/Card/卡面占位,,,cardpack_12
+29,1,2,,"Vars[""BaseScript""]=""AttackCardItem"";AddDescription(""1"",""Value"",""40"");AddDescription(""2"",""Damage"",""5"");AddDescription(""3"",""Defence"",""12"");",,"SetStatus(""Self"");int check=CheckDice.Roll().Value;if(check>=40){SetStatus(""Target"");for(int i=0;i<(check>100?8:4);i++){Damage(""5"");}}else{SetStatus(""Self"");ChangeDefence(""12"");}",,Icon/Card/混乱投枪,,Attack,cardpack_12
+30,1,1,,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Value"",""50"");AddDescription(""2"",""Draw"",""3"");AddDescription(""3"",""Draw"",""1"");",,"int check=CheckDice.Roll().Value;if(check>=50){DrawCount((check>100?6:3).ToString());}else{DrawCount(""1"");}",,Icon/Card/法术灵感,,,cardpack_12
+31,1,1,,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Value"",""50"");AddDescription(""2"",""Value"",""10"");AddDescription(""3"",""Draw"",""1"");",,"SetStatus(""Self"");int check=CheckDice.Roll().Value;if(check>=50){ChangeHp((check>100?20:10).ToString());}else{DrawCount(""1"");}",,Icon/Card/奇迹治愈,,,cardpack_12
+32,1,1,,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Value"",""40"");AddDescription(""2"",""Buff"",""2"");AddDescription(""3"",""Buff"",""1"");",,"SetStatus(""Self"");int check=CheckDice.Roll().Value;if(check>=40){for(int i=0;i<(check>100?2:1);i++){RandomAddGoodBuff(""2"",""1"");}}else{RandomAddGoodBuff(""1"",""0"");}",,Icon/Card/混沌赐福,,,cardpack_12
+33,1,1,,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Defence"",""8"");AddDescription(""2"",""Value"",""60"");AddDescription(""3"",""Buff"",""3"");AddDescription(""4"",""Buff"",""2"");",,"SetStatus(""Self"");ChangeDefence(""8"");int check=CheckDice.Roll().Value;if(check>=60){for(int i=0;i<(check>100?2:1);i++){AddBuff(DataId.buff_elements,""3"");}}else{AddBuff(DataId.buff_toxin,""2"");}",,Icon/Card/涡流盾甲,,,cardpack_12
+34,2,2,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";",,"SetStatus(""Self"");AddEvent(""OnDiceCheck"",()=>{CheckDice.OnRoll += result => { var r2 = CheckDice.InternalRoll(); new Dice.State(Math.Max(result.Value, r2.Value), result.Bonus).CopyTo(result); };});",,Icon/Card/奖励骰,,,cardpack_12
+36,2,1,,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Value"",""60"");AddDescription(""2"",""Power"",""2"");AddDescription(""3"",""Defence"",""8"");",,"SetStatus(""Self"");int check=CheckDice.Roll().Value;if(check>=60){ChangePower((check>100?4:2).ToString());}else{ChangeDefence(""8"");}",,Icon/Card/不稳定魔能,,,cardpack_12
+40,3,2,,"Vars[""BaseScript""]=""AttackCardItem"";AddDescription(""1"",""Damage"",""1"");
+        AddDescription(""2"",""Damage"",""30"");
+        AddDescription(""3"",""Value"",""30"");",,"int pending=1;
+        int targetValue=30;
+        while(pending>0){pending--;SetStatus(""AllRandomTarget1"");
+        int d=DefaultDice.WithRange(1,30).Roll().Value;Damage(d.ToString());
+        int check=CheckDice.Roll().Value;if(check>=targetValue){pending+=check>100?2:1;targetValue+=10;}}",,Icon/Card/厄米娅旋尾刃,,Attack,cardpack_12
+41,3,1,,"Vars[""BaseScript""]=""AttackCardItem"";AddDescription(""1"",""Value"",""90"");AddDescription(""2"",""Buff"",""2"");AddDescription(""3"",""Power"",""1"");AddDescription(""4"",""Value"",""5"");",,"int need=int.Parse(Vars.GetValueOrDefault(""CheckNeed"",""90""));
+        int check=CheckDice.Roll().Value;if(check>=need){SetStatus(""Target"");AddBuff(""SpecialBuff_meowFamiliar"",""2"");if(check>100){AddBuff(""SpecialBuff_meowFamiliar"",""2"");}Vars[""HasBurn""]=""True"";BurnCardByData(dataConfig);}else{SetStatus(""Self"");ChangePower(""1"");Vars[""CheckNeed""]=(need-5).ToString();}",,Icon/Card/变成猫猫吧~,,,cardpack_12
+42,3,3,,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Value"",""95"");AddDescription(""2"",""Value"",""10"");AddDescription(""3"",""Default"",""1~10"");AddDescription(""4"",""Value"",""20"");",,"int need = int.Parse(Vars.GetValueOrDefault(""CheckNeed"", ""95"")); int check = CheckDice.Roll().Value;
+        if (check >= need)
+        {
+            SetStatus(""Self"");
+            var ids = new Dictionary<string, int>{{DataId.buff_elements,6},{DataId.buff_keenedge,8},{DataId.buff_resilient,8},
+        {DataId.buff_impregnable,4},{DataId.buff_cycle,2},{DataId.buff_immortal,1},{DataId.buff_revelation,10}
+        ,{DataId.buff_poised,5},{DataId.buff_evergreen,10}};
+            for (int i = 0; i < (check > 100 ? 2 : 1); i++)
+            {
+                foreach (var id in ids)
+                { AddBuff(id.Key, id.Value.ToString()); }
+            }
+            Vars[""CheckNeed""]=""95"";
+            Vars[""HasBurn""]=""True"";
+            BurnCardByData(dataConfig);
+        }
+        else { Vars[""CheckNeed""] = (need - 20).ToString(); }",,Icon/Card/成为神明吧~,,,cardpack_12
+43,3,3,"Nihility, Burnout","Vars[""BaseScript""]=""CommonCardItem"";",,"SetStatus(""Self"");
+        AddBuff(DataId.buff_bleeding,""1""); 
+        AddBuff(DataId.buff_reverie,""1""); 
+        AddBuff(DataId.buff_immortal,""1""); 
+        AddBuff(DataId.buff_toxin,""999""); ",,Icon/Card/终曲,,,cardpack_12
+44,3,2,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";",,"int check=CheckDice.Roll().Value;
+        bool failed=true;
+        if (check>100)
+        {
+            failed=false;
+            PlayerInfo.RandomAddRelic(""1"");
+            ChangeMoney(""100"");
+            check-=100;
+        }
+        if (check>=80)
+        {
+            failed=false;
+            PlayerInfo.RandomAddRelic(""1"");
+            ChangeMoney(""100"");
+
+        }
+        if (failed)
+        {
+            ChangeHp((Self.MaxHp/(-10)).ToString());
+        }",,Icon/Card/混血秘仪,,,cardpack_12
+45,2,1,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";",,PlayerInfo.TempLucky+=5;,,Icon/Card/装点幸运,,,cardpack_12
+46,3,1,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";",,"int check=CheckDice.Roll().Value;
+        bool failed=true;
+        var cards=GetcardsByRarity(""1"",""3"");
+        if (check>100)
+        {
+            failed=false;
+            var tempList=cards.Where(x=>x[""Rarity""]==""3"").ToList();
+            int index=DefaultDice.WithRange(0,tempList.Count()-1).Roll().Value;
+            string tempId=tempList[index][""Id""];
+            var tempdata=new DataConfig(tempId,DataType.Card);
+            tempdata.Vars[""TotalExCost""]=""-99"";
+            CreateCard(tempdata);
+            check-=100;
+        }
+        if (check>=60)
+        {
+            failed=false;
+            var tempList=cards.Where(x=>x[""Rarity""]==""3"").ToList();
+            int index=DefaultDice.WithRange(0,tempList.Count()-1).Roll().Value;
+            string tempId=tempList[index][""Id""];
+            var tempdata=new DataConfig(tempId,DataType.Card);
+            tempdata.Vars[""TotalExCost""]=""-99"";
+            CreateCard(tempdata);
+
+        }
+        if (failed)
+        {
+            var tempList=cards.Where(x=>x[""Rarity""]==""1"").ToList();
+            int index=DefaultDice.WithRange(0,tempList.Count()-1).Roll().Value;
+            string tempId=tempList[index][""Id""];
+            var tempdata=new DataConfig(tempId,DataType.Card);
+            tempdata.Vars[""TotalExCost""]=""-99"";
+            CreateCard(tempdata);
+        }",,Icon/Card/鬼牌秘术,,,cardpack_12
+47,2,2,,"Vars[""BaseScript""]=""CommonCardItem"";",," ChooseCardToAction(""20"", (cardlist) =>
+        {
+            foreach (var item in cardlist)
+            {
+                AddBuff(DataId.buff_rebirth,""15"");
+                item.InternalBurning();
+            }
+
+        },""2"");",,Icon/Card/残鳞祭仪,,,cardpack_7
+48,3,0,Nihility,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Heal"",""10"");",,"SetStatus(""Self"");
+       ChangeHp(""10"");
+       ChangePower(""1"");",,Icon/Card/水晶果冻,,,cardpack_7
+49,2,1,,"Vars[""BaseScript""]=""CommonCardItem"";
+        if (Self!=null)
+        {
+            AddDescription(""1"",""Value"",(Self.MaxHp/5/4).ToString());
+        }
+        else
+        {
+            AddDescription(""1"",""Value"",""0"");
+        }",,"int count=Self.MaxHp/5;
+       ChangeHp((count*-1).ToString());
+       AddBuff(DataId.buff_rebirth,(count/4).ToString());
+AddBuff(DataId.buff_keenedge,(count/4).ToString());",,Icon/Card/绯咏弦奏,,,cardpack_7

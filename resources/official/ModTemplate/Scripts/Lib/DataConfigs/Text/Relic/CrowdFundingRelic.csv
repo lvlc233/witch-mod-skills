@@ -1,0 +1,221 @@
+﻿Id,Note,Series,Tag,Name,Name_zh-Hant,Name_en,Name_ja,Tips,Tips_zh-Hant,Tips_en,Tips_ja,Description,Description_zh-Hant,Description_en,Description_ja
+唯一的标识（不能重复）,备注,系列,标签,名称,名稱,Name,名称,剧情描述,劇情描述,Tips,ストーリー説明,描述,描述,Description,説明
+1,,蛇自阴影中袭来,,蛇蛇的残蜕,蛇蛇的殘蛻,Serpent Slough,蛇の抜け殻の残滓,蛇褪下的残躯，她自回忆中汲取养分，从死亡中回归,蛇褪下的殘軀，她自回憶中汲取養分，從死亡中回歸,The shed remains of a serpent. She draws nourishment from memory and returns from death.,蛇が脱ぎ捨てた残骸。彼女は記憶から糧を得て、死より帰ってくる。,"初始具有9层蛇蜕（显示在遗物右下角的数字），受到超过最大生命5%的敌人的攻击时，消耗蛇蜕层数恢复等同于（受到伤害+最大生命5%）的生命，直至敌人攻击次数耗尽或者不再受到伤害
+当携带者在战斗中死而复生时，恢复9层蛇蜕","初始具有9層蛇蛻（顯示在遺物右下角的數字），受到超過最大生命5%的敵人的攻擊時，消耗蛇蛻層數恢復等同於（受到傷害+最大生命5%）的生命，直至敵人攻擊次數耗盡或者不再受到傷害
+當攜帶者在戰鬥中死而復生時，恢復9層蛇蛻","Starts with 9 stacks of Serpent Molt (shown as the number at the lower right of the relic). When hit by an enemy attack that deals more than 5% of Max Health, consume Serpent Molt stacks to restore Health equal to (damage taken + 5% of Max Health), until the enemy's attack count is exhausted or no more damage is taken.
+When the bearer triggers {buff_rebirth} in battle, restore 9 stacks of Serpent Molt.","初期状態で蛇蛻を9スタック持つ（遺物右下の数字で表示）。最大HPの5%を超える敵の攻撃を受けた時、蛇蛻スタックを消費し、（受けたダメージ+最大HPの5%）に等しいHPを回復する。敵の攻撃回数が尽きるか、これ以上ダメージを受けなくなるまで続く。
+所持者が戦闘中に死から蘇った時、蛇蛻を9スタック回復する。"
+2,,爱与梦魇的阶梯,,重生徽记,重生徽記,Rebirth Emblem,Rebirthの徽章,,,,,战斗开始时，获得1魔能，若触发死而复生，战斗结束后选择本源各+2,戰鬥開始時，獲得1魔能，若觸發死而復生，戰鬥結束後選擇本源各+2,"At combat start, gain 1 Mana. If {buff_rebirth} is triggered, after combat choose Origins to each gain +2.",戦闘開始時、1マナを獲得する。Rebirthが発動した場合、戦闘終了後に選択した根源がそれぞれ+2される。
+3,,蛇自阴影中袭来,,胧月樱,朧月櫻,Hazy-Moon Sakura,朧月桜,眼若湖中月，肤如雪上樱，发似晚间星——也许什么都已经被遗忘了，只是还能回忆起那胧月夜中、樱花树下，与那朵未绽的花。,眼若湖中月，膚如雪上櫻，髮似晚間星——也許什麼都已經被遺忘了，只是還能回憶起那朧月夜中、櫻花樹下，與那朵未綻的花。,"Eyes like the moon on a lake, skin like cherry blossoms on snow, hair like evening stars. Perhaps everything else has been forgotten, yet that hazy moonlit night beneath the sakura tree remains, along with the flower that had not yet bloomed.",瞳は湖面の月、肌は雪上の桜、髪は夜の星のよう。もう何もかも忘れてしまったのかもしれない。ただ、朧月の夜、桜の木の下、まだ咲かぬあの花のことだけは思い出せる。,战斗中，每焚毁1张卡牌，获得3层重生。,戰鬥中，每焚毀1張卡牌，本遺物增加1點計數。死亡時，若本遺物至少擁有10點計數，則以1HP復活。那之後，清除本遺物的所有計數，每清除1點計數恢復5%的生命值,"During combat, each time you Burn 1 card, gain 3 stacks of {buff_rebirth}.",戦闘中、カードを1枚Burnするたび、この遺物のカウント+1。死亡時、この遺物のカウントが10以上ならHP1で復活する。その後、この遺物の全カウントを消去し、消去したカウント1につきHPを5%回復する。
+4,,蛇自阴影中袭来,,逝者的庇佑,逝者的庇佑,Departed Ward,逝きし者の庇護,一枚破损的魔女徽章，上面描述着一名魔女为了保护而做出的决绝。,一枚破損的魔女徽章，上面描述著一名魔女為了保護而做出的決絕。,"A damaged witch's emblem, bearing the resolve of a witch who chose everything for the sake of protection.",壊れた魔女の徽章。そこには、守るために決意を貫いた一人の魔女が描かれている。,自带1充能。战斗开始时如果有充能获得100重生。重生时充能-1。boss战胜利时恢复1充能；每回合结束时受到当前生命值18%的真实伤害。,自帶1充能。戰鬥開始時如果有充能獲得1次重生次數。重生時充能-1。boss戰勝利時恢復1充能；每回合結束時受到當前生命值10%的真實傷害。,"Starts with 1 charge. At combat start, if it has any charge, gain 100 {buff_rebirth}. When {buff_rebirth} triggers, charge -1. Restore 1 charge after winning a boss battle. At the end of each turn, take True Damage equal to 18% of current Health.",初期状態で充能を1持つ。戦闘開始時、充能がある場合はRebirth回数を1得る。Rebirth時、充能-1。ボス戦に勝利すると充能を1回復する。各ターン終了時、現在HPの10%のTrue Damageを受ける。
+5,,爱与梦魇的阶梯,,哀怨结鸣,哀怨結鳴,Lament Chime,哀怨の結鳴,曾属于魔女法薇尔的吊坠，亦是她魔力回路的核心，轻抚结晶的表面，紫色魔女的意识穿越时空渗入持有者的意识：“这边对你的爱，如同你对我的恨一般炽烈，就让我们一起堕入深渊吧~♡”,曾屬於魔女法薇爾的吊墜，亦是她魔力迴路的核心，輕撫結晶的表面，紫色魔女的意識穿越時空滲入持有者的意識：「這邊對你的愛，如同你對我的恨一般熾烈，就讓我們一起墮入深淵吧~♡」,"A pendant once belonging to the witch Favir, and the core of her mana circuit. Brush the crystal surface, and the purple witch's consciousness seeps through time and space into the bearer's mind: “My love for you burns as fiercely as your hatred for me. Let us fall into the abyss together~♡”",かつて魔女ファヴィルが持っていたペンダントであり、彼女の魔力回路の核でもある。結晶の表面を撫でると、紫の魔女の意識が時空を越えて所持者の意識へ滲み込む。「こちらのあなたへの愛は、あなたの私への憎しみと同じくらい熱いの。一緒に深淵へ堕ちましょう~♡」,受伤时，如果伤害来源不是自己，回复等同攻击者负面状态种数的血量，然后攻击者的所有已拥有负面状态增加1层。,受傷時，回復等同攻擊者負面狀態種數的血量，然後攻擊者的所有已擁有負面狀態增加1層。,"When damaged, restore Health equal to the number of negative status types on the attacker, then increase all negative statuses already on the attacker by 1 stack.",ダメージを受けた時、攻撃者が持つ負面状態の種類数に等しいHPを回復する。その後、攻撃者がすでに持つ全ての負面状態を1スタック増加させる。
+6,,爱与梦魇的阶梯,,雪日回忆,雪日回憶,Snowday Memory,雪の日の記憶,记忆的魔女和怨念的魔女留存的片刻回忆，看到感觉心灵被净化了。或许是因为持有的时间很长，所以存留了部分魔力。,記憶的魔女和怨念的魔女留存的片刻回憶，看到感覺心靈被淨化了。或許是因為持有的時間很長，所以存留了部分魔力。,"A brief memory left by the witch of memory and the witch of Resentment. Looking at it feels as if the heart has been purified. Perhaps because it was held for so long, a portion of magic still remains.",記憶の魔女と怨念の魔女が残した一瞬の記憶。見ていると心が浄化されるようだ。長い間持たれていたせいか、魔力の一部が残っている。,你每焚毁1张牌，对所有敌人缠怨2。回合结束时，你可以选择并焚毁1张牌。,你每焚毀1張牌，對所有敵人纏怨4。回合結束時，你可以選擇並焚毀1張牌。,"Each time you Burn 1 card, inflict 2 {buff_resentment} on all enemies. At the end of your turn, you may choose and Burn 1 card.",カードを1枚Burnするたび、全ての敵にResentmentを4付与する。ターン終了時、カードを1枚選んでBurnしてもよい。
+7,,爱与梦魇的阶梯,,洛琳的礼物,洛琳的禮物,Lauryn's Gift,ローリンの贈り物,"来自异世魔王的馈赠,我十分不建议你在不做任何保护措施的情况下打开它",來自異世魔王的饋贈，我十分不建議你在不做任何保護措施的情況下打開它,A gift from a demon lord of another world. I strongly advise against opening it without any protection.,異世界の魔王からの贈り物。何の防護もなしに開けることは、まったくおすすめしない。,战斗开始时对所有敌人缠怨3，自身回合结束时使敌方全体负面状态层数增加其负面种数的层数。,戰鬥開始時對所有敵人纏怨6，自身回合結束時使敵方全體負面狀態層數增加其負面種數的層數。,"At combat start, inflict 3 {buff_resentment} on all enemies. At the end of your turn, increase each enemy's negative status stacks by the number of negative status types they have.",戦闘開始時、全ての敵にResentmentを6付与する。自身のターン終了時、敵全体の負面状態スタックを、その対象が持つ負面状態の種類数分増加させる。
+8,,爱与梦魇的阶梯,,埃文尔牧的絮语,埃文爾牧的絮語,Avenelm Whisper,アヴェネルムの囁き,一段来自一座随风旅行的城市的誓言，一个铭刻着所有不愿驻足的歌声的徽章。每当风声掠过，你总能听见——那座城市还在前行。它在召唤着你。,一段來自一座隨風旅行的城市的誓言，一個銘刻著所有不願駐足的歌聲的徽章。每當風聲掠過，你總能聽見——那座城市還在前行。它在召喚著你。,"A vow from a city that travels with the wind, a badge engraved with every song that refuses to stay. Whenever the wind passes, you can hear it: that city is still moving forward. It is calling to you.",風と旅する都市から届いた誓い。立ち止まることを拒んだ全ての歌声が刻まれた徽章。風が吹き抜けるたび、あなたには聞こえる。その都市はいまも進み続けている。あなたを呼んでいる。,每次给予负面效果时，随机1张手牌本回合下次打出费用-1,每次給予或受到負面效果時，隨機1張手牌本回合下次打出費用-1,"Each time you apply or receive a negative effect, reduce the cost of 1 random card in hand by 1 the next time it is played this turn.",負面効果を付与するか受けるたび、ランダムな手札1枚のこのターン次回プレイ時のコスト-1。
+9,,爱与梦魇的阶梯,,灼魂的白剑,灼魂的白劍,Soulscorch Blade,魂灼く白剣,风之妖精羽蝶的翅膀，传说每当羽蝶振翅都会让风之灵欢欣跃动随之聚集。所以～羽蝶小小的扇扇翅膀，应该不会有多大问题！,風之妖精羽蝶的翅膀，傳說每當羽蝶振翅都會讓風之靈歡欣躍動隨之聚集。所以～羽蝶小小的扇扇翅膀，應該不會有多大問題！,The wing of a wind-fairy featherbutterfly. Legend says every flutter stirs the spirits of wind into delighted motion and gathers them close. So a tiny little flap should not cause much trouble!,風の妖精、羽蝶の翼。羽蝶が羽ばたくたび、風の精霊たちは喜び踊って集まるという。だから、ほんの少し羽ばたくくらいなら、きっと大した問題にはならないはず！,每次给予负面效果时，额外追加1层灼烧效果,每次給予負面效果時，額外追加兩層灼燒效果,"Each time you apply a negative effect, additionally apply 1 stack of {buff_burn}.",負面効果を付与するたび、追加でBurnを2スタック付与する。
+10,,爱与梦魇的阶梯,,双星,雙星,Twin Stars,双星,双星的命运紧密相连，魔女与魔族的命运也是如此。,雙星的命運緊密相連，魔女與魔族的命運也是如此。,"The fates of twin stars are tightly bound, as are the fates of witches and demons.",双星の運命は固く結ばれている。魔女と魔族の運命もまた同じだ。,其他目标每获得2次负面buff时，自身获得1层随机正面buff,其他目標每獲得1次負面buff時，自身獲得1層隨機正面buff,"Whenever another target gains negative buffs 2 times, gain 1 stack of a random positive buff.",他の対象が負面バフを1回獲得するたび、自身はランダムな正面バフを1スタック獲得する。
+*11,,七重试炼,,悖论魔法书,悖論魔法書,Paradox Grimoire,パラドックス魔導書,记载禁忌的真理。将诅咒编织为燃料，世界腐朽之时，终将步向终焉的阶梯。,記載禁忌的真理。將詛咒編織為燃料，世界腐朽之時，終將步向終焉的階梯。,"It records forbidden truths. Curses are woven into fuel; when the world decays, it will at last climb the stairway to the end.",禁忌の真理が記されている。呪いを燃料へと編み、世界が朽ちる時、やがて終焉の階段へ進む。,"战斗时，获得新的卡牌时（包括诅咒，印牌，被塞牌），遗物计数+1
+累计x点计数后，重置计数并使得未满的基础属性+1","戰鬥時，獲得新的卡牌時（包括詛咒，印牌，被塞牌），遺物計數+1
+累計x點計數後，重置計數並使得未滿的基礎屬性+1","During combat, when you gain a new card (including curses, printed cards, and cards added to your deck), this relic's count +1.
+After accumulating x counts, reset the count and increase one base attribute that is not at cap by +1.","戦闘中、新しいカードを獲得した時（呪い、印刷カード、差し込まれたカードを含む）、この遺物のカウント+1。
+xカウント蓄積後、カウントをリセットし、上限に達していない基本ステータスを+1する。"
+*12,,七重试炼,,七咒之戒,七咒之戒,Sevencurse Ring,七呪の指輪,七重诅咒加身，以剧痛与脆弱，换杀戮与财富之极致,七重詛咒加身，以劇痛與脆弱，換殺戮與財富之極致,"Seven curses laid upon the body, trading agony and frailty for the extremes of slaughter and wealth.",七重の呪いを身に受け、激痛と脆さと引き換えに、殺戮と富の極致を得る。,"受到的伤害+40%
+护盾获取量-40%
+受到的治疗量-50%
+金币获得+40%
+回合结束时，随机获得1种负面异常x层
+回合结束时，流失当前生命10%
+战斗结束时，损失当前金币的10%
+战斗开始时，获得3层失格,额外抽3张牌，你牌库中的所有卡牌在本场战斗费用-1。
+单次冒险中首次携带时，获得【诅咒之刃】【受诅者的加护】【七咒卷轴】
+激活所有七咒物品
+回合开始时，抽牌堆，手牌，弃牌堆，每有1张诅咒牌，获得1点咒力（跨战斗继承，显示在遗物右下角）","受到的傷害+40%
+護盾獲取量-40%
+受到的治療量-50%
+金幣獲得+40%
+回合結束時，隨機獲得1種負面異常x層
+回合結束時，流失當前生命10%
+戰鬥結束時，損失當前金幣的10%
+戰鬥開始時，獲得3層失格，額外抽3張牌，你牌庫中的所有卡牌在本場戰鬥費用-1。
+單次冒險中首次攜帶時，獲得【詛咒之刃】【受詛者的加護】【七咒卷軸】
+激活所有七咒物品
+回合開始時，抽牌堆，手牌，棄牌堆，每有1張詛咒牌，獲得1點咒力（跨戰鬥繼承，顯示在遺物右下角）","Damage taken +40%.
+Shield gained -40%.
+Healing received -50%.
+Gold gained +40%.
+At the end of your turn, gain x stacks of 1 random negative abnormality.
+At the end of your turn, lose 10% of current Health.
+At the end of combat, lose 10% of current Gold.
+At combat start, gain 3 stacks of {buff_degrade} and draw 3 extra cards. All cards in your deck cost 1 less during this combat.
+The first time this is carried in an adventure, gain 【Curse Blade】, 【Blessing of the Cursed】, and 【Scroll of Seven Curses】.
+Activate all Seven Curses items.
+At the start of your turn, for each curse card in your draw pile, hand, and discard pile, gain 1 Curse Power (carries across combats and is shown at the lower right of the relic).","受けるダメージ+40%。
+獲得するShield-40%。
+受ける回復量-50%。
+獲得ゴールド+40%。
+ターン終了時、ランダムな負面異常1種をxスタック獲得する。
+ターン終了時、現在HPの10%を失う。
+戦闘終了時、現在ゴールドの10%を失う。
+戦闘開始時、Degradeを3スタック獲得し、追加でカードを3枚引く。この戦闘中、デッキ内の全てのカードのコスト-1。
+1回の冒険で初めて所持した時、【呪いの刃】【呪われし者の加護】【七呪の巻物】を獲得する。
+全ての七呪アイテムを有効化する。
+ターン開始時、山札、手札、捨て札にある呪いカード1枚につき、呪力を1獲得する（戦闘をまたいで継承し、遺物右下に表示）。"
+*13,,七重试炼,,七咒卷轴,七咒卷軸,Sevenfold Scroll,七呪の巻物,,,,,"无法以常规手段获得，只能通过【七咒之戒】获得，只有在携带【七咒之戒】时生效
+造成伤害时有8%的概率获得（负面效果种数+7）*2 层超凡和自愈","無法以常規手段獲得，只能通過【七咒之戒】獲得，只有在攜帶【七咒之戒】時生效
+造成傷害時有8%的概率獲得（負面效果種數+7）*2 層超凡和自愈","Cannot be obtained by normal means; it can only be gained through 【Ring of Seven Curses】 and only takes effect while carrying 【Ring of Seven Curses】.
+When dealing damage, has an 8% chance to gain (number of negative effect types + 7) * 2 stacks of {buff_extraordinary} and {buff_evergreen}.","通常の手段では獲得できず、【七呪の指輪】を通じてのみ獲得できる。【七呪の指輪】を所持している時だけ効果を発揮する。
+ダメージを与えた時、8%の確率で（負面効果の種類数+7）*2スタックのExtraordinaryと自癒を獲得する。"
+*14,,奥尔德林诸神谕,,《圣言福音》,《聖言福音》,Sacred Gospel,『聖言の福音』,有些重的透明球体。既是占星术师获取天启、窥见未来的媒介，也是魔女间流行的恋爱占卜道具。,有些重的透明球體。既是占星術師獲取天啟、窺見未來的媒介，也是魔女間流行的戀愛占卜道具。,"A somewhat heavy transparent sphere. It is both a medium through which astrologers receive revelation and glimpse the future, and a love-divination tool popular among witches.",少し重い透明な球体。占星術師が天啓を得て未来を覗く媒介であり、魔女たちの間で流行している恋占いの道具でもある。,行动时有50%几率获得1层神启,行動時有50%機率獲得1層神啟,"When acting, has a 50% chance to gain 1 stack of {buff_revelation}.",行動時、50%の確率でEpiphanyを1スタック獲得する。
+*15,,奥尔德林诸神谕,,游玲·石板,游玲·石板,Youling Slate,游玲・石板,,,,,战斗开始时获得3层神启，那之后，每打出一张卡，获得神启层数的护盾,戰鬥開始時獲得3層神啟，那之後，每打出一張卡，獲得神啟層數的護盾,"At combat start, gain 3 stacks of {buff_revelation}. After that, each time you play a card, gain Shield equal to your {buff_revelation} stacks.",戦闘開始時、Epiphanyを3スタック獲得する。その後、カードを1枚プレイするたび、Epiphanyスタック数に等しいShieldを獲得する。
+*16,,奥尔德林诸神谕,,□□□的雕像,□□□的雕像,Statue of □□□,□□□の像,你找到了祂，祂苏醒了，为祂的回归献上一切,你找到了祂，祂甦醒了，為祂的回歸獻上一切,You found Them. They have awakened. Offer everything for Their return.,あなたはそれを見つけた。それは目覚めた。その帰還のために、全てを捧げよ。,每次焚毁手牌时，使我方获得一层神启（若存在唤神标签，再额外加一），当神启层数每提升5层获得20超凡。,每次焚毀手牌時，使我方獲得一層神啟（若存在喚神標籤，再額外加一），當神啟層數每提升5層獲得20超凡。,"Each time a card in hand is Burned, allies gain 1 stack of {buff_revelation} (gain 1 additional stack if the Invocation tag is present). For every 5-stack increase in {buff_revelation}, gain 20 {buff_extraordinary}.",手札をBurnするたび、味方はEpiphanyを1スタック獲得する（Invocationタグがある場合、さらに+1）。Epiphanyスタックが5増えるたび、Extraordinaryを20獲得する。
+*17,,飞升之路,,难以忘却的苦痛,難以忘卻的苦痛,Unforgotten Pain,忘れがたき苦痛,,,,,"每受1次伤害立即对全体敌方造成1点真实伤害,逐渐叠加",每受1次傷害立即對全體敵方造成1點真實傷害，逐漸疊加,"Each time you take damage, immediately deal 1 True Damage to all enemies. This gradually stacks.",ダメージを1回受けるたび、即座に敵全体へ1のTrue Damageを与える。これは徐々に重なっていく。
+*18,,飞升之路,,企鹅,企鵝,Penguin,ペンギン,ALL JUSTICE!!!,ALL JUSTICE!!!,ALL JUSTICE!!!,ALL JUSTICE!!!,每次造成伤害就叠加10%的增伤，受到任意伤害后重置,每次造成傷害就疊加10%的增傷，受到任意傷害後重置,"Each time you deal damage, stack +10% damage dealt. Resets after taking any damage.",ダメージを与えるたび、与ダメージ+10%を蓄積する。何らかのダメージを受けるとリセットされる。
+*19,,血鬼谱系综述,,细高跟鞋,細高跟鞋,Stiletto Heels,ピンヒール,尖锐的金属鞋跟，优雅而致命。,尖銳的金屬鞋跟，優雅而致命。,"A sharp metal heel, elegant and lethal.",鋭い金属のヒール。優雅で、致命的。,攻击时附加2层流血；,攻擊時附加2層流血；,"When attacking, apply 2 stacks of {buff_bleeding}.",攻撃時、Bleedingを2スタック付与する。
+*20,,万物元素之始,,银之匙,銀之匙,Silver Key,銀の鍵,异世界的吸血鬼小姐为魔女带来了门之主赋予的宝物，它能打开终极之门，但最好别这样做,異世界的吸血鬼小姐為魔女帶來了門之主賦予的寶物，它能打開終極之門，但最好別這樣做,"A vampire lady from another world brought the witch a treasure granted by the Lord of the Gate. It can open the ultimate gate, though it is best not to do so.",異世界の吸血鬼の少女が、門の主より授かった宝物を魔女へもたらした。究極の門を開けられるが、そうしない方がいい。,战斗开始时获得8层元素，每两次攻击附带当前血量8%真实伤害,戰鬥開始時獲得8層元素，每兩次攻擊附帶當前血量8%真實傷害,"At combat start, gain 8 stacks of {buff_elements}. Every 2 attacks, add True Damage equal to 8% of current Health.",戦闘開始時、Elementsを8スタック獲得する。攻撃2回ごとに、現在HPの8%のTrue Damageを追加する。
+*22,,深渊生存法则,,花上亡灵的胸针,花上亡靈的胸針,Ghostblossom Pin,花上亡霊のブローチ,原初魔女花上亡灵生平一直佩戴的胸针。只以一念柔肠，护万代魔女身。这枚胸针是最初的温，最后的真,原初魔女花上亡靈生平一直佩戴的胸針。只以一念柔腸，護萬代魔女身。這枚胸針是最初的溫，最後的真,"The brooch worn throughout life by the primal witch, the Ghost Above Flowers. With one tender thought, it shelters witches through countless generations. This brooch is the first warmth and the final truth.",原初の魔女、花上亡霊が生涯身につけていたブローチ。ただ一念の優しさで、万代の魔女たちを守る。このブローチは最初の温もりであり、最後の真実。,回合开始时，若自身没有失格，给予自身5层失格；攻击时恢复伤害一定比例护盾（不经过受伤计算），并对敌方全体造成攻击一半的真实伤害,回合開始時，若自身沒有失格，給予自身5層失格；攻擊時恢復傷害一定比例護盾（不經過受傷計算），並對敵方全體造成攻擊一半的真實傷害,"At the start of your turn, if you do not have {buff_degrade}, apply 5 stacks of {buff_degrade} to yourself. When attacking, restore Shield equal to a portion of damage dealt (without going through damage-taken calculation), and deal True Damage equal to half the attack to all enemies.",ターン開始時、自身にDegradeがない場合、自身にDegradeを5スタック付与する。攻撃時、与えたダメージの一定割合のShieldを回復し（被ダメージ計算を経由しない）、敵全体に攻撃の半分に等しいTrue Damageを与える。
+*23,,深渊生存法则,,不落要塞,不落要塞,Eternal Bastion,不落の要塞,"荒芜之地上残破不堪的要塞，不计其数的战争都没能将其摧毁，当黑夜再次降临，它会就此倒塌掩埋一切，还是继续迎接更多黎明
+
+联邦与魔族的战争在奥克维希亚持续了千年，这片要塞却从未陷落
+当名为魔女的毁灭再次降临，它将续写自己的传奇迎接新的黎明，还是就此掩入历史的尘埃
+
+究竟是神明的庇护还是历史的巧合……至今仍是未解之谜
+现如今，他已成为幸存者们的文化符号","荒蕪之地上殘破不堪的要塞，不計其數的戰爭都沒能將其摧毀，當黑夜再次降臨，它會就此倒塌掩埋一切，還是繼續迎接更多黎明
+
+聯邦與魔族的戰爭在奧克維希亞持續了千年，這片要塞卻從未陷落
+當名為魔女的毀滅再次降臨，它將續寫自己的傳奇迎接新的黎明，還是就此掩入歷史的塵埃
+
+究竟是神明的庇護還是歷史的巧合……至今仍是未解之謎
+現如今，他已成為倖存者們的文化符號","A broken fortress in the wasteland. Countless wars failed to destroy it. When night falls again, will it collapse and bury everything, or continue to greet more dawns?
+
+The war between the Federation and the demons lasted a thousand years in Oakvisia, yet this fortress never fell.
+When the destruction called witches descends once more, will it continue its legend and welcome a new dawn, or sink into the dust of history?
+
+Whether it was divine protection or historical coincidence remains an unsolved mystery.
+Today, it has become a cultural symbol for the survivors.","荒れ果てた地に残る、崩れかけの要塞。数えきれない戦争もそれを破壊できなかった。再び夜が降りる時、それは崩れ落ちて全てを埋めるのか、それともさらに多くの黎明を迎えるのか。
+
+連邦と魔族の戦争はオークヴィシアで千年続いたが、この要塞は一度も陥落しなかった。
+魔女という名の破滅が再び降り立つ時、それは伝説を継いで新たな夜明けを迎えるのか、それとも歴史の塵に沈むのか。
+
+神の庇護か、歴史の偶然か……いまだ解けぬ謎である。
+今では、生存者たちの文化的象徴となっている。",每场战斗限一次，角色受到致死伤害时触发，HP变为1点，储存接下来受到的所有伤害，回合结束时魔能上限减少1/2（向上取整），当回合结束时若角色魔能上限=0，该效果失效，对角色造成等同于储存伤害的真实伤害,每場戰鬥限一次，角色受到致死傷害時觸發，HP變為1點，儲存接下來受到的所有傷害，回合結束時魔能上限減少1/2（向上取整），當回合結束時若角色魔能上限=0，該效果失效，對角色造成等同於儲存傷害的真實傷害,"Once per combat, triggers when the character takes lethal damage: HP becomes 1 and all subsequent damage taken is stored. At the end of the turn, Max Mana is reduced by 1/2 (rounded up). If the character's Max Mana is 0 at turn end, this effect expires and deals True Damage to the character equal to the stored damage.",各戦闘で1回まで、キャラクターが致死ダメージを受けた時に発動する。HPは1になり、その後に受ける全てのダメージを蓄積する。ターン終了時、最大マナが1/2減少する（切り上げ）。ターン終了時にキャラクターの最大マナが0なら、この効果は失効し、蓄積したダメージに等しいTrue Damageをキャラクターに与える。
+*24,,深渊生存法则,,红糖豆沙馅馄饨,紅糖豆沙餡餛飩,Sweetbean Wonton,黒糖あん入りワンタン,由神秘国度传统美食本土化改造而来的甜品，制作时会受到名为“亵渎美食”的神秘伤害，但成品深受魔女喜爱，可以恢复战斗中造成的所有创伤。,由神秘國度傳統美食本土化改造而來的甜品，製作時會受到名為「褻瀆美食」的神秘傷害，但成品深受魔女喜愛，可以恢復戰鬥中造成的所有創傷。,"A dessert adapted from the traditional cuisine of a mysterious land. Making it inflicts a strange damage known as “culinary blasphemy,” but witches adore the finished dish, which can heal every wound caused in battle.",神秘の国の伝統料理を現地風に改造した甘味。作る時には「美食への冒涜」と呼ばれる謎のダメージを受けるが、完成品は魔女たちに大人気で、戦闘で負ったあらゆる傷を癒やせる。,回合开始时受到1*当前回合数的伤害（直接扣除生命值，最大值为20），回合结束时回复2*本回合所受伤害的生命值,回合開始時受到1*當前回合數的傷害（直接扣除生命值，最大值為20），回合結束時回復2*本回合所受傷害的生命值,"At the start of your turn, take damage equal to 1 * current turn number (directly subtracts Health, maximum 20). At the end of your turn, restore Health equal to 2 * damage taken this turn.",ターン開始時、1*現在のターン数のダメージを受ける（HPを直接減少、最大20）。ターン終了時、このターンに受けたダメージ*2のHPを回復する。
+*25,,高阶魔法基础·必修一,,贤者之石,賢者之石,Sage's Stone,賢者の石,一个红色的心形宝石，曾经的拥有者已经不在了，似乎能给予力量。,一個紅色的心形寶石，曾經的擁有者已經不在了，似乎能給予力量。,"A red heart-shaped gem. Its former owner is gone, but it seems able to grant power.",赤いハート型の宝石。かつての持ち主はもういないが、力を与えてくれるようだ。,每回合开始时随机使一张牌费用减1-3,每回合開始時隨機使一張牌費用減1-3,"At the start of each turn, randomly reduce the cost of 1 card by 1-3.",各ターン開始時、ランダムなカード1枚のコストを1-3減少させる。
+*26,,高阶魔法基础·必修一,,星霜之栞,星霜之栞,Starfrost Mark,星霜の栞,"很久很久以前，有一位寿命绵长的魔女。
+ 她活过了沧海桑田，活过了星辰移位，却始终无法习惯一件事——告别的季节。
+ 每当枫叶红透，她便知道，那个喜欢听她讲述星星故事的女孩，又要老去一岁。每当冬雪消融，她便知道，那只笨拙却执着的白狐，此生不会再来看花了。
+ 她曾试图用魔法留住什么。将朋友的笑容封印在水晶里，把爱人的体温凝固在咒文中。可每当夜深人静时，那些定格的笑容望着她，却再也不会说话。
+ 后来，她不再挽留了。
+ 她开始写书。一本没有尽头的书，一本永远写不完的书。
+ 每当有人离开，她便在书页间夹入一枚小小的书签。书签上没有咒语，没有封印，只有那人的名字，和她当时想说却没能说出口的话。
+ “那天下午的阳光很暖，你说想一直坐在我身边。”
+ “雪落在你睫毛上的样子，我到现在还记得。”
+ “谢谢你陪我度过那个雨季。伞还给你，梦留给我。”
+ 千年之后，人们发现了她的遗迹。
+ 书桌上摊着一本落满灰尘的书，旁边放着一枚古朴的书签。书签上刻着一行小字，那是她最后写下的话：
+ 「魔法留不住你，但每一次想起你，你都会回来。」
+ 据说，持有这枚书签的人，在施展法术时，偶尔会感到一股温柔的力量轻轻推了推自己的手——像是某位早已远去的故人，在说：
+ “再来一次吧。”
+ “让我再看看你施展魔法的样子。”","很久很久以前，有一位壽命綿長的魔女。
+ 她活過了滄海桑田，活過了星辰移位，卻始終無法習慣一件事——告別的季節。
+ 每當楓葉紅透，她便知道，那個喜歡聽她講述星星故事的女孩，又要老去一歲。每當冬雪消融，她便知道，那隻笨拙卻執著的白狐，此生不會再來看花了。
+ 她曾試圖用魔法留住什麼。將朋友的笑容封印在水晶裡，把愛人的體溫凝固在咒文中。可每當夜深人靜時，那些定格的笑容望著她，卻再也不會說話。
+ 後來，她不再挽留了。
+ 她開始寫書。一本沒有盡頭的書，一本永遠寫不完的書。
+ 每當有人離開，她便在書頁間夾入一枚小小的書籤。書籤上沒有咒語，沒有封印，只有那人的名字，和她當時想說卻沒能說出口的話。
+ 「那天下午的陽光很暖，你說想一直坐在我身邊。」
+ 「雪落在你睫毛上的樣子，我到現在還記得。」
+ 「謝謝你陪我度過那個雨季。傘還給你，夢留給我。」
+ 千年之後，人們發現了她的遺跡。
+ 書桌上攤著一本落滿灰塵的書，旁邊放著一枚古樸的書籤。書籤上刻著一行小字，那是她最後寫下的話：
+ 「魔法留不住你，但每一次想起你，你都會回來。」
+ 據說，持有這枚書籤的人，在施展法術時，偶爾會感到一股溫柔的力量輕輕推了推自己的手——像是某位早已遠去的故人，在說：
+ 「再來一次吧。」
+ 「讓我再看看你施展魔法的樣子。」","Long, long ago, there was a witch with a life that stretched far beyond ordinary years.
+ She lived through seas becoming fields and stars shifting their paths, yet there was one thing she never learned to accept: the season of farewells.
+ Whenever the maple leaves turned red, she knew the girl who loved listening to her stories of the stars would grow another year older. Whenever winter snow melted, she knew the clumsy yet stubborn white fox would never return to see the flowers again.
+ She once tried to keep things with magic: sealing a friend's smile in crystal, freezing a lover's warmth into a spell. But in the deep silence of night, those fixed smiles looked back at her and would never speak again.
+ Later, she stopped trying to hold on.
+ She began to write a book. A book without an end, a book that would never be finished.
+ Whenever someone left, she placed a small bookmark between the pages. There were no spells on it, no seals, only that person's name and the words she had wanted to say but never managed to speak.
+ “The sunlight was warm that afternoon. You said you wanted to sit beside me forever.”
+ “I still remember the snow resting on your lashes.”
+ “Thank you for staying with me through that rainy season. I return the umbrella to you, and keep the dream for myself.”
+ A thousand years later, people discovered her ruins.
+ On the desk lay a dust-covered book, and beside it, a simple old bookmark. A line of small words was carved into it, the last words she ever wrote:
+ “Magic cannot keep you here, but every time I remember you, you return.”
+ It is said that those who hold this bookmark sometimes feel a gentle force nudging their hand when casting a spell, like some long-departed friend saying:
+ “One more time.”
+ “Let me see you cast magic once more.”","ずっと昔、長い寿命を持つ魔女がいた。
+ 彼女は海が野に変わるほどの時を生き、星の位置が移ろうほどの時を生きた。それでも、どうしても慣れないものが一つあった。別れの季節だ。
+ 楓が赤く染まるたび、星の話を聞くのが好きだった少女がまた一つ年を重ねるのだと知った。冬の雪が解けるたび、不器用で頑固な白狐がもう二度と花を見に来ないのだと知った。
+ 彼女はかつて魔法で何かを留めようとした。友の笑顔を水晶に封じ、愛する人の体温を呪文に凍らせた。けれど夜更けの静けさの中、止まった笑顔は彼女を見つめるだけで、二度と語りかけてはくれなかった。
+ やがて、彼女は引き留めることをやめた。
+ 彼女は本を書き始めた。終わりのない本。永遠に書き終わらない本を。
+ 誰かが去るたび、彼女はページの間に小さな栞を挟んだ。栞には呪文も封印もなく、その人の名前と、その時言いたくても言えなかった言葉だけがあった。
+ 「あの日の午後の日差しは暖かかった。あなたは、ずっと私の隣に座っていたいと言った。」
+ 「雪があなたの睫毛に落ちた様子を、今でも覚えている。」
+ 「あの雨の季節を一緒に過ごしてくれてありがとう。傘は返すね。夢は私がもらっていく。」
+ 千年後、人々は彼女の遺跡を見つけた。
+ 机の上には埃をかぶった本が開かれ、その隣に古びた栞が置かれていた。栞には小さな文字が一行刻まれていた。それは彼女が最後に書いた言葉だった。
+ 「魔法はあなたを留められない。でも、あなたを思い出すたび、あなたは帰ってくる。」
+ この栞を持つ者は、魔法を使う時、時折やさしい力がそっと手を押すのを感じるという。まるで、とうに去った誰かがこう言っているように。
+ 「もう一度。」
+ 「あなたが魔法を使う姿を、もう一度見せて。」",每次释放卡牌有x%概率再释放一次，每局初始为100%，每成功一次降低20%，最低20%,每次釋放卡牌有x%概率再釋放一次，每局初始為100%，每成功一次降低20%，最低20%,"Each time you play a card, has an x% chance to play it again. Starts at 100% each run; each success reduces the chance by 20%, to a minimum of 20%.",カードをプレイするたび、x%の確率でもう一度プレイする。各プレイ開始時は100%で、成功するたび20%低下し、最低20%。
+*27,,高阶魔法基础·必修一,,格式化协议,格式化協議,Format Protocol,フォーマット・プロトコル,,,,,"打出基础耗能为3的卡牌时，选择一张卡牌降低2点能耗
+打出基础耗能为2的卡牌时，选择一张卡牌降低1点能耗
+两个效果每场战斗各可触发一次","打出基礎耗能為3的卡牌時，選擇一張卡牌降低2點能耗
+打出基礎耗能為2的卡牌時，選擇一張卡牌降低1點能耗
+兩個效果每場戰鬥各可觸發一次","When you play a card with base cost 3, choose a card and reduce its cost by 2.
+When you play a card with base cost 2, choose a card and reduce its cost by 1.
+Each of these two effects can trigger once per combat.","基礎コスト3のカードをプレイした時、カードを1枚選び、コストを2下げる。
+基礎コスト2のカードをプレイした時、カードを1枚選び、コストを1下げる。
+2つの効果は各戦闘でそれぞれ1回まで発動できる。"
+*28,,混沌乐团,,独奏乐章,獨奏樂章,Solo Movement,独奏楽章,“请将这绝不重样的旋律，紧握在手中吧。”,「請將這絕不重樣的旋律，緊握在手中吧。」,“Hold tight to this melody that never repeats.”,「決して同じ形を取らないこの旋律を、どうかその手に握りしめて。」,卡组中不存在同名的卡牌时，回合开始时，使所有手牌本回合消耗魔能-1。回合结束不弃牌。,卡組中不存在同名的卡牌時，回合開始時，使所有手牌本回合消耗魔能-1。回合結束不棄牌。,"If there are no cards with duplicate names in your deck, at the start of your turn, all cards in hand cost 1 less Mana this turn. Do not discard your hand at turn end.",デッキに同名カードが存在しない場合、ターン開始時、このターン中の全ての手札の消費マナ-1。ターン終了時、手札を捨てない。
+*29,,混沌乐团,,记忆具现化,記憶具現化,Manifest Memory,記憶具現化,,,,,装备此遗物时，随机变化为装备栏的一个遗物,裝備此遺物時，隨機變化為裝備欄的一個遺物,"When this relic is equipped, randomly transform it into one relic in the equipment slots.",この遺物を装備した時、装備欄にある遺物の1つへランダムに変化する。
+30,,深渊生存法则,,奥罗拉的手甲,奧羅拉的手甲,Aurora Gauntlet,オーロラの手甲,,,,,回合开始时，给予所有装备了奥罗拉遗物的单位拥有对应遗物数量次10层超凡,回合開始時，給予所有裝備了奧羅拉遺物的單位40層超凡,"At the start of your turn, give all units equipped with Aurora relics 10 stacks of {buff_extraordinary} for each corresponding relic.",ターン開始時、オーロラの遺物を装備している全てのユニットにExtraordinaryを40スタック付与する。
+31,,高阶魔法基础·必修一,,奥罗拉的腿甲,奧羅拉的腿甲,Aurora Greaves,オーロラの脚甲,,,,,回合开始时，给予所有装备了奥罗拉遗物的单位拥有对应遗物数量次3层强韧,回合開始時，給予所有裝備了奧羅拉遺物的單位3層強韌,"At the start of your turn, give all units equipped with Aurora relics 3 stacks of {buff_resilient}.",ターン開始時、オーロラの遺物を装備している全てのユニットにResilientを3スタック付与する。
+32,,高阶魔法基础·必修一,,奥罗拉的臂铠,奧羅拉的臂鎧,Aurora Armlet,オーロラの腕鎧,,,,,回合开始时，给予所有装备了奥罗拉遗物的单位拥有对应遗物数量次10点护盾,回合開始時，給予所有裝備了奧羅拉遺物的單位10點護盾,"At the start of your turn, give all units equipped with Aurora relics 10 Shield.",ターン開始時、オーロラの遺物を装備している全てのユニットにShieldを10付与する。
+33,,高阶魔法基础·必修一,,奥罗拉的光环,奧羅拉的光環,Aurora's Halo,オーロラの光輪,,,,,战斗开始时，给予所有装备了奥罗拉遗物的单位1层循环,戰鬥開始時，給予所有裝備了奧羅拉遺物的單位1層循環,"At combat start, give all units equipped with Aurora relics 1 stack of {buff_cycle}.",戦闘開始時、オーロラの遺物を装備している全てのユニットにCycleを1スタック付与する。
+34,,法术序列,,奥罗拉的圣盾,奧羅拉的聖盾,Aurora's Aegis,オーロラの聖盾,,,,,战斗开始时，给予所有装备了奥罗拉遗物的单位1层坚毅,戰鬥開始時，給予所有裝備了奧羅拉遺物的單位1層堅毅,"At combat start, give all units equipped with Aurora relics 1 stack of {buff_impregnable}.",戦闘開始時、オーロラの遺物を装備している全てのユニットにImpregnableを1スタック付与する。
+35,,法术序列,,奥罗拉的圣剑,奧羅拉的聖劍,Aurora Sword,オーロラの聖剣,,,,,战斗开始时，给予所有装备了奥罗拉遗物的单位10层元素,戰鬥開始時，給予所有裝備了奧羅拉遺物的單位10層元素,"At combat start, give all units equipped with Aurora relics 10 stacks of {buff_elements}.",戦闘開始時、オーロラの遺物を装備している全てのユニットにElementsを10スタック付与する。
+*36,,爱与梦魇的阶梯,,魔女的祈愿,魔女的祈願,Witch's Prayer,魔女の祈願,,,,,敌人每有一种不同的负面状态，你对其造成的伤害+10%。,敵人每有一種不同的負面狀態，你對其造成的傷害+10%。,"For each different negative status on an enemy, your damage dealt to that enemy +10%.",敵が持つ異なる負面状態1種類につき、その敵に与えるダメージ+10%。
+37,HOCYI,法术序列,,我发现了,我發現了,I Found It,見つけた,每一颗星星都将凯旋。,每一顆星星都將凱旋。,Every star shall return in triumph.,全ての星は凱旋する。,战斗开始的首个回合，将一张瓶中手稿加入手牌。,戰鬥開始的首個回合，將一張瓶中手稿加入手牌。,"On the first turn after combat starts, add 1 Manuscript in a Bottle to your hand.",戦闘開始後の最初のターン、瓶中の手稿を1枚手札に加える。
+38,HOCYI,法术序列,,第三个星期天,第三個星期天,The Third Sunday,三つ目の日曜日,存在于昨天今天明天。,存在於昨天今天明天。,"It exists in yesterday, today, and tomorrow.",昨日、今日、明日に存在する。,"回合结束时，若复还层数大于80，降低10层复还,否则，获得10点护盾。",回合結束時，若復還層數大於80，降低10層復還，若小於，則獲得10點護盾。,"At the end of your turn, if {buff_ReturnAgain} stacks are greater than 80, reduce {buff_ReturnAgain} by 10 stacks; if lower, gain 10 Shield.",ターン終了時、Returnスタックが80より大きい場合、Returnを10スタック減少させる。小さい場合、Shieldを10獲得する。
+39,HOCYI,法术序列,,过早埋葬,過早埋葬,Premature Burial,早すぎた埋葬,未眠者在墓穴中醒来。,未眠者在墓穴中醒來。,The sleepless awakens inside the grave.,眠らぬ者が墓穴の中で目覚める。,卡牌焚毁时，获得10点护盾,卡牌焚毀時，獲得10點護盾,"When a card is Burned, gain 10 Shield.",カードがBurnされた時、Shieldを10獲得する。
+40,HOCYI,法术序列,,多色草山谷,多色草山谷,Prismgrass Vale,多色草の谷,这一片囚笼富丽堂皇。,這一片囚籠富麗堂皇。,This cage is splendid and magnificent.,この檻は絢爛豪華だ。,打出的卡牌每有1点原始费用，获得【重生1】,打出的卡牌每有1點原始費用，獲得【重生1】,"For each point of original cost on a card you play, gain 【{buff_rebirth} 1】.",プレイしたカードの元コスト1点につき、【Rebirth 1】を獲得する。
+41,星咲夜游,蛇自阴影中袭来,,永燃星痕,永燃星痕,Everstar Scar,永燃える星痕,萤砂般的星子，哪怕风过即散，也曾托住过坠落的黑暗。至少，借着它的亮，看清了脚下未被泥沼吞尽的路。,螢砂般的星子，哪怕風過即散，也曾托住過墜落的黑暗。至少，借著它的亮，看清了腳下未被泥沼吞盡的路。,"Stars like firefly sand, scattered by the wind in an instant, once held up the falling darkness. At least by their light, the path beneath your feet, not yet swallowed by mire, could be seen.",蛍砂のような星々は、風が過ぎれば散ってしまうとしても、落ちゆく闇を支えたことがある。少なくともその光で、泥濘に飲まれきっていない足元の道が見えた。,每次受伤时，如果攻击者不为自己。给攻击者附加2层灼烧，【重生】时给敌方附加12层灼烧，并立刻结算敌方的负面效果的回合开始和行动时点。,每次受傷時，給攻擊者附加2層灼燒，【重生】時給敵方附加12層灼燒，並立刻結算敵方的負面效果的回合開始和行動時點。,"Each time you are damaged, apply 2 stacks of Burn to the attacker. On 【Rebirth】, apply 12 stacks of Burn to enemies and immediately resolve the turn-start and action timing of enemy negative effects.",ダメージを受けるたび、攻撃者にBurnを2スタック付与する。【Rebirth】時、敵にBurnを12スタック付与し、敵の負面効果のターン開始時および行動時タイミングを即座に解決する。
+42,雏名苍岚,蛇自阴影中袭来,,衔露晶萼,銜露晶萼,Dewcrystal Calyx,露を含む晶萼,蛇的鳞片在月光下泛着幽光，顺着你的臂弯爬向心口……这是温柔的馈赠，亦是死亡的耳语,蛇的鱗片在月光下泛著幽光，順著你的臂彎爬向心口……這是溫柔的饋贈，亦是死亡的耳語,"A serpent's scales glimmer faintly under moonlight, crawling along your arm toward your heart... This is a tender gift, and also a whisper of death.",蛇の鱗が月光の下でほのかに光り、あなたの腕を伝って胸元へ這い寄る……これは優しい贈り物であり、死の囁きでもある。,死亡时降低25%最大生命上限（可叠加），随后触发【重生50】；（单次战斗中最多触发2次）,死亡時降低20%最大生命上限（可疊加），隨後觸發【重生50】；（單次戰鬥中最多觸發2次）,"On death, reduce Max Health cap by 25% (stackable), then trigger 【{buff_rebirth} 50】. (Can trigger at most 2 times in a single combat.)",死亡時、最大HP上限を20%低下させる（累積可）。その後、【Rebirth 50】を発動する。（1回の戦闘中、最大2回まで発動）
+43,天煜2333,混沌乐团,,死灵纪实,死靈紀實,Necro Chronicle,死霊紀実,,,,,"回合结束时，随机焚毁你弃牌堆中的一张行动牌；
+检定40：
+若成功：获得3层元素并获得2点护盾
+若失败：获得2层毒素并失去2点生命","回合結束時，隨機焚毀你棄牌堆中的一張行動牌；
+檢定40：
+若成功：獲得3層元素並獲得2點護盾
+若失敗：獲得2層毒素並失去2點生命","At the end of your turn, randomly Burn 1 Action card in your discard pile.
+Check 40:
+On success: gain 3 stacks of {buff_elements} and 2 Shield.
+On failure: gain 2 stacks of {buff_toxin} and lose 2 Health.","ターン終了時、捨て札にある行動カードをランダムに1枚Burnする。
+判定40：
+成功：Elementsを3スタック獲得し、Shieldを2獲得する。
+失敗：毒素を2スタック獲得し、HPを2失う。"
+44,,混沌乐团,,四叶草,四葉草,Four-Leaf Clover,四つ葉のクローバー,,,,,幸运+5,幸運+5,Luck +5.,幸運+5。
+45,,混沌乐团,,厄米娅的骰子,厄米婭的骰子,Ermia's Dice,エルミアの骰子,,,,,检定骰额外扔出一枚，取检定值更大的结果,檢定骰額外扔出一枚，取檢定值更大的結果,Roll one extra check die and take the result with the higher check value.,判定ダイスを追加で1個振り、判定値が高い方の結果を採用する。
+46,,混沌乐团,,混沌序章,混沌序章,Chaos Prologue,混沌序章,,,,,战斗开始时，获得2层天罚,戰鬥開始時，獲得3層天罰,"At combat start, gain 2 stacks of {buff_fate}.",戦闘開始時、Fateを3スタック獲得する。
+47,,统合之约,,统合辉记,統合輝記,Radiant Ledger,統合輝記,,,,,战斗开始时所有基础属性+2；每有一个友方单位装备了这件遗物，额外生效一次,戰鬥開始時所有基礎屬性+2；每有一個友方單位裝備了這件遺物，額外生效一次,"At combat start, all base attributes +2. This takes effect one additional time for each allied unit equipped with this relic.",戦闘開始時、全ての基本ステータス+2。この遺物を装備している味方ユニット1体につき、追加で1回発動する。
+48,,,,君主权杖,君主權杖,Monarch Scepter,君主の杖,,,,,战斗开始时获得6层元素,戰鬥開始時獲得6層元素,"At combat start, gain 6 stacks of {buff_elements}.",戦闘開始時、Elementsを6スタック獲得する。
+49,,,,魔网源流,魔網源流,Manaweb Source,魔網の源流,,,,,每次进行进阶施法时获得一张【流星尘埃】或者【灰色寂灭】,每次進行進階施法時獲得一張【流星塵埃】或者【灰色寂滅】,"Each time you perform advanced casting, gain 1 【Meteor Dust】 or 【Gray Extinction】.",進階詠唱を行うたび、【流星塵埃】または【灰色寂滅】を1枚獲得する。
+50,,,,贤者法典,賢者法典,Sage's Codex,賢者法典,,,,,每当进行进阶施法时，获得10点护盾并恢复5点生命,每當進行進階施法時，獲得10點護盾並恢復5點生命,"Whenever you perform advanced casting, gain 10 Shield and restore 5 Health.",進階詠唱を行うたび、Shieldを10獲得し、HPを5回復する。
+51,,,,真知者吊坠,真知者吊墜,Knower Pendant,真知者のペンダント,,,,,战斗开始时，获得1张0费的【灰色寂灭】,戰鬥開始時，獲得1張0費的【灰色寂滅】,"At combat start, gain 1 cost-0 【Gray Extinction】.",戦闘開始時、コスト0の【灰色寂滅】を1枚獲得する。
+52,,,,大法师环戒,大法師環戒,Archmage's Ring,大魔法使いの環戒,,,,,魔能上限+1。战斗开始时随机获得两张法术素材,魔能上限+1。戰鬥開始時隨機獲得兩張法術素材,"Max Mana +1. At combat start, randomly gain 2 spell materials.",最大マナ+1。戦闘開始時、ランダムな法術素材を2枚獲得する。
+53,,,,炼金原石,鍊金原石,Alchemist Stone,錬金原石,,,,,回合开始时随机创造两张施法素材,回合開始時隨機創造兩張施法素材,"At the start of your turn, randomly create 2 casting materials.",ターン開始時、ランダムな詠唱素材を2枚作成する。
+54,,,,星界观测者,星界觀測者,Astral Observer,星界観測者,,,,,"每使用3张卡牌使手牌第一张没有唤神的卡牌在这场战斗中获得唤神
+战斗开始时，获得【重生50】，触发【重生】时，摧毁这件遗物","每使用2張卡牌使手牌第一張沒有喚神的卡牌在這場戰鬥中獲得喚神
+戰鬥開始時，獲得【重生50】，觸發【重生】時，摧毀這件遺物","Every time you use 3 cards, the first card in hand without Invocation gains Invocation for this combat.
+At combat start, gain 【{buff_rebirth} 50】. When 【{buff_rebirth}】 triggers, destroy this relic.","カードを2枚使用するたび、手札の最初のInvocationを持たないカードは、この戦闘中Invocationを得る。
+戦闘開始時、【Rebirth 50】を獲得する。【Rebirth】発動時、この遺物を破壊する。"
+*55,,,,失序命羽,失序命羽,Misfate Feather,失序の命羽,,,,,"受到致命伤害时，消耗10层充能，给与自身100层重生，给予敌方全体20层灼烧；
+焚毁卡牌恢复2点充能，触发时之笼恢复1充能，上限10点充能","受到致命傷害時，消耗10層充能，給與自身100層重生，給予敵方全體20層灼燒；
+焚毀卡牌恢復2點充能，觸發時之籠恢復1充能，上限10點充能","When taking lethal damage, consume 10 charges, give yourself 100 stacks of {buff_rebirth}, and apply 20 stacks of {buff_burn} to all enemies.
+Burning a card restores 2 charges. Triggering Cage of Time restores 1 charge. Maximum 10 charges.","致死ダメージを受けた時、充能を10消費し、自身にRebirthを100スタック、敵全体にBurnを20スタック付与する。
+カードをBurnすると充能を2回復し、時の籠を発動すると充能を1回復する。充能上限は10。"
+*56,,,,毁灭的预言诗,毁灭的预言诗,Doomsayer Poem,破滅の予言詩,,,,,"打出13张不同名的牌后，获得""所有暴力的本我""","打出13张不同名的牌后，获得""所有暴力的本我""","After playing 13 cards with different names, gain 'Id of All Violence'",13枚の異なる名前のカードを出した後、「すべての暴力的な本我」を獲得する

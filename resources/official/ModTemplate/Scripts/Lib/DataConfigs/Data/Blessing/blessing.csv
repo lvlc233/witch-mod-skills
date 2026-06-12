@@ -1,0 +1,283 @@
+﻿Id,Weight,OwnScript,FightScript,Icon,Type,Source,Rarity
+id,权重,本身脚本;,战斗脚本,图片名称,类型,选项 1,稀有度
+1,2,PlayerInfo.Strength+=2;,,Icon/Blessing/士兵,正面,物资,1
+2,2,PlayerInfo.Wisdom+=2;,,Icon/Blessing/法师,正面,物资,1
+3,2,PlayerInfo.Perceive+=2;,,Icon/Blessing/刺客,正面,物资,1
+4,2,PlayerInfo.Lucky+=2;,,Icon/Blessing/羽兽,正面,物资,1
+5,4,"PlayerInfo.ChangeSelected(""2"");",,Icon/Blessing/皇后,正面,物资,2
+6,2,,"AddEvent(""FightStart"",(() => {PlayerInfo.Hp+=2;}));",Icon/Blessing/牧师,正面,技能,1
+7,2,PlayerInfo.MaxHp+=5;,,Icon/Blessing/守卫,正面,物资,1
+8,2,,"AddEvent(""FightStart"",(() => {SetStatus(""Self"");AddBuff(DataId.buff_evergreen,""1"");}));",Icon/Blessing/天使,正面,技能,1
+9,3,,"AddEvent(""FightStart"",() => {SetStatus(""Self"");AddBuff(DataId.buff_resilient,""1"");});",Icon/Blessing/盾卫,正面,技能,2
+10,2,,"AddEvent(""FightStart"",(() => {SetStatus(""Self"");ChangeDefence(""3"");}));",Icon/Blessing/律法,正面,技能,2
+11,4,,"AddEvent(""FightStart"",(() => {DrawCount(""1"");}));",Icon/Blessing/工匠,正面,技能,2
+12,5,,"AddEvent(""FightStart"",(() => {SetStatus(""Self"");AddBuff(DataId.buff_fast,""1"");}));",Icon/Blessing/游侠,正面,技能,2
+14,7,,"AddEvent(""FightStart"",(() => {SetStatus(""Self"");AddBuff(DataId.buff_cycle,""1"");}));",Icon/Blessing/命运之轮,正面,技能,4
+15,5,,"AddEvent(""FightStart"",(() => {SetStatus(""Self"");AddBuff(DataId.buff_keenedge,""1"");}));",Icon/Blessing/士官,正面,技能,2
+19,5,,"AddEvent(""FightStart"",(() => {SetStatus(""Self"");AddBuff(DataId.buff_elements,""4"");}));",Icon/Blessing/主教,正面,技能,3
+20,4,,"AddEvent(""FightStart"",(() => {SetStatus(""AllRandomTarget1"");AddBuff(DataId.buff_vulnerability,""1"");}));",Icon/Blessing/萨满,正面,技能,2
+21,3,PlayerInfo.Money+=40;,,Icon/Blessing/国王,正面,物资,1
+22,4,PlayerInfo.MoneyMultiplier+=10;,,Icon/Blessing/教皇,正面,技能,2
+23,8,,"AddEvent(""FightStart"",(() => {SetStatus(""Self"");AddBuff(DataId.buff_frenzy,""1"");}));",Icon/Blessing/审判,正面,技能,4
+24,7,,"AddEvent(""FightStart"",(() => {SetStatus(""Self"");AddBuff(DataId.buff_oniblood,""1"");}));",Icon/Blessing/血鬼,正面,技能,4
+*101,2,,"if (PlayerInfo.Strength<10)
+        {
+            return;
+        }
+        Vars[""ThisCount""]=""0"";
+        AddEvent(""FightStart"",(() => {SetStatus(""Self"");ChangeDynamicVar(""DefaultDamage"",""6"");}));
+        AddEvent(""AttackDone"", () =>
+        {
+            if (Vars[""ThisCount""]==""0"")
+            {
+                Vars[""ThisCount""]=""1"";
+                ChangeDynamicVar(""DefaultDamage"",""-6"");
+            }
+        });",Icon/Blessing/猜忌之口,正面,技能,1
+*102,2,,"if (PlayerInfo.Lucky<10)
+        {
+            return;
+        }AddEvent(""FightStart"",(() => {DrawCount(""1"");}));",Icon/Blessing/占卜词句,正面,技能,1
+*103,2,,"if (PlayerInfo.Wisdom<10)
+        {
+            return;
+        }AddEvent(""FightStart"",(() => {SetStatus(""Self"");ChangePower(""1"");}));",Icon/Blessing/思考者,正面,技能,1
+*104,2,,"if (PlayerInfo.Perceive<10)
+        {
+            return;
+        }AddEvent(""FightStart"",(() => {SetStatus(""Self"");ChangeDefence(""6"");}));",Icon/Blessing/纽带村落,正面,技能,1
+*105,3,,"if (PlayerInfo.Strength<20)
+        {
+            return;
+        }AddEvent(""FightStart"",() => {SetStatus(""Self"");AddBuff(DataId.buff_keenedge,""3"");});",Icon/Blessing/恐惧之眼,正面,技能,2
+*106,3,,"if (PlayerInfo.Lucky<20)
+        {
+            return;
+        }AddEvent(""FightStart"",()=>{PlayerInfo.Money+=45;});",Icon/Blessing/交易辞令,正面,技能,2
+*107,3,,"if (PlayerInfo.Wisdom<20)
+        {
+            return;
+        }AddEvent(""FightStart"",(() => {SetStatus(""Self"");AddBuff(DataId.buff_epiphany,""1"");}));",Icon/Blessing/探究者,正面,技能,2
+*108,3,,"if (PlayerInfo.Perceive<20)
+        {
+            return;
+        }AddEvent(""FightStart"",(() => {SetStatus(""Self"");AddBuff(DataId.buff_impregnable,""2"");}));",Icon/Blessing/统合城邦,正面,技能,2
+*109,4,,"if (PlayerInfo.Strength<30)
+        {
+            return;
+        }AddEvent(""Action"",() => {
+SetStatus(""AllRandomTarget1"");Damage(""6"");
+ });",Icon/Blessing/癫狂之手,正面,技能,3
+*110,4,,"if (PlayerInfo.Lucky<30)
+        {
+            return;
+        }AddEvent(""FightStart"",() => PlayerInfo.Reward+=1);",Icon/Blessing/统治手谕,正面,技能,3
+*111,4,,"if (PlayerInfo.Wisdom<30)
+        {
+            return;
+        }AddEvent(""FightStart"",(() => {SetStatus(""Self"");AddBuff(DataId.buff_oniblood,""1"");}));",Icon/Blessing/先知者,正面,技能,3
+*116,4,,"if (PlayerInfo.Perceive<40)
+        {
+            return;
+        }
+        AddEvent(""FightStart"",(() => {SetStatus(""Self"");AddBuff(DataId.buff_sourcecast,""1"");
+        
+        }));
+        AddEvent(""StartRound"",()=>{SetStatus(""Self"");foreach (var item in Object)
+        {
+            if (GetStatus.ContainsKey(item))
+            {
+                item.CurHp = GetStatus[item][""CurHp""];
+                item.MaxHp = GetStatus[item][""MaxHp""];
+            }
+            else
+            {
+                GetStatus[item] = new Dictionary<string, int>
+                {
+                    { ""CurHp"", item.CurHp },
+                    { ""MaxHp"", item.MaxHp },
+                };
+            }
+            
+        };});",Icon/Blessing/守望国度,正面,技能,4
+*113,5,,"if (PlayerInfo.Strength<40)
+        {
+            return;
+        }SetStatus(""Self"");AddEvent(""FightStart"",() => {
+            AddBuff(DataId.buff_extraordinary,""500"");});",Icon/Blessing/虚无之心,正面,技能,4
+*114,5,,"if (PlayerInfo.Lucky<40)
+        {
+            return;
+        }
+
+        AddEvent(""OnDiceValue"", () =>
+        {
+            ValueDice.OnRoll += result =>
+            {
+                new Dice.State(result.Value + 10, result.Bonus).CopyTo(result);
+            };
+        });
+
+        AddEvent(""OnDiceCheck"", () =>
+        {
+            CheckDice.OnRoll += result =>
+            {
+                new Dice.State(result.Value + 10, result.Bonus).CopyTo(result);
+            };
+        });",Icon/Blessing/规训律法,正面,技能,4
+*115,5,,"if (PlayerInfo.Wisdom<40)
+        {
+            return;
+        }AddEvent(""FightStart"",() => {SetStatus(""Self"");AddBuff(DataId.buff_contagion,""2"");AddBuff(DataId.buff_cycle,""2"");
+        SetStatus(""AllTarget"");AddBuff(DataId.buff_timestop,""1"");});",Icon/Blessing/觉悟者,正面,技能,4
+*112,5,,"if (PlayerInfo.Perceive<30)
+        {
+            return;
+        }AddEvent(""StartRound"",() => {AddBuff(DataId.buff_impregnable,""1"");});",Icon/Blessing/静滞世界,正面,技能,3
+32,7,,"AddEvent(""Action"",() => {
+
+SetStatus(""AllRandomTarget1"");Damage(""3"");
+ });",Icon/Blessing/星星,正面,技能,4
+33,7,,"AddEvent(""FightStart"",() => {SetStatus(""Self"");AddBuff(DataId.buff_contagion,""2"");});",Icon/Blessing/月亮,正面,技能,4
+34,10,,"AddEvent(""FightStart"",() => {SetStatus(""Self"");AddBuff(DataId.buff_chrysalis,""2"");});",Icon/Blessing/太阳,正面,技能,4
+*35,6,,"if (PlayerInfo.SpecialVars.ContainsKey(DataId.blessing_35) ||PlayerInfo.enemylevel==4)
+        {
+            return;
+        }
+        SetStatus(""Self"");
+        AddEvent(""Dead"",()=> {
+            if (!PlayerInfo.SpecialVars.ContainsKey(DataId.blessing_35))
+            {
+            SetStatus(""AllFriends"");
+            int livePeople = 0;
+            foreach (var item in Object)
+            {
+                if (item.state!=IStatusManager.State.Dead)
+                {
+                    livePeople++;
+                }
+            }
+                if (livePeople==0&&Self.dynamicVariables[""liveCount""]==0f&&((Self!=null&&Self.GetBuff(DataId.buff_rebirth)!=null&&Self.GetBuff(DataId.buff_rebirth).buffConfig.Level<30)||(Self!=null&&Self.GetBuff(DataId.buff_rebirth)==null)))
+                {
+                    Self.dynamicVariables[""ResurrectionSource""] = 1f;
+                    SetStatus(""Self"");
+                    ChangeHp(Self.MaxHp.ToString());
+                    Resurrection(""100"");
+                    PlayerInfo.SpecialVars[DataId.blessing_35] = ""1"";
+                EscapeFight();
+                }
+                
+            }
+        });",Icon/Blessing/重生保险,正面,技能,2
+*36,5,,"AddEvent(""FightStart"", () => {
+            Vars[""ThisCount""] = (int.Parse(Vars.GetValueOrDefault(""ThisCount"", ""0"")) + 1).ToString();
+            if (int.Parse(Vars[""ThisCount""]) < 4)
+            {
+                ChangeMaxHp(""-4"");
+            }
+            AddEvent(""Escape"", () =>
+            {
+                if (int.Parse(Vars[""ThisCount""]) >=3)
+                {
+                    for (int i = 0; i < 3; i++)
+                    {
+                        PlayerInfo.AddBless(DataId.blessing_6);
+                    PlayerInfo.AddBless(DataId.blessing_20);
+                    }
+                    
+                    PlayerInfo.RemoveBless(DataId.blessing_36);
+                }
+            });
+            AddEvent(""Win"",()=> {
+                if (int.Parse(Vars[""ThisCount""]) >=3)
+                {
+                    for (int i = 0; i < 3; i++)
+                    {
+                        PlayerInfo.AddBless(DataId.blessing_6);
+                    PlayerInfo.AddBless(DataId.blessing_20);
+                    }
+                    
+                    PlayerInfo.RemoveBless(DataId.blessing_36);
+                }
+            });
+             }); ",Icon/Blessing/奇美拉之血,正面,技能,2
+*37,5,,"if (PlayerInfo.enemylevel==4)
+        {
+            return;
+        }
+        ChangeDynamicVar(""liveCount"", ""999"");
+        AddEvent(""Dead"",()=> {
+            
+                if (Self.dynamicVariables[""liveCount""]==1f)
+                {
+                EscapeFight();
+                }
+                
+        });",Icon/Blessing/入职培训,正面,技能,2
+*38,5,,"AddBuff(DataId.SpecialBuff_Crow, ""1"");",Icon/Blessing/随从-乌鸦,正面,技能,2
+*39,5,,"if (PlayerInfo.SpecialVars.ContainsKey(""meowCount"")&&PlayerInfo.SpecialVars[""meowCount""]==""1"")
+        {
+        return;
+        }
+       AddBuff(DataId.SpecialBuff_meow, ""1"");AddBuff(DataId.buff_rebirth, ""70"");",Icon/Blessing/随从-黑猫,正面,技能,2
+*40,5,,"SetStatus(""Self"");SetStatus(""Self"");
+        AddEvent<AddBuffData>(""AddBuff"",(d)=>{ if(d.data.data[""Type""]!=""负面""||d.toId==Self.InstanceId)return; 
+ if(d.fromId!=Self.InstanceId||d.dataFromid==dataConfig.data[""Id""])return; SetStatusById(d.toId); 
+ int check = CheckDice.Roll().Value;
+                if (check >90)
+                {
+                    SetStatusById(d.toId);
+                    AddBuff(d.dataId, ""1"");
+                }
+                });",Icon/Blessing/随从-触手,正面,技能,2
+*41,5,,"AddEvent(""FightStart"",(() => {SetStatus(""Self"");RandomAddCard(""nocard_5"");}));",Icon/Blessing/使魔猫猫,正面,技能,2
+*42,5,,"AddEvent(""FightStart"",(() => {SetStatus(""Self"");List<Dictionary<string,string>>cards=GetcardsByRarity(""1"",""3"");
+        cards=cards.Where(x => x[""Type""]!=(""诅咒"")).ToList();
+        DataConfig newData=new DataConfig(cards[DefaultDice.WithRange(0, cards.Count - 1).Roll().Value][""Id""],DataType.Card);
+        newData.Vars[""Tag""]+="",Burnout"";
+        newData.Vars[""TotalExCost""]=""-999"";
+        CreateCard(newData);}));",Icon/Blessing/小克莉斯那,正面,技能,2
+*43,5,,"AddEvent(""Win"",()=> { PlayerInfo.Money += 5; });",Icon/Blessing/国王,正面,技能,2
+*44,5,,"AddEvent(""EndRound"",() => { SetStatus(""Self""); ChangeDefence(""2""); });",Icon/Blessing/守卫,正面,技能,2
+*45,5,PlayerInfo.Perceive+=3;,,Icon/Blessing/刺客,正面,技能,2
+*46,5,,"Vars[""ThisCount""] = ""0"";
+ AddEvent(""Action"",() =>
+ {
+ Vars[""ThisCount""] = (int.Parse(Vars[""ThisCount""]) + 1).ToString();
+ if (int.Parse(Vars[""ThisCount""]) % 3 == 0)
+ {
+ SetStatus(""Self"");
+ AddBuff(DataId.buff_rebirth, ""1"");
+ }
+ });",Icon/Blessing/重生保险,正面,技能,3
+*47,5,,"AddEvent(""Hurt"",() =>
+ {
+ if (Object.Count == 0 || Object[0] == null)
+ {
+ return;
+ }
+ var source = Object[0];
+ if (source == Self)
+ {
+ return;
+ }
+ SetStatusById(source.InstanceId);
+ AddBuff(DataId.buff_bleeding, ""2"");
+ });",Icon/Blessing/血鬼,正面,技能,3
+*48,5,,"AddEvent(""StartRound"",() => { SetStatus(""Self""); AddBuff(DataId.buff_elements, ""2""); });",Icon/Blessing/主教,正面,技能,3
+*49,5,,"AddEvent(""FightStart"", () =>
+        {
+            var cards=GetcardsByRarity(""1"",""2"");
+             cards=cards.Where(x=>x[""Tag""].Contains(""Curse"")).ToList();
+             int count=DefaultDice.WithRange(0,cards.Count-1).Roll().Value;
+             AddCardToDeckById(cards[count][""Id""]);
+        });",Icon/Blessing/萨满,负面,技能,3
+*50,5,,"Vars[""ThisCount""]=""0"";
+        AddEvent(""CostPower"", () =>
+        {
+            Vars[""ThisCount""]=(int.Parse(Vars[""ThisCount""])+1).ToString();
+            if (int.Parse(Vars[""ThisCount""])%5==0)
+            {
+                ChangePower(""-1"");
+            }
+        });",Icon/Blessing/萨满,负面,技能,3

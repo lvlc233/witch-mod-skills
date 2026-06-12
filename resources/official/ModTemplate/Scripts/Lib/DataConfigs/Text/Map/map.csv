@@ -1,0 +1,173 @@
+﻿Id,Note,Name,Name_zh-Hant,Name_en,Name_ja,Description,Description_zh-Hant,Description_en,Description_ja,AttributeText,AttributeText_zh-Hant,AttributeText_en,AttributeText_ja
+地图id,备注,名字,名字,Name,名前,描述,描述,Description,説明,,,,
+1,建筑,旅行商人,旅行商人,Traveling Merchant,魔法の店,<color=green>安全</color><br>奥尔德林神秘的游商，无论你是想要新的卡牌，契约，还是上古的遗物，这里一应俱全，只要携带了足量的金币，她就能为你提供你需要的一切 (诚招饰演商人一角的专业演员，暂由可可倾情扮演),<color=green>安全</color><br>奧爾德林神秘的游商，無論你是想要新的卡牌，契約，還是上古的遺物，這里一應俱全，只要攜帶了足量的金幣，她就能為你提供你需要的一切 (誠招飾演商人一角的專業演員，暫由可可傾情扮演),"<color=green>Safe</color><br>A mysterious merchant of Aldrin. Whether you need new cards, contracts, or ancient relics, she has everything here. Bring enough gold, and she can provide whatever you require. (Now hiring a professional actor for the merchant role; Coco is filling in with heartfelt enthusiasm for now.)",<color=green>安全</color><br>オルドリンの謎めいた行商人。新しいカード、契約、古代の遺物など、ここには何でも揃っている。十分な金貨を持っていれば、彼女はあなたに必要なものを何でも用意してくれる。（商人役のプロ役者を募集中。現在はココが心を込めて代役中）,并不等价的交换,并不等價的交換,Unequal Exchange,不等価交換
+2,普通事件,魔女手记,圖鑒,Witch's Notes,神秘的な出来事,<color=grey>未知</color><br>翻开新的一页，主天使的声音在你的耳畔响起，今天要讲的是故事是……,<color=grey>未知</color><br>翻開新的一頁，主天使的聲音在你的耳畔響起，今天要講的是故事是……,"<color=grey>Unknown</color><br>Turn to a new page, and the Archangel's voice rings beside your ear. Today's story is about...",<color=grey>未知</color><br>新しいページを開くと、主天使の声が耳元に響く。今日語られる物語は……,未知的旅途,未知的旅途,Unknown Journey,未知の旅
+3,精英,起源与终结,起源與終結,Origin and End,強欲者の微笑,<color=red>精英</color><br>他的笑容如同金币般闪亮，却带着腐蚀一切的恶意，那双贪婪的眼睛能看穿最坚固的盔甲，将其化为无用的废铁。,<color=red>精英</color><br>他的笑容如同金幣般閃亮，卻帶著腐蝕一切的惡意，那雙貪婪的眼睛能看穿最堅固的盔甲，將其化為無用的廢鐵。,"<color=red>Elite</color><br>His smile gleams like gold coins, yet carries a malice that corrodes everything. Those greedy eyes can see through the toughest armor and turn it into useless scrap.",<color=red>エリート</color><br>彼の笑みは金貨のように輝いているが、すべてを腐食させる悪意を帯びている。その貪欲な瞳はどんな堅牢な鎧も見抜き、役立たずの屑鉄へと変えてしまう。,,,,
+4,精英,红心女仆,紅心女仆,Heart Maid,汚泥の花,<color=red>精英</color><br>花色小队的执行担当，女仆遥望舞台上闪耀的身影,<color=red>精英</color><br>花色小隊的執行擔當，女仆遙望舞臺上閃耀的身影,<color=red>Elite</color><br>The executor of the suit squad. The maid gazes at the brilliant figure shining on the stage.,<color=red>エリート</color><br>スート小隊の実行担当。メイドは舞台の上で輝く姿を遠く見つめている。,,,,
+5,精英,鼹鼠,鼴鼠,Mole,盗賊王,<color=red>精英</color><br>只要有金币在身上，哪怕是传说中的灭世者的金币也照偷不误！这个就叫职业精神~！,<color=red>精英</color><br>只要有金幣在身上，哪怕是傳說中的滅世者的金幣也照偷不誤！這個就叫職業精神~！,"<color=red>Elite</color><br>If you have gold on you, she will steal it, even if it is the legendary Destroyer's coin! That is what you call professionalism~!",<color=red>エリート</color><br>身に金貨を持っているなら、たとえ伝説の滅世者の金貨だろうと盗む！これぞプロ意識ってやつだよ～！,,,,
+6,精英,深渊之触,深淵之觸,Abyssal Touch,詐欺師,"<color=red>精英</color><br>深渊的触须，奥尔德林的主力卫队
+她们的可怕之处在于其摧毁灵魂的权能，但这引以为傲的审判者威能却对魔女完全无效
+为对付卫队最大的敌人，触须们只能使用最原始的暴力","<color=red>精英</color><br>深淵的觸須，奧爾德林的主力衛隊
+她們的可怕之處在于其摧毀靈魂的權能，但這引以為傲的審判者威能卻對魔女完全無效
+為對付衛隊最大的敵人，觸須們只能使用最原始的暴力","<color=red>Elite</color><br>Tentacles of the Abyss, Aldrin's main guard force.
+Their terror lies in their authority to destroy souls, yet this proud power of judgment is completely ineffective against witches.
+To deal with the guards' greatest enemy, the tentacles can only resort to the most primitive violence.","<color=red>エリート</color><br>深淵の触手、オルドリンの主力衛隊。
+彼女たちの恐ろしさは魂を破壊する権能にあるが、誇り高き審判者の威能は魔女にはまったく通じない。
+衛隊最大の敵に対抗するため、触手たちは最も原始的な暴力に頼るしかない。",,,,
+7,普通,腐化蛛人,腐化蛛人,Corrupted Arachnid,絶望者,<color=yellow>普通</color><br>深渊的提线木偶，其原料为跌落深渊的蛛人魔族……,<color=yellow>普通</color><br>深淵的提線木偶，其原料為跌落深淵的蛛人魔族……,"<color=yellow>Common</color><br>An Abyssal marionette, made from a spiderfolk demon who fell into the Abyss...",<color=yellow>ノーマル</color><br>深淵の操り人形。その素材は、深淵へ落ちた蛛人の魔族……,,,,
+8,精英,幽怨之心,幽怨之心,Resentful Heart,不気味な森,<color=red>精英</color><br>世界的恶意未能汇聚成暴力和杀戮的欲望，反而内敛成一种怨念,<color=red>精英</color><br>世界的惡意未能匯聚成暴力和殺戮的欲望，反而內斂成一種怨念,"<color=red>Elite</color><br>The world's malice failed to gather into a desire for violence and slaughter; instead, it turned inward and became a lingering resentment.",<color=red>エリート</color><br>世界の悪意は暴力と殺戮の欲望として集まることなく、内側へ沈み込み、一種の怨念となった。,,,,
+9,普通,猫猫军团,貓貓軍團,Predator Swamp,不気味な沼,<color=yellow>普通</color><br>打盹，摸鱼，追逐自己的尾巴，这些小猫们看起来毫无威胁，直到你用手摸了它们的耳朵……,<color=yellow>普通</color><br>打盹，摸魚，追逐自己的尾巴，這些小貓們看起來毫無威脅，直到你用手摸了它們的耳朵……,"<color=yellow>Common</color><br>Napping, slacking off, chasing their own tails: these kittens look harmless, until you reach out and touch their ears...",<color=yellow>ノーマル</color><br>昼寝、サボり、自分の尻尾を追いかけること。子猫たちはまったく脅威に見えない。あなたがその耳に手を触れるまでは……,,,,
+10,普通,灾厄先兆,災厄先兆,Harbinger of Calamity,廃坑,"<color=yellow>普通</color><br>厄运的先遣者，世界对魔女恶意的具象化体现
+如今，奥尔德林的獠牙已不加掩饰","<color=yellow>普通</color><br>厄運的先遣者，世界對魔女惡意的具象化體現
+如今，奧爾德林的獠牙已不加掩飾","<color=yellow>Common</color><br>Harbingers of misfortune, the world's malice toward witches given form.
+Now, Aldrin's fangs are no longer hidden.","<color=yellow>ノーマル</color><br>厄運の先遣者。世界が魔女へ向ける悪意の具現。
+今や、オルドリンの牙は隠されることもない。",,,,
+11,精英,蛛人巢穴,蛛人巢穴,Spiderfolk Nest,古代神の祭壇,<color=red>精英</color><br>被鲜血染红的古老石台，刻满了无法理解的神秘符文，空气中弥漫着死亡的气息，你会成为下一个献给古神的祭品吗？,<color=red>精英</color><br>被鮮血染紅的古老石臺，刻滿了無法理解的神秘符文，空氣中彌漫著死亡的氣息，你會成為下一個獻給古神的祭品嗎？,"<color=red>Elite</color><br>An ancient stone altar stained red with blood, carved with incomprehensible mystic runes. The air reeks of death. Will you be the next sacrifice offered to the ancient god?",<color=red>エリート</color><br>血で赤く染まった古い石台には、理解不能な神秘のルーンが刻まれている。空気には死の気配が漂う。あなたは古き神へ捧げられる次の生贄になるのだろうか？,,,,
+12,首领,巨蜥洞穴,巨蜥洞穴,Giant Lizard Den,古竜の巣,<color=#800001>Boss</color><br>灾厄的鳞角，龙族的旁系，还有一只戴着奇怪帽子的小猫，一对奇怪的组合，她们是厄运的先锋……？还是说，是我的到来打扰了她们的安宁……？,<color=#800001>Boss</color><br>災厄的鱗角，龍族的旁系，還有一只戴著奇怪帽子的小貓，一對奇怪的組合，她們是厄運的先鋒……？還是說，是我的到來打擾了她們的安寧……？,"<color=#800001>Boss</color><br>Horns and scales of calamity, a branch of the dragonkin, and a little cat wearing a strange hat. What an odd pair. Are they heralds of misfortune...? Or did my arrival disturb their peace...?",<color=#800001>ボス</color><br>災厄の鱗角、竜族の傍系、そして奇妙な帽子をかぶった子猫。妙な組み合わせだ。彼女たちは厄運の先鋒なのか……？それとも、私の来訪が彼女たちの平穏を乱しただけなのか……？,,,,
+13,首领,黏黏军团,黏黏軍團,Slime Legion,プラティの王,"<color=#800002>Boss</color><br>作为魔族食物链的底端，普拉提为魔族的运转提供了大部分能量来源
+如今，这一外形和果冻雷同的种族也诞生了自己的王
+它们向魔女挥剑相向并非出于生存本能，而是对普拉提王的忠诚
+“保卫陛下！”","<color=#800002>Boss</color><br>作為魔族食物鏈的底端，普拉提為魔族的運轉提供了大部分能量來源
+如今，這一外形和果凍雷同的種族也誕生了自己的王
+它們向魔女揮劍相向并非出于生存本能，而是對普拉提王的忠誠
+“保衛陛下！”","<color=#800002>Boss</color><br>At the bottom of the demon food chain, Platies provide most of the energy that keeps demonkind running.
+Now, this jelly-like race has given birth to a king of its own.
+They draw their swords against the witch not from survival instinct, but from loyalty to the Platy King.
+""Protect His Majesty!""","<color=#800002>ボス</color><br>魔族の食物連鎖の底辺として、プラティは魔族の営みに必要なエネルギーの大半を供給している。
+今や、ゼリーに似た姿のこの種族にも、自らの王が生まれた。
+彼らが魔女へ剣を向けるのは生存本能からではなく、プラティの王への忠誠ゆえである。
+「陛下をお守りしろ！」",,,,
+15,普通,圣械协从,圣械協從,Sanctum Automaton,鉄の箱,<color=yellow>普通</color><br>圣械司的杰作，搬运，检修，屠宰……自动化的人工智能统统不在话下,<color=yellow>普通</color><br>圣械司的杰作，搬運，檢修，屠宰……自動化的人工智能統統不在話下,"<color=yellow>Common</color><br>A masterpiece of the Sanctum Automaton Bureau. Transport, maintenance, butchery... automated artificial intelligence handles it all with ease.",<color=yellow>ノーマル</color><br>聖械司の傑作。運搬、点検、屠畜……自動化された人工知能にかかれば、どれもお手のものだ。,,,,
+16,精英,惊喜礼物盒,驚喜禮物盒,Surprise Gift Box,荒野,"<color=red>精英</color><br>“来抽一个吧！金币大奖！神奇祝福！上古遗物！我这里什么都有哦！”
+“哎呀~怎么会是骷髅头呢~一定只是手气不好~下把一定可以的！”","<color=red>精英</color><br>“來抽一個吧！金幣大獎！神奇祝福！上古遺物！我這里什么都有哦！”
+“哎呀~怎么會是骷髏頭呢~一定只是手氣不好~下把一定可以的！”","<color=red>Elite</color><br>""Come draw one! Gold jackpot! Wondrous blessings! Ancient relics! I have everything here!""
+""Oh my~ how did you get a skull~? Must just be bad luck~ You'll surely win next time!""","<color=red>エリート</color><br>「さあ一つ引いていって！金貨の大当たり！不思議な祝福！古代の遺物！ここには何でもあるよ！」
+「あらら～どうして髑髏が出ちゃったのかな～きっと運が悪かっただけだよ～次は絶対当たるって！」",,,,
+17,普通,腐化主教,腐化主教,Corrupted Bishop,腐敗した司教,<color=yellow>普通</color><br>深渊的提线木偶，其原料为跌落深渊的教廷主教……,<color=yellow>普通</color><br>深淵的提線木偶，其原料為跌落深淵的教廷主教……,"<color=yellow>Common</color><br>An Abyssal marionette, made from a church bishop who fell into the Abyss...",<color=yellow>ノーマル</color><br>深淵の操り人形。その素材は、深淵へ落ちた教廷の主教……,,,,
+18,普通,莉莉,莉莉,Lily,暗闇の洞窟,<color=yellow>普通</color><br>莉莉把她的布玩偶举在你的眼前，时空在此刻停滞……,<color=yellow>普通</color><br>莉莉把她的布玩偶舉在你的眼前，時空在此刻停滯……,"<color=yellow>Common</color><br>Lily raises her cloth doll before your eyes, and time and space freeze in that instant...",<color=yellow>ノーマル</color><br>リリィが布の人形をあなたの目の前に掲げる。その瞬間、時空は停滞する……,,,,
+19,精英,木偶剧,木偶劇,Puppet Show,狩猟二人組,<color=red>精英</color><br>,<color=red>精英</color><br>,<color=red>Elite</color><br>,<color=red>エリート</color><br>,,,,
+20,普通,方片舞者,方片舞者,Diamond Dancer,踊り子,<color=yellow>普通</color><br>花色小队的支援担当，这支舞曲只为年轻的骑士奏响,<color=yellow>普通</color><br>花色小隊的支援擔當，這支舞曲只為年輕的騎士奏響,<color=yellow>Common</color><br>The support member of the suit squad. This dance tune plays only for the young knight.,<color=yellow>ノーマル</color><br>スート小隊の支援担当。この舞曲は若き騎士のためだけに奏でられる。,,,,
+21,普通,混血狼裔,混血狼裔,Half-Blood Wolfkin,擬態者,"<color=yellow>普通</color><br>狼人幸存的血脉之一，据说起先祖拥有能突破音速的身体和交换灵魂的权能
+到了这一代只剩下毛茸茸的大尾巴作为种族特征了……","<color=yellow>普通</color><br>狼人幸存的血脈之一，據說起先祖擁有能突破音速的身體和交換靈魂的權能
+到了這一代只剩下毛茸茸的大尾巴作為種族特征了……","<color=yellow>Common</color><br>One of the surviving bloodlines of the werewolves. It is said their ancestors possessed bodies capable of breaking the sound barrier and the authority to exchange souls.
+By this generation, only a fluffy great tail remains as the mark of their race...","<color=yellow>ノーマル</color><br>生き残った狼族の血脈の一つ。祖先は音速を突破する肉体と、魂を交換する権能を持っていたという。
+この世代に残った種族的特徴は、もふもふの大きな尻尾だけになってしまった……",,,,
+22,首领,罪业集群,罪業集群,Sin Cluster,異体同心,"<color=#800001>Boss</color><br>暴怒，恐惧，怠惰，丝丝缕缕的恶念汇聚成有型的怪物
+个体力量或许微不足道，但影魔们从不以单打独斗见长","<color=#800001>Boss</color><br>暴怒，恐懼，怠惰，絲絲縷縷的惡念匯聚成有型的怪物
+個體力量或許微不足道，但影魔們從不以單打獨斗見長","<color=#800001>Boss</color><br>Wrath, fear, sloth: strands of malice gather into monsters with form.
+Each individual may be insignificant, but Shadows have never excelled at fighting alone.","<color=#800001>ボス</color><br>暴怒、恐怖、怠惰。細く絡まる悪念が、形ある怪物へと集まった。
+個体の力は取るに足らないかもしれないが、影魔たちは決して一対一を得意とはしない。",,,,
+23,精英,梅花侍从,梅花侍從,Page of Clubs,聖人,<color=red>精英</color><br>花色小队的中年副队，侍者的服务业精神为红桃的公主而留,<color=red>精英</color><br>花色小隊的中年副隊，侍者的服務業精神為紅桃的公主而留,<color=red>Elite</color><br>The middle-aged deputy of the suit squad. The attendant's service-industry spirit is reserved for the princess of hearts.,<color=red>エリート</color><br>スート小隊の中年副隊長。侍者としてのサービス精神は、ハートの姫君のために捧げられている。,,,,
+24,首领,失心魔女,失心魔女,Mindless Witch,鏡中の人,"<color=#800001>Boss</color><br>褪去色彩徒留躯壳的魔女残骸
+失去了作为毁灭者内核的她，如今只是一名魔力过剩的平凡少女
+没有力量的人，也有自己希望守护的事物","<color=#800001>Boss</color><br>褪去色彩徒留軀殼的魔女殘骸
+失去了作為毀滅者內核的她，如今只是一名魔力過剩的平凡少女
+沒有力量的人，也有自己希望守護的事物","<color=#800001>Boss</color><br>The remains of a witch, stripped of color and left with only a shell.
+Having lost the core that made her a Destroyer, she is now merely an ordinary girl with excessive magic.
+Even those without power have things they wish to protect.","<color=#800001>ボス</color><br>色彩を失い、抜け殻だけを残した魔女の残骸。
+滅世者としての核を失った彼女は、今では魔力が過剰なだけの平凡な少女にすぎない。
+力なき者にも、守りたいものはある。",,,,
+25,建筑,天界赐福,天界賜福,Celestial Blessing,運命の樹,<color=green>安全</color><br>迷途的天使为魔女降下的赐福，这些来自异界的加护无需宿主的躯壳作为载体，她们通过神权回廊的直接链接魔女的灵魂，作为交换仅收取一些微不足道的尘俗物质,<color=green>安全</color><br>迷途的天使為魔女降下的賜福，這些來自異界的加護無需宿主的軀殼作為載體，她們通過神權迴廊的直接鏈接魔女的靈魂，作為交換僅收取一些微不足道的塵俗物質,"<color=green>Safe</color><br>Blessings bestowed upon the witch by lost angels. These protections from another realm do not require a host body as a vessel; they link directly to the witch's soul through divine corridors, taking only a little worldly matter in exchange.",<color=green>安全</color><br>迷える天使たちが魔女へ降した祝福。異界から来たこれらの加護は宿主の肉体を器とせず、神権回廊を通じて魔女の魂へ直接接続する。その代価として、ほんのわずかな俗世の物質だけを徴収する。,"命运,在此显现","命運,在此顯現",Fate Manifests Here,運命、ここに現る
+*26,精英,腐化圣骑,腐化圣騎,Corrupted Paladin,腐化した聖騎士,<color=red>精英</color><br>深渊的提线木偶，其原料为跌落深渊的教廷圣骑……,<color=red>精英</color><br>深淵的提線木偶，其原料為跌落深淵的教廷圣騎……,"<color=red>Elite</color><br>An Abyssal marionette, made from a church paladin who fell into the Abyss...",<color=red>エリート</color><br>深淵の操り人形。その素材は、深淵へ落ちた教廷の聖騎士……,,,,
+27,首领,守夜人,守夜人,Night Watcher,昇華体,"<color=#800000>Boss</color><br>守夜人是奥尔德林居民的警戒哨，在夜幕降临之际，她们将代替沉入梦乡的众生，成为众人的眼睛
+据说在古老的过去，警戒的范围仅限于偷盗，入室抢劫等社区治安，如今这一职业已经特别指向魔女这一威胁","<color=#800000>Boss</color><br>守夜人是奧爾德林居民的警戒哨，在夜幕降臨之際，她們將代替沉入夢鄉的眾生，成為眾人的眼睛
+據說在古老的過去，警戒的范圍僅限于偷盜，入室搶劫等社區治安，如今這一職業已經特別指向魔女這一威脅","<color=#800000>Boss</color><br>Night Watchers are the sentries of Aldrin's residents. When night falls, they replace all who have sunk into dreams and become everyone's eyes.
+It is said that in the ancient past, their watch was limited to community safety such as theft and burglary. Today, this profession points specifically toward the threat known as witches.","<color=#800000>ボス</color><br>守夜人はオルドリン住民の警戒哨である。夜の帳が降りると、夢へ沈んだ衆生に代わり、皆の目となる。
+古い時代には、その警戒範囲は窃盗や住居侵入といった地域治安に限られていたという。だが今、この職業は魔女という脅威を明確に指し示すものとなった。",,,,
+28,建筑,一息安隅,一息安隅,Moment of Peace,微光の場所,<color=green>安全</color><br>魔女的工作暂且告一段落，现在是被窝和干饭的时间，尽情享受你应得的片刻安宁吧~,<color=green>安全</color><br>魔女的工作暫且告一段落，現在是被窩和干飯的時間，盡情享受你應得的片刻安寧吧~,<color=green>Safe</color><br>The witch's work is done for now. It is time for blankets and a proper meal. Enjoy the moment of peace you deserve~,<color=green>安全</color><br>魔女の仕事はいったん一区切り。今は布団とご飯の時間だ。あなたにふさわしい束の間の安らぎを、思う存分楽しもう～,休息点,休息點,Rest Stop,休憩所
+*0,首领,永夜化身,永夜化身,Avatar of Eternal Night,終焉の刻,<color=red>噩梦 它在等你。</color><br>世界末日的最终战场，所有命运的线索都汇聚于此，等待着最后审判时刻的到来，你准备好面对终极的考验了吗？,<color=red>噩夢 它在等你。</color><br>世界末日的最終戰場，所有命運的線索都匯聚于此，等待著最后審判時刻的到來，你準備好面對終極的考驗了嗎？,"<color=red>Nightmare. It awaits you.</color><br>The final battlefield of the world's doomsday. All threads of fate converge here, awaiting the hour of final judgment. Are you ready to face the ultimate trial?",<color=red>悪夢 それはあなたを待っている。</color><br>世界終末の最終戦場。すべての運命の糸がここに集まり、最後の審判の時を待っている。究極の試練に立ち向かう準備はできているか？,,,,
+31,首领,魔将·帕梅拉,魔將·帕梅拉,Lord of Paradise,知恵の試練,"<color=red>精英</color><br>魔女？勇者？魔王？那种事情怎么样都好啦！就算毁灭就在明天也丝毫不妨碍帕梅拉在午夜零点之前找点乐子
+理所当然的，想见识一下魔女的权能也是她的乐子之一","<color=red>精英</color><br>魔女？勇者？魔王？那種事情怎么樣都好啦！就算毀滅就在明天也絲毫不妨礙帕梅拉在午夜零點之前找點樂子
+理所當然的，想見識一下魔女的權能也是她的樂子之一","<color=red>Elite</color><br>Witch? Hero? Demon King? Who cares about any of that! Even if destruction comes tomorrow, it will not stop Pamela from finding some fun before midnight.
+Naturally, seeing the witch's authority for herself is one of her amusements.","<color=red>エリート</color><br>魔女？勇者？魔王？そんなことはどうでもいいよ！たとえ明日が滅びの日でも、真夜中の零時までにパメラが楽しみを見つける邪魔にはならない。
+当然、魔女の権能を見物することも彼女の楽しみの一つだ。",,,,
+32,首领,熔火圣骸,熔火圣骸,Molten Sacred Remains,火の鳳凰,"<color=#800001>Boss</color><br>圣械和影魔结合的产物
+影魔内生的骨架被以教廷的技术反向成为保护影魔肉身的骨盔
+这并效率上的优化，仅因不如此就无法抑制影魔回归黑暗的本能","<color=#800001>Boss</color><br>圣械和影魔結合的產物
+影魔內生的骨架被以教廷的技術反向成為保護影魔肉身的骨盔
+這并效率上的優化，僅因不如此就無法抑制影魔回歸黑暗的本能","<color=#800001>Boss</color><br>A product of combining sacred machinery with Shadows.
+The Shadow's internal skeleton was reversed through church technology into a bone helm that protects its flesh.
+This is not an efficiency optimization; it is done only because otherwise the Shadow's instinct to return to darkness cannot be suppressed.","<color=#800001>ボス</color><br>聖械と影魔が結合した産物。
+影魔の内生骨格は教廷の技術によって反転され、影魔の肉体を守る骨兜となった。
+これは効率の最適化ではない。そうしなければ、影魔が闇へ帰ろうとする本能を抑えられないだけなのだ。",,,,
+33,精英,自动机关人偶,自動機關人偶,Automaton Doll,空賊,<color=red>精英</color><br>人形的圣械机关，在基础功能上额外集成了魔法回路,<color=red>精英</color><br>人形的圣械機關，在基礎功能上額外集成了魔法回路,"<color=red>Elite</color><br>A humanoid sacred automaton, with magical circuits additionally integrated into its basic functions.",<color=red>エリート</color><br>人型の聖械機関。基本機能に加えて、魔法回路が組み込まれている。,,,,
+34,精英,K,K,K,罪人,"<color=red>精英</color><br>“你说我看起来很像一只影魔？啊~那是很久远的过去了。”
+“不是被除籍，只是有一天我突然觉得一个人也不错~”
+“这个话题没什么意思，不如猜猜下一张牌会是什么？”","<color=red>精英</color><br>“你說我看起來很像一只影魔？啊~那是很久遠的過去了。”
+“不是被除籍，只是有一天我突然覺得一個人也不錯~”
+“這個話題沒什么意思，不如猜猜下一張牌會是什么？”","<color=red>Elite</color><br>""You say I look a lot like a Shadow? Ah~ that was a very long time ago.""
+""I wasn't expelled. One day, I just suddenly thought being alone sounded nice~""
+""This topic is boring. Why not guess what the next card will be?""","<color=red>エリート</color><br>「私が影魔に似ているって？ああ～それはずいぶん昔の話だよ。」
+「除籍されたわけじゃない。ただある日、ひとりでも悪くないなって急に思っただけ～」
+「この話題、面白くないね。次のカードが何か当ててみない？」",,,,
+35,精英,鬼牌:小王,鬼牌:小王,Joker: Black,双子,"<color=red>精英</color><br>“遵从帕梅拉大人的意志而来！”
+“我们是，剧团的，二号人物！”
+“如果帕梅拉大人突然暴毙的话就是我们做老大了呢~”
+“再怎么样这话也不是现在该说的吧……”","<color=red>精英</color><br>“遵從帕梅拉大人的意志而來！”
+“我們是，劇團的，二號人物！”
+“如果帕梅拉大人突然暴斃的話就是我們做老大了呢~”
+“再怎么樣這話也不是現在該說的吧……”","<color=red>Elite</color><br>""We come in accordance with Lady Pamela's will!""
+""We are the troupe's number two!""
+""If Lady Pamela suddenly drops dead, we'll be the bosses then~""
+""No matter how you put it, now is not the time to say that...""","<color=red>エリート</color><br>「パメラ様の意志に従い参上！」
+「私たちは、劇団の、ナンバー二！」
+「もしパメラ様が突然ぽっくり逝ったら、私たちがボスだね～」
+「どう考えても今言うことじゃないでしょ……」",,,,
+*36,普通,灾厄祭司,災厄祭司,Calamity Priest,楽師,"<color=yellow>普通</color><br>厄运的祭祀者，唤醒奥尔德林的烽火台已点燃
+深渊的造物破茧而出","<color=yellow>普通</color><br>厄運的祭祀者，喚醒奧爾德林的烽火臺已點燃
+深淵的造物破繭而出","<color=yellow>Common</color><br>Worshipers of misfortune. The beacon that awakens Aldrin has been lit.
+An Abyssal creation breaks free from its cocoon.","<color=yellow>ノーマル</color><br>厄運を祀る者。オルドリンを呼び覚ます烽火台には、すでに火が灯った。
+深淵の造物が繭を破って現れる。",,,,
+37,普通,黑桃骑士,黑桃騎士,Spade Knight,暗殺,<color=yellow>普通</color><br>花色小队的现任队长，骑士的后背只交给信赖的侍者,<color=yellow>普通</color><br>花色小隊的現任隊長，騎士的后背只交給信賴的侍者,<color=yellow>Common</color><br>The current captain of the suit squad. The knight entrusts her back only to the attendant she trusts.,<color=yellow>ノーマル</color><br>スート小隊の現隊長。騎士の背中は、信頼する侍者にだけ預けられる。,,,,
+38,普通,魔女教教徒,魔女教教徒,Witch Cultist,百知,"<color=yellow>普通</color><br>魔女教世代侍奉魔女，将魔女视为解决一切问题的终极方案
+这个教义一直持续到魔女真的降临到了奥尔德林为止……","<color=yellow>普通</color><br>魔女教世代侍奉魔女，將魔女視為解決一切問題的終極方案
+這個教義一直持續到魔女真的降臨到了奧爾德林為止……","<color=yellow>Common</color><br>The Witch Cult has served witches for generations, treating witches as the ultimate solution to every problem.
+That doctrine lasted until a witch truly descended upon Aldrin...","<color=yellow>ノーマル</color><br>魔女教は代々魔女に仕え、魔女をあらゆる問題を解決する究極の手段と見なしてきた。
+その教義は、魔女が本当にオルドリンへ降り立つまで続いた……",,,,
+39,普通,天眷者,天眷者,Heaven's Favorite,天眷,"<color=yellow>普通</color><br>信徒试图让神迹在人类身上再现的产物
+拥有了一半天使权能的使徒，既未能获得天使不可接触的神力，也没有继承人类可解构魔法的智力","<color=yellow>普通</color><br>信徒試圖讓神跡在人類身上再現的產物
+擁有了一半天使權能的使徒，既未能獲得天使不可接觸的神力，也沒有繼承人類可解構魔法的智力","<color=yellow>Common</color><br>The product of believers attempting to reproduce a miracle upon a human body.
+An apostle with half an angel's authority, who gained neither the untouchable divine power of angels nor the human intellect capable of deconstructing magic.","<color=yellow>ノーマル</color><br>信徒たちが神跡を人間の身に再現しようとした産物。
+天使の権能を半分だけ得た使徒だが、天使の不可触の神力も、人間が魔法を解体する知性も受け継げなかった。",,,,
+40,普通,吞金兽,吞金獸,Gold Eater,金を呑む獣,"<color=yellow>普通</color><br>每一枚金币上都内嵌了奥尔德林的祝福与诅咒，这些闪闪发光的小金属片是奥尔德林流动的血液，血液只有在流动时才能发挥起价值
+将金子镶嵌在自己身上搬来搬去的小家伙或许是想贯彻深渊的律法？","<color=yellow>普通</color><br>每一枚金幣上都內嵌了奧爾德林的祝福與詛咒，這些閃閃發光的小金屬片是奧爾德林流動的血液，血液只有在流動時才能發揮起價值
+將金子鑲嵌在自己身上搬來搬去的小家伙或許是想貫徹深淵的律法？","<color=yellow>Common</color><br>Every gold coin is embedded with Aldrin's blessings and curses. These glittering little metal pieces are Aldrin's flowing blood, and blood only has value while it flows.
+Perhaps this little creature, carrying gold inlaid into its body, is trying to uphold the laws of the Abyss?","<color=yellow>ノーマル</color><br>一枚一枚の金貨には、オルドリンの祝福と呪いが埋め込まれている。このきらめく小さな金属片はオルドリンを流れる血であり、血は流れてこそ価値を発揮する。
+金を自分の体に嵌め込んで運び回るこの小さなものは、深淵の律法を貫こうとしているのだろうか？",,,,
+41,普通,活性晶簇,活性晶簇,Crystal Cluster,活性晶簇,<color=yellow>普通</color><br>与吞金兽结构类似的小怪物，区别在于他喜爱收集搬运的事务从金币变为了富含魔力的晶矿,<color=yellow>普通</color><br>與吞金獸結構類似的小怪物，區別在於它喜愛收集搬運的事物從金幣變為了富含魔力的晶礦,<color=yellow>Common</color><br>A small monster similar in structure to the Gold Eater. The difference is that the thing it loves to collect and transport has changed from gold coins to magic-rich crystal ore.,<color=yellow>ノーマル</color><br>吞金獣と似た構造を持つ小さな怪物。違いは、集めて運ぶことを好むものが金貨から魔力を豊富に含む晶鉱へ変わったことだ。,,,,
+42,精英,藏宝处,藏寶處,Treasure Trove,鴻運,<color=red>精英</color><br>幸运女神的加倍眷顾，让你在这次冒险中获得双倍的收获与机遇，这是多么难得的幸福时光。,<color=red>精英</color><br>幸運女神的加倍眷顧，讓你在這次冒險中獲得雙倍的收獲與機遇，這是多么難得的幸福時光。,"<color=red>Elite</color><br>The goddess of luck favors you twice over, granting this adventure double the gains and opportunities. What a rare moment of happiness.",<color=red>エリート</color><br>幸運の女神の二重の加護により、この冒険で得られる収穫と機会は二倍になる。なんと得難い幸福な時間だろう。,,,,
+43,精英,清理,清理,Cleansing,浄化,<color=red>精英</color><br>执行净化使命的冷酷审判者，他认为自己是深渊意志的代行者，要将这个世界的污秽全部清除干净。,<color=red>精英</color><br>執行凈化使命的冷酷審判者，他認為自己是深淵意志的代行者，要將這個世界的污穢全部清除干凈。,"<color=red>Elite</color><br>A cold judge carrying out a mission of purification. He believes himself to be an agent of the Abyss's will, determined to cleanse every impurity from this world.",<color=red>エリート</color><br>浄化の使命を遂行する冷酷な審判者。彼は自らを深淵の意志の代行者だと考え、この世界の汚れをすべて清め尽くそうとしている。,,,,
+44,精英,玩偶剧,玩偶劇,Puppet Show,人形遣い,<color=red>精英</color><br>娇小的少女和巨大的玩偶熊共同出演这场话剧，与她共舞时务必慎重，先后顺序的不同可能导致截然相反的结果,<color=red>精英</color><br>嬌小的少女和巨大的玩偶熊共同出演這場話劇，與她共舞時務必慎重，先后順序的不同可能導致截然相反的結果,<color=red>Elite</color><br>A petite girl and a giant doll bear perform in this play together. Be careful when dancing with her; a different order may lead to entirely opposite results.,<color=red>エリート</color><br>小柄な少女と巨大なぬいぐるみ熊が、ともにこの芝居を演じる。彼女と踊るときは慎重に。順番が違えば、まったく逆の結果を招くかもしれない。,,,,
+45,普通,最后一餐,最后一餐,Last Supper,満腹,<color=yellow>普通</color><br>每一场宴席都离不开的碳水摄入，这里不是安全屋，来迎接你的最后一餐吧~,<color=yellow>普通</color><br>每一場宴席都離不開的碳水攝入，這里不是安全屋，來迎接你的最后一餐吧~,<color=yellow>Common</color><br>No banquet is complete without carbohydrates. This is not a safe house. Come meet your final meal~,<color=yellow>ノーマル</color><br>どんな宴にも欠かせない炭水化物の摂取。ここは安全屋ではない。あなたの最後の一餐を迎えに来てね～,,,,
+46,普通,恶意聚合体,惡意聚合體,Malignant Mass,悪意,<color=yellow>普通</color><br>未能汇聚成形的恶意，挣扎着，试图将半成品的躯壳凝聚成核,<color=yellow>普通</color><br>未能匯聚成形的惡意，掙扎著，試圖將半成品的軀殼凝聚成核,"<color=yellow>Common</color><br>Malice that failed to gather into form struggles, trying to condense its half-finished shell into a core.",<color=yellow>ノーマル</color><br>形を成すことに失敗した悪意がもがき、半製品の殻を核へと凝集させようとしている。,,,,
+*47,普通,测试关,測試關,Tutorial Level,テストステージ,<color=yellow>普通</color><br>教学关1。,<color=yellow>普通</color><br>教學關1。,<color=yellow>Common</color><br>Tutorial Level 1.,<color=yellow>ノーマル</color><br>チュートリアルステージ1。,,,,
+48,建筑,血脉铭刻,血脈銘刻,Bloodline Inscription,血脈の刻印,<color=green>安全</color><br>一种魔族主脉才会举行的传统习俗，通过将古老的符号烙印上精神世界的方式，被铭刻者将被赋予传承自血脉的永久升华，以及随之而来嵌合在基因中的枷锁,<color=green>安全</color><br>一種魔族主脈才會舉行的傳統習俗，通過將古老的符號烙印上精神世界的方式，被銘刻者將被賦予傳承自血脈的永久升華，以及隨之而來嵌合在基因中的枷鎖,"<color=green>Safe</color><br>A tradition practiced only by the main line of demonkind. By branding ancient symbols into the spiritual world, the one engraved receives a permanent ascension inherited from their bloodline, along with shackles embedded in their genes.",<color=green>安全</color><br>魔族の主脈だけが行う伝統的な習俗。古い符号を精神世界へ焼き付けることで、刻まれた者には血脈から受け継がれる恒久的な昇華と、遺伝子に組み込まれた枷が与えられる。,,,,
+*49,普通,测试关,測試關,Tutorial Level,テストステージ,<color=yellow>普通</color><br>教学关1。,<color=yellow>普通</color><br>教學關1。,<color=yellow>Common</color><br>Tutorial Level 1.,<color=yellow>ノーマル</color><br>チュートリアルステージ1。,,,,
+*50,普通,测试关,測試關,Tutorial Level,テストステージ,<color=yellow>普通</color><br>教学关2。,<color=yellow>普通</color><br>教學關2。,<color=yellow>Common</color><br>Tutorial Level 2.,<color=yellow>ノーマル</color><br>チュートリアルステージ2。,,,,
+*999,首领,魔王,魔王,Demon King,魔王,"<color=red>噩梦</color><br>热爱知识与书籍的第五代魔王
+在勇者已经失踪的现在，失去对手的魔王并不打算干涉联邦和教廷的琐事
+维系她存在价值的责任感，如今仅剩保护好魔族子民的执念
+因此，奥尔德林暴力的顶点会让一切入侵者重新认清自己的位置","<color=red>噩夢</color><br>熱愛知識與書籍的第五代魔王
+在勇者已經失蹤的現在，失去對手的魔王并不打算干涉聯邦和教廷的瑣事
+維系她存在價值的責任感，如今僅剩保護好魔族子民的執念
+因此，奧爾德林暴力的頂點會讓一切入侵者重新認清自己的位置","<color=red>Nightmare</color><br>The fifth-generation Demon King, who loves knowledge and books.
+With the Hero already missing, the Demon King who has lost her rival has no intention of meddling in the trivial affairs of the Federation and the Church.
+The sense of duty that sustained the value of her existence has now dwindled to a single obsession: protecting the people of demonkind.
+Thus, the apex of Aldrin's violence will force every invader to recognize their place once more.","<color=red>悪夢</color><br>知識と書物を愛する第五代魔王。
+勇者がすでに行方不明となった今、相手を失った魔王は連邦と教廷の些事に干渉するつもりはない。
+彼女の存在価値を支えていた責任感は、今や魔族の民を守り抜くという執念だけになった。
+ゆえに、オルドリンにおける暴力の頂点は、すべての侵入者に自らの立場を改めて思い知らせる。",,,,
+*1000,首领,永夜化身,永夜化身,Avatar of Eternal Night,終焉の刻,"<color=red>噩梦 </color><br>无数的黑暗汇聚成如山一般的身躯
+巨大的骨刺自影魔之王的胸腔穿出
+张开血色的三目，午夜十分的怪物自沉眠中苏醒","<color=red>噩夢 </color><br>無數的黑暗匯聚成如山一般的身軀
+巨大的骨刺自影魔之王的胸腔穿出
+張開血色的三目，午夜十分的怪物自沉眠中蘇醒","<color=red>Nightmare </color><br>Countless darknesses gather into a mountain-like body.
+Massive bone spikes burst from the chest of the Shadow King.
+Opening its blood-colored three eyes, the monster of midnight awakens from slumber.","<color=red>悪夢 </color><br>無数の闇が集まり、山のような躯となる。
+巨大な骨棘が影魔の王の胸腔から突き出す。
+血色の三つ目を開き、真夜中の怪物が眠りから目覚める。",,,,
+*1001,首领,神圣审判机关,神圣審判機關,Holy Judgment Engine,神聖審判機関,<color=red>噩梦</color><br>,<color=red>噩夢</color><br>,<color=red>Nightmare</color><br>,<color=red>悪夢</color><br>,,,,
+*1002,首领,历战勇者,歷戰勇者,Battle-Hardened Hero,歴戦の勇者,<color=red>噩梦</color><br>,<color=red>噩夢</color><br>,<color=red>Nightmare</color><br>,<color=red>悪夢</color><br>,,,,
+1003,精英,混血龙裔,混血龍裔,Half-Dragonkin,混血竜裔,<color=red>精英</color><br>,<color=red>精英</color><br>,<color=red>Elite</color><br>,<color=red>エリート</color><br>,,,,
+*1004,首领,鬼牌:大王,鬼牌：大王,Joker: King,ジョーカー：大王,<color=red>噩梦</color><br>,<color=red>噩夢</color><br>,<color=red>Nightmare</color><br>,<color=red>悪夢</color><br>,,,,
+*1005,首领,欲念魔女,欲念魔女,Desire Witch,欲念の魔女,<color=red>噩梦</color><br>,<color=red>噩夢</color><br>,<color=red>Nightmare</color><br>,<color=red>悪夢</color><br>,,,,

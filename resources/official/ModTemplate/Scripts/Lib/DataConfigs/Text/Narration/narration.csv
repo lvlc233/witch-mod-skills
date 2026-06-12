@@ -1,0 +1,37 @@
+﻿Id,Time,Text,Text_zh-Hant,Text_en,Text_ja,Note,Path
+唯一的标识（不能重复）,时点,文本,文本,Text,テキスト,日语文本,备注
+1,画廊：新的冒险,欢迎回来～有想我吗？,歡迎回來～有想我嗎？,Welcome back～did you miss me?,お帰りなさい〜。私のこと、考えててくれた？,お帰りなさい〜。私のこと、考えててくれた？,Sounds/Narration/c1
+2,,来吧~让我们展开新的冒险~,來吧~讓我們展開新的冒險~,Come on~let's set off on a new adventure~,さあ〜、新しい冒険を始めましょう〜,さあ〜、新しい冒険を始めましょう〜,Sounds/Narration/c2
+3,命运牌抽取：勇者,魔女的宿敌，无法被毁灭的勇者——你们都有无限次重新来过的机会,魔女的宿敵，無法被毀滅的勇者——你們都有無限次重新來過的機會,"The witch's nemesis, the undying Hero——you both have endless chances to start over",魔女の宿敵、滅びぬ勇者——あなたたちには何度でもやり直せる機会が与えられているのだから,魔女の宿敵、滅びぬ勇者——あなたたちには何度でもやり直せる機会が与えられているのだから,Sounds/Narration/c3
+4,选择的敌人大于四个或精英大于三个,风险往往伴随着机遇——这是幸存者才有资格发表的感想,風險往往伴隨著機遇——這是幸存者才有資格發表的感想,Risk and opportunity so often go hand in hand——that's a sentiment only survivors get to voice,リスクは必ず機会と背中合わせ——これは生き延びた者だけが語れる感想ね,リスクは必ず機会と背中合わせ——これは生き延びた者だけが語れる感想ね,Sounds/Narration/c4
+5,,将命运全部压上牌桌，所有——或者一无所有,將命運全部壓上牌桌，所有——或者一無所有,"Put all of fate on the table, all in——or nothing at all",運命の全てを賭けに出す。手に入れるか、それとも無に帰すか——,運命の全てを賭けに出す。手に入れるか、それとも無に帰すか——,Sounds/Narration/c5
+6,进入战斗-鼹鼠,这些小家伙的生存之道并不是战胜谁，她们的目标是你身上那些闪闪发光的小金属,這些小家伙的生存之道并不是戰勝誰，她們的目標是你身上那些閃閃發光的小金屬,These little ones were never trying to defeat anyone; they're after those glittering little bits of metal on you,こいつらの生き様は誰かを倒すことじゃない。目当てはあんたの身に着けた、きらきら光る小さな金属なのさ,こいつらの生き様は誰かを倒すことじゃない。目当てはあんたの身に着けた、きらきら光る小さな金属なのさ,Sounds/Narration/c6
+7,战斗胜利-鼹鼠,拿了魔女的东西，就要支付相应的代价,拿了魔女的東西，就要支付相應的代價,"If you take something from a witch, you'll have to pay the proper price",魔女のものを貰ったら、相応の代償を払ってもらうわ,魔女のものを貰ったら、相応の代償を払ってもらうわ,Sounds/Narration/c7
+8,鼹鼠成功带着金币撤离,哎～这就走了吗？,哎～這就走了嗎？,Eh～you're leaving already?,え〜、もう行っちゃうの？,え〜、もう行っちゃうの？,Sounds/Narration/c8
+9,进入战斗-深渊之触,深渊的爪牙，灾厄的力量驱使她从坟墓中重新站起,深淵的爪牙，災厄的力量驅使她從墳墓中重新站起,"A minion of the abyss, driven by the power of calamity, she rises from the grave once more",深淵の尖兵、災厄の力が彼女を墓の底から這い上がらせた,深淵の尖兵、災厄の力が彼女を墓の底から這い上がらせた,Sounds/Narration/c9
+10,进入战斗-失心魔女,失去灵魂的魔女躯壳，被深渊操纵的傀儡人偶……赐予她解脱吧,失去靈魂的魔女軀殼，被深淵操縱的傀儡人偶……賜予她解脫吧,"A witch's shell stripped of its soul, a puppet doll controlled by the abyss……grant her release",魂を失った魔女の殻、深淵に操られる傀儡人形……安らかに眠らせてあげて,魂を失った魔女の殻、深淵に操られる傀儡人形……安らかに眠らせてあげて,Sounds/Narration/c10
+11,战斗胜利-失心魔女,即使只是无主的人偶，也配得到神明的赐福么？,即使只是無主的人偶，也配得到神明的賜福么？,Even a masterless doll is worthy of the gods' blessing?,主なき人形にだって、神の御加護が降りるというのかしら？,主なき人形にだって、神の御加護が降りるというのかしら？,Sounds/Narration/c11
+12,进入战斗-永夜化身,无数的灵魂，存在，恶意，聚合而成的，无尽黑夜的化身，影魔们唯一的首脑,無數的靈魂，存在，惡意，聚合而成的，無盡黑夜的化身，影魔們唯一的首腦,"Countless souls, beings, and malice fused into one, the incarnation of endless night, the Shadowfiends' one and only ruler",無数の魂と存在と悪意が凝縮されし、終わりなき闇の化身——影魔たちの唯一無二の首領,無数の魂と存在と悪意が凝縮されし、終わりなき闇の化身——影魔たちの唯一無二の首領,Sounds/Narration/c12
+13,进入战斗-魔王,奥尔德林暴力的顶点，她是你诉诸武力的最大障碍，也是深渊之旅的最后一站,奧爾德林暴力的頂點，她是你訴諸武力的最大障礙，也是深淵之旅的最后一站,"The pinnacle of violence in Aldrin, she is the greatest obstacle to those who would resort to force, and the final stop on the journey into the abyss",アルドリンにおける暴力の極致。彼女は武力で挑む者にとって最大の障壁であり、深淵の旅の終着点よ,アルドリンにおける暴力の極致。彼女は武力で挑む者にとって最大の障壁であり、深淵の旅の終着点よ,Sounds/Narration/c13
+14,,靠着龙族身躯混合魔族异能以获取力量，这样的散装缝合怪也配称之为王么？,靠著龍族身軀混合魔族異能以獲取力量，這樣的散裝縫合怪也配稱之為王么？,Borrowing a dragon's body and splicing it with fiendish powers for strength—does such a stitched-together mongrel deserve to be called a king?,竜族の躯と魔族の異能をごちゃ混ぜにして力を得た、そんなガラクタの寄せ集めが王の名を語る資格があるとでも？,竜族の躯と魔族の異能をごちゃ混ぜにして力を得た、そんなガラクタの寄せ集めが王の名を語る資格があるとでも？,Sounds/Narration/c14
+15,战斗胜利-魔王,试图以武力对抗魔女，从古至今都是愚蠢的选择,試圖以武力對抗魔女，從古至今都是愚蠢的選擇,"To oppose a witch by force has always been a foolish choice, in every age",力ずくで魔女に立ち向かおうなんて、古今東西、愚かな選択ね,力ずくで魔女に立ち向かおうなんて、古今東西、愚かな選択ね,Sounds/Narration/c15
+16,,剥去奥尔德林坚硬的外壳，世界的核心已裸露在你面前,剝去奧爾德林堅硬的外殼，世界的核心已裸露在你面前,"Strip away Aldrin's hard shell, and the world's core lies bare before your eyes",アルドリンの硬い殻を剥ぎ取れば、世界の核心がその目の前に晒されるわ,アルドリンの硬い殻を剥ぎ取れば、世界の核心がその目の前に晒されるわ,Sounds/Narration/c16
+17,战斗-生命低于20%,这是你的走投无路……还是计划之内？,這是你的走投無路……還是計劃之內？,Is this your dead end……or all part of the plan?,これはあなたの窮地……？ それとも、計算通りの展開かしら？,これはあなたの窮地……？ それとも、計算通りの展開かしら？,Sounds/Narration/c17
+18,,心跳加快，呼吸变速，视线开始模糊……,心跳加快，呼吸變速，視線開始模糊……,"Your heart races, your breathing falters, your vision starts to blur……",鼓動が高鳴り、呼吸が荒くなり、視界が滲んでいく……,鼓動が高鳴り、呼吸が荒くなり、視界が滲んでいく……,Sounds/Narration/c18
+19,战斗-一次攻击受到超过最大生命30%的伤害,这么粗暴的对待女孩子……,這么粗暴的對待女孩子……,Treating a girl so roughly……,女の子をこんな乱暴に扱うなんて……,女の子をこんな乱暴に扱うなんて……,Sounds/Narration/c19
+20,,仅限现在，我承认你是值得认真对待的对手呢,僅限現在，我承認你是值得認真對待的對手呢,"Just for now, I'll admit you're an opponent worth taking seriously",今だけは認めてあげる。あなたを真剣に相手にする価値がある、とね,今だけは認めてあげる。あなたを真剣に相手にする価値がある、とね,Sounds/Narration/c20
+21,手牌满了,手牌已经满啦,手牌已經滿啦,Your hand is already full,もう持てません,もう持てません,Sounds/Narration/c21
+22,魔能不足无法打出卡牌,魔能不够了哦,魔能不夠了哦,You're out of Mana,魔能が切れちゃった,魔能が切れちゃった,Sounds/Narration/c22
+23,点击冷却中的权能,还没冷却好呢,還沒冷卻好呢,It's not off cooldown yet,まだ準備できてないわ,まだ準備できてないわ,Sounds/Narration/c23
+24,进入休息点,片刻的安宁，嗯……如果能一直住在这里似乎也不错,片刻的安寧，嗯……如果能一直住在這里似乎也不錯,"A brief moment of peace, hmm……if I could stay here forever, that might not be so bad",束の間の安らぎ……。ふふ、ここにずっと居座ってしまうのも悪くないかもしれないわね,束の間の安らぎ……。ふふ、ここにずっと居座ってしまうのも悪くないかもしれないわね,Sounds/Narration/c24
+25,,（哼歌）~来点下午茶嘛？,（哼歌）~來點下午茶嘛？,(humming)~How about some afternoon tea?,（ふんふんふ〜ん）🎵〜。ねぇ、お茶にしない？,（ふんふんふ〜ん）🎵〜。ねぇ、お茶にしない？,Sounds/Narration/c25
+26,打开保险箱 - 保险箱空时,想要给未来的自己留点什么东西吗？,想要給未來的自己留點什么東西嗎？,Want to leave a little something for your future self?,未来の自分に、何かプレゼントしてあげたい？,未来の自分に、何かプレゼントしてあげたい？,Sounds/Narration/c26
+27,打开保险箱 - 保险箱有东西时,这是过去的你留给自己的宝贝哦～,這是過去的你留給自己的寶貝哦～,This is the little treasure your past self left for you～,これは過去のあなたが、今のあなたに残してくれた宝物よ〜,これは過去のあなたが、今のあなたに残してくれた宝物よ〜,Sounds/Narration/c27
+28,进入商店（可可）,可可酱~我们来看你啦~,可可醬~我們來看你啦~,Coco dear~we came to see you~,ココちゃん〜、会いに来たよ〜,ココちゃん〜、会いに来たよ〜,Sounds/Narration/c28
+29,,这个好想要……那个也好想要……看在主天使的面子上，能给我们打个折吗……？,這個好想要……那個也好想要……看在主天使的面子上，能給我們打個折嗎……？,"I want this one……and that one too……for the Archangel's sake, could you give us a little discount……?",これ欲しい……あれも欲しい……。ねぇ、主天使様のおひいきで、ちょっとだけ安くしてくれないかな……？,これ欲しい……あれも欲しい……。ねぇ、主天使様のおひいきで、ちょっとだけ安くしてくれないかな……？,Sounds/Narration/c29
+30,结束模拟-失败,死亡并不是终点，重生只须一宵，我会期待着你再次归来……,死亡并不是終點，重生只須一宵，我會期待著你再次歸來……,"Death is not the end; rebirth takes but a single night, and I'll be waiting for your return……",死は終わりじゃない。一夜明ければ蘇る。あなたの再来を楽しみにしているわ……,死は終わりじゃない。一夜明ければ蘇る。あなたの再来を楽しみにしているわ……,Sounds/Narration/c30
+31,,暂时的失败，只是魔女成长的养分,暫時的失敗，只是魔女成長的養分,A temporary defeat is merely nourishment for a witch's growth,一時的な敗北は、魔女を成長させる糧に過ぎないの,一時的な敗北は、魔女を成長させる糧に過ぎないの,Sounds/Narration/c31
+32,,与其说是策略上的问题……感觉更像是运气问题呢……,與其說是策略上的問題……感覺更像是運氣問題呢……,Rather than a problem with your strategy……it feels more like a problem with your luck……,戦略の問題というより……単なる運の問題じゃないかしら……,戦略の問題というより……単なる運の問題じゃないかしら……,Sounds/Narration/c32
+33,结束模拟-成功,让我看看……今天的模拟成绩，那当然是没有悬念的——满分～❤,讓我看看……今天的模擬成績，那當然是沒有懸念的——滿分～❤,"Let me see……today's simulation score, and of course there's no suspense about it——a perfect mark～❤",ふふっ……今日の模擬試験の結果？ もちろん、文句なしの満点よ〜❤,ふふっ……今日の模擬試験の結果？ もちろん、文句なしの満点よ〜❤,Sounds/Narration/c33
+34,,原来还有这种解法嘛，嗯姆……值得记录下来,原來還有這種解法嘛，嗯姆……值得記錄下來,"So there was a solution like that too, hmm……worth writing down",へえ、そんな解法もあったのか。う〜ん……記録に値するわね,へえ、そんな解法もあったのか。う〜ん……記録に値するわね,Sounds/Narration/c34
+35,,对于你来说，应该已经是理所当然的胜利了吧？,對於你來說，應該已經是理所當然的勝利了吧？,"For you, this must have been a perfectly ordinary victory by now, right?",あなたにとっては、当たり前の勝利だったんじゃない？,あなたにとっては、当たり前の勝利だったんじゃない？,Sounds/Narration/c35

@@ -1,0 +1,78 @@
+﻿Id,Rarity,Expend,Tag,InitScript,DrawScript,UseScript,DropScript,Icon,Effects,Action
+唯一的标识（不能重复）,稀有度,消耗的费用,标签,卡牌初始化脚本,卡牌抽到后执行,卡牌使用后执行,卡牌进入弃牌堆后执行,图标资源的路径,特效,动作
+*1,1,0,"Burnout, Retain","Vars[""BaseScript""]=""CommonCardItem"";int count;
+        if (PlayerInfo.SpecialVars!=null)
+        {
+            count=int.Parse(PlayerInfo.SpecialVars.GetValueOrDefault(""Soul"", ""0""));
+        }
+        else
+        {
+            count = 0;
+        }
+        AddDescription(""1"",""Damage"",(4+count/8).ToString());
+        AddDescription(""2"",""Defence"",(4+count/8).ToString());",,"if (PlayerInfo.SpecialVars==null)
+        {
+            return;
+        }
+        int count=int.Parse(PlayerInfo.SpecialVars.GetValueOrDefault(""Soul"", ""0""));
+        SetStatus(""Self"");
+        ChangeDefence((4+count/8).ToString());
+        SetStatus(""AllTarget"");
+        Damage((4+count/8).ToString());",,Icon/Card/黑曜士兵,,Attack
+*2,2,0,"Burnout, Retain","Vars[""BaseScript""]=""CommonCardItem"";int count;
+        if (PlayerInfo.SpecialVars!=null)
+        {
+           count=int.Parse(PlayerInfo.SpecialVars.GetValueOrDefault(""Soul"", ""0""));
+        }
+        else
+        {
+            count = 0;
+        }
+        AddDescription(""1"",""Damage"",(6+count/8).ToString());
+        AddDescription(""2"",""TrueDamage"",(6+count/8).ToString());
+        AddDescription(""3"",""Defence"",(6+count/8).ToString());",,"if (PlayerInfo.SpecialVars==null)
+        {
+            return;
+        }
+        int count=int.Parse(PlayerInfo.SpecialVars.GetValueOrDefault(""Soul"", ""0""));
+        SetStatus(""Self"");
+        ChangeDefence((6+count/8).ToString());
+        SetStatus(""AllTarget"");
+        Damage((6+count/8).ToString());
+        Damage((6+count/8).ToString(),""True"");",,Icon/Card/黑曜骑士,,Attack
+*3,3,0,"Burnout, Retain","Vars[""BaseScript""]=""CommonCardItem"";int count;
+        if (PlayerInfo.SpecialVars!=null)
+        {
+            count=int.Parse(PlayerInfo.SpecialVars.GetValueOrDefault(""Soul"", ""0""));
+        }
+        else
+        {
+            count = 0;
+        }
+        AddDescription(""1"",""Damage"",(8+count/8).ToString());
+        AddDescription(""2"",""TrueDamage"",(8+count/8).ToString());
+        AddDescription(""3"",""Defence"",(8+count/8).ToString());",," if (PlayerInfo.SpecialVars==null)
+        {
+            return;
+        }
+        int count=int.Parse(PlayerInfo.SpecialVars.GetValueOrDefault(""Soul"", ""0""));
+        SetStatus(""Self"");
+        ChangeDefence((8+count/8).ToString());
+        RandomAddGoodBuff(""1"");
+        SetStatus(""AllTarget"");
+        Damage((8+count/8).ToString());
+        Damage((8+count/8).ToString(),""True"");",,Icon/Card/黑曜皇后,,Attack
+*4,3,0,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";",,"if (PlayerInfo.Power>3)
+        {
+            PlayerInfo.EventTrigger(""WisdomLevelChange"" + Self.InstanceId);
+        }",,Icon/Card/智慧之证4,强化,
+*5,3,0,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";",,"SetStatus(""Self"");
+        int a=CheckDice.Roll().Value;
+        if (a<90)
+        {
+            ChangePower(""1"");
+        }
+        else
+        {
+            ChangeMoney(""200"");
+        }",,Icon/Card/黄金时代,强化,

@@ -1,0 +1,94 @@
+﻿Id,Note,Image,Name,Description,Name_zh-Hant,Name_en,Name_ja,Description_zh-Hant,Description_en,Description_ja,Ver,Date
+Id,备注,图片路径,标题,正文,標題,Title,タイトル,タイトル,正文,本文,版本,日期
+1,,Icon/UI_Icons/Native/教程/公告/可可哭泣图,正式版公告1,"关于新手引导不足和其他问题的修复和反馈
+
+感谢各位玩家的热情反馈！首发上线第一天，我们这个小团队突然受到了很多外界的关注，这让我们既兴奋，又担忧
+我们从不同渠道汇总了玩家目前反馈给我们的问题，每一条反馈我们都有认真观看分析，总结
+您可以点击公告右下角的“跳转文档”来查看问题的修复进度，点击“跳转投票”打开主界面美术投票页面
+
+以下是对于目前问题的概述：（严重程度从高到低）
+1.各类闪退，黑屏，错位等影响游戏流程正常进行的恶性bug，这些影响到了许多玩家的游玩体验，非常抱歉
+2.新手引导缺失
+3.UI显示与主界面美术风格问题
+4.音效音乐，响度适配问题
+5.各类功能优化，如增加衍生牌的预览等
+
+以下是关于目前问题的解决方案：
+1.恶性bug收到反馈就会立刻开始修复，为了便于定位问题，希望反馈的玩家能够描述一下问题发生时的情况，我们会在游戏反馈里增加一个发送log的功能，辅助定位问题和修复
+2.新手引导缺失的改善是一个系统性的工程，需要时间进行规划制作素材实装测试，我们先制作了一些教程视频辅助玩家了解游戏，您可以在b站官方账号下浏览这些教程
+我们也在努力争取：
+一天内我们会公布明确的调整方向，三天内这个问题会得到明显改善
+3.该问题在黑盒帖子中开启了投票，感兴趣的小伙伴可以去投一下，会影响到制作组未来的开发方向
+4.我们提高了音乐的响度来缓解问题，之后会对所有音乐音效做一次统一的规划处理
+5.此类问题比较庞杂，不好概括，但我们会在解决上述问题后逐一优化这些问题
+
+我们不怕遇到问题，玩家的问题是我们改进，变好的鞭策。我们会尽力解决每一个玩家反馈，请给我们一些时间。
+再次感谢所有一直支持，信任我们的玩家们！",正式版公告1,Official Release Announcement 1,正式版のお知らせ 1,"關於新手引導不足和其他問題的修復和反饋
+
+感謝各位玩家的熱情反饋！首發上線第一天，我們這個小團隊突然受到了很多外界的關注，這讓我們既興奮，又擔憂
+我們從不同渠道彙總了玩家目前反饋給我們的問題，每一條反饋我們都有認真觀看分析，總結
+您可以點擊公告右下角的“跳轉文檔”來查看問題的修復進度，點擊“跳轉投票”打開主界面美術投票頁面
+
+以下是對於目前問題的概述：（嚴重程度從高到低）
+1.各類閃退，黑屏，錯位等影響遊戲流程正常進行的惡性bug，這些影響到了許多玩家的遊玩體驗，非常抱歉
+2.新手引導缺失
+3.UI顯示與主界面美術風格問題
+4.音效音樂，響度適配問題
+5.各類功能優化，如增加衍生牌的預覽等
+
+以下是關於目前問題的解決方案：
+1.惡性bug收到反饋就會立刻開始修復，爲了便於定位問題，希望反饋的玩家能夠描述一下問題發生時的情況，我們會在遊戲反饋裏增加一個發送log的功能，輔助定位問題和修復
+2.新手引導缺失的改善是一個系統性的工程，需要時間進行規劃製作素材實裝測試，我們先製作了一些教程視頻輔助玩家瞭解遊戲，您可以在b站官方賬號下瀏覽這些教程
+我們也在努力爭取：
+一天內我們會公佈明確的調整方向，三天內這個問題會得到明顯改善
+3.該問題在黑盒帖子中開啓了投票，感興趣的小夥伴可以去投一下，會影響到製作組未來的開發方向
+4.我們提高了音樂的響度來緩解問題，之後會對所有音樂音效做一次統一的規劃處理
+5.此類問題比較龐雜，不好概括，但我們會在解決上述問題後逐一優化這些問題
+
+我們不怕遇到問題，玩家的問題是我們改進，變好的鞭策。我們會盡力解決每一個玩家反饋，請給我們一些時間。
+再次感謝所有一直支持，信任我們的玩家們！","Regarding the Fixes and Feedback on the Insufficient Tutorial and Other Issues
+
+Thank you for all your passionate feedback! On our first day of launch, our small team suddenly received a lot of outside attention, which made us both excited and anxious.
+We have gathered the issues you've reported across various channels. Every piece of feedback has been carefully reviewed, analyzed, and summarized.
+You can click ""Jump to Document"" at the bottom right of the announcement to check the fix progress, or click ""Jump to Vote"" to open the main menu art voting page.
+
+Here is an overview of the current issues (sorted by severity, high to low):
+
+1. Various crashes, black screens, misalignments, and other critical bugs affecting normal gameplay flow. These have impacted many players' experience — our sincere apologies.
+2. Insufficient new-player tutorial.
+3. Main menu art style issues.
+4. Sound effects, music, and volume adaptation issues.
+5. Various feature optimizations, such as adding previews for derived cards.
+
+Here are our current solutions for these issues:
+
+1. Critical bugs will be fixed as soon as we receive reports. To help us pinpoint the problems, we hope players who report bugs can describe what happened when the issue occurred. We will also add a log-sending feature in the feedback system to help locate and fix issues.
+2. Improving the tutorial is a systematic project that requires time for planning, asset creation, implementation, and testing. 
+We are also working hard on the following goals:
+Within one day, we will announce a clear direction for the adjustments. Within three days, this issue should see significant improvement.
+3. We have opened a vote on steam post. If you're interested, feel free to cast your vote — it will influence the dev team's future development direction.
+4. We have increased the music volume to temporarily alleviate the issue. We will conduct a comprehensive overhaul of all music and sound effects later.
+5. These types of issues are varied and hard to summarize, but we will optimize them one by one after the above issues are resolved.
+
+We are not afraid of problems. Player feedback is what pushes us to improve and do better. We will do our best to address every piece of feedback. Please give us some time.
+Once again, thank you to all the players who have always supported and believed in us!","「初心者ガイド不足およびその他の問題に関する修正とフィードバックについて」
+
+プレイヤーの皆さまからの熱心なフィードバック、誠にありがとうございます！リリース初日から、私たちの小さなチームに想像以上の注目が集まり、うれしく思うと同時に、不安も感じております。
+現在、各方面のチャンネルからプレイヤーの皆さまより寄せられた問題を取りまとめており、一つひとつのフィードバックを真摯に確認・分析・整理しています。
+お知らせ右下の「ドキュメントへ移動」をクリックすると問題の修正進捗を確認できます。また、「投票へ移動」をクリックすると、メイン画面のアートに関する投票ページを開くことができます。
+以下、現在確認されている問題の概要です。（深刻度の高い順）
+1. 各種クラッシュ、ブラックスクリーン、表示崩れなど、ゲーム進行に大きく影響する重大な不具合。多くのプレイヤーの皆さまの体験に影響を与えてしまい、誠に申し訳ございません。
+2. 初心者ガイドの不足
+3. UI表示およびメイン画面のアートスタイルに関する問題
+4. 効果音・音楽、音量バランスの調整に関する問題
+5. 派生カードのプレビュー追加など、各種機能の最適化
+以下、現在の問題に対する対応方針です。
+1. 重大な不具合については、フィードバックを受け取り次第、直ちに修正作業を開始します。問題の特定をしやすくするため、フィードバックを送ってくださる際には、問題が発生した状況をできるだけ詳しくご記載いただけますと幸いです。また、ゲーム内フィードバックにログ送信機能を追加し、問題の特定と修正を補助できるようにする予定です。
+2. 初心者ガイド不足の改善は、計画、素材制作、実装、テストを含む体系的な作業であり、一定の時間が必要です。
+また、私たちは以下の目標に向けて取り組んでいます。
+1日以内に明確な調整方針を発表し、3日以内にこの問題を大きく改善できるよう努めます。
+3. この問題については、Steam上で投票を開始しています。興味のある方はぜひ投票にご参加ください。今後の開発方針にも影響する内容となります。
+4. 問題を緩和するため、音楽の音量を引き上げました。今後、すべての音楽・効果音について、統一的な調整と整理を行う予定です。
+5. この種の問題は多岐にわたり、簡単にまとめることは難しいですが、上記の問題を解決した後、順次改善を進めてまいります。
+私たちは問題に直面することを恐れていません。プレイヤーの皆さまから寄せられるご意見は、私たちが改善し、より良いものを作っていくための大きな励みです。いただいたフィードバック一つひとつにできる限り対応してまいりますので、どうか少しだけお時間をいただけますと幸いです。
+いつも応援し、信頼してくださっているすべてのプレイヤーの皆さまに、改めて心より感謝申し上げます！",v1.0,2026.6.5

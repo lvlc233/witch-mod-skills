@@ -1,0 +1,67 @@
+﻿Id,Rarity,Expend,Tag,InitScript,DrawScript,UseScript,DropScript,Icon,Effects,Action,PackBelong
+唯一的标识（不能重复）,稀有度,花费,标签,卡牌初始化脚本,卡牌抽到后执行,卡牌使用后执行,卡牌进入弃牌堆后执行,图标资源的路径,特效路径,动作,cardpack id
+1,1,1,,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"", ""Defence"", ""5"");",,"SetStatus(""Self"");int _rg=(int)(10*Self.dynamicVariables.GetValueOrDefault(""ReturnAgainGainMultiplier"",1f));if(_rg>0)
+         {AddBuff(DataId.buff_ReturnAgain,_rg.ToString());}SetStatus(""Self"");ChangeDefence(""5"");
+         ChooseCardToAction(""1"",(list)=>{
+            if(list.Count==0){return;}
+
+             var t = list[0].dataConfig; if (t.Vars.ContainsKey(""SpecialTag""))
+             {
+                 if (!t.Vars[""SpecialTag""].Contains(""Retain""))
+                 { t.Vars[""SpecialTag""] += "",Retain""; }
+             }
+             else { t.Vars[""SpecialTag""] = ""Retain""; }
+             list[0].RefreshTag();
+         });",,Icon/Card/方形箱子,,,cardpack_6
+2,1,0,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";",,"SetStatus(""Self"");int _rg=(int)(5*Self.dynamicVariables.GetValueOrDefault(""ReturnAgainGainMultiplier"",1f));
+        if(_rg>0){AddBuff(DataId.buff_ReturnAgain,_rg.ToString());}
+        var pool=new List<string>{DataId.ReturnAgain_1,DataId.ReturnAgain_3,DataId.ReturnAgain_4,DataId.ReturnAgain_5,DataId.ReturnAgain_6,DataId.ReturnAgain_7,DataId.ReturnAgain_8,DataId.ReturnAgain_9,DataId.ReturnAgain_10,DataId.ReturnAgain_11,DataId.ReturnAgain_12,DataId.ReturnAgain_13,DataId.ReturnAgain_14,DataId.ReturnAgain_15};
+        if(pool.Count>0)
+        {int idx=DefaultDice.WithRange(0,pool.Count-1).Roll().Value;
+        CreateCard(new DataConfig(pool[idx],DataType.Card));}",,Icon/Card/瓶中手稿,,,cardpack_6
+3,1,1,,"Vars[""BaseScript""]=""CommonCardItem"";",,"SetStatus(""Self"");int _rg=(int)(5*Self.dynamicVariables.GetValueOrDefault(""ReturnAgainGainMultiplier"",1f));if(_rg>0){AddBuff(DataId.buff_ReturnAgain,_rg.ToString());}DrawCount(""2"");int lv=Self!=null&&Self.GetBuff(DataId.buff_ReturnAgain)!=null?Self.GetBuff(DataId.buff_ReturnAgain).buffConfig.Level:0;SetStatus(""Self"");ChangeDefence((lv/2).ToString());",,Icon/Card/金色甲虫,,,cardpack_6
+4,1,1,,"Vars[""BaseScript""]=""AttackCardItem"";AddDescription(""1"",""Damage"",""12"");",,"SetStatus(""Self"");int _rg=(int)(10*Self.dynamicVariables.GetValueOrDefault(""ReturnAgainGainMultiplier"",1f));if(_rg>0){AddBuff(DataId.buff_ReturnAgain,_rg.ToString());}Vars[""Played""]=""1"";SetStatus(""Target"");Damage(""12"");","if(Vars.GetValueOrDefault(""Played"",""0"")==""1""){Vars[""Played""]=""0"";return;}SetStatus(""AllRandomTarget1"");AddBuff(DataId.buff_bleeding,""5"");",Icon/Card/秃鹫之眼,,Attack,cardpack_6
+5,1,1,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";",,"SetStatus(""Self"");int _rg=(int)(5*Self.dynamicVariables.GetValueOrDefault(""ReturnAgainGainMultiplier"",1f));if(_rg>0){AddBuff(DataId.buff_ReturnAgain,_rg.ToString());}ThrowCard(""1"",""1"");SetStatus(""Self"");AddBuff(""buff_ReturnAgainDoubleNext"",""1"");",,Icon/Card/椭圆肖像,,,cardpack_6
+6,1,2,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";",,"ThrowCard(""1"",""1"");var _rb=Self!=null?Self.GetBuff(DataId.buff_ReturnAgain):null;if(_rb!=null){int _dec=20+(_rb.buffConfig.Level>50?10:0);_rb.buffConfig.Level=Math.Max(0,_rb.buffConfig.Level-_dec);}",,Icon/Card/双重自我,,,cardpack_6
+7,2,1,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";",,"SetStatus(""Self"");int _rg=(int)(10*Self.dynamicVariables.GetValueOrDefault(""ReturnAgainGainMultiplier"",1f));
+        if(_rg>0){AddBuff(DataId.buff_ReturnAgain,_rg.ToString());}
+        ChooseCardToAction(""1"", cards =>
+        {
+            if (cards.Count > 0)
+            {
+                var card = cards[0];
+                CreateCard(card.dataConfig);
+            }
+        });",,Icon/Card/人群之中,,,cardpack_6
+8,2,3,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";",,"SetStatus(""Self"");int _rg=(int)(10*Self.dynamicVariables.GetValueOrDefault(""ReturnAgainGainMultiplier"",1f));
+        if(_rg>0){AddBuff(DataId.buff_ReturnAgain,_rg.ToString());}
+        ChooseCardToAction(""2"", cards =>
+        {
+            foreach (var card in cards)
+            {
+                card.Vars[""OnceExCost""] =""-3"";
+            }
+        });",,Icon/Card/问答乌鸦,,,cardpack_6
+9,2,1,,"Vars[""BaseScript""]=""AttackCardItem"";int lv=Self!=null&&Self.GetBuff(DataId.buff_ReturnAgain)!=null?Self.GetBuff(DataId.buff_ReturnAgain).buffConfig.Level:0;
+       AddDescription(""1"",""Damage"",(lv/4).ToString());",,"SetStatus(""Self"");int _rg=(int)(15*Self.dynamicVariables.GetValueOrDefault(""ReturnAgainGainMultiplier"",1f));if(_rg>0){AddBuff(DataId.buff_ReturnAgain,_rg.ToString());}int lv=Self!=null&&Self.GetBuff(DataId.buff_ReturnAgain)!=null?Self.GetBuff(DataId.buff_ReturnAgain).buffConfig.Level:0;SetStatus(""Target"");Damage(Math.Max(1,lv/4).ToString());var t=HandCard.FirstOrDefault(x=>x!=null&&x.data!=null&&!x.data[""Id""].StartsWith(""ReturnAgain_""));if(t!=null){t.TransformToConfiguredType(new DataConfig(DataId.ReturnAgain_9,DataType.Card));}",,Icon/Card/持刀猩猩,,Attack,cardpack_6
+10,2,2,,"Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"", ""Defence"", ""15"");AddDescription(""2"", ""Defence"", ""5"");",,"SetStatus(""Self"");int _rg=(int)(10*Self.dynamicVariables.GetValueOrDefault(""ReturnAgainGainMultiplier"",1f));if(_rg>0){AddBuff(DataId.buff_ReturnAgain,_rg.ToString());}SetStatus(""Self"");ChangeDefence(""15"");AddEvent(""StartRound"",()=>{int cur=HandCard.Count(x=>x!=null&&x.isReverse);if(cur>0){SetStatus(""Self"");AddBuff(DataId.buff_resilient,cur.ToString());ChangeDefence((cur*5).ToString());}});",,Icon/Card/墙中黑猫,,,cardpack_6
+11,2,0,Recycle,"Vars[""BaseScript""]=""CommonCardItem"";",,"SetStatus(""Self"");ChangeHp((-Self.MaxHp/10).ToString());var _rb=Self!=null?Self.GetBuff(DataId.buff_ReturnAgain):null;if(_rb!=null){_rb.buffConfig.Level=Math.Max(0,_rb.buffConfig.Level-10);}",,Icon/Card/叹息之桥,,,cardpack_6
+12,3,2,Burnout,"Vars[""BaseScript""]=""AttackCardItem"";",,"SetStatus(""Self"");int _rg=(int)(10*Self.dynamicVariables.GetValueOrDefault(""ReturnAgainGainMultiplier"",1f));if(_rg>0){AddBuff(DataId.buff_ReturnAgain,_rg.ToString());}int extra=HandCard.Count(x=>x!=null&&x.isReverse)/2;int times=1+extra;SetStatus(""Target"");for(int i=0;i<times;i++){if(Object.Count==0)break;var b=Object[0].GetBuff(DataId.buff_bleeding);if(b!=null){RunImmediately(DataId.buff_bleeding,""Action"");}var burn=Object[0].GetBuff(DataId.buff_burn);if(burn!=null){RunImmediately(DataId.buff_burn,""Action"");}}",,Icon/Card/红死面具,,,cardpack_6
+*13,3,3,"Burnout,Recycle","Vars[""BaseScript""]=""CommonCardItem"";AddDescription(""1"",""Damage"",""150"");",,"SetStatus(""Self"");int _rg=(int)(5*Self.dynamicVariables.GetValueOrDefault(""ReturnAgainGainMultiplier"",1f));if(_rg>0){AddBuff(DataId.buff_ReturnAgain,_rg.ToString());}SetStatus(""Self"");ChangeHp((-Self.CurHp*3/10).ToString());SetStatus(""AllTarget"");Damage(""150"");",,Icon/Card/府邸坍圮,,Skill,cardpack_6
+14,3,4,Burnout,"Vars[""BaseScript""]=""AttackCardItem"";",,"SetStatus(""Self"");int _rg=(int)(20*Self.dynamicVariables.GetValueOrDefault(""ReturnAgainGainMultiplier"",1f));if(_rg>0){AddBuff(DataId.buff_ReturnAgain,_rg.ToString());}ThrowCard(""1"",""1"");SetStatus(""Target"");AddBuff(DataId.buff_timestop,""1"");",,Icon/Card/白葡萄酒,,,cardpack_6
+15,3,20,Burnout,"Vars[""BaseScript""]=""CommonCardItem"";","AddEvent(""Action"",()=>{dataConfig.Vars[""ExCost""]=(int.Parse(dataConfig.Vars.GetValueOrDefault(""ExCost"",""0""))-1).ToString();});","SetStatus(""Self"");int _rg=(int)(20*Self.dynamicVariables.GetValueOrDefault(""ReturnAgainGainMultiplier"",1f));if(_rg>0){AddBuff(DataId.buff_ReturnAgain,_rg.ToString());}
+        ShuffleDeck();
+        ShuffleHand();
+        
+        int count=DeckCard.Count()-1;
+        for (int i = 0; i < 4; i++)
+        {
+            if ((count - i)<0)
+            {
+                break;
+            }
+            DataConfig data = DeckCard[count - i];
+            DataConfig tempData = data.Clone() as DataConfig;
+            tempData.Vars[""OnceExCost""] = ""-999"";
+            CreateCard(tempData);
+        }",,Icon/Card/漩涡沉溺,,,cardpack_6

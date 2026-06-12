@@ -1,0 +1,256 @@
+﻿Id,Weight,OwnScript,FightScript,Icon,Type,Source,Rarity,PackBelong
+id,权重,本身脚本;,战斗脚本,图片名称,类型,选项 1,稀有度,cardpack id
+1,1,,"AddEvent<BurnData>(""BurnCard"",(burnData)=>{
+            DataConfig config=burnData.data as DataConfig;
+            int baseCount=CheckDice.Roll().Value;
+            if (baseCount>80)
+            {
+                AddCardToFightManager(config);
+            }
+        });",Icon/Blessing/烬中拾遗,正面,技能,3,cardpack_7
+2,3,,"AddEvent(""Resurrection"",() => {SetStatus(""Self"");AddBuff(DataId.buff_immortal,""1"");});",Icon/Blessing/死灵,正面,技能,2,cardpack_7
+*3,1,,"Vars[""ThisGet""]=""0"";
+ SetStatus(""Self"");
+ AddEvent(""Resurrection"",() => {
+ if (Vars[""ThisGet""]==""0""&&CheckDice.Roll().Value>85)
+ {
+ Vars[""ThisGet""]=""1"";
+ }
+ });
+ SetStatus(""AllTarget"");
+ AddEvent(""Dead"",() => {
+ if (Vars[""ThisGet""]==""1"")
+ {
+ PlayerInfo.RandomAddBless(""1"");
+ if (CheckDice.Roll().Value>80)
+ {
+ PlayerInfo.RandomAddRelic(""1"");
+ }
+ }
+ });",Icon/Blessing/自卑与超越,正面,技能,3,cardpack_7
+*4,1,,"Vars[""Used""]=""0"";
+ AddEvent(""FightStart"",() => {
+ SetStatus(""Self"");
+ ChangeDynamicVar(""liveCount"",""1"");
+ });
+ AddEvent(""Resurrection"",() => {
+ if (Vars[""Used""]==""0"")
+ {
+ Vars[""Used""]=""1"";
+ SetStatus(""AllFriends"");
+ int friendCount = Object.Count;
+ SetStatus(""Self"");
+ SetHp((Self.MaxHp*friendCount/4).ToString());
+ }
+ });",Icon/Blessing/士兵,正面,技能,3,cardpack_7
+5,5,,"AddEvent(""Action"",() => {
+            Vars[""ThisCount""]=(int.Parse(Vars[""ThisCount""])+1).ToString();
+            if (int.Parse(Vars[""ThisCount""])%3==0)
+            {
+                SetStatus(""AllTarget"");
+ Resentment(""1"");
+            }
+ 
+ });",Icon/Blessing/咒怨的加护,正面,技能,3,cardpack_5
+7,1,,"AddEvent<HurtData>(""Hurt"", (data) =>
+        {
+            if (data.sourceId==Self.InstanceId)
+            {
+                return;
+            }
+            SetStatusById(data.sourceId);
+            if (Object.Count == 0)
+            {
+                return;
+            }
+            if (CheckDice.Roll().Value > 50)
+            {
+                AddBuff(DataId.buff_resentment, ""1"");
+            }
+            if (CheckDice.Roll().Value > 50)
+            {
+                var b = Object[0].GetBuff(DataId.buff_bleeding);
+                if (b != null)
+                {
+                    RunImmediately(DataId.buff_bleeding, ""Action"");
+                }
+                var burn = Object[0].GetBuff(DataId.buff_burn);
+                if (burn != null)
+                {
+                    RunImmediately(DataId.buff_burn, ""Action"");
+                }
+            }
+        });",Icon/Blessing/怨憎十四面骰,正面,技能,3,cardpack_7
+*8,1,,"SetStatus(""AllTarget"");
+ AddEvent(""Dead"",() => {
+ if (!PlayerInfo.RelicList.Any(x=>x.data[""Id""]==DataId.CrowdFundingRelic_12))
+ {
+ return;
+ }
+ SetStatus(""Self"");
+ ChangeHp((Self.MaxHp/2).ToString());
+ PlayerInfo.ChangeSelected(""1"");
+ });",Icon/Blessing/士兵,正面,技能,4,cardpack_8
+*9,1,,"AddEvent(""FightStart"",() => {SetStatus(""Self"");ChangeMoney((PlayerInfo.Money/10).ToString());});",Icon/Blessing/士兵,正面,技能,2,cardpack_17
+*10,1,,"AddEvent(""FightStart"",() => {SetStatus(""Self"");AddBuff(DataId.buff_impregnable,""1"");AddBuff(DataId.buff_evergreen,""1"");});",Icon/Blessing/士兵,正面,技能,2,cardpack_16
+*11,2,PlayerInfo.Perceive+=1;PlayerInfo.Wisdom+=1;,,Icon/Blessing/士兵,正面,物资,1,cardpack_16
+*12,1,,"AddEvent(""FightStart"",() => {SetStatus(""Self"");AddBuff(DataId.buff_resilient,""2"");});",Icon/Blessing/士兵,正面,技能,3,cardpack_16
+*13,3,,"AddEvent(""Hurt"",() => {SetStatus(""Self"");if(CheckDice.Roll().Value>50){AddBuff(DataId.buff_evergreen,""1"");}});",Icon/Blessing/士兵,正面,技能,1,cardpack_16
+*14,1,,"Vars[""Round""]=""0"";
+ AddEvent(""EndRound"",() => {
+ Vars[""Round""]=(int.Parse(Vars[""Round""])+1).ToString();
+ if (int.Parse(Vars[""Round""])<=5)
+ {
+ SetStatus(""Self"");
+ int lost = Self.MaxHp-Self.CurHp;
+ if (lost>0)
+ {
+ ChangeHp((lost/5).ToString());
+ }
+ }
+ });",Icon/Blessing/士兵,正面,技能,3,cardpack_16
+*15,1,,"Vars[""Round""]=""0"";
+ Vars[""Layer""]=System.Math.Min(4,PlayerInfo.BlessingList.Where(x => x.data[""Id""]==DataId.CrowdfundingBlessing_15).Count()).ToString();
+ AddEvent(""StartRound"",() => {Vars[""Round""]=(int.Parse(Vars[""Round""])+1).ToString();});
+ AddEvent(""Hurt"",() => {
+ SetStatus(""Self"");
+ if (int.Parse(Vars[""Round""])<=int.Parse(Vars[""Layer""])&&Self.CurHp<=0)
+ {
+ SetHp(""1"");
+ }
+ });",Icon/Blessing/士兵,正面,技能,4,cardpack_16
+*16,1,PlayerInfo.Hp+=10;,"Vars[""Used""]=""0"";
+ AddEvent(""FightStart"",() => {SetStatus(""Self"");AddBuff(DataId.buff_evergreen,""3"");});
+ AddEvent(""Hurt"",() => {
+ SetStatus(""Self"");
+ if (Vars[""Used""]==""0""&&Self.CurHp<=0)
+ {
+ Vars[""Used""]=""1"";
+ SetHp(""1"");
+ }
+ });",Icon/Blessing/士兵,正面,技能,3,cardpack_16
+*17,1,,"AddEvent(""StartRound"",() => {Vars[""ThisCount""]=""0"";});
+ AddEvent(""CostPower"",() => {
+ if (Vars[""ThisCount""]==""0""&&PlayerInfo.Power==0)
+ {
+ Vars[""ThisCount""]=""1"";
+ int before = HandCard.Count;
+ DrawCount(""3"");
+ int drawed = HandCard.Count-before;
+ int gain = 0;
+ for (int i = HandCard.Count-drawed; i < HandCard.Count; i++)
+ {
+ if (i<0||i>=HandCard.Count)
+ {
+ continue;
+ }
+ var card = HandCard[i];
+ int cost = Math.Min((int)(int.Parse(card.data[""Expend""]) *
+ Self.dynamicVariables.GetValueOrDefault(""CardCost"", 1)), 4);
+ cost += int.Parse(card.dataConfig.Vars.GetValueOrDefault(""TotalExCost"", ""0""));
+ cost += int.Parse(card.dataConfig.Vars.GetValueOrDefault(""ExCost"", ""0""));
+ cost += int.Parse(card.dataConfig.Vars.GetValueOrDefault(""OnceExCost"", ""0""));
+ if (cost>0)
+ {
+ gain += cost;
+ }
+ }
+ if (gain>0)
+ {
+ ChangePower(gain.ToString());
+ }
+ }
+ });",Icon/Blessing/士兵,正面,技能,4,cardpack_11
+*18,1,,"AddEvent(""StartRound"",() => {SetStatus(""Self"");ChangePower(""1"");});",Icon/Blessing/士兵,正面,技能,3,cardpack_11
+*19,1,"PlayerInfo.ChangeSelected(""1"");",,Icon/Blessing/士兵,正面,技能,3,cardpack_11
+*20,1,,"Vars[""TrueDamageCount""]=""0"";
+ Vars[""TrueDamageGain""]=""0"";
+ Vars[""PowerCostCount""]=""0"";
+ Vars[""PowerGain""]=""0"";
+
+ SetStatus(""AllTarget"");
+ AddEvent<HurtData>(""Hurt"", (data) =>
+ {
+ if (data.sourceId==Self.InstanceId&&data.damageType==""Normal""&&int.Parse(Vars[""TrueDamageGain""])<10)
+ {
+ Vars[""TrueDamageCount""]=(int.Parse(Vars[""TrueDamageCount""])+int.Parse(data.val)).ToString();
+ while (int.Parse(Vars[""TrueDamageCount""])>=100&&int.Parse(Vars[""TrueDamageGain""])<10)
+ {
+ Vars[""TrueDamageCount""]=(int.Parse(Vars[""TrueDamageCount""])-100).ToString();
+ Vars[""TrueDamageGain""]=(int.Parse(Vars[""TrueDamageGain""])+1).ToString();
+ PlayerInfo.Strength += 1;
+ }
+ }
+ });
+ SetStatus(""Self"");
+ AddEvent<ActionData>(""Action"",(actionData)=>{
+ if (int.Parse(Vars[""PowerGain""])<10)
+ {
+ int cost = int.Parse(actionData.data.data[""Expend""]);
+ cost = System.Math.Min((int)(cost*Self.dynamicVariables.GetValueOrDefault(""CardCost"",1)),4);
+ if (RoleTable.Instance.enchasedDict.ContainsKey(actionData.data.InstanceID))
+ {
+ var ench = RoleTable.Instance.enchasedDict[actionData.data.InstanceID];
+ if (ench!=null&&ench.Vars[""Tag""].Contains(""Exhaustion""))
+ {
+ cost += 1;
+ }
+ }
+ cost += int.Parse(actionData.data.Vars.GetValueOrDefault(""ExCost"",""0""));
+ cost += int.Parse(actionData.data.Vars.GetValueOrDefault(""OnceExCost"",""0""));
+ if (cost>0)
+ {
+ Vars[""PowerCostCount""]=(int.Parse(Vars[""PowerCostCount""])+cost).ToString();
+ while (int.Parse(Vars[""PowerCostCount""])>=20&&int.Parse(Vars[""PowerGain""])<10)
+ {
+ Vars[""PowerCostCount""]=(int.Parse(Vars[""PowerCostCount""])-20).ToString();
+ Vars[""PowerGain""]=(int.Parse(Vars[""PowerGain""])+1).ToString();
+ PlayerInfo.Wisdom += 1;
+ }
+ }
+ }
+ });",Icon/Blessing/士兵,正面,技能,3,cardpack_11
+21,1,,"Vars[""Round""]=""0"";
+ Vars[""Applied""]=""0"";
+ AddEvent(""StartRound"",() => {
+ Vars[""Round""]=(int.Parse(Vars[""Round""])+1).ToString();
+ SetStatus(""Self"");
+ if (int.Parse(Vars[""Round""])<=3)
+ {
+ if (Vars[""Applied""]==""0"")
+ {
+ Vars[""Applied""]=""1"";
+ ChangeMaxPower(""1"");
+ }
+ }
+ else
+ {
+ if (Vars[""Applied""]==""1"")
+ {
+ Vars[""Applied""]=""0"";
+ ChangeMaxPower(""-1"");
+ }
+ AddBuff(DataId.buff_bleeding,""1"");
+ }
+ });",Icon/Blessing/玫瑰,正面,技能,3,cardpack_12
+22,4,PlayerInfo.Lucky+=3;,"AddEvent(""EndRound"",() => {
+        SetStatus(""Self"");
+        int count=(Self.MaxHp-Self.CurHp)/100;
+        if (count<=0)
+        {
+            count=1;
+        }
+        ChangeHp(count.ToString());
+        });",Icon/Blessing/无名之爱,正面,技能,2,cardpack_12
+24,3,,"AddEvent(""FightStart"",() => {
+ SetStatus(""AllTarget"");
+ Resentment(""1"");
+ });",Icon/Blessing/冷烛,正面,技能,1,cardpack_5
+*26,1,,"Vars[""NegAddCount""]=""0"";Vars[""GainCount""]=""0"";AddEvent<AddBuffData>(""AddBuff"",(d)=>{if(d.data==null||d.data.data==null)return;if(d.data.data[""Type""]!=""负面"")return;if(d.fromId!=Self.InstanceId)return;Vars[""NegAddCount""]=(int.Parse(Vars[""NegAddCount""])+1).ToString();while(int.Parse(Vars[""NegAddCount""])>=5&&int.Parse(Vars[""GainCount""])<10){Vars[""NegAddCount""]=(int.Parse(Vars[""NegAddCount""])-5).ToString();Vars[""GainCount""]=(int.Parse(Vars[""GainCount""])+1).ToString();SetStatus(""AllFriends"");ChangeMaxHp(""1"");}});",Icon/Blessing/士兵,正面,技能,3,cardpack_5
+27,5,,"Vars[""LastGain""]=""0"";AddEvent(""StartRound"",()=>{SetStatus(""Self"");var b=Self.GetBuff(DataId.buff_ReturnAgain);if(b==null)return;int gain=b.buffConfig.Level/33;int last=int.Parse(Vars.GetValueOrDefault(""LastGain"",""0""));if(gain>last){int add=gain-last;ChangeDynamicVar(""RoundCard"",add.ToString());Vars[""LastGain""]=gain.ToString();}});",Icon/Blessing/丽娅娅,正面,技能,2,cardpack_6
+28,5,,"AddEvent(""FightStart"",()=>{SetStatus(""Self"");AddBuff(DataId.buff_ReturnAgain,""10"");});",Icon/Blessing/莫雷娜,正面,技能,2,cardpack_6
+29,1,,"AddEvent(""FightStart"",()=>{SetStatus(""Self"");ChangePower(""1"");});",Icon/Blessing/战争骑士,正面,技能,3,cardpack_18
+30,4,"PlayerInfo.Strength+=1;
+         PlayerInfo.Wisdom+=1;
+         PlayerInfo.Perceive+=1;
+         PlayerInfo.Lucky+=1;",,Icon/Blessing/魔法骑士,正面,技能,2,cardpack_18

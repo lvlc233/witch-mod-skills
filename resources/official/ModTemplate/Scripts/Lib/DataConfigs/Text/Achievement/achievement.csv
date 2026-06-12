@@ -1,0 +1,55 @@
+﻿Id,Name,Description,Name_zh-Hant,Name_en,Name_ja,Description_zh-Hant,Description_en,Description_ja
+唯一的标识（不能重复）,,描述,,,,描述,Description,説明
+tutorial_ameliya,我苏醒……,阿米莉娅完成魔女入职培训,我蘇醒……,I Awaken...,私は目覚める……,阿米莉娅完成魔女入职培训,Complete Amelia's Beginner Tutorial.,アメリアが魔女の入職チュートリアルを完了する
+statue_upgrade,领受神恩,在高塔处解锁一项强化,領受神恩,Receive Divine Grace,神恩を賜る,在高塔處解鎖一項強化,Unlock one upgrade at the tower.,高塔で強化を1つ解放する
+witch_skill,魔女权能,使用一次魔女的专属权能,魔女權能,Witch Authority,魔女の権能,使用一次魔女的專屬權能,Use a witch's exclusive authority once.,魔女の専用権能を1回使用する
+prebattle_setup,战前准备,修改一次自己的配置开始“世界推演”模式,戰前準備,Pre-Battle Prep,戦闘前の準備,修改一次自己的配置開始“世界推演”模式,Modify your setup once before starting World Simulation mode.,自分の構成を1回変更して「世界推演」モードを開始する
+skip_card_reward,舍得,放弃一次卡牌获取,舍得,Knowing When to Let Go,手放す決断,放棄一次卡牌獲取,Skip a card reward once.,カード獲得を1回放棄する
+safebox,识时务者……,把金币，卡牌或者遗物存入保险箱,識時務者……,A Wise One Knows...,時勢を知る者……,把金幣，卡牌或者遺物存入保險箱,"Store Gold, a Card, or a Relic in the Safe Box.",ゴールド、カード、または遺物を金庫に預ける
+send_emoji,_(:з)∠)_,发送一个表情包,_(:з)∠)_,_(:з)∠)_,_(:з)∠)_,發送一個表情包,Send one emoji sticker.,スタンプを1つ送信する
+unload_relic,战略配置,卸下一个自己的遗物,戰略配置,Strategic Loadout,戦略配置,卸下一個自己的遺物,Unequip one of your Relics.,自分の遺物を1つ外す
+create_magic,创造魔法,在大图书馆制作一张自己的卡牌,創造魔法,Create Magic,魔法を創る,在大圖書館製作一張自己的卡牌,Create one custom card in the Grand Library.,大図書館で自分のカードを1枚作成する
+choose_branch,转动命运的齿轮……,选择一条不同的分支路线,轉動命運的齒輪……,Turn the Wheels of Fate...,運命の歯車を回して……,選擇一條不同的分支路線,Choose a different branch route.,異なる分岐ルートを1つ選ぶ
+clear_ameliya,一天20h优质睡眠,使用原初魔女阿米莉娅完成一次通关,一天20h優質睡眠,20 Hours of Quality Sleep a Day,1日20時間の快眠,使用原初魔女阿米莉娅完成一次通關,"Clear the game once with Amelia, the Primordial Witch.",原初の魔女アメリアで1回クリアする
+clear_nana,奈奈今天吃什么,使用灾厄魔女奈奈完成一次通关,奈奈今天吃什么,What Is Nana Eating Today?,ナナの今日のごはん,使用災厄魔女奈奈完成一次通關,"Clear the game once with Nana, the Calamity Witch.",災厄の魔女ナナで1回クリアする
+clear_adela,失落之国的王女,使用支配魔女阿黛拉完成一次通关,失落之國的王女,Princess of a Lost Kingdom,失われた国の王女,使用支配魔女阿黛拉完成一次通關,"Clear the game once with Adela, the Witch of Domination.",支配の魔女アデルで1回クリアする
+clear_emiya,泥石流系魔女,使用混沌魔女厄米娅完成一次通关,泥石流系魔女,Mudslide-Class Witch,土石流系魔女,使用混沌魔女厄米婭完成一次通關,"Clear the game once with Ermia, the Chaos Witch.",カオスの魔女アーミヤで1回クリアする
+clear_vivian,哈~！,使用拟态魔女薇薇安完成一次通关,哈~！,Ha~!,はぁ〜！,使用擬態魔女薇薇安完成一次通關,"Clear the game once with Vivian, the Mimic Witch.",擬態の魔女ヴィヴィアンで1回クリアする
+clear_caroline,惩戒与捍卫,使用猎杀魔女卡洛琳完成一次通关,懲戒與捍衛,Punishment and Defense,懲戒と守護,使用獵殺魔女卡洛琳完成一次通關,"Clear the game once with Caroline, the Hunting Witch.",狩猟の魔女キャロラインで1回クリアする
+clear_coco,漫画家天使与魔女助手,使用见习天使可可完成一次通关,漫畫家天使與魔女助手,Artist Angel and Witch Assistant,漫画家天使と魔女助手,使用見習天使可可完成一次通關,"Clear the game once with Coco, the Apprentice Angel.",見習い天使ココで1回クリアする
+clear_once,终点？,通关一次“世界推演”,終點？,The End?,終点？,通關一次“世界推演”,Clear World Simulation once.,「世界推演」を1回クリアする
+clear_slot,工资回收计划,完成一次“混沌乐园”模式,工資回收計劃,Wage Recovery Plan,給料回収計画,完成一次“混沌樂園”模式,Complete Chaos Paradise mode once.,「混沌楽園」モードを1回完了する
+abyss_1,深渊挑战Ⅰ,通关深渊环境：10,深淵挑戰Ⅰ,Abyss Challenge I,深淵挑戦Ⅰ,通關深淵環境：10,Clear Abyss Environment: 10.,深淵環境10をクリアする
+abyss_2,深渊挑战Ⅱ,通关深渊环境：20,深淵挑戰Ⅱ,Abyss Challenge II,深淵挑戦Ⅱ,通關深淵環境：20,Clear Abyss Environment: 20.,深淵環境20をクリアする
+abyss_3,深渊挑战Ⅲ,通关深渊环境：30,深淵挑戰Ⅲ,Abyss Challenge III,深淵挑戦Ⅲ,通關深淵環境：30,Clear Abyss Environment: 30.,深淵環境30をクリアする
+abyss_4,深渊挑战Ⅳ,通关深渊环境：40,深淵挑戰Ⅳ,Abyss Challenge IV,深淵挑戦Ⅳ,通關深淵環境：40,Clear Abyss Environment: 40.,深淵環境40をクリアする
+boss_night_avatar,无梦之夜,击败“永夜化身”,無夢之夜,Dreamless Night,夢なき夜,擊敗“永夜化身”,"Defeat the ""Avatar of Eternal Night"".",「永夜の化身」を撃破する
+boss_holy_judgement,毁灭者的审判,击败“神圣审判机关”,毀滅者的審判,Destroyer's Judgment,破壊者の審判,擊敗“神圣審判機關”,"Defeat the ""Holy Judgment Engine"".",「神聖審判機関」を撃破する
+boss_hero_phase3,矫正正义,击败“勇者”第三形态,矯正正義,Corrected Justice,矯正された正義,擊敗“勇者”第三形態,"Defeat the third form of the ""Hero"".",「勇者」の第三形態を撃破する
+boss_demon_king,魔女＞魔王,击败“魔王”,魔女＞魔王,Witch > Demon King,魔女＞魔王,擊敗“魔王”,"Defeat the ""Demon King"".",「魔王」を撃破する
+one_hit_kill,一刀修罗,一击的伤害大于精英或领主敌人的最大生命,一刀修羅,One-Strike Asura,一太刀修羅,一擊的傷害大於精英或領主敵人的最大生命,Deal more damage in one hit than an elite or boss enemy's Max Health.,1回の攻撃でエリートまたはボス敵の最大HPを上回るダメージを与える
+burn_20,清理思绪,在一次战斗中焚毁了20张卡牌,清理思緒,Clear Your Thoughts,思考の整理,在一次戰鬥中燃燼了20張卡牌,Burn 20 cards in one combat.,1回の戦闘でカードを20枚燃やす
+small_deck,极简主义,以低于6张卡牌的卡组完成一次战斗,極簡主義,Minimalism,ミニマリズム,以低於6張卡牌的卡組完成一次戰鬥,Complete one combat with a deck of fewer than 6 cards.,6枚未満のデッキで1回の戦闘を終える
+large_deck,极繁主义,以超过40张卡牌的卡组完成一次战斗,極繁主義,Maximalism,マキシマリズム,以超過40張卡牌的卡組完成一次戰鬥,Complete one combat with a deck of more than 40 cards.,40枚を超えるデッキで1回の戦闘を終える
+play_30,无尽循环,在一回合内打出30张牌,無盡循環,Endless Loop,無限ループ,在一回合內打出30張牌,Play 30 cards in one turn.,1ターン中にカードを30枚使用する
+strength_cap,魔力黑洞,魔力属性达到极限,魔力黑洞,Magic Black Hole,魔力のブラックホール,魔力屬性達到極限,Reach the Magic attribute cap.,魔力属性を上限まで到達させる
+perceive_cap,壁障,感知属性达到极限,壁障,Barrier,障壁,感知屬性達到極限,Reach the Perception attribute cap.,感知属性を上限まで到達させる
+wisdom_cap,向内求索,精神属性达到极限,向內求索,Seek Within,内なる探求,精神屬性達到極限,Reach the Spirit attribute cap.,精神属性を上限まで到達させる
+lucky_cap,命运眷属,幸运属性达到极限,命運眷屬,Favored by Fate,運命の寵児,幸運屬性達到極限,Reach the Luck attribute cap.,幸運属性を上限まで到達させる
+defend_400,叹息之墙,同时拥有400点以上的护盾,嘆息之墻,Wall of Sighs,嘆きの壁,同時擁有400點以上的護盾,Have more than 400 Shield at the same time.,同時に400以上のシールドを持つ
+max_hp,血肉化神,同时拥有1000点以上的生命值,血肉化神,Flesh Made Divine,血肉の神格化,同時擁有1000點以上的生命值,Have more than 1000 Health at the same time.,同時に1000以上のHPを持つ
+damage_2000,100kg当量,一次攻击造成总计超过2000点伤害,100kg當量,100 kg Equivalent,100kg相当,一次攻擊造成總計超過2000點傷害,Deal more than 2000 total damage with one attack.,1回の攻撃で合計2000を超えるダメージを与える
+heal_100,肉白骨,一次恢复100点生命,肉白骨,Flesh Over Bone,白骨に肉を,一次恢復100點生命,Restore 100 Health at once.,1回でHPを100回復する
+win_without_card,让你两只手,不使用任何一张卡牌的情况下获得战斗胜利,讓你兩只手,I'll Give You Both Hands,両手を縛っても,不使用任何一張卡牌的情況下獲得戰鬥勝利,Win a combat without using any cards.,カードを1枚も使わずに戦闘に勝利する
+die_by_alchemy,贪婪之罪,因“诅咒炼金”而死,貪婪之罪,Sin of Greed,強欲の罪,因“詛咒煉金”而死,"Die from ""Cursed Alchemy"".",「呪いの錬金術」が原因で死亡する
+die_by_contract,斩杀契约,因带有“死契”名称的契约遗物而死,斬殺契約,Execution Contract,斬殺契約,因帶有“死契”名稱的契約遺物而死,"Die from a contract Relic with ""Death Pact"" in its name.",名前に「死契」を含む契約遺物が原因で死亡する
+hp_1000_before_12,暴食,在12层之前，血量大于1000,暴食,Gluttony,暴食,在12層之前，血量大於1000,Have more than 1000 Health before Layer 12.,12層に到達する前にHPを1000以上にする
+nana_devour_teammate,饥饿,使用奈奈的“可使用厄运”吞噬一名队友,饑餓,Hunger,飢餓,使用奈奈的“可使用厄運”吞噬一名隊友,"Use Nana's ""usable misfortune"" to devour a teammate.",ナナの「使用可能な厄運」で味方を1人喰らう
+clean_shot,所有，或一无所有,在左轮事件中连开5枪不受伤,所有，或一無所有,All or Nothing,すべてか、無か,在左輪事件中連開5槍不受傷,Fire 5 consecutive shots in the roulette event without taking damage.,リボルバーイベントで5発連続で撃ち、ダメージを受けない
+adela_obsidian_legion,黑曜军团,使用“王族律令”一次性创造9张以上棋子牌,黑曜軍團,Obsidian Legion,黒曜軍団,使用“王族律令”一次性創造9張以上棋子牌,"Use ""Royal Decree"" to create 9 or more chess piece cards at once.",「王族律令」を使って一度に9枚以上の駒カードを作成する
+third_tier_spell,超位魔法,使用一次三阶的进阶施法,超位魔法,High-Order Magic,超位魔法,使用一次三階的進階施法,Use a third-tier advanced spellcasting once.,3階の進階施法を1回使用する
+resentment_99,致死恶意,怨念层数达到99层以上,致死惡意,Lethal Malice,致死の悪意,怨念層數達到99層以上,Reach 99 or more stacks of Resentment.,怨念を99スタック以上にする
+resurrect_3,我归来……,在一局游戏内重生3次以上,我歸來……,I Return...,我、帰還せり……,在一局遊戲內重生3次以上,Resurrect 3 or more times in one run.,1回のプレイ中に3回以上復活する
+extraordinary_9999,神化,超凡层数达到9999以上,神化,Deification,神格化,超凡層數達到9999以上,Reach 9999 or more stacks of Extraordinary.,超凡を9999スタック以上にする
+statue_all,使徒,解锁所有局外成长,使徒,Apostle,使徒,解鎖所有局外成長,Unlock all out-of-run upgrades.,すべての局外成長を解放する
+gold_1,魔女宝藏Ⅰ,同时拥有10000金币,魔女寶藏Ⅰ,Witch Treasure I,魔女の宝物Ⅰ,同時擁有10000金幣,Have 10000 Gold at the same time.,同時に10000ゴールドを持つ

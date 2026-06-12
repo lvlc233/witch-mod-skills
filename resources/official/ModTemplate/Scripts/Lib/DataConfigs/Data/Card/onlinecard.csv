@@ -1,0 +1,54 @@
+﻿Id,Rarity,Expend,Tag,InitScript,DrawScript,UseScript,DropScript,Icon,Effects,Action,PackBelong
+唯一的标识（不能重复）,稀有度,花费,标签,卡牌初始化脚本,卡牌抽到后执行,卡牌使用后执行,卡牌进入弃牌堆后执行,图标资源的路径,特效路径,动作,cardpack id
+1,1,0,Burnout,"Vars[""BaseScript""]=""AttackCardItem"";AddDescription(""1"", ""Hp"", ""5"");",,"SetStatus(""Self"");var cards=HandCard.Where(x=>x!=null).ToList();
+       List<string>cardsId=new();
+       foreach (var item in cards)
+       {
+        cardsId.Add(item.data[""Id""]);
+          item.InternalBurning();
+       }
+       SetStatus(""Target"");
+       foreach(var card in cardsId){AddCardById(card);}",,Icon/Card/精神灌输,,,cardpack_13
+2,1,2,Burnout,"Vars[""BaseScript""]=""AttackCardItem"";AddDescription(""1"", ""Buff"", ""2"");Vars[""CanSelf""]=""False"";",,"SetStatus(""Self"");int loss = Math.Max(1, Self.CurHp / 10);ChangeHp((-loss).ToString());SetStatus(""Target"");ChangeHp((loss * 2).ToString());",,Icon/Card/输血,,,cardpack_13
+3,1,0,Burnout,Vars["BaseScript"]="AttackCardItem";Vars["CanSelf"]="False";,,"SetStatus(""Self"");
+        if (Target==null)
+        {
+            return;
+        }
+        string tempId=Target.InstanceId;
+        ChooseCardToAction(""1"", (fromData) =>
+        {
+           if (fromData.Count==0)
+           {
+            return;
+           } 
+           SetStatusById(tempId);
+           AddCardById(fromData[0].data[""Id""]);  
+        });",,Icon/Card/思维投影,,,cardpack_13
+4,1,0,Burnout,Vars["BaseScript"]="AttackCardItem";,,"SetStatus(""Self"");AddBuff(DataId.buff_vulnerability, ""3"");SetStatus(""Target"");AddBuff(DataId.buff_impregnable, ""3"");",,Icon/Card/战术防御,,,cardpack_13
+5,2,0,Burnout,Vars["BaseScript"]="AttackCardItem";,,SetStatus("Target");ChangePower("2");,,Icon/Card/魔能转移,,,cardpack_13
+6,2,1,Burnout,Vars["BaseScript"]="CommonCardItem";,,"SetStatus(""AllFriends"");AddBuff(DataId.buff_extraordinary,""50"");",,Icon/Card/争斗号角,,,cardpack_13
+7,1,0,Ritual,Vars["BaseScript"]="AttackCardItem";Vars["CanSelf"]="False";,,"SetStatus(""Target"");AddBuff(DataId.buff_ritualbountymana,""1"");",,Icon/Card/白银委托令,,,cardpack_13
+8,1,1,,Vars["BaseScript"]="CommonCardItem";,,"SetStatus(""AllFriends"");AddBuff(DataId.buff_evergreen,""5"");",,Icon/Card/祈愿 · 新生,,,cardpack_13
+9,1,1,,Vars["BaseScript"]="CommonCardItem";,,SetStatus("AllFriends");ChangeDefence("10");,,Icon/Card/列阵！,,,cardpack_13
+10,2,1,Ritual,Vars["BaseScript"]="AttackCardItem";Vars["CanSelf"]="False";,,"SetStatus(""Target"");AddBuff(DataId.buff_ritualbountygold,""1"");var t=Object.FirstOrDefault();if(t!=null){var b=t.GetBuff(DataId.buff_ritualbountygold);if(b!=null){b.buffConfig.dataConfig.Vars[""OwnerId""]=Self.InstanceId;}}",,Icon/Card/翠玉委托令,,,cardpack_13
+11,2,2,,Vars["BaseScript"]="AttackCardItem";,,"SetStatus(""Target"");
+       ChangeSkill(""-1"");",,Icon/Card/祈愿 · 超频,,,cardpack_13
+12,2,0,,Vars["BaseScript"]="AttackCardItem";,,"SetStatus(""Target"");var t=Object.FirstOrDefault();if(t==null){return;}var buffs=t.GetBuffs().Where(x=>x.buffConfig.Type==""负面"").ToList();
+       var NewBuff=new Dictionary<string,int>();
+       foreach (var item in buffs)
+       {
+        NewBuff.TryAdd(item.buffConfig.BuffId,item.buffConfig.Level);
+       }
+       SetStatus(""Target"");foreach(var b in buffs){RemoveBuff(b.buffConfig.BuffId);}
+       SetStatus(""Self"");
+       foreach(var b in NewBuff){AddBuff(b.Key,b.Value.ToString());}",,Icon/Card/噩梦代偿,,,cardpack_13
+13,3,2,Burnout,Vars["BaseScript"]="CommonCardItem";,,SetStatus("AllFriends");ChangeMoney("60");,,Icon/Card/联邦交易所,,,cardpack_13
+14,3,3,Burnout,Vars["BaseScript"]="CommonCardItem";,,"SetStatus(""Self"");ChangeHp(""-999"");SetStatus(""AllTarget"");AddBuff(DataId.buff_timestop,""1"");",,Icon/Card/祈愿 · 静谧,,,cardpack_13
+15,3,1,Burnout,Vars["BaseScript"]="CommonCardItem";,,SetStatus("AllFriends");DrawCount("3");,,Icon/Card/战争议会,,,cardpack_13
+16,3,0,Burnout,Vars["BaseScript"]="AttackCardItem";,,"SetStatus(""Target"");var t=Object.FirstOrDefault();if(t!=null){Resurrection((t.MaxHp/2).ToString());}SetStatus(""Self"");AddBuff(DataId.buff_timestop,""1"");",,Icon/Card/神圣牺牲,,,cardpack_13
+17,3,1,Burnout,Vars["BaseScript"]="AttackCardItem";,,"SetStatus(""All"");AddBuff(DataId.buff_VowPower,""1"");
+       int total=Object.Count(x=>x.GetBuff(DataId.buff_VowPower)!=null);
+       SetStatus(""Target"");
+       Damage((total*5).ToString());
+      SetStatus(""AllFriendsExSelf"");AddCardById(dataConfig.data[""Id""]); ",,Icon/Card/集众魔女之愿,,Skill,cardpack_13

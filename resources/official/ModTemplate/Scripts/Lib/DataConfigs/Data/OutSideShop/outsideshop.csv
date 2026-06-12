@@ -1,0 +1,29 @@
+﻿Id,PriceType,Price,TimePrice,Icon,Type,Toid,BuyScript,BuyCount,CanClose
+这里唯一id,价格种类,真理价格,,图标,种类,对应类的id,购买后生效的脚本,购买次数,
+2,Time,999,,Icon/Item/门,relic,relic_*24," PlayerInfo.AddItem(""relic_24"",""relic"");",999,FALSE
+3,Truth,20,,Icon/Item/强健体魄,,,"PlayerInfo.Getsave().Gain[""exMaxHp""] += 5;",5,FALSE
+4,Truth,20,,Icon/Item/谈判技巧,,,"PlayerInfo.Getsave().Gain[""flushmoneychange""] -= 5;",5,FALSE
+5,Truth,20,,Icon/Item/冒险津贴,,,"PlayerInfo.Getsave().Gain[""firstMoney""] += 10;",5,FALSE
+6,Truth,20,,Icon/Item/魔力涌动,,,"PlayerInfo.Getsave().Gain[""Strength""]+=1;",5,FALSE
+7,Truth,20,,Icon/Item/精神稳固,,,"PlayerInfo.Getsave().Gain[""Wisdom""]+=1;",5,FALSE
+8,Truth,20,,Icon/Item/幸运增幅,,,"PlayerInfo.Getsave().Gain[""Lucky""]+=1;",5,FALSE
+9,Truth,20,,Icon/Item/感知强化,,,"PlayerInfo.Getsave().Gain[""Perceive""]+=1;",5,FALSE
+10,Truth,999,,Icon/Item/叶,,,,1,TRUE
+16,Truth,100,,Icon/Item/叶,,Hard_*13;Hard_*14,,1,FALSE
+17,Truth,600,,Icon/Item/阿黛拉,career,career_*3,,1,FALSE
+18,Truth,400,,Icon/Item/卡洛琳,career,career_*5,,1,FALSE
+19,Truth,200,,Icon/Item/厄米娅,career,career_*6,,1,FALSE
+20,Truth,400,,Icon/Item/可可,career,career_*7,,1,FALSE
+21,Truth,400,,Icon/Item/薇薇安,career,career_*8,,1,FALSE
+22,Truth,200,,Icon/Item/黑猫,partner,Partner_*10002,,1,FALSE
+23,Truth,200,,Icon/Item/使魔猫猫,partner,Partner_*10004,,1,FALSE
+24,Truth,200,,Icon/Item/小克,partner,Partner_*10005,,1,FALSE
+25,Truth,200,,Icon/Item/门,cardpack,cardpack_*19,,1,FALSE
+26,Truth,200,,Icon/Item/门,cardpack,cardpack_*12,,1,FALSE
+27,Truth,400,,Icon/Item/门,cardpack,cardpack_*5,,1,FALSE
+28,Truth,400,,Icon/Item/门,cardpack,cardpack_*7,,1,FALSE
+*29,Truth,200,,Icon/Item/门,cardpack,cardpack_*10,,1,FALSE
+30,Truth,400,,Icon/Item/门,cardpack,cardpack_*6,,1,FALSE
+31,Truth,500,,Icon/Item/门,cardpack,cardpack_*18,,1,FALSE
+32,Truth,300,,Icon/Item/门,cardpack,cardpack_*4,,1,FALSE
+33,Truth,100,,Icon/Item/叶,,Hard_*19;Hard_*20;Hard_*21;Hard_*22,,1,FALSE

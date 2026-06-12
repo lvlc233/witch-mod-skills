@@ -1,0 +1,62 @@
+﻿Id,Type,Note,Name,Name_zh-Hant,Name_en,Name_ja,Description,Description_zh-Hant,Description_en,Description_ja
+唯一的标识（不能重复）,卡牌类型,费用,名称,名稱,Name,名称,描述,描述,Description,説明
+1,消耗技能牌,0,唤醒仪式,喚醒儀式,Awakening Ritual,覚醒の儀式,从卡组中检索两张【仪式】牌。,從牌組中檢索兩張【儀式】牌。,Search your deck for two [Ritual] cards.,デッキから【儀式】カードを2枚探す。
+2,技能牌,,着魔,著魔,Possession,憑依,抽牌直到抽到的不是【仪式】牌。,抽牌直到抽到的不是【儀式】牌。,Draw cards until you draw a non-Ritual card.,【儀式】カード以外を引くまでカードを引く。
+3,技能牌,,引思,引思,Thought Lure,思念誘引,抽3张牌，若你没有仪式，则弃3张牌。,抽3張牌，若你沒有儀式，則棄3張牌。,"Draw 3 cards. If you have no Ritual, discard 3 cards.",カードを3枚引く。儀式がない場合、カードを3枚捨てる。
+4,技能牌,,仪礼剑,儀禮劍,Ritual Sword,儀礼剣,对所有敌人造成{0}点伤害，随机打出手牌中的一个仪式。,對所有敵人造成{0}點傷害，隨機打出手牌中的一個儀式。,Deal {0} damage to all enemies and randomly play a Ritual from your hand.,敵全体に{0}ダメージを与え、手札の儀式カードをランダムに1枚使用する。
+5,技能牌,,祭祀之刃,祭祀之刃,Sacrificial Edge,祭祀の刃,"造成5+所有仪式超魔计数*3点伤害，当前为{0}随机仪式超魔+1。 
+向你的卡组添加此牌的复制品。","造成5+所有儀式超魔計數*3點傷害，當前為{0}。隨機儀式超魔+1。
+向你的牌組添加此牌的複製品。","Deal 5 + 3 times the total Overmagic of all Rituals as damage, currently {0}. A random Ritual gains +1 Overmagic.
+Add a copy of this card to your deck.","5+すべての儀式オーバーマジックカウント*3のダメージを与える。現在は{0}。ランダムな儀式オーバーマジック+1。
+このカードのコピーをあなたのデッキに加える。"
+6,技能牌,,秘位：爆裂魔法,秘位：爆裂魔法,Sec. Burst Magic,秘位：爆裂魔法,"结束所有仪式。每结束一个仪式超魔+1。 
+超魔X：抽X张牌，对所有敌人造成等同所有仪式的超魔总和的伤害。","結束所有儀式。每結束一個儀式，超魔+1。 
+超魔X：抽X張牌，對所有敵人造成等同所有儀式的超魔總和的傷害。","End all Rituals. For each Ritual ended, Overmagic +1. 
+Overmagic X: Draw X cards. Deal damage to all enemies equal to the total Overmagic of all Rituals.","全ての儀式を終了する。儀式を1つ終了するたび、オーバーマジック+1。 
+オーバーマジックX：カードをX枚引く。全ての敵に、全ての儀式のオーバーマジック合計に等しいダメージを与える。"
+7,消耗技能牌,,序位：启迪之刻,序位：啟迪之刻,Ord. Enlighten.,序位：啓示の刻,"仪式:每消耗1次能量，超魔+1。
+超魔5:每3次消耗能量额外抽1张牌。抽10张牌后结束此仪式。","儀式：每當你消耗1點魔能，超魔+1。 
+超魔5：每消耗3點魔能，抽1張牌。 
+","Ritual: Whenever you spend 1 Mana, Overmagic +1.
+Overmagic 5: For every 3 Mana spent, draw 1 card. End this Ritual after drawing 10 cards.","儀式：あなたがマナを1消費するたび、オーバーマジック+1。 
+オーバーマジック5：マナを2消費するたび、カードを1枚引く。 
+"
+8,消耗技能牌,,序位：刀与盾,序位：刀與盾,Ord. Bladeguard,序位：刀と盾,"仪式：每造成一点伤害，超魔+1。 
+超魔X:回合结束时，获得(X)点护盾，结束本仪式。","儀式：每造成1點傷害，超魔+1。 
+超魔X:回合結束時，獲得(X)點護盾，結束本儀式。","Ritual: For each 1 damage dealt, Overmagic +1. 
+Overmagic X: At turn end, gain (X) Shield and end this Ritual.","儀式：1ダメージを与えるたび、オーバーマジック+1。 
+オーバーマジックX:ターン終了時、(X)シールドを獲得し、この儀式を終了する。"
+9,消耗技能牌,,序位：魔力回路,序位：魔力迴路,Ord. Mana Loop,序位：魔力回路,"仪式：回合结束时每有一张卡牌，超魔+1。 
+超魔X：若超魔>2，下回合开始时，获得X/2点能量，结束本仪式。 ","儀式：回合結束時每有一張卡牌，超魔+1。 
+超魔X：若超魔>2，下回合開始時，獲得X/2點魔能，結束本儀式。 
+","Ritual: At turn end, Overmagic +1 for each card you have. 
+Overmagic X: If Overmagic > 2, at the start of next turn, gain X/2 Mana and end this Ritual. 
+","儀式：ターン終了時、カード1枚につきオーバーマジック+1。 
+オーバーマジックX：オーバーマジック>2の場合、次のターン開始時にX/2マナを獲得し、この儀式を終了する。 
+"
+10,消耗技能牌,,秘位：大书库,秘位：大書庫,Sec. Librarium,秘位：大書庫,"仪式：每打出一张牌，超魔+1。 
+超魔4：抽牌直至手牌抽满，结束本仪式。 ","儀式：每打出一張牌，超魔+1。 
+超魔4：抽牌直至手牌抽滿，結束本儀式。 
+","Ritual: Whenever you play a card, Overmagic +1. 
+Overmagic 4: Draw cards until your hand is full, then end this Ritual. 
+","儀式：カードを1枚使用するたび、オーバーマジック+1。 
+オーバーマジック4：手札が上限になるまでカードを引き、この儀式を終了する。 
+"
+11,消耗技能牌,,序位：阵列展开,序位：陣列展開,Ord. Array Cast,序位：陣列展開,"仪式：当你打出一张仪式牌时，获得2点【超魔】。 
+超魔X：回合开始时，所有仪式的超魔+1。 ","儀式：當你打出一張儀式牌時，獲得2點【超魔】。 
+超魔X：回合開始時，所有儀式的超魔+1。 ","Ritual: When you play a Ritual card, gain 2 Overmagic.
+Overmagic X: At turn start, all Rituals gain +1 Overmagic.
+","儀式：儀式カードを1枚使用した時、【オーバーマジック】を2獲得する。 
+オーバーマジックX：ターン開始時、全ての儀式のオーバーマジック+1。 
+"
+12,消耗技能牌,,序位：新月回响,序位：新月迴響,Ord. Moon Echo,序位：新月の残響,仪式：当其他仪式触发超魔效果时，再触发一次。,"儀式：當其他儀式觸發超魔效果時，再觸發一次。 
+","Ritual: When another Ritual triggers its Overmagic effect, trigger it one additional time. 
+","儀式：他の儀式がオーバーマジック効果を発動した時、もう1回発動する。 
+"
+13,消耗技能牌,,秘位：行星研究,秘位：行星研究,Sec. Planet Lab,秘位：惑星研究,仪式：你每打出一张【仪式】牌，超魔+1。 超魔2：你每打出一张【仪式】牌，能量+1，抽一张牌。,儀式：你每打出一張【儀式】牌，超魔+1。 超魔2：你每打出一張【儀式】牌，魔能+1，抽一張牌。,"Ritual: Whenever you play a 【Ritual】 card, Overmagic +1. Overmagic 2: Whenever you play a 【Ritual】 card, Mana +1 and draw 1 card. ",儀式：【儀式】カードを1枚使用するたび、オーバーマジック+1。 オーバーマジック2：【儀式】カードを1枚使用するたび、マナ+1、カードを1枚引く。
+14,消耗技能牌,,秘位：降临者,秘位：降臨者,Sec. Descender,秘位：降臨者,仪式：你打出的所有牌将被焚毁。每一张牌被焚毁时，超魔+1。 超魔10：获得444点超凡，结束本仪式。,儀式：你打出的所有牌將被焚毀。每一張牌，超魔+1。 超魔10：獲得444點{buff_extraordinary}，結束本儀式。,"Ritual: All cards you play will be Burned. For each card, Overmagic +1. Overmagic 10: Gain 444 stacks of {buff_extraordinary} and end this Ritual. ",儀式：あなたが使用した全てのカードは燃焼する。カード1枚につき、オーバーマジック+1。 オーバーマジック10：{buff_extraordinary}を444スタック獲得し、この儀式を終了する。
+15,消耗技能牌,,超位：黄昏再临,超位：黃昏再臨,Ult. Duskreturn,超位：黄昏再臨,仪式：你每有一个仪式，超魔+1。 超魔15：获得战斗胜利。,儀式：你每有一個儀式，超魔+1。 超魔12：獲得戰鬥勝利。,"Ritual: For each Ritual you have, Overmagic +1. Overmagic 15: Win the battle.",儀式：あなたが持つ儀式1つにつき、オーバーマジック+1。 オーバーマジック12：戦闘に勝利する。
+16,消耗技能牌,,秘位：培植红莲,秘位：培植紅蓮,Sec. Red Lotus,秘位：紅蓮培植,仪式：你每打出三张带有【灼烧】的卡，额外触发一次灼烧。,儀式：你每打出三張帶有【灼燒】的卡，額外觸發一次灼燒。,"Ritual: For every three cards with 【Burn】 you play, trigger {buff_burn} one additional time. ",儀式：【灼燒】を持つカードを3枚使用するたび、灼燒を追加で1回発動する。
+17,消耗技能牌,,秘位：时空囚徒,秘位：時空囚徒,Sec. Timebound,秘位：時空の囚人,仪式：你每有一层时之笼，超魔+1。 超魔X：每当时之笼里的效果结算时，从卡组中抽取一张【仪式】卡。,儀式：你每有一層{buff_timelock}，超魔+1。 超魔X：每當{buff_timelock}裡的效果結算時，從卡組中抽取一張【儀式】卡。,"Ritual: For each stack of {buff_timelock} you have, Overmagic +1. Overmagic X: Whenever an effect in {buff_timelock} resolves, draw a [Ritual] card from your deck.",儀式：あなたが持つ{buff_timelock}1スタックにつき、オーバーマジック+1。 オーバーマジックX：{buff_timelock}内の効果が解決されるたび、デッキから【儀式】カードを1枚引く。
+18,消耗技能牌,,秘位：凝滞魔能,秘位：凝滯魔能,Sec. Mana Stasis,秘位：凝滞マナ,仪式：你每保留一张卡，超魔+1。 超魔X:回合开始时清空超魔，获得X点能量。,儀式：你每保留一張卡，超魔+1。 超魔X:回合開始時清空超魔，獲得X點魔能。,"Ritual: For each card you retain, Overmagic +1. Overmagic X: At turn start, clear Overmagic and gain X Mana. ",儀式：カードを1枚保留するたび、オーバーマジック+1。 オーバーマジックX:ターン開始時にオーバーマジックを空にし、Xマナを獲得する。
+*19,消耗技能牌,,所有暴力的本我,所有暴力的本我,Id of Violence,あらゆる暴力のイド,仅在30%生命值以下可以打出， 对除了自身之外的所有人造成最大生命值130%的伤害,僅在30%生命值以下可以打出，對除了自身之外的所有人造成最大生命值130%的傷害,Can only be played below 30% HP. Deal damage equal to 130% of each target's Max Health to everyone except yourself.,残り体力が30%以下のときのみ発動可能で、自分以外のすべての人に最大体力の130%のダメージを与える

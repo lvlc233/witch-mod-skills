@@ -1,0 +1,33 @@
+﻿Id,Note,Name,Description,Name_zh-Hant,Name_en,Description_zh-Hant,Description_en,Name_ja,Description_ja
+Id（唯一标识）,备注,名称,效果描述,名稱,Name,效果描述,Effect Description,名称,効果説明
+1,蛇自阴影中袭来,鳞契,给予卡牌【固有】，获得2点护盾,鱗契,Scale Pact,給予卡牌【固有】，獲得2點護盾,Give the card Inherent and gain 2 Shield,鱗の契約,カードに【固有】を付与し、シールドを2獲得する。
+2,爱与梦魇的阶梯,诀别,附着牌获得“不能移出卡组。战斗开始时自动免费打出。将一张幻梦置于牌堆。焚毁”。,訣別,Farewell,附著牌獲得“不能移出卡組。戰鬥開始時自動免費打出。將一張幻夢置于牌堆。焚毀”。,"The attached card gains ""Cannot be removed from the deck. Automatically plays for free at combat start. Shuffle 1 Emptiness into the deck. Burn.""",訣別,付着カードは「デッキから削除できない。戦闘開始時に自動で無料で打ち出す。虚無感を1枚山札に置く。焼却」を獲得する。
+3,爱与梦魇的阶梯,哀寂,附着牌获得“抽到时，魔能消耗降为1，每降低1点则将1张幻梦置于牌堆。”,哀寂,Lament,附著牌獲得“抽到時，魔能消耗降為1，每降低1點則將1張幻夢置于牌堆。”,"The attached card gains ""When drawn, reduce its Mana cost to 1. For each point reduced, shuffle 1 Emptiness into the deck.""",哀寂,付着カードは「引いた時、マナコストが0になる。1点下がるごとに虚無感を1枚山札に置く」を獲得する。
+*4,七重试炼,救赎,打出时额外抽1张牌，制造一张【幻梦】加入弃牌堆,救贖,Redemption,打出時額外抽1張牌，制造一張【幻夢】加入棄牌堆,"When played, draw 1 extra card and create 1 Emptiness in the discard pile.",救済,打ち出した時、追加でカードを1枚引き、【虚無感】を1枚生成して捨て札に加える。
+*5,七重试炼,余辉,"移除卡牌的【焚毁】，给予【衔尾】
+卡牌使用时在抽牌堆加入一张随机诅咒牌",余輝,Afterglow,"移除卡牌的【焚毀】，給予【銜尾】
+卡牌使用時在抽牌堆加入一張隨機詛咒牌","Remove Burn from the card and grant Ouroboros.
+When this card is played, shuffle a random card into the draw pile.",余輝,"カードの【焼却】を削除し、【ウロボロス】を付与する。
+カード使用時、ドローパイルにランダムなカードを1枚加える。"
+*6,奥尔德林诸神谕,木槿,唤神：回复神启层数点的生命,木槿,Hibiscus,喚神：回復神啓層數點的生命,"Invocation: Restore Health equal to {buff_revelation} stacks.
+Invocation, Inherent",木槿,"神を呼ぶ：{buff_revelation}スタック分のHPを回復する
+神を呼ぶ、固有"
+8,统合之约,协奏,附着卡打出前，会先对随机友方再次打出这张卡牌,協奏,Concerto,附著卡打出前，會先對隨機友方再次打出這張卡牌,"Before the attached card is played, it is played once on a random ally first",協奏,付着カードを打ち出す前に、ランダムな味方に対してこのカードをもう一度打ち出す。
+9,统合之约,曦落,打出此牌时，其他魔女也执行一次此牌打出效果。,曦落,Dawnfall,打出此牌時，其他魔女也執行一次此牌打出效果。,"When this card is played, the other witches also trigger its play effect once.",曦落,このカードを打ち出した時、他の魔女もこのカードの打ち出し効果を1回実行する。
+10,统合之约,执蕊,给予附着牌 焚毁；打出时给予队友一张同名焚毁牌,執蕊,Bloombearer,給予附著牌 焚毀；打出時給予隊友一張同名焚毀牌,"Give the attached card Burn; when played, give an ally a Burn copy of the same card",蕊を執る,付着カードに焼却を付与する。打ち出した時、味方に同名の焼却カードを1枚付与する。
+11,蛇自阴影中袭来,凝时,"附着卡获得回转词条,每次打出后扣除自身最大生命25%的血量。",凝時,Frozen Time,"附著卡獲得回轉詞條,每次打出后扣除自身最大生命25%的血量。","The attached card gains Recycle. After each play, lose 25% of your Max Health.",凝時,付着カードは回収効果を獲得し、打ち出すたびに自身の最大HPの25%を失う。
+*12,深渊生存法则,血祀,卡牌打出时对自身造成1点真实伤害，获得2层自愈,血祀,Blood Rite,卡牌打出時對自身造成1點真實傷害，獲得2層自癒,"When the card is played, deal 1 True damage to yourself and gain 2 stacks of Evergreen",血祀,カードを打ち出した時、自身に1点の固定ダメージを与え、再生を2スタック獲得する。
+*13,深渊生存法则,炼金,使用当前卡牌可以恢复自身1%-10%的生命值。,煉金,Alchemy,使用當前卡牌可以恢復自身1%-10%的生命值。,Using this card restores 1%-10% of your Health.,魔女の錬金術大全,現在のカードを使用すると、自身のHPを1%-10%回復できる。
+*14,高阶魔法基础·必修一,圣咏,战斗开始自动打出附着卡。,圣詠,Holy Chant,戰鬥開始自動打出附著卡。,Echo. Automatically play the attached card twice at combat start. Burn.,聖詠,反響。戦闘開始時、付着カードを自動で2回打ち出す。焼却。
+*15,高阶魔法基础·必修一,银河,魔能消耗+1。在一场战斗中，每打出1次该卡牌，下次打出时额外调用一次打出效果。,銀河,Galaxy,魔能消耗+1。在一場戰鬥中，每打出1次該卡牌，下次打出時額外調用一次打出效果。,"Mana cost +1. Each time this card is played in a battle, its next play triggers its play effect 1 extra time.",銀河,マナコスト+1。1回の戦闘中、このカードを1回打ち出すたび、次に打ち出す時に打ち出し効果を追加で1回呼び出す。
+*16,高阶魔法基础·必修一,记忆,移除卡牌的【焚毁】，卡牌消耗+1,記憶,Memory,移除卡牌的【焚毀】，卡牌消耗+1,Remove Burn from the card. This card costs +1.,記憶,カードの【焼却】を削除し、カードのコスト+1。
+*17,高阶魔法基础·必修一,备份,打出时将一张该牌的+1消耗的复制体加入抽牌堆,備份,Backup Retrieval,打出時將一張該牌的+1消耗的復制體加入抽牌堆,"When played, shuffle a copy of this card with +1 cost into the draw pile",バックアップ回収,打ち出した時、このカードのコスト+1のコピーを1枚ドローパイルに加える。
+*18,爱与梦魇的阶梯,执念,给予卡牌：对所有敌人缠怨5,執念,Obsession,給予卡牌：對所有敵人纏怨5,Give the card: apply Lingering Resentment 5 to all enemies,執念,カードに付与：すべての敵に纏怨5。
+19,法术序列,死荫,卡牌获得复还{0},死蔭,Deathshade,卡牌獲得復還{0},The card gains Return Again {0},死蔭,カードは復還{0}を獲得する。
+20,混沌乐团,跳蛙,当卡牌被丢弃时，在手牌加入一张同名卡牌。,跳蛙,Leapfrog,當卡牌被丟棄時，在手牌加入一張同名卡牌。,"When this card is discarded, add a card with the same name to your hand.",跳ね蛙,カードが捨てられた時、同名カードを1枚手札に加える。
+*21,飞升之路,历战,"附着卡每次打出时，增加0点护盾
+飞升：护盾量+1",歷戰,Battleworn,"附著卡每次打出時，增加0點護盾
+飛升：護盾量+1","Each time the attached card is played, gain 0 Shield
+Ascension: Shield gained +1",歴戦,"付着カードを打ち出すたび、シールドを0増加させる。
+飛昇：シールド量+1。"
+*22,混沌乐团,编码,打出这张牌时，根据打出次数获得强化，奇数次数获得3点临时魔力，偶数次数获得3层坚毅，下回合开始时移除所有坚毅,編碼,Eunomia Code,打出這張牌時，根據打出次數獲得強化，奇數次數獲得3點臨時魔力，偶數次數獲得3層堅毅，下回合開始時移除所有堅毅,"When this card is played, gain bonuses based on how many times it has been played: on odd counts gain 3 Temporary Mana, on even counts gain 3 stacks of Impregnable. Remove all Impregnable at the start of next turn",エウノミア・コード,このカードを打ち出した時、打ち出した回数に応じて強化を獲得する。奇数回なら一時マナを3点、偶数回なら堅毅を3スタック獲得し、次のターン開始時にすべての堅毅を削除する。

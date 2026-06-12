@@ -1,0 +1,5 @@
+﻿Id,DialogueId,Build
+唯一标识（数字）,对话前缀,建筑归属
+1,faildialog1,行政厅
+2,faildialog2,行政厅
+3,faildialog3,展览馆

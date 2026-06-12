@@ -1,0 +1,133 @@
+﻿Id,Type,是否完成,Note,Name,Name_zh-Hant,Name_en,Name_ja,Description,Description_zh-Hant,Description_en,Description_ja
+唯一的标识（不能重复）,类型,FALSE,备注,名称,名稱,Name,名前,描述,描述,Description,説明
+*1,消耗技能牌,FALSE,,雾枭翎羽,霧梟翎羽,Mist Owl Plume,霧梟の羽,"素材A 
+打出造成{0}点伤害并获得{1}层超凡","素材A 
+打出造成{0}點傷害並獲得{1}層超凡","Material A 
+Play to deal {0} damage and gain {1} stack(s) of {buff_extraordinary}","詠唱素材A
+プレイすると{0}ダメージを与え、超越を{1}スタック獲得する"
+*2,消耗技能牌,FALSE,,无瑕百合,無暇百合,Immaculate Lily,無垢の百合,"素材B 
+打出获得{0}点护盾并回复{1}点生命","素材B 
+打出獲得{0}點護盾並回復{1}點生命","Material B 
+Play to gain {0} Shield and restore {1} HP","詠唱素材B
+プレイするとシールドを{0}獲得し、HPを{1}回復する"
+*3,,FALSE,,流星尘埃,流星塵埃,Meteor Dust,流星の塵,"素材C 
+抽{0}张卡牌，下回合额外恢复{1}点魔能 ","素材C 
+
+打出抽{0}，下回合額外恢復{1}點魔能 
+只能透過戰鬥中的卡牌衍生獲取","Material C 
+
+Play to draw {0}. Next turn, restore {1} extra Mana 
+Can only be obtained from card derivation during combat","詠唱素材C
+
+プレイするとカードを{0}枚引く。次のターン、追加で魔力を{1}回復する
+戦闘中のカード派生でのみ獲得できる"
+*4,,FALSE,,灰色寂灭,灰色寂滅,Gray Oblivion,灰色の寂滅,"素材D 
+ 湮灭，施法素材 
+本身无任何效果，作为大型魔法的前置步骤","素材D 
+ 
+湮滅，施法素材 
+可透過其他卡牌衍生獲取，或由卡牌獎勵獲得 
+本身無任何效果，作為大型魔法的前置步驟","Material D 
+ 
+Annihilate, Casting Material 
+Can be obtained from other card derivations or as a card reward 
+Has no effect by itself; serves as a prerequisite step for large-scale magic","詠唱素材D
+ 
+湮滅、詠唱素材
+他のカード派生、またはカード報酬から獲得できる
+それ自体には効果がなく、大型魔法の前段階となる"
+5,,FALSE,,拟态爪,擬態爪,Mimicry Claw,擬態の爪,"获得{0}层超凡和{1}层锋锐。 
+制造施法素材B：无瑕百合","獲得{0}層超凡和{1}層鋒銳。 
+製造施法素材B：無暇百合","Gain {0} stack(s) of {buff_extraordinary} and {1} stack(s) of {buff_keenedge}. 
+Create Casting Material B: Immaculate Lily","超越を{0}スタック、鋭利を{1}スタック獲得する。
+詠唱素材B：無垢の百合を生成する"
+6,,FALSE,,流星元素,流星元素,Meteor Elements,流星の元素,"获得{0}层元素。 
+制造施法素材C：流星尘埃","獲得{0}層元素。 
+製造施法素材C：流星塵埃","Gain {0} stack(s) of {buff_elements}. 
+Create Casting Material C: Meteor Dust","元素を{0}スタック獲得する。
+詠唱素材C：流星の塵を生成する"
+7,,FALSE,,力场飞弹,力場飛彈,Forcefield Bolt,力場ミサイル,"对随机目标造成{1}次{0}点伤害。 
+制造施法素材A：雾枭翎羽","對隨機目標造成{1}次{0}點傷害。 
+製造施法素材A：雾枭翎羽","Deal {0} damage {1} time(s) to random targets. 
+Create Casting Material A: Mist Owl Plume","ランダムな対象に{0}ダメージを{1}回与える。
+詠唱素材A：霧梟の羽を生成する"
+8,,FALSE,,咒闪刃,咒閃刃,Hexflash Blade,呪閃刃,"造成{0}点伤害，抽{1}张牌。 
+制造施法素材A：雾枭翎羽","造成{0}點傷害，抽{1}張牌。 
+製造施法素材A：雾枭翎羽","Deal {0} damage. Draw {1} card(s). 
+Create Casting Material A: Mist Owl Plume","{0}ダメージを与える。カードを{1}枚引く。
+詠唱素材A：霧梟の羽を生成する"
+9,,FALSE,,棘影弓,棘影弓,Thornshadow Bow,棘影の弓,"造成{0}点真实伤害和{1}层易伤。 
+制造施法素材A：雾枭翎羽","造成{0}點真實傷害和{1}層易傷。 
+製造施法素材A：雾枭翎羽","Deal {0} True Damage and apply {1} stack(s) of {buff_vulnerability}. 
+Create Casting Material A: Mist Owl Plume","{0}の真ダメージを与え、脆弱を{1}スタック付与する。
+詠唱素材A：霧梟の羽を生成する"
+10,,FALSE,,覆灭雷枪,覆滅雷槍,Doombolt Spear,覆滅の雷槍,"对敌方群体造成{0}点伤害。 
+制造施法素材A：雾枭翎羽","對敵方群體造成{0}點傷害。 
+製造施法素材A：雾枭翎羽","Deal {0} damage to all enemies. 
+Create Casting Material A: Mist Owl Plume","敵全体に{0}ダメージを与える。
+詠唱素材A：霧梟の羽を生成する"
+11,,FALSE,,永冻术,永凍術,Eternal Freeze,永凍術,"获得{0}点护盾，下个回合恢复{1}点魔能。 
+制造施法素材B：无瑕百合","獲得{0}點護盾，下個回合恢復{1}點魔能。 
+製造施法素材B：無暇百合","Gain {0} Shield. Next turn, restore {1} Mana. 
+Create Casting Material B: Immaculate Lily","シールドを{0}獲得する。次のターン、魔力を{1}回復する。
+詠唱素材B：無垢の百合を生成する"
+12,,FALSE,,荆棘护身,荊棘護身,Thorn Ward,茨の護身,"获得{0}点护盾，{1}层蓄势。 
+制造施法素材B：无瑕百合","獲得{0}點護盾，{1}層蓄勢。 
+製造施法素材B：無暇百合","Gain {0} Shield and {1} stack(s) of {buff_poised}. 
+Create Casting Material B: Immaculate Lily","シールドを{0}、ためるを{1}スタック獲得する。
+詠唱素材B：無垢の百合を生成する"
+13,,FALSE,,法术护盾,法術護盾,Spell Shield,法術シールド,"获得{0}层强韧，抽{1}张牌。 
+制造施法素材B：无瑕百合","獲得{0}層強韌，抽{1}張牌。 
+製造施法素材B：無暇百合","Gain {0} stack(s) of {buff_resilient}. Draw {1} card(s). 
+Create Casting Material B: Immaculate Lily","強靭を{0}スタック獲得し、カードを{1}枚引く。
+詠唱素材B：無垢の百合を生成する"
+14,,FALSE,,血殁,血歿,Blood Demise,血の終焉,"流失{0}生命值。 
+制造施法素材D：灰色寂灭","流失{0}生命值。 
+製造施法素材D：灰色寂滅","Lose {0} HP. 
+Create Casting Material D: Gray Annihilation","HPを{0}失う。
+詠唱素材D：灰色の寂滅を生成する"
+15,,FALSE,,序列重构,序列重構,Sequence Reset,序列再構築,舍弃你的全部手牌，然后随机获得等量的【素材】。,捨棄你的全部手牌，然後隨機獲得等量的【施法素材】，焚毀,"Discard your entire hand, then randomly gain the same number of 【Casting Material】 cards.",手札をすべて捨て、その枚数と同数の【詠唱素材】をランダムに獲得する。焼却
+*16,,FALSE,,律令：死亡,律令：死亡,Edict: Death,律令：死,"法术序列【ABCD】 
+若目标的 生命/进阶施法次数 低于你的最大生命，给予其100%最大生命值的伤害(当前进阶施法{0}次)","法術序列【ABCD】 
+若目標的 生命/進階施法次數 低於你的最大生命，給予其100%最大生命值的傷害(當前進階施法{0}次)","Spell Sequence【ABCD】 
+If the target's HP / Advanced Casting count is lower than your max HP, deal damage equal to 100% of its max HP (current Advanced Casting: {0})","魔法シーケンス【ABCD】
+対象のHP / 上級詠唱回数があなたの最大HPを下回る場合、対象の最大HPの100%に等しいダメージを与える（現在の上級詠唱：{0}回）"
+*17,,FALSE,,唤灵：星陨,喚靈：星隕,Spirit: Starfall,霊喚：星墜,"法术序列【ABC】 
+消耗{0}当前生命值，根据消耗生命的绝对值造成{1}对群伤害 
+制造施法素材：灰色寂灭","法術序列【ABC】 
+消耗{0}當前生命值，根據消耗生命的絕對值造成{1}對群傷害 
+製造施法素材：灰色寂滅","Spell Sequence【ABC】 
+Consume {0} current HP. Based on the absolute value of HP consumed, deal {1} damage to all enemies 
+Create Casting Material: Gray Annihilation","魔法シーケンス【ABC】
+現在HPを{0}消費する。消費したHPの絶対値に応じて、全体に{1}ダメージを与える
+詠唱素材：灰色の寂滅を生成する"
+*18,,FALSE,,弑神武装,弒神武裝,Godslayer Gear,神殺しの武装,"法术序列【BCD】 
+获得{0}点护盾，获得{1}层坚毅","法術序列【BCD】 
+獲得{0}點護盾，獲得{1}層堅毅","Spell Sequence【BCD】 
+Gain {0} Shield and {1} stack(s) of {buff_impregnable}","魔法シーケンス【BCD】
+シールドを{0}獲得し、堅毅を{1}スタック獲得する"
+*19,,FALSE,,流星爆,流星爆,Meteor Burst,流星爆,"法术序列【ABD】 
+对敌方全体造成{0}点伤害，检定{1}：每次成功检定，再次触发，直到检定失败","法術序列【ABD】 
+對敵方全體造成{0}點傷害，檢定{1}：每次成功檢定，再次觸發，直到檢定失敗","Spell Sequence【ABD】 
+Deal {0} damage to all enemies. Check {1}: each successful Check triggers this again until a Check fails","魔法シーケンス【ABD】
+敵全体に{0}ダメージを与える。{1}を判定：判定に成功するたび、失敗するまで再度発動する"
+*20,,FALSE,,传奇武装,傳奇武裝,Legend Gear,伝説の武装,"法术序列【ACD】 
+获得{0}元素，{1}超凡，{2}锋锐，{3}循环，{4}不朽，{5}神启，{6}蓄势，{7}自愈","法術序列【ACD】 
+獲得{0}元素，{1}超凡，{2}鋒銳，{3}循環，{4}不朽，{5}神啟，{6}蓄勢，{7}自癒","Spell Sequence【ACD】 
+Gain {0} {buff_elements}, {1} {buff_extraordinary}, {2} {buff_keenedge}, {3} {buff_cycle}, {4} {buff_immortal}, {5} {buff_revelation}, {6} {buff_poised}, and {7} {buff_evergreen}","魔法シーケンス【ACD】
+元素を{0}、超越を{1}、鋭利を{2}、循環を{3}、不朽を{4}、神の啓示を{5}、ためるを{6}、再生を{7}獲得する"
+*21,,FALSE,,星界门,星界門,Astral Gate,星界門,"法术序列【BC】 
+使用后获得{0}层坚毅，恢复{1}点生命，并立刻结束自己的回合，在下个自己的回合开始时失去所有坚毅","法術序列【BC】 
+使用後獲得{0}層堅毅，恢復{1}點生命，並立刻結束自己的回合，在下個自己的回合開始時失去所有堅毅","Spell Sequence【BC】 
+After use, gain {0} stack(s) of {buff_impregnable}, restore {1} HP, and immediately end your turn. At the start of your next turn, lose all {buff_impregnable}","魔法シーケンス【BC】
+使用後、堅毅を{0}スタック獲得し、HPを{1}回復して、ただちに自分のターンを終了する。次の自分のターン開始時、すべての堅毅を失う"
+*22,,FALSE,,授法,授法,Arcane Bestowal,授法,"法术序列【AB】 
+魔能上限+{0}。制造施法素材C：流星尘埃","法術序列【AB】 
+魔能上限+{0}。製造施法素材C：流星塵埃","Spell Sequence【AB】 
+Mana limit +{0}. Create Casting Material C: Meteor Dust","魔法シーケンス【AB】
+魔力上限+{0}。詠唱素材C：流星の塵を生成する"
+*23,,FALSE,,银光天阶,銀光天階,Silverlight Step,銀光の天階,"法术序列【AC】 
+下个自己的回合开始时，额外恢复{0}点能量并抽{1}张牌","法術序列【AC】 
+下個自己的回合開始時，額外恢復{0}點能量並抽{1}張牌","Spell Sequence【AC】 
+At the start of your next turn, restore {0} extra energy and draw {1} card(s)","魔法シーケンス【AC】
+次の自分のターン開始時、追加でエネルギーを{0}回復し、カードを{1}枚引く"

@@ -1,0 +1,12 @@
+﻿Id,Avatar,CharacterImage,HouseAvatar
+唯一标识,头像路径,立绘路径,场景对话头像
+narrator,Images/Dialogue/Avatar/空白,Images/Dialogue/Character/占位,Images/Dialogue/Circle/空白
+amelia,Images/Dialogue/Avatar/阿米莉娅,Images/Dialogue/Character/原初魔女,Images/Dialogue/Circle/阿米莉娅
+Krisna,Images/Dialogue/Avatar/克莉斯娜,Images/Dialogue/Character/克莉斯娜,Images/Dialogue/Circle/克莉斯娜
+Adele,Images/Dialogue/Avatar/阿黛拉,Images/Dialogue/Character/阿黛拉,Images/Dialogue/Circle/阿黛拉
+nana,Images/Dialogue/Avatar/奈奈,Images/Dialogue/Character/见习魔女,Images/Dialogue/Circle/奈奈
+coco,Images/Dialogue/Avatar/可可,Images/Dialogue/Character/可可,Images/Dialogue/Circle/可可
+little_krisna,Images/Dialogue/Avatar/克莉斯娜,Images/Dialogue/Character/克莉斯娜,Images/Dialogue/Circle/小克
+ermia,Images/Dialogue/Avatar/厄米娅,Images/Dialogue/Character/厄米娅,Images/Dialogue/Circle/厄米娅
+berserker,Images/Dialogue/Avatar/空白,,Images/Dialogue/Circle/空白
+vivian,Images/Dialogue/Avatar/薇薇安,Images/Dialogue/Character/薇薇安,Images/Dialogue/Circle/薇薇安

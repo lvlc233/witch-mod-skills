@@ -1,0 +1,9 @@
+﻿Id,Type,NodeId
+地图id,种类,对应种类的节点Id
+1,Relic1,
+2,Relic2,
+3,Relic3,
+4,Card1,
+5,Card2,
+6,Card3,
+7,Bless,

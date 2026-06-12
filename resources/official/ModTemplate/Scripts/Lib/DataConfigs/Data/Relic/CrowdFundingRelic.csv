@@ -1,0 +1,725 @@
+﻿Id,Rarity,OwnScript,FightScript,Icon,PackBelong
+id,稀有度,获取时的脚本,战斗脚本,图片路径,cardpack id
+1,3,"Vars[""ThisCount""]=""9"";","AddEvent(""Resurrection"",()=>{Vars[""ThisCount""]=(int.Parse(Vars[""ThisCount""])+9).ToString();});
+ AddEvent<HurtData>(""Hurt"",(fromdata)=>{
+ if (int.Parse(fromdata.val)<Self.MaxHp/20)
+ {
+ return;
+ }
+ if (int.Parse(Vars[""ThisCount""])<=0)
+ {
+ return;
+ }
+ Vars[""ThisCount""]=(int.Parse(Vars[""ThisCount""])-1).ToString();
+ UpdateRelicShow();
+ ChangeHp((int.Parse(fromdata.val)+Self.MaxHp/20).ToString());});",Icon/Relic/蛇蛇的残蜕,cardpack_7
+2,2,,"Vars[""Triggered""]=""0"";
+ AddEvent(""FightStart"",()=>{ChangePower(""1"");});
+ AddEvent(""Resurrection"", () => { Vars[""Triggered""]=""1""; });
+ AddEvent(""Win"",()=>{if(Vars[""Triggered""]==""1""){PlayerInfo.ChangeSelected(""2"");Vars[""Triggered""]=""0"";}});",Icon/Relic/重生徽记,cardpack_5
+3,3,,"Vars[""ThisCount""]=""0"";
+        AddEvent(""BurnCard"", () =>
+        {
+            AddBuff(DataId.buff_rebirth,""3"");
+        });",Icon/Relic/胧月樱,cardpack_7
+4,1,"Vars[""ThisCount""]=""1"";"," AddEvent(""Win"", () =>
+        {
+            
+         if (PlayerInfo.enemylevel==3)
+         {
+            Vars[""ThisCount""]=(int.Parse(Vars[""ThisCount""])+1).ToString();
+         }
+        });
+       AddEvent(""FightStart"",()=>{if(int.Parse(Vars[""ThisCount""])>0)
+        {AddBuff(DataId.buff_rebirth,""100"");}});
+        AddEvent(""Resurrection"",()=>{if(int.Parse(Vars[""ThisCount""])>0){Vars[""ThisCount""]=(int.Parse(Vars[""ThisCount""])-1).ToString();
+        UpdateRelicShow();}});AddEvent(""Win"",()=>{if(PlayerInfo.enemylevel==4){Vars[""ThisCount""]=(int.Parse(Vars[""ThisCount""])+1).ToString();UpdateRelicShow();}});
+        AddEvent(""EndRound"",()=>{SetStatus(""Self"");ChangeHp((-Self.CurHp*18/100).ToString());});",Icon/Relic/逝者的庇佑,cardpack_7
+5,2,,"AddEvent<HurtData>(""Hurt"",(hurtData) =>
+ {
+    if (hurtData.sourceId==Self.InstanceId)
+    {
+        return;
+    }
+ SetStatusById(hurtData.sourceId);
+ if (Object.Count() > 0)
+ {
+ var ThisStatus = Object[0];
+ var buffs=ThisStatus.GetBuffs();
+ if (buffs==null)
+ {
+ return;
+ }
+ var tempList=buffs.Where(x => x.buffConfig.dataConfig.data[""Type""] == ""负面"").ToList();
+ SetStatus(""Self"");
+ ChangeHp((tempList.Count().ToString()));
+ SetStatusById(ThisStatus.InstanceId);
+ foreach (var item in tempList)
+ {
+ AddBuff(item.buffConfig.dataConfig.data[""Id""],""1"");
+ }
+ }
+ });",Icon/Relic/哀怨结鸣,cardpack_5
+6,3,,"SetStatus(""Self"");
+ AddEvent(""BurnCard"",()=>{SetStatus(""AllTarget"");Resentment(""2"");});
+ AddEvent(""EndRound"",()=>{SetStatus(""Self"");BurnCard(""1"",""2"");});",Icon/Relic/雪日回忆,cardpack_5
+7,4,,"SetStatus(""AllTarget"");
+ Resentment(""3"");
+ SetStatus(""Self"");
+ AddEvent(""EndRound"",()=>{SetStatus(""AllTarget"");
+ var tempList=new List<IStatusManager>(Object);
+ foreach (var tempStatus in tempList)
+ {
+ if (tempStatus == null)
+ {
+ return;
+ }
+ var buffs=tempStatus.GetBuffs();
+ if (buffs==null)
+ {
+ return;
+ }
+ buffs=buffs.Where(x=>x.buffConfig.dataConfig.data[""Type""]==""负面"").ToArray();
+ 
+ int Length=buffs.Length;
+ int count=buffs.Length;
+ foreach (var item in buffs)
+ {
+ AddBuff(item.buffConfig.dataConfig.data[""Id""],count.ToString());
+ }
+ }
+ });",Icon/Relic/洛琳的礼物,cardpack_5
+8,4,,"SetStatus(""Self"");
+ AddEvent<AddBuffData>(""AddBuff"",(d)=>{
+ if(d.data.data[""Type""]!=""负面"")return;
+ if(d.fromId!=Self.InstanceId&&d.toId!=Self.InstanceId)return;
+ if(HandCard.Count==0)return;
+ int idx=DefaultDice.WithRange(0,HandCard.Count-1).Roll().Value;
+ var c=HandCard[idx].dataConfig;
+ c.Vars[""OnceExCost""]=(int.Parse(c.Vars.GetValueOrDefault(""OnceExCost"",""0""))-1).ToString();
+ HandCard[idx].DataUpdate();
+ });",Icon/Relic/埃文尔牧的絮语,cardpack_5
+9,3,,"SetStatus(""Self"");
+        AddEvent<AddBuffData>(""AddBuff"",(d)=>{ if(d.data.data[""Type""]!=""负面"")return; 
+ if(d.fromId!=Self.InstanceId||d.dataFromid==dataConfig.data[""Id""])return; SetStatusById(d.toId); 
+ AddBuff(DataId.buff_burn, ""1"");});",Icon/Relic/灼魂的白剑,cardpack_5
+10,4,,"SetStatus(""All"");
+ AddEvent<AddBuffData>(""AddBuff"",(d)=>{
+ if(d.data.data[""Type""]!=""负面"")return;
+ if(d.toId==Self.InstanceId)return;
+ Vars[""ThisCount""]=(int.Parse( Vars[""ThisCount""])+1).ToString();
+ if (int.Parse( Vars[""ThisCount""])%2==0)
+ {
+    SetStatus(""Self"");
+ RandomAddGoodBuff(""1"");
+ }
+ 
+ });",Icon/Relic/双星,cardpack_5
+*11,4,"Vars[""ThisCount""]=""0"";","AddEvent(""ICreateCardItem"",()=>{
+ Vars[""ThisCount""]=(int.Parse(Vars[""ThisCount""])+1).ToString();
+ if(int.Parse(Vars[""ThisCount""])>=12)
+ {
+ Vars[""ThisCount""]=""0"";
+ if(PlayerInfo.Strength<=PlayerInfo.Wisdom&&PlayerInfo.Strength<=PlayerInfo.Perceive&&PlayerInfo.Strength<=PlayerInfo.Lucky)
+ {
+ PlayerInfo.Strength+=1;
+ }
+ else if(PlayerInfo.Wisdom<=PlayerInfo.Perceive&&PlayerInfo.Wisdom<=PlayerInfo.Lucky)
+ {
+ PlayerInfo.Wisdom+=1;
+ }
+ else if(PlayerInfo.Perceive<=PlayerInfo.Lucky)
+ {
+ PlayerInfo.Perceive+=1;
+ }
+ else
+ {
+ PlayerInfo.Lucky+=1;
+ }
+ }
+ UpdateRelicShow();
+ });",Icon/Relic/风之灵,cardpack_8
+*12,4,"PlayerInfo.MoneyMultiplier+=40;
+if(!PlayerInfo.SpecialVars.ContainsKey(""CrowdFundingRelic12First"")||PlayerInfo.SpecialVars[""CrowdFundingRelic12First""]!=""1"")
+ {
+ PlayerInfo.SpecialVars[""CrowdFundingRelic12First""]=""1"";
+ PlayerInfo.DelayAddCard(DataId.Crowdfundingcard_13);
+ PlayerInfo.DelayAddBless(DataId.CrowdfundingBlessing_8);
+ PlayerInfo.DelayAddRelic(DataId.CrowdFundingRelic_13);
+ }","ChangeDynamicVarPercent(""AttackedPercentDamage"",""40"");
+ ChangeDynamicVarPercent(""DefendPercent"",""-40"");
+ ChangeDynamicVarPercent(""HealMultiplier"",""-50"");
+ ChangeDynamicVar(""RoundCard"",""1"");
+ AddEvent(""FightStart"",()=>{SetStatus(""Self"");AddBuff(DataId.buff_degrade,""3"");DrawCount(""3"");
+ foreach (var item in PlayerInfo.CardList)
+ {
+    item.Vars[""ExCost""]=(int.Parse(item.Vars.GetValueOrDefault(""ExCost"",""0""))-1).ToString();
+ }
+ });
+ AddEvent(""EndRound"",()=>{SetStatus(""Self"");RandomAddGoodBuff(""1"",""0"");ChangeHp((-Self.CurHp/10).ToString());});
+ AddEvent(""Win"",()=>{if(PlayerInfo.Money>0){PlayerInfo.Money-=System.Math.Max(1,PlayerInfo.Money/10);}});
+ AddEvent(""StartRound"",()=>{
+ int curseCount=HandCard.Count(x=>x.data[""Tag""].Contains(""Curse""));
+ curseCount+=DeckCard.Count(x=>x.data[""Tag""].Contains(""Curse""));
+ curseCount+=UsedCard.Count(x=>x.data[""Tag""].Contains(""Curse""));
+ if(!PlayerInfo.SpecialVars.ContainsKey(""SevenCursePower""))PlayerInfo.SpecialVars[""SevenCursePower""]=""0"";
+ PlayerInfo.SpecialVars[""SevenCursePower""]=(int.Parse(PlayerInfo.SpecialVars[""SevenCursePower""])+curseCount).ToString();
+ Vars[""ThisCount""]=PlayerInfo.SpecialVars[""SevenCursePower""];
+ UpdateRelicShow();
+ });",Icon/Relic/风之灵,cardpack_8
+*13,4,"Vars[""ThisCount""]=""0"";","SetStatus(""AllTarget"");
+ AddEvent<HurtData>(""Hurt"",(d)=>{
+ if(d.sourceId!=Self.InstanceId)return;
+ if(!PlayerInfo.RelicList.Any(x=>x.data[""Id""]==DataId.CrowdFundingRelic_12))return;
+ if(CheckDice.Roll().Value<=92)return;
+ int negTypeCount=0;
+ foreach(var t in Object)
+ {
+ var buffs=t.GetBuffs();
+ if(buffs==null)continue;
+ negTypeCount+=buffs.Where(x=>x.buffConfig.dataConfig.data[""Type""]==""负面"").Select(x=>x.buffConfig.BuffId).Distinct().Count();
+ }
+ int gain=(negTypeCount+7)*2;
+ SetStatus(""Self"");
+ AddBuff(DataId.buff_extraordinary,gain.ToString());
+ AddBuff(DataId.buff_evergreen,gain.ToString());
+ Vars[""ThisCount""]=(int.Parse(Vars[""ThisCount""])+1).ToString();
+ UpdateRelicShow();
+ });",Icon/Relic/风之灵,cardpack_8
+*14,2,"Vars[""ThisCount""]=""0"";","AddEvent(""Action"",()=>{ if(CheckDice.Roll().Value>50){ SetStatus(""Self""); AddBuff(DataId.buff_revelation,""1""); Vars[""ThisCount""]=(int.Parse(Vars[""ThisCount""])+1).ToString();UpdateRelicShow();}});",Icon/Relic/风之灵,cardpack_9
+*15,4,,"AddEvent(""FightStart"",()=>{SetStatus(""Self"");AddBuff(DataId.buff_revelation,""3"");});
+ AddEvent(""Action"",()=>{
+ SetStatus(""Self"");
+ var br=Self.GetBuff(DataId.buff_revelation);
+ if(br!=null)
+ {
+ ChangeDefence(br.buffConfig.Level.ToString());
+ }
+ });",Icon/Relic/风之灵,cardpack_9
+*16,2,,"AddEvent(""BurnCard"",()=>{ SetStatus(""Self""); AddBuff(DataId.buff_revelation,""1""); Vars[""ThisCount""]=(int.Parse(Vars[""ThisCount""])+1).ToString();UpdateRelicShow(); if(int.Parse(Vars[""ThisCount""])%5==0){ AddBuff(DataId.buff_extraordinary,""20"");}});",Icon/Relic/风之灵,cardpack_9
+*17,3,,"Vars[""Stack""]=""0"";AddEvent(""Hurt"",()=>{Vars[""Stack""]=(int.Parse(Vars[""Stack""])+1).ToString();SetStatus(""AllTarget"");Damage(Vars[""Stack""],""True"");});",Icon/Relic/风之灵,cardpack_10
+*18,2,,"Vars[""Stack""]=""0"";
+ SetStatus(""AllTarget"");
+ AddEvent<HurtData>(""Hurt"",(d)=>{
+ if(d.sourceId!=Self.InstanceId)return;
+ Vars[""Stack""]=(int.Parse(Vars[""Stack""])+1).ToString();
+ SetStatus(""Self"");
+ ChangeDynamicVarPercent(""PercentDamage"",""10"");
+ });
+ SetStatus(""Self"");
+ AddEvent(""Hurt"",()=>{
+ int s=int.Parse(Vars[""Stack""]);
+ if(s<=0)return;
+ ChangeDynamicVarPercent(""PercentDamage"",(-10*s).ToString());
+ Vars[""Stack""]=""0"";
+ });",Icon/Relic/风之灵,cardpack_10
+*19,2,,"SetStatus(""Self"");
+ AddEvent(""AttackDone"",()=>{
+SetStatus(""AllTarget"");
+ AddBuff(DataId.buff_bleeding,""2"");
+ });",Icon/Relic/风之灵,cardpack_14
+*20,4,,"AddEvent(""FightStart"",()=>{SetStatus(""Self"");AddBuff(DataId.buff_elements,""8"");});
+ Vars[""AttackCount""]=""0"";
+ SetStatus(""AllTarget"");
+ AddEvent<HurtData>(""Hurt"",(d)=>{
+ if(d.sourceId!=Self.InstanceId)return;
+ Vars[""AttackCount""]=(int.Parse(Vars[""AttackCount""])+1).ToString();
+ if(int.Parse(Vars[""AttackCount""])%2==0)
+ {
+ int val=Self.CurHp*8/100;
+ if(val>0)
+ {
+ Damage(val.ToString(),""True"");
+ }
+ }
+ });",Icon/Relic/风之灵,cardpack_15
+*22,4,,"AddEvent(""StartRound"",()=>{
+ SetStatus(""Self"");
+ if(Self.GetBuff(DataId.buff_degrade)==null)
+ {
+ AddBuff(DataId.buff_degrade,""5"");
+ }
+ });
+ SetStatus(""Self"");
+ AddEvent<ScriptExecuteData>(EventType.ScriptExecute.ToString(), data =>
+ {
+ if (data.Executor == null || data.Arguments == null || data.Arguments.Length == 0)
+ {
+ return;
+ }
+ if (!string.Equals(data.MethodName, ""Damage"", StringComparison.Ordinal))
+ {
+ return;
+ }
+ if (data.Executor.Self == null || data.Executor.Self.IsNull() || data.Executor.Self.InstanceId != Self.InstanceId)
+ {
+ return;
+ }
+ if (data.Executor.dataConfig?.data == null || !data.Executor.dataConfig.data.TryGetValue(""Id"", out var sourceDataId))
+ {
+ return;
+ }
+ if (sourceDataId == dataConfig.data[""Id""])
+ {
+ return;
+ }
+ var BaseValue = data.Arguments[0]?.ToString();
+ var tempList = new List<IStatusManager>(data.Executor.Object);
+ foreach (var item in tempList)
+ {
+ var targetId = item.InstanceId;
+ if (string.IsNullOrEmpty(targetId) || targetId == Self.InstanceId)
+ {
+ return;
+ }
+
+ SetStatusById(targetId);
+ if (Object.Count()>0)
+ {
+ int trueValue=Object[0].UnDamageCalucate(Self.DamageCalculate(BaseValue.ToInt()));
+ Damage((trueValue/2).ToString(),""True"");
+ ChangeDefence(trueValue.ToString());
+ }
+ 
+ }
+ 
+ });",Icon/Relic/风之灵,cardpack_16
+*23,3,,"Vars[""Used""]=""0"";
+ Vars[""Guarding""]=""0"";
+ Vars[""Stored""]=""0"";
+ SetStatus(""Self"");
+ AddEvent<HurtData>(""Hurt"",(d)=>{
+ if(Vars[""Used""]==""0""&&Self.CurHp<=0)
+ {
+ Vars[""Used""]=""1"";
+ Vars[""Guarding""]=""1"";
+ SetHp(""1"");
+ return;
+ }
+ if(Vars[""Guarding""]==""1"")
+ {
+ Vars[""Stored""]=(int.Parse(Vars[""Stored""])+System.Math.Max(0,int.Parse(d.val))).ToString();
+ }
+ });
+ AddEvent(""EndRound"",()=>{
+ if(Vars[""Guarding""]!=""1"")return;
+ int reduce=(PlayerInfo.MaxPower+1)/2;
+ SetStatus(""Self"");
+ ChangeMaxPower((-reduce).ToString());
+ if(PlayerInfo.MaxPower<=0)
+ {
+ Vars[""Guarding""]=""0"";
+ int stored=int.Parse(Vars[""Stored""]);
+ Vars[""Stored""]=""0"";
+ if(stored>0)
+ {
+ Damage(stored.ToString(),""True"");
+ }
+ }
+ });",Icon/Relic/风之灵,cardpack_16
+*24,2,"Vars[""ThisCount""]=""1"";","AddEvent<HurtData>(""Hurt"",(d)=>{ if(!Vars.ContainsKey(""RH""))Vars[""RH""]=""0""; Vars[""RH""]=(int.Parse(Vars[""RH""])+System.Math.Max(0,int.Parse(d.val))).ToString();}); AddEvent(""StartRound"",()=>{ SetStatus(""Self""); Vars[""RH""]=""0""; int r=int.Parse(Vars[""ThisCount""]); ChangeHp((-System.Math.Min(20,r)).ToString()); Vars[""ThisCount""]=(r+1).ToString();UpdateRelicShow();}); AddEvent(""EndRound"",()=>{ SetStatus(""Self""); if(!Vars.ContainsKey(""RH""))Vars[""RH""]=""0""; int h=int.Parse(Vars[""RH""]); if(h>0){ ChangeHp((h*2).ToString());}});",Icon/Relic/风之灵,cardpack_16
+*25,3,,"AddEvent(""StartRound"",()=>{
+ if(HandCard.Count==0)return;
+ int idx=DefaultDice.WithRange(0,HandCard.Count-1).Roll().Value;
+ int dec=DefaultDice.WithRange(1,3).Roll().Value;
+ var c=HandCard[idx].dataConfig;
+ c.Vars[""OnceExCost""]=(int.Parse(c.Vars.GetValueOrDefault(""OnceExCost"",""0""))-dec).ToString();
+ HandCard[idx].DataUpdate();
+ });",Icon/Relic/风之灵,cardpack_11
+*26,4,"Vars[""ThisCount""]=""100"";","SetStatus(""Self"");
+ AddEvent<ActionData>(""Action"",(d)=>{
+ int chance=int.Parse(Vars[""ThisCount""]);
+ if(CheckDice.Roll().Value>100-chance)
+ {
+ ChangeDynamicVar(""UseCount"",""1"");
+ chance=System.Math.Max(20,chance-20);
+ Vars[""ThisCount""]=chance.ToString();
+ UpdateRelicShow();
+ }
+ });",Icon/Relic/风之灵,cardpack_11
+*27,2,,"Vars[""Used2""] = ""0"";
+ Vars[""Used3""] = ""0"";
+ SetStatus(""Self"");
+ AddEvent<ActionData>(""Action"", (d) =>
+ {
+ int cost = int.Parse(d.data.data[""Expend""]);
+ if (cost == 3 && Vars[""Used3""] == ""0"" && HandCard.Count > 0)
+ {
+ Vars[""Used3""] = ""1"";
+ ChooseCardToAction(""1"", (cards) =>
+ {
+ if (cards.Count > 0)
+ {
+ var c = cards[0].dataConfig;
+ c.Vars[""ExCost""] = (int.Parse(c.Vars.GetValueOrDefault(""ExCost"", ""0"")) - 2).ToString();
+ cards[0].DataUpdate();
+ }
+ });
+ }
+ else if (cost == 2 && Vars[""Used2""] == ""0"" && HandCard.Count > 0)
+ {
+ Vars[""Used2""] = ""1"";
+ ChooseCardToAction(""1"", (cards) =>
+ {
+ if (cards.Count > 0)
+ {
+ var c = cards[0].dataConfig;
+ c.Vars[""ExCost""] = (int.Parse(c.Vars.GetValueOrDefault(""ExCost"", ""0"")) - 1).ToString();
+ cards[0].DataUpdate();
+ }
+ });;
+ }
+ });",Icon/Relic/风之灵,cardpack_11
+*28,4,,"Vars[""RetainAdd""]=""0"";
+ bool UniqueDeck()
+ {
+ var names=PlayerInfo.CardList.Select(x=>x.data[""Name""]).ToList();
+ return names.Distinct().Count()==names.Count;
+ }
+ if (UniqueDeck())
+ {
+ Vars[""RetainAdd""]=""1"";
+ ChangeDynamicVar(""RetainCard"",""999"");
+ }
+ AddEvent(""StartRoundEnd"",()=>{
+ if (Vars[""RetainAdd""]==""0"")
+ {
+ return;
+ }
+ foreach(var card in HandCard)
+ {
+ card.dataConfig.Vars[""OnceExCost""]=(int.Parse(card.dataConfig.Vars.GetValueOrDefault(""OnceExCost"",""0""))-1).ToString();
+ card.DataUpdate();
+ }
+ });",Icon/Relic/风之灵,cardpack_12
+*29,2,"ReplaceSelfRelicWithRandomRelic(""1"");",,Icon/Relic/记忆具现化,cardpack_12
+30,2,,"AddEvent(""StartRound"", () =>
+ {
+ FightRelicCheck((list, id) =>
+ {
+    list=list.Where(x => x.data[""Name""].Contains(""奥罗拉"")).ToList();
+
+    for (int i = 0; i < list.Count; i++)
+    {
+        SetStatusById(id);
+ AddBuff(DataId.buff_extraordinary, ""10"");
+    }
+    
+ });
+ });",Icon/Relic/奥罗拉的手甲,cardpack_13
+31,2,,"AddEvent(""StartRound"", () =>
+ {
+ FightRelicCheck((list, id) =>
+ {
+list=list.Where(x => x.data[""Name""].Contains(""奥罗拉"")).ToList();
+
+    for (int i = 0; i < list.Count; i++)
+    {
+ SetStatusById(id);
+ AddBuff(DataId.buff_resilient, ""3"");
+ }
+ });
+ });",Icon/Relic/奥罗拉的腿甲,cardpack_13
+32,2,,"AddEvent(""StartRound"", () =>
+ {
+ FightRelicCheck((list, id) =>
+ {
+list=list.Where(x => x.data[""Name""].Contains(""奥罗拉"")).ToList();
+
+    for (int i = 0; i < list.Count; i++)
+    {
+ SetStatusById(id);
+ ChangeDefence(""10"");
+ }
+ });
+ });",Icon/Relic/奥罗拉的臂铠,cardpack_13
+33,4,,"AddEvent(""FightStart"", () =>
+ {
+ FightRelicCheck((list, id) =>
+ {
+ if (list.Any(x => x.data[""Name""].Contains(""奥罗拉"")))
+ {
+ SetStatusById(id);
+ AddBuff(DataId.buff_cycle, ""1"");
+ }
+ });
+ });",Icon/Relic/奥罗拉的光环,cardpack_13
+34,3,,"AddEvent(""FightStart"", () =>
+ {
+ FightRelicCheck((list, id) =>
+ {
+ if (list.Any(x => x.data[""Name""].Contains(""奥罗拉"")))
+ {
+ SetStatusById(id);
+ AddBuff(DataId.buff_impregnable, ""1"");
+ }
+ });
+ });",Icon/Relic/奥罗拉的圣盾,cardpack_13
+35,4,,"AddEvent(""FightStart"", () =>
+ {
+ FightRelicCheck((list, id) =>
+ {
+ if (list.Any(x => x.data[""Name""].Contains(""奥罗拉"")))
+ {
+ SetStatusById(id);
+ AddBuff(DataId.buff_elements, ""10"");
+ }
+ });
+ });",Icon/Relic/奥罗拉的圣剑,cardpack_13
+*36,3,,"AddEvent<ScriptExecuteData>(EventType.ScriptExecute.ToString(), data =>
+ {
+ if (data.Executor == null || data.Arguments == null || data.Arguments.Length == 0)
+ {
+ return;
+ }
+ if (!string.Equals(data.MethodName, ""Damage"", StringComparison.Ordinal))
+ {
+ return;
+ }
+ if (data.Executor.Self == null || data.Executor.Self.IsNull() || data.Executor.Self.InstanceId != Self.InstanceId)
+ {
+ return;
+ }
+ if (data.Executor.dataConfig?.data == null || !data.Executor.dataConfig.data.TryGetValue(""Id"", out var sourceDataId))
+ {
+ return;
+ }
+ if (sourceDataId == dataConfig.data[""Id""])
+ {
+ return;
+ }
+ var baseValue = data.Arguments[0]?.ToString();
+ if (string.IsNullOrEmpty(baseValue))
+ {
+ return;
+ }
+ int extraPercent = 0;
+ var tempList = new List<IStatusManager>(data.Executor.Object);
+ foreach (var item in tempList)
+ {
+ if (item == null || item.IsNull())
+ {
+ continue;
+ }
+ var buffs = item.GetBuffs();
+ if (buffs == null)
+ {
+ continue;
+ }
+ extraPercent += buffs.Where(x => x != null && x.buffConfig != null && x.buffConfig.dataConfig.data[""Type""] == ""负面"").Select(x => x.buffConfig.BuffId).Distinct().Count() * 10;
+ }
+ if (extraPercent <= 0)
+ {
+ return;
+ }
+ data.Arguments[0] = (baseValue.ToInt() * (100 + extraPercent) / 100).ToString();
+ });",Icon/Relic/风之灵,cardpack_5
+37,2,,"Vars[""Done""]=""0"";AddEvent(""FightStart"",()=>{if(Vars[""Done""]==""1"")return;CreateCard(new DataConfig(DataId.ReturnAgain_2,DataType.Card));Vars[""Done""]=""1"";});",Icon/Relic/我发现了,cardpack_18
+38,2,,"AddEvent(""EndRound"",()=>{SetStatus(""Self"");var b=Self.GetBuff(DataId.buff_ReturnAgain);
+        if(b!=null&&b.buffConfig.Level>80){b.buffConfig.Level=Math.Max(0,b.buffConfig.Level -10);}
+        else
+        {
+            ChangeDefence(""10"");
+        }});",Icon/Relic/第三个星期天,cardpack_18
+39,2,,"AddEvent(""BurnCard"",()=>{SetStatus(""Self"");ChangeDefence(""10"");});",Icon/Relic/过早埋葬,cardpack_18
+40,2,,"SetStatus(""Self"");AddEvent<ActionData>(""Action"",(d)=>{int c=int.Parse(d.data.data.GetValueOrDefault(""Expend"",""0""));if(c>0){AddBuff(DataId.buff_rebirth,c.ToString());}});",Icon/Relic/多色草山谷,cardpack_7
+41,2,,"AddEvent<HurtData>(""Hurt"",(d)=>{
+if(string.IsNullOrEmpty(d.sourceId)||d.sourceId==Self.InstanceId)return;
+SetStatusById(d.sourceId);
+if(Object.Count()>0)
+{
+AddBuff(DataId.buff_burn,""2"");
+}
+});
+AddEvent(""Resurrection"",()=>{
+SetStatus(""AllTarget"");
+var tempList=new List<IStatusManager>(Object);
+foreach(var t in tempList)
+{
+if(t==null||t.IsNull())continue;
+SetStatusById(t.InstanceId);
+AddBuff(DataId.buff_burn,""12"");
+var buffs=t.GetBuffs();
+if(buffs==null)continue;
+foreach(var buff in buffs.Where(x=>x!=null&&x.buffConfig!=null&&x.buffConfig.dataConfig.data[""Type""]==""负面"").ToList())
+{
+RunImmediately(buff.buffConfig.BuffId,""Action"");RunImmediately(buff.buffConfig.BuffId,""StartRound"");
+}
+}
+});",Icon/Relic/永燃星痕,cardpack_7
+42,4,"Vars[""ThisCount""]=""0"";","AddEvent(""FightStart"", () =>
+        {
+            Vars[""ThisCount""]=""0"";
+            UpdateRelicShow();
+        });
+       AddEvent(""Dead"",()=>{
+if(int.Parse(Vars[""ThisCount""])>=2)return;
+
+if (Self.GetBuff(DataId.buff_rebirth)!=null&&Self.GetBuff(DataId.buff_rebirth).buffConfig.Level>=30)
+{
+    return;
+}
+Vars[""ThisCount""]=(int.Parse(Vars[""ThisCount""])+1).ToString();
+SetStatus(""Self"");
+int reduce=Math.Max(1,(int)System.Math.Ceiling(Self.MaxHp*0.25f));
+ChangeMaxHp((-reduce).ToString());
+Resurrection(""50"");
+UpdateRelicShow();
+});",Icon/Relic/衔露晶萼,cardpack_7
+43,2,,"AddEvent(""EndRound"",()=>{
+var actionCards=UsedCard.Where(x=>x!=null&&x.Vars.GetValueOrDefault(""BaseScript"","""")==""AttackCardItem"").ToList();
+if(actionCards.Count==0)return;
+int idx=DefaultDice.WithRange(0,actionCards.Count-1).Roll().Value;
+BurnCardByData(actionCards[idx]);
+SetStatus(""Self"");
+if(CheckDice.Roll().Value>=40)
+{
+AddBuff(DataId.buff_elements,""3"");
+ChangeDefence(""2"");
+}
+else
+{
+AddBuff(DataId.buff_toxin,""2"");
+ChangeHp(""-2"");
+}
+});",Icon/Relic/死灵纪实,cardpack_12
+44,2,PlayerInfo.Lucky+=5;,,Icon/Relic/四叶草,cardpack_12
+45,2,,"AddEvent(""OnDiceCheck"", () => { CheckDice.OnRoll += result => { var r2 = CheckDice.InternalRoll(); new Dice.State(Math.Max(result.Value, r2.Value), result.Bonus).CopyTo(result); }; });",Icon/Relic/厄米娅的骰子,cardpack_12
+46,2,,"SetStatus(""Self"");AddEvent(""FightStart"",()=>{AddBuff(DataId.buff_fate,""2"");});",Icon/Relic/混沌序章,cardpack_12
+47,3,,"AddEvent(""FightStart"", () =>
+ {
+ FightRelicCheck((list, id) =>
+ {
+ if (list.Any(x => x.data[""Id""] == ""CrowdFundingRelic_47""))
+ {
+ PlayerInfo.TempStrength += 2;
+ PlayerInfo.TempWisdom += 2;
+ PlayerInfo.TempPerceive += 2;
+ PlayerInfo.TempLucky += 2;
+ }
+ });
+ });",Icon/Relic/统合辉记,cardpack_13
+48,3,,"AddEvent(""FightStart"", () =>
+ {  AddBuff(DataId.buff_elements,""6"");    
+ });",Icon/Relic/君主权杖,cardpack_18
+49,4,,"AddEvent(""AllDharmas"", () =>
+        {
+            int count=DefaultDice.WithRange(0,100).Roll().Value;
+            if (count<50)
+            {
+                CreateCard(new DataConfig(DataId.SpellCard_3,DataType.Card));
+            }
+            else
+            {
+                CreateCard(new DataConfig(DataId.SpellCard_4,DataType.Card));
+            }
+        });",Icon/Relic/魔网源流,cardpack_18
+50,2,,"AddEvent(""AllDharmas"", () =>
+        {
+            ChangeDefence(""10"");
+            ChangeHp(""5"");
+        });",Icon/Relic/贤者法典,cardpack_18
+51,2,,"AddEvent(""FightStart"", () =>
+        {
+            var temp=new DataConfig(DataId.SpellCard_4,DataType.Card);
+            temp.Vars[""OnceExCost""]=""-3"";
+            CreateCard(temp);
+        });",Icon/Relic/真知者吊坠,cardpack_18
+52,4,,"AddEvent(""FightStart"", () =>
+        {
+            ChangeMaxPower(""1"");
+            for (int i = 0; i < 2; i++)
+            {
+                int count=DefaultDice.WithRange(1,99).Roll().Value;
+                if (count>=100)
+                {
+                    count=99;
+                }
+                var temp=new DataConfig(""SpellCard_""+(count/25+1),DataType.Card);
+                CreateCard(temp);
+            }
+        });",Icon/Relic/大法师环戒,cardpack_18
+53,3,,"AddEvent(""StartRound"", () =>
+        {
+            for (int i = 0; i < 2; i++)
+            {
+                int count=DefaultDice.WithRange(1,99).Roll().Value;
+                if (count>=100)
+                {
+                    count=99;
+                }
+                var temp=new DataConfig(""SpellCard_""+(count/25+1),DataType.Card);
+                CreateCard(temp);
+            }
+        });",Icon/Relic/炼金原石,cardpack_18
+54,4,,"Vars[""ThisCount""]=""0"";
+        AddEvent<ActionData>(""Action"", (ActionData fromdata) =>
+        {
+            Vars[""ThisCount""]=(int.Parse(Vars[""ThisCount""])+1).ToString();
+            UpdateRelicShow();
+            if (int.Parse(Vars[""ThisCount""])%3==0)
+            {
+                foreach (var item in HandCard)
+                {
+                    var tags=FightCardManager.Instance.CardTags.ContainsKey(item.dataConfig)?FightCardManager.Instance.CardTags[item.dataConfig]:null;
+                    bool hasCombo=(tags!=null&&tags.Contains(""Combo""))||(item.Vars.ContainsKey(""SpecialTag"")&&item.Vars[""SpecialTag""].Contains(""Combo""));
+                    if (!hasCombo&&item.dataConfig.InstanceID!=fromdata.data.InstanceID)
+                    {
+                        //item.dataConfig
+                        item.Vars[""SpecialTag""]=string.IsNullOrEmpty(item.Vars.GetValueOrDefault(""SpecialTag"",""""))?""Combo"":item.Vars[""SpecialTag""]+"",Combo"";
+                        item.RefreshTag();
+                        break;
+                    }
+                }
+            }
+
+        });
+        AddEvent(""FightStart"",()=>{AddBuff(DataId.buff_rebirth,""50"");});
+        AddEvent(""Resurrection"",()=>{PlayerInfo.RemoveRelic(""CrowdFundingRelic_54"");});",Icon/Relic/星界观测者,cardpack_9
+*55,4,"Vars[""ThisCount""]=""0"";","SetStatus(""Self"");
+        AddEvent(""BeforeDead"", () =>
+        {
+            if (int.Parse(Vars[""ThisCount""])>=10)
+            {
+                SetStatus(""Self"");
+                AddBuff(DataId.buff_rebirth,""100"");
+                SetStatus(""AllTarget"");
+                AddBuff(""buff_burn"",""20"");
+                Vars[""ThisCount""]=(int.Parse(Vars[""ThisCount""])-10).ToString();
+                UpdateRelicShow();
+            }
+        });
+        AddEvent(""BurnCard"", () =>
+        {
+            Vars[""ThisCount""]=(int.Parse(Vars[""ThisCount""])+2).ToString();
+            if (int.Parse(Vars[""ThisCount""])>10)
+            {
+                Vars[""ThisCount""]=""10"";
+            }
+            UpdateRelicShow();
+            
+        });
+        AddEvent(""buff_timelockOnTriggerEffect"", () =>
+        {
+            Vars[""ThisCount""]=(int.Parse(Vars[""ThisCount""])+1).ToString();
+            if (int.Parse(Vars[""ThisCount""])>10)
+            {
+                Vars[""ThisCount""]=""10"";
+            }
+            UpdateRelicShow();
+        });",Icon/Relic/失序命羽,cardpack_7
+*56,3,,"UpdateRelicShow();
+        List<string>NameList=new();
+        AddEvent<ActionData>(""Action"", (fromData) =>
+        {
+            if (!NameList.Contains(fromData.data.data[""Id""]))
+            {
+                NameList.Add(fromData.data.data[""Id""]);
+                Vars[""ThisCount""]= NameList.Count.ToString();
+                UpdateRelicShow();
+            }
+            if (NameList.Count>=13)
+            {
+                AddCard(DataId.ritualcard_19);
+            }
+        });",Icon/Relic/失序命羽,cardpack_19

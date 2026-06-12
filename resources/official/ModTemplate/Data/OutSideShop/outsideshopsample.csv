@@ -1,0 +1,2 @@
+﻿Id,PriceType,Price,TimePrice,Icon,Type,Toid,BuyScript,BuyCount,CanClose
+唯一标识,价格种类,真理价格,,图标,种类,对应类的id,购买后生效的脚本,购买次数,

@@ -1,0 +1,1005 @@
+﻿Id,InitScript,ApplyScript,ClearScript,ReducePerTurn,ReducePerAttacked,ReducePerUse,UpperBound,Icon,Type,Rarity,Effects,SoundEffects,Action,CanZero
+BUFF的ID（唯一英文）,,BUFF生效时的效果,清除时效果,层数每回合减少数,层数每受击减少数,层数每使用卡牌减少数,层数上限,图标路径,类型,,,,纯攻击动画,
+Law:Judgment,,"SetStatus(""AllTarget"");
+        AddEvent(""ICreateCardItem"",()=>
+        {
+            if (!Vars.ContainsKey(""ThisCount""))
+            {
+                Vars[""ThisCount""] = ""0"";
+            }
+            Vars[""ThisCount""] = (int.Parse(Vars[""ThisCount""]) + 1).ToString();
+            if (int.Parse(Vars[""ThisCount""])%3 == 0)
+            {
+                if (HandCard.Count == 0) return;
+        HandCard[DefaultDice.WithRange(0, HandCard.Count - 1).Roll().Value].Reverse();
+            }
+        });",,0,0,0,1,Icon/Buff/认知遮蔽,特性,4,,,,FALSE
+Law:Death,,"AddEvent(""StartRound"",()=>
+        {
+            Vars[""ThisCount""] = (int.Parse(Vars[""ThisCount""]) + 1).ToString();
+        });","if (int.Parse(Vars[""ThisCount""])>= 6*PlayerInfo.PlayerCount)
+            {
+                SetStatus(""AllTarget"");
+                Damage(Object[0].MaxHp.ToString(),""True"");
+                Damage(Object[0].MaxHp.ToString(),""True"");
+            }",1,0,0,8,Icon/Buff/律令自毁,特性,4,,,,FALSE
+Law:Supreme,,"AddEvent(""EndRound"",()=>
+        {
+            if (!Vars.ContainsKey(""ThisCount""))
+            {
+                Vars[""ThisCount""] = ""0"";
+            }
+            Vars[""ThisCount""] = (int.Parse(Vars[""ThisCount""]) + 1).ToString();
+            if (int.Parse(Vars[""ThisCount""])%3 == 0)
+            {
+                SetStatus(""Self"");
+                RemoveAllBadBuff(""0"");
+            }
+        });",,0,0,0,1,Icon/Buff/液态身躯,特性,4,,,,FALSE
+Transcendent,,"SetStatus(""Self"");
+        AddEvent(""SpecialBuff_TranscendentOnLevelChange"",()=>
+        {
+            ChangeDynamicVar(""AttackedDefaultDamage"", ""-4"");
+            ChangeDynamicVarPercent(""AttackedPercentDamage"", ""-30"");
+            ChangeDynamicVarPercent(""PercentDamage"", ""30"");
+            AddEvent(""Action"",()=>
+            {
+                SetStatus(""AllTarget"");
+                ChangeHp(""-4"");
+            });
+        });",,0,0,0,1,Icon/Buff/庞然巨兽,特性,4,,,,FALSE
+ImmortalGodhead,,"SetStatus(""Self"");
+        AddEvent(""Dead"",()=>{
+            
+            if (Self != null && Self.GetBuff(""SpecialBuff_ImmortalGodhead"") != null&&Self.GetBuff(""SpecialBuff_ImmortalGodhead"").buffConfig.Level!=1)
+            {
+                Resurrection(""100"");
+        
+            if (Self != null )
+            {
+                AddBuff(DataId.SpecialBuff_ImmortalGodhead, ""-1"");
+            }
+            }
+            });
+            AddBuff(DataId.buff_limitdamage, ""1"");
+        AddEvent(""SpecialBuff_ImmortalGodheadOnLevelChange"", () =>
+        {
+            if (Self != null && Self.GetBuff(""SpecialBuff_ImmortalGodhead"") != null)
+            {
+                AddBuff(DataId.buff_limitdamage, ""1"");
+                if (Self.GetBuff(DataId.SpecialBuff_ImmortalGodhead).buffConfig.Level!=3)
+                {
+                    ChangeDynamicVarPercent(""MaxChangeHp"", ""-100"");
+                }
+            }
+        });
+
+        AddEvent(""StartRound"", () =>
+        {
+            if (Self==null)
+            {
+                return;
+            }
+            ChangeDynamicVarPercent(""MaxChangeHp"", (100f-Self.dynamicVariables[""MaxChangeHp""]*100f).ToString());
+            SetStatus(""Self"");
+        });",,0,0,0,3,Icon/Buff/固化灵魂,特性,4,,,,FALSE
+expiation,,"AddEvent(""StartRound"",()=>{Vars[""ThisCount""]=(int.Parse(Vars[""ThisCount""])+1).ToString();
+        if (int.Parse(Vars[""ThisCount""])>=4)
+        {
+            SetStatus(""AllTarget"");ChangeHp(""15"");SetStatus(""Self"");ChangeHp(""-9999"");
+PlayerInfo.GiveWin();
+        }
+        });
+        AddEvent(""Dead"",()=>{if (int.Parse(Vars[""ThisCount""])<4)
+        {
+           SetStatus(""AllTarget"");ChangeHp(""-15"");
+        }
+        });",,1,0,0,99,Icon/Buff/惊喜!,特性,4,,,,FALSE
+ThievesKing,"if (int.Parse(PlayerInfo.GetTagDiff())>30)
+        {
+            AddDescription(""1"", ""Value"", ""10"");
+            AddDescription(""2"", ""Value"", ""5"");
+        }
+        else
+        {
+            AddDescription(""1"", ""Value"", ""15"");
+            AddDescription(""2"", ""Value"", ""4"");
+        }","Vars[""ThisCount""] = ""0"";
+        Vars[""ExMoney""] = ""0"";
+        if (int.Parse(PlayerInfo.GetTagDiff())>30)
+        {
+            AddEvent(""Action"", () =>
+            {
+                ChangeMoney(""-10"");
+                Vars[""ExMoney""] = (int.Parse(Vars[""ExMoney""]) + 10).ToString();
+            });
+        AddEvent(""StartRound"",()=>
+        {
+            if (!Vars.ContainsKey(""ThisCount""))
+            {
+                Vars[""ThisCount""] = ""0"";
+            }
+            else
+            {
+                Vars[""ThisCount""] = (int.Parse(Vars[""ThisCount""]) + 1).ToString();
+            }
+            if (int.Parse(Vars[""ThisCount""]) >4*PlayerInfo.PlayerCount)
+            {
+                EscapeFight();
+            }
+        });
+        }
+        else
+        {
+            AddEvent(""Action"", () =>
+            {
+                ChangeMoney(""-15"");
+                Vars[""ExMoney""] = (int.Parse(Vars[""ExMoney""]) + 15).ToString();
+
+            });
+        AddEvent(""StartRound"",()=>
+        {
+            if (!Vars.ContainsKey(""ThisCount""))
+            {
+                Vars[""ThisCount""] = ""0"";
+            }
+            else
+            {
+                Vars[""ThisCount""] = (int.Parse(Vars[""ThisCount""]) + 1).ToString();
+            }
+            if (int.Parse(Vars[""ThisCount""]) >3*PlayerInfo.PlayerCount)
+            {
+                EscapeFight();
+            }
+        });
+        }
+        
+        SetStatus(""Self"");
+        AddEvent(""Dead"",()=> { SetStatus(""AllTarget"");ChangeMoney((100+int.Parse(Vars[""ExMoney""])).ToString()); });
+",,0,0,0,1,Icon/Buff/盗贼,特性,4,,,,FALSE
+UnparalleledPower,,"Vars[""ThisCount""]=""0"";
+        AddEvent(""EndRound"",()=>
+        {
+            if (int.Parse(Vars[""ThisCount""])>1)
+            {
+                return;
+            }
+            Vars[""ThisCount""]=(int.Parse(Vars[""ThisCount""])+1).ToString();
+            SetStatus(""Self"");
+            ChangeHp((Self.MaxHp/4*-1).ToString());
+          
+            GetEnemy(Self).Attack*=2;
+        });",,0,0,0,1,Icon/Buff/戴冠者,特性,4,,,,FALSE
+believer,,"AddEvent(""Hurt"", () =>
+        {
+            if (Vars[""ThisCount""] == ""0"" && Self.CurHp < (Self.MaxHp / 2))
+            {
+                Vars[""ThisCount""] = ""2"";
+                ChangeHp(""9999"");
+                var enemy = GetEnemy(Self);
+                int val1 = int.Parse(atk()) * 3 / 10;
+                int val2 = int.Parse(def()) * 3 / 10;
+                enemy.Attack += val1;
+                enemy.Defend += val2;
+            }
+            else
+            {
+                return;
+            }
+        });",,0,0,0,1,Icon/Buff/梅花,特性,4,,,,FALSE
+BackToBasics,," SetStatus(""Self"");
+       AddEvent(""StartRound"", () =>
+        {
+            if (!Vars.ContainsKey(""ThisCount""))
+            {
+                Vars[""ThisCount""] = ""0"";
+            }
+            Vars[""ThisCount""] = (int.Parse(Vars[""ThisCount""]) + 1).ToString();
+            if (int.Parse(Vars[""ThisCount""])%2==0)
+            {
+                SetStatus(""Self"");
+                RemoveBadBuff(""1"",""false"");
+            }
+            else
+            {
+                SetStatus(""AllTarget"");
+                RemoveBadBuff(""1"",""true"");
+            }
+        });",,0,0,0,1,Icon/Buff/戴冠者,特性,4,,,,FALSE
+hunting,,"SetStatus(""AllTarget"");
+        AddEvent(""EndRound"", () =>
+        {
+            if (HandCard.Count%2==0)
+            {
+                Damage(atk());
+            }
+            else
+            {
+                ChangeDefence(def());
+            }
+        });",,0,0,0,1,Icon/Buff/方片,特性,4,,,,FALSE
+AllogeneicConcentric,,"SetStatus(""Self"");
+               SetStatus(""AllFriendsExSelf"");
+        AddEvent(""Dead"", () =>
+        {
+            GetEnemy(Self).Attack = GetEnemy(Self).Attack * 3 / 2;
+            GetEnemy(Self).Defend = GetEnemy(Self).Defend * 3 / 2;
+            Self.MaxHp = Self.MaxHp * 3 / 2;
+            Self.CurHp = Self.MaxHp;
+            Self.UpdateStatus();
+        });",,0,0,0,1,Icon/Buff/影魔身躯,特性,4,,,,FALSE
+TrialsOfWisdom,,"AddEvent(""Damage"", () =>
+        {
+            SetStatus(""Target"");
+            int count=DefaultDice.WithRange(0,3).Roll().Value;
+            switch (count)
+            {
+                case 0: 
+                    ChangeVars(""Strength"", ""-1"");
+                    break;
+                case 1: 
+                    ChangeVars(""Lucky"", ""-1"");
+                    break;
+                case 2: 
+                    ChangeVars(""Wisdom"", ""-1"");
+                    break;
+                case 3: 
+                    ChangeVars(""Perceive"", ""-1"");
+                    break;
+                default:
+                break;
+            }
+        });
+        AddEvent<HurtData>(""Hurt"", (fromdata) =>
+        {
+            if (!Self.DamageFilter.ContainsKey(fromdata.fromDataId))
+            {
+                Self.DamageFilter[fromdata.fromDataId] = 0f;
+            }
+            Self.DamageFilter[fromdata.fromDataId]+=5f;
+        });
+       AddEvent(""Action"", () =>
+       {
+           Self.DamageFilter.Clear();
+       });",,0,0,0,1,Icon/Buff/盗贼,特性,4,,,,FALSE
+meow,,"SetStatus(""Self"");
+        
+        if (!PlayerInfo.SpecialVars.ContainsKey(""meowCount""))
+        {
+            PlayerInfo.SpecialVars[""meowCount""] = ""0"";
+        }
+        if (PlayerInfo.SpecialVars[""meowCount""] == ""0"")
+        {   
+            AddEvent(""Resurrection"", () =>
+        {
+            PlayerInfo.SpecialVars[""meowCount""] = ""1"";
+            RemoveBuff(""SpecialBuff_meow"");
+            
+        });
+        }",,0,0,0,1,Icon/Buff/匣上黑猫,特性,4,,,,FALSE
+ManInTheMirror,,"SetStatus(""AllTarget"");Vars[""CorAtk""]=""0""; Vars[""CorDef""] = ""0"";
+        AddEvent<ActionData>(""Action"", (data) =>
+        {
+            if (data.data.data[""Type""].Contains(""攻击""))
+            {
+                Vars[""CorAtk""] = ""1"";
+            }
+            if (data.data.data[""Type""].Contains(""技能""))
+            {
+                Vars[""CorDef""] = ""1"";
+            }
+        });
+        SetStatus(""Self"");
+        AddEvent(""StartRound"", () =>
+        {
+            if (Vars[""CorAtk""] == ""1"")
+            {
+                SetStatus(""AllTarget"");
+                Damage(atk());
+            }
+            if (Vars[""CorDef""] == ""1"")
+            {
+                SetStatus(""Self"");
+                ChangeDefence(def());
+            }
+            Vars[""CorAtk""] = ""0"";
+            Vars[""CorDef""] = ""0"";
+            SetStatus(""Self"");
+        });",,0,0,0,1,Icon/Buff/镜中人,特性,4,,,,FALSE
+Phoenix,,"Vars[""ThisCount""]=""0"";
+       Self.DamageFilter[DataId.buff_burn]=0f;
+        void RoundEffect()
+        {
+          if (int.Parse(Vars[""ThisCount""]) %2== 0)
+          {
+            AddBuff(DataId.buff_impregnable,""8"");
+            Self.DamageFilter[DataId.buff_burn]=0f;
+          }  
+          else
+          {
+            RemoveBuff(DataId.buff_impregnable);
+           Self.DamageFilter[DataId.buff_burn]+=100f;
+          }
+          Vars[""ThisCount""]=(int.Parse(Vars[""ThisCount""])+1).ToString();
+        };
+        RoundEffect();
+        AddEvent(""StartRound"",()=>
+        {
+            RoundEffect();
+            
+         });",,0,0,0,1,Icon/Buff/浴火,特性,4,,,,FALSE
+Snitch,,"SetStatus(""AllTarget"");
+        AddEvent<ActionData>(""Action"", (data) =>
+        {
+            if (data.data.data[""Type""].Contains(""技能"")||data.data.data[""Type""].Contains(""防御""))
+            {
+
+                int a = CheckDice.Roll().Value;
+                SetStatus(""Self"");
+                if (a < 60)
+                {
+                    DoAction(""0"");
+                }
+                else
+                {
+                    ChangeHp(((int)(Self.CurHp * (-0.05f))).ToString());
+                }
+            }
+        });",,0,0,0,1,Icon/Buff/自动人偶,特性,4,,,,FALSE
+Priest,,"SetStatus(""AllTarget"");
+        AddEvent(""Action"",()=>
+        {
+            int a = 0;
+            foreach (var item in HandCard)
+            {
+                if (item.dataConfig.data[""Type""].Contains(""诅咒""))
+                {
+                    a += 1;
+                }
+            }
+            if (a>=2)
+            {
+                Damage(atk());
+            }
+         });
+        SetStatus(""Self"");
+        AddEvent(""Hurt"", () =>
+        {
+            if (!Vars.ContainsKey(""ThisCount""))
+            {
+                Vars[""ThisCount""] = ""0"";
+            }
+            Vars[""ThisCount""] = (int.Parse(Vars[""ThisCount""]) + 1).ToString();
+            if (int.Parse(Vars[""ThisCount""]) %4==0&&int.Parse(Vars[""ThisCount""])<25)
+            {
+                RandomAddCard(DataId.cursecard_11);
+            }
+        });",,0,0,0,1,Icon/Buff/K,特性,4,,,,FALSE
+Twins,,"Vars[""ThisCount""]=""0"";
+        SetStatus(""AllFriendsExSelf"");
+               AddEvent(""Dead"",()=>
+               {
+
+                   if (Self == null || Self.CurHp <= 0||Vars[""ThisCount""]==""1"")
+                   {
+                       return;
+                   }
+                   Vars[""ThisCount""]=""1"";
+                   SetStatus(""Self"");
+                   AddBuff(DataId.buff_impregnable,  ""2"");
+                   AddBuff(DataId.buff_extraordinary,  ""30"");
+                   AddBuff(DataId.buff_thorns,""3"");
+               });",,0,0,0,1,Icon/Buff/不可饶恕!,特性,4,,,,FALSE
+Musician,," SetStatus(""AllTarget"");
+        Vars[""ThisCount""] = ""0"";
+        AddEvent(""Action"",()=>
+        {
+            Vars[""ThisCount""] = (int.Parse(Vars[""ThisCount""]) + 1).ToString();
+            if (int.Parse(Vars[""ThisCount""]) % 4 == 0)
+            {
+                int b = HandCard.Count;
+                ThrowCard(b.ToString(), ""0"");
+                DrawCount(b.ToString());
+            }
+            if (int.Parse(Vars[""ThisCount""])>15)
+            {
+                AddBuff(DataId.buff_chaos,""1"");
+            }
+         }
+        );",,0,0,0,1,Icon/Buff/祭祀者,特性,4,,,,FALSE
+ThirstForBlood,,"AddBuff(DataId.buff_bloodsea,  ""1"");
+            SetStatus(""AllTarget"");
+            AddBuff(DataId.buff_bloodriver,  ""3"");",,0,0,0,1,Icon/Buff/黑桃,特性,4,,,,FALSE
+BlessedByHeaven,,"Vars[""ThisCount""]=""0"";
+        AddEvent(""StartRound"",()=>
+        {
+            Vars[""ThisCount""]=(int.Parse(Vars[""ThisCount""]) + 1).ToString();
+            if (int.Parse(Vars[""ThisCount""]) >= 8)
+            {
+                return;
+            }
+            SetStatus(""Self"");
+            AddBuff(DataId.buff_evergreen,  (Self.MaxHp/20).ToString());
+        });",,0,0,0,1,Icon/Buff/半天使,特性,4,,,,FALSE
+FortuneBoy,,"Vars[""ThisCount""] = ""0"";
+        Vars[""SpecialCount""] = ""0"";
+        AddEvent<HurtData>(""Hurt"",(data =>
+        {
+            if (data.damageType == ""Normal"")
+            {
+                Vars[""ThisCount""]=(int.Parse(Vars[""ThisCount""]) + 1).ToString();
+                if (int.Parse(Vars[""ThisCount""])>10+int.Parse(Vars[""SpecialCount""]))
+                {
+                    return;
+                }
+                SetStatusById(data.sourceId);
+                ChangeMoney(""5"");
+                SetStatus(""Self"");
+                         }
+            else
+            {
+                Vars[""SpecialCount""] = (int.Parse(Vars[""SpecialCount""]) + 1).ToString();
+                SetStatus(""Self"");
+                ChangeHp((Self.MaxHp/20).ToString());
+            }
+        }));",,0,0,0,1,Icon/Buff/金矿,特性,4,,,,FALSE
+Mimics,,"AddEvent<HurtData>(""Hurt"",(data =>
+        {
+            if (data.damageType == ""Normal"")
+            {
+                SetStatusById(data.sourceId);
+                int a = DefaultDice.Roll().Value;
+                if (a < 50)
+                {
+                    ChangePower(""1"");
+                }
+                else
+                {
+                    DrawCount(""1"");
+                }
+            }
+        }));",,0,0,0,1,Icon/Buff/魔能矿,特性,4,,,,FALSE
+Restrain,,"Vars[""ThisCount""] = ""0"";
+        AddEvent(""Attack"", () =>
+        {
+            SetStatus(""AllTarget"");
+            if (Vars[""ThisCount""] == ""0"")
+            {
+                Vars[""ThisCount""] = ""1"";
+                ChangeDynamicVarPercent(""HealMultiplier"", ""-20"");
+            }
+        });",,0,0,0,1,Icon/Buff/抑制,特性,4,,,,FALSE
+Irritable,,"AddEvent(""StartRound"",()=> {
+
+            AddBuff(DataId.buff_extraordinary,  ""10"");
+        });",,0,0,0,1,Icon/Buff/易怒,特性,4,,,,FALSE
+Hysteresis,,"AddEvent(""StartRound"", () => { SetStatus(""AllTarget"");
+        
+        RandomAddCard(DataId.cursecard_11);});",,0,0,0,1,Icon/Buff/迟滞,特性,4,,,,FALSE
+CalamityIncarnates,,"Vars[""ThisCount""] = PlayerInfo.SpecialVars[""DoomPower""];
+         PlayerInfo.TempStrength +=  int.Parse(PlayerInfo.SpecialVars[""DoomPower""]);
+        PlayerInfo.TempPerceive +=  int.Parse(PlayerInfo.SpecialVars[""DoomPower""]);
+        AddEvent(""Action"",()=> { SetStatus(""AllTarget"");Damage((Self.MaxHp/50).ToString()); });","PlayerInfo.TempStrength -=  int.Parse(Vars[""ThisCount""]);
+        PlayerInfo.TempPerceive -=  int.Parse(Vars[""ThisCount""]);
+        SetStatus(""Self"");
+        ChangeCareer(""career_2"");",1,0,0,1,Icon/Buff/易怒,特性,4,,,,FALSE
+GiantDollBear,,"Self.DamageFilter[DataId.buff_bleeding] = 100f;
+        AddEvent<HurtData>(""Hurt"", (data=>
+        {
+            if (data.fromDataId == DataId.buff_burn)
+            {
+                Damage(data.val, ""True"");
+            }
+        }));
+        AddEvent(""StartRound"", () =>
+        {
+            if (Vars[""ThisCount""]==""0"")
+            {
+                ChangeRound();
+            }
+        });",,0,0,0,1,Icon/Buff/巨大玩偶熊,特性,4,,,,FALSE
+WitchCultists,,"AddEvent(""FightStart"",()=> {
+                RandomAddBuff(""5"");
+              });",,0,0,0,1,Icon/Buff/魔女加护,特性,4,,,,FALSE
+Crow,,"SetStatus(""Self"");
+        AddEvent(""AttackDone"",()=> { SetStatus(""AllTarget"");Damage(""5"",""True""); });",,0,0,0,2,Icon/Buff/报丧偈羽,特性,4,,,,FALSE
+fluster,,"
+        AddEvent<HurtData>(""Hurt"",(thisData) => {
+        if (!Vars.ContainsKey(""ThisCount""))
+            {
+                Vars[""ThisCount""] = ""0"";
+            }
+            else
+            {
+                Vars[""ThisCount""] = (int.Parse(Vars[""ThisCount""]) + 1).ToString();
+                if (int.Parse(Vars[""ThisCount""]) % 3 == 0)
+                {
+                    SetStatusById(thisData.sourceId);
+                    ThrowCard(""1"", ""1"");
+                }
+            }
+        });",,0,0,0,1,Icon/Buff/慌乱,特性,4,,,,FALSE
+OriginalSin,,"SetStatus(""Self"");
+        Vars[""ThisCount""]=""0"";
+        Vars[""layersExperienced""]=""0"";
+        AddBuff(""SpecialBuff_DragonScaleArmor"",""1"");
+        AddBuff(DataId.SpecialBuff_EndlessDesire,""1"");
+        AddBuff(""SpecialBuff_Demigod'sBody"",""1"");
+        void CalPer()
+        {
+            
+                Vars[""layersExperienced""]=(int.Parse(Vars[""layersExperienced""])+1).ToString();
+                if (Vars[""layersExperienced""]==""1"")
+                {
+                    SetStatus(""AllFriendsExSelf"");
+                    ChangeHp(""-99999"");
+                    SetStatus(""Self"");
+                    ChangeCareer(""enemy_10051"");
+                }
+                else if (Vars[""layersExperienced""]==""2"")
+                {
+                    SetStatus(""Self"");
+                    //RemoveBuff(DataId.buff_impregnable);
+                    ChangeCareer(""enemy_10052"");
+                }
+                // SetStatus(""AllTarget"");
+                // ChangeRound();
+            
+        }
+        SetStatus(""AllFriendsExSelf"");
+        AddEvent(""Dead"", () =>
+        {
+            Vars[""ThisCount""] = (int.Parse(Vars[""ThisCount""]) + 1).ToString();
+            if (Vars[""ThisCount""]==""2""&&Vars[""layersExperienced""]==""0"")
+            {
+                CalPer();
+            }
+        });
+        //复制部分
+
+        SetStatus(""Self"");
+        AddEvent(""Dead"",()=>{Resurrection(""100"");
+        CalPer();
+            if (Self != null )
+            {
+                AddBuff(DataId.SpecialBuff_OriginalSin, ""-1"");
+            }});
+            AddBuff(DataId.buff_limitdamage, ""1"");
+        AddEvent(""SpecialBuff_OriginalSinOnLevelChange"", () =>
+        {
+            if (Self != null && Self.GetBuff(""SpecialBuff_OriginalSin"") != null)
+            {
+                AddBuff(DataId.buff_limitdamage, ""1"");
+                if (Self.GetBuff(DataId.SpecialBuff_OriginalSin).buffConfig.Level!=3)
+                {
+                    ChangeDynamicVarPercent(""MaxChangeHp"", ""-100"");
+                }
+            }
+        });
+
+        AddEvent(""StartRound"", () =>
+        {
+            if (Self==null)
+            {
+                return;
+            }
+            ChangeDynamicVarPercent(""MaxChangeHp"", (100f-Self.dynamicVariables[""MaxChangeHp""]*100f).ToString());
+            SetStatus(""Self"");
+        });",,0,0,0,3,Icon/Buff/魔王本相,特性,4,,,,FALSE
+DragonScaleArmor,,"AddBuff(DataId.buff_impregnable,""5"");
+        Vars[""ThisCount""]=""0"";
+        AddEvent(""Hurt"", () =>
+        {
+            Vars[""ThisCount""] = (Vars[""ThisCount""].ToInt() + 1).ToString();
+           if ((int.Parse(Vars[""ThisCount""])%4==0))
+           {
+             Self.AddBuff(DataId.buff_impregnable, 1);
+           }
+        });
+        AddEvent(""StartRound"",()=>{RemoveBuff(DataId.buff_impregnable);});",,0,0,0,1,Icon/Buff/黑龙鳞甲,特性,4,,,,FALSE
+SwordOfTheDemonKing,,,,0,0,0,1,Icon/Buff/恩赖斯蒂的魔剑,特性,4,,,,FALSE
+Demigod'sBody,,"SetStatus(""Self"");
+        AddEvent(""SpecialBuff_Demigod'sBodyOnLevelChange"",()=>
+        {
+            ChangeDynamicVar(""AttackedDefaultDamage"", ""-8"");
+            ChangeDefence(""4000"");
+        });
+        AddEvent(""StartRound"", () =>
+        {
+            AddBuff(DataId.buff_extraordinary,""30"");
+        });",,0,0,0,1,Icon/Buff/奇美拉之血,特性,4,,,,FALSE
+EndlessDesire,,"SetStatus(""AllTarget"");
+Vars[""ThisCount""]=""0"";
+Vars[""SpecialCount""]=""0"";
+AddEvent<CreateData>(""CreateInt"", (from) =>
+{
+    SetStatusById(from.Id);
+Vars[""ThisCount""] = (Vars[""ThisCount""].ToInt() + 1).ToString();
+if (int.Parse(Vars[""ThisCount""]) % 4 == 0)
+{
+ChangePower(""-1"");
+}
+});
+AddEvent<PowerData>(""CostPower"", (from) =>
+{
+    SetStatusById(from.Id);
+Vars[""SpecialCount""] = (Vars[""SpecialCount""].ToInt() + 1).ToString();
+if (int.Parse(Vars[""SpecialCount""]) % 4 == 0)
+{
+ThrowCard(""1"");
+}
+});",,0,0,0,1,Icon/Buff/罪业原体,特性,4,,,,FALSE
+meowFamiliar,,"SetStatus(""Self"");
+        Vars[""baseId""] = GetEnemy(Self).dataConfig.data[""Id""];
+        
+        ChangeCareer(""enemy_10054"");
+        ChangeSummon(false);","SetStatus(""Self"");
+
+        ChangeCareer(Vars.GetValueOrDefault(""baseId"",""enemy_10054"")); ChangeSummon(true);",1,0,0,2,Icon/Buff/烬赎,特性,4,,,,FALSE
+HolyJudgementEngine,,"SetStatus(""Self"");
+        Vars[""CanChange""]=""True"";
+        Vars[""CurrentFate""] = """";
+        void ClearFateMarks()
+        {
+            SetStatus(""Self"");
+            RemoveBuff(""SpecialBuff_HJE_FateJudgment"");
+            RemoveBuff(""SpecialBuff_HJE_FateDawn"");
+            RemoveBuff(""SpecialBuff_HJE_FateHolyMachine"");
+        }
+        void FateShiftImpact()
+        {
+            SetStatus(""AllExSelf"");
+            Damage(atk());
+            for (int i = 0; i < 2; i++)
+            {
+                int count=DefaultDice.WithRange(1, 13).Roll().Value;
+                if (count==7)
+                {
+                    count=11;
+                }
+                RandomAddCard(""cursecard_"" + DefaultDice.WithRange(1, 13).Roll().Value);
+            }
+        }
+        void ApplyFate()
+        {
+            if (Vars[""CanChange""]!=""True"")
+            {
+                return;
+            }
+            string nextFate;
+            var fatePool = new List<string>() { ""Judgment"", ""Dawn"", ""HolyMachine"" };
+            fatePool=fatePool.Where(x=>x!=Vars[""CurrentFate""]).ToList();
+            nextFate = fatePool[DefaultDice.WithRange(0, fatePool.Count - 1).Roll().Value];
+            if ( Vars[""CurrentFate""] == nextFate)
+            {
+                return;
+            }
+            Vars[""CanChange""]=""False"";
+            SetStatus(""Self"");
+            ClearFateMarks();
+            
+            AddEnemyAction(new DataConfig(""enemycard_HJE_""+nextFate, DataType.EnemyCard));
+            if (nextFate == ""Judgment"")
+            {
+                AddBuff(""SpecialBuff_HJE_FateJudgment"", ""1"");
+            }
+            else if (nextFate == ""Dawn"")
+            {
+                AddBuff(""SpecialBuff_HJE_FateDawn"", ""1"");
+            }
+            else if (nextFate == ""HolyMachine"")
+            {
+                AddBuff(""SpecialBuff_HJE_FateHolyMachine"", ""1"");
+            }
+            FateShiftImpact();
+            Vars[""CurrentFate""] = nextFate;
+        }
+        void HalfNegativeBuffs()
+        {
+            var buffs = Self.GetBuffs();
+            foreach (var item in buffs)
+            {
+                if (item == null || item.buffConfig == null)
+                {
+                    continue;
+                }
+                if (item.buffConfig.Type != ""负面"")
+                {
+                    continue;
+                }
+                item.buffConfig.Level = item.buffConfig.Level / 2;
+            }
+        }
+        AddBuff(""SpecialBuff_HJE_AbsoluteShield"", ""3"");
+        AddEvent(""Resurrection"", () =>
+        {
+            SetStatus(""Self"");
+            HalfNegativeBuffs();
+            ApplyFate();
+        });
+        SetStatus(""AllTarget"");
+        AddEvent(""EndRound"",()=>{Vars[""CanChange""]=""True"";});
+        AddEvent(""StartRound"", () =>
+        {
+            ApplyFate();
+        });",,0,0,0,1,Icon/Buff/审判机关,特性,4,,,,FALSE
+HJE_FateJudgment,,"SetStatus(""All"");
+ChangeDynamicVarPercent(""PercentDamage"", ""50"");
+ChangeDynamicVarPercent(""AttackedPercentDamage"", ""50"");
+var targets = new List<IStatusManager>(Object);
+foreach (var target in targets)
+{
+    if (target == null)
+    {
+        continue;
+    }
+    string bindId = target.InstanceId;
+    EventCenter.Instance.AddEventListener<ActionData>(""Action"" + bindId, (data) =>
+    {
+        var acting = FightManager.Instance.statuses.GetValueOrDefault(bindId, null);
+        if (acting == null || acting.state == IStatusManager.State.Dead)
+        {
+            return;
+        }
+        int selfHurt = Math.Max(1, acting.MaxHp / 100);
+        acting.Hit(selfHurt, ""True"", dataConfig.data[""Id""], bindId);
+    }, this, EventDispose.OnFightEnd);
+}
+void PlayHjeFateVisual(float pointerAngle, IStatusManager.AnimatedState eyeState)
+{
+    var pointer = Self?.FindSummon(""指针"");
+    var cross = Self?.FindSummon(""十字"");
+    var eye = Self?.FindSummon(""眼睛"");
+    if (pointer != null)
+    {
+        float currentAngle = pointer.transform.localEulerAngles.z;
+        if (currentAngle > 180f)
+        {
+            currentAngle -= 360f;
+        }
+        float delta = Mathf.DeltaAngle(currentAngle, pointerAngle);
+        DG.Tweening.ShortcutExtensions.DOKill(pointer.transform);
+        if (cross != null)
+        {
+            DG.Tweening.ShortcutExtensions.DOKill(cross.transform);
+        }
+        var sequence = DG.Tweening.DOTween.Sequence();
+        float[] frameFactors = new float[] { -0.03f, -0.02f, 0.02f, 0.14f, 0.39f, 0.73f, 0.95f, 1.03f, 1.02f, 1f };
+        foreach (float factor in frameFactors)
+        {
+            float frameAngle = currentAngle + delta * factor;
+            DG.Tweening.TweenSettingsExtensions.Append(sequence,
+                DG.Tweening.TweenSettingsExtensions.SetEase(
+                    DG.Tweening.ShortcutExtensions.DORotate(pointer.transform, new Vector3(0, 0, frameAngle), 0.1f),
+                    DG.Tweening.Ease.Linear));
+            if (cross != null)
+            {
+                DG.Tweening.TweenSettingsExtensions.Join(sequence,
+                    DG.Tweening.TweenSettingsExtensions.SetEase(
+                        DG.Tweening.ShortcutExtensions.DORotate(cross.transform, new Vector3(0, 0, -frameAngle), 0.1f),
+                        DG.Tweening.Ease.Linear));
+            }
+        }
+    }
+    if (eye != null)
+    {
+        eye.AnimationData = (eyeState, 0);
+        eye.animationTimeCounter = 0f;
+    }
+}
+PlayHjeFateVisual(90f, IStatusManager.AnimatedState.Special);",,0,0,0,1,Icon/Buff/裁决之刻,特性,4,,,,FALSE
+HJE_FateDawn,,"SetStatus(""AllTarget"");
+        AddEvent<ActionData>(""Action"",(fromdata)=>
+        {
+            SetStatusById(fromdata.Id);
+            ChangeMoney(""-6"",""true"");
+        });
+void PlayHjeFateVisual(float pointerAngle, IStatusManager.AnimatedState eyeState)
+{
+    var pointer = Self?.FindSummon(""指针"");
+    var cross = Self?.FindSummon(""十字"");
+    var eye = Self?.FindSummon(""眼睛"");
+    if (pointer != null)
+    {
+        float currentAngle = pointer.transform.localEulerAngles.z;
+        if (currentAngle > 180f)
+        {
+            currentAngle -= 360f;
+        }
+        float delta = Mathf.DeltaAngle(currentAngle, pointerAngle);
+        DG.Tweening.ShortcutExtensions.DOKill(pointer.transform);
+        if (cross != null)
+        {
+            DG.Tweening.ShortcutExtensions.DOKill(cross.transform);
+        }
+        var sequence = DG.Tweening.DOTween.Sequence();
+        float[] frameFactors = new float[] { -0.03f, -0.02f, 0.02f, 0.14f, 0.39f, 0.73f, 0.95f, 1.03f, 1.02f, 1f };
+        foreach (float factor in frameFactors)
+        {
+            float frameAngle = currentAngle + delta * factor;
+            DG.Tweening.TweenSettingsExtensions.Append(sequence,
+                DG.Tweening.TweenSettingsExtensions.SetEase(
+                    DG.Tweening.ShortcutExtensions.DORotate(pointer.transform, new Vector3(0, 0, frameAngle), 0.1f),
+                    DG.Tweening.Ease.Linear));
+            if (cross != null)
+            {
+                DG.Tweening.TweenSettingsExtensions.Join(sequence,
+                    DG.Tweening.TweenSettingsExtensions.SetEase(
+                        DG.Tweening.ShortcutExtensions.DORotate(cross.transform, new Vector3(0, 0, -frameAngle), 0.1f),
+                        DG.Tweening.Ease.Linear));
+            }
+        }
+    }
+    if (eye != null)
+    {
+        eye.AnimationData = (eyeState, 0);
+        eye.animationTimeCounter = 0f;
+    }
+}
+PlayHjeFateVisual(-90f, IStatusManager.AnimatedState.Special1);",,0,0,0,1,Icon/Buff/启迪之刻,特性,4,,,,FALSE
+HJE_FateHolyMachine,,"SetStatus(""All"");
+var targets = new List<IStatusManager>(Object);
+foreach (var target in targets)
+{
+    if (target == null)
+    {
+        continue;
+    }
+    string bindId = target.InstanceId;
+    EventCenter.Instance.AddEventListener<HurtData>(""Hurt"" + bindId, (data) =>
+    {
+        var hurted = FightManager.Instance.statuses.GetValueOrDefault(bindId, null);
+        if (hurted == null || hurted.state == IStatusManager.State.Dead)
+        {
+            return;
+        }
+        hurted.AddBuff(DataId.buff_keenedge, 1);
+    }, this, EventDispose.OnFightEnd);
+}
+void PlayHjeFateVisual(float pointerAngle, IStatusManager.AnimatedState eyeState)
+{
+    var pointer = Self?.FindSummon(""指针"");
+    var cross = Self?.FindSummon(""十字"");
+    var eye = Self?.FindSummon(""眼睛"");
+    if (pointer != null)
+    {
+        float currentAngle = pointer.transform.localEulerAngles.z;
+        if (currentAngle > 180f)
+        {
+            currentAngle -= 360f;
+        }
+        float delta = Mathf.DeltaAngle(currentAngle, pointerAngle);
+        DG.Tweening.ShortcutExtensions.DOKill(pointer.transform);
+        if (cross != null)
+        {
+            DG.Tweening.ShortcutExtensions.DOKill(cross.transform);
+        }
+        var sequence = DG.Tweening.DOTween.Sequence();
+        float[] frameFactors = new float[] { -0.03f, -0.02f, 0.02f, 0.14f, 0.39f, 0.73f, 0.95f, 1.03f, 1.02f, 1f };
+        foreach (float factor in frameFactors)
+        {
+            float frameAngle = currentAngle + delta * factor;
+            DG.Tweening.TweenSettingsExtensions.Append(sequence,
+                DG.Tweening.TweenSettingsExtensions.SetEase(
+                    DG.Tweening.ShortcutExtensions.DORotate(pointer.transform, new Vector3(0, 0, frameAngle), 0.1f),
+                    DG.Tweening.Ease.Linear));
+            if (cross != null)
+            {
+                DG.Tweening.TweenSettingsExtensions.Join(sequence,
+                    DG.Tweening.TweenSettingsExtensions.SetEase(
+                        DG.Tweening.ShortcutExtensions.DORotate(cross.transform, new Vector3(0, 0, -frameAngle), 0.1f),
+                        DG.Tweening.Ease.Linear));
+            }
+        }
+    }
+    if (eye != null)
+    {
+        eye.AnimationData = (eyeState, 0);
+        eye.animationTimeCounter = 0f;
+    }
+}
+PlayHjeFateVisual(0f, IStatusManager.AnimatedState.Special2);",,0,0,0,1,Icon/Buff/圣械之刻,特性,4,,,,FALSE
+HJE_AbsoluteShield,,"SetStatus(""Self"");
+        AddEvent(""Dead"",()=>{Resurrection(""100"");
+        
+            if (Self != null )
+            {
+                AddBuff(DataId.SpecialBuff_HJE_AbsoluteShield, ""-1"");
+            }});
+            AddBuff(DataId.buff_limitdamage, ""1"");
+        AddEvent(""SpecialBuff_HJE_AbsoluteShieldOnLevelChange"", () =>
+        {
+            if (Self != null && Self.GetBuff(""SpecialBuff_HJE_AbsoluteShield"") != null)
+            {
+                AddBuff(DataId.buff_limitdamage, ""1"");
+                if (Self.GetBuff(DataId.SpecialBuff_HJE_AbsoluteShield).buffConfig.Level!=3)
+                {
+                    ChangeDynamicVarPercent(""MaxChangeHp"", ""-100"");
+                }
+            }
+        });
+
+        AddEvent(""StartRound"", () =>
+        {
+            if (Self==null)
+            {
+                return;
+            }
+            ChangeDynamicVarPercent(""MaxChangeHp"", (100f-Self.dynamicVariables[""MaxChangeHp""]*100f).ToString());
+            SetStatus(""Self"");
+        });","SetStatus(""Self"");
+RemoveBuff(DataId.buff_limitdamage);",0,0,0,3,Icon/Buff/结构防护,特性,4,,,,FALSE
+CAR_Momentum,,"AddEvent(""StartRound"",()=> { SetStatus(""Self""); AddBuff(DataId.buff_extraordinary,""20""); });",,0,0,0,1,Icon/Buff/易怒,特性,4,,,,FALSE
+CAR_HeroBlessing,,"Vars[""Triggered""]=""0"";Vars[""NormalHurt""]=""0"";Vars[""TrueHurt""]=""0"";Vars[""AilmentHurt""]=""0"";AddEvent<HurtData>
+      (""Hurt"", (data) => { int damageVal = 0; int.TryParse(data.val, out damageVal); 
+      if (damageVal <= 0) { return; } if (data.damageType == ""True"") {
+         Vars[""TrueHurt""] = (int.Parse(Vars[""TrueHurt""]) + damageVal).ToString(); } 
+         else if (data.damageType == ""Dot"") { Vars[""AilmentHurt""] = (int.Parse(Vars[""AilmentHurt""]) + damageVal).ToString(); } 
+         else { Vars[""NormalHurt""] = (int.Parse(Vars[""NormalHurt""]) + damageVal).ToString(); }});
+         AddEvent(""Dead"",()=> { if (Vars[""Triggered""] == ""1"") { return; } Vars[""Triggered""] = (int.Parse(Vars[""Triggered""])+1).ToString();
+          Resurrection(""100"");
+            ChangeDynamicVarPercent(""MaxChangeHp"", ""-100"");
+         int normal = int.Parse(Vars[""NormalHurt""]); int trueVal = int.Parse(Vars[""TrueHurt""]); 
+          int ailment = int.Parse(Vars[""AilmentHurt""]); int maxVal = Math.Max(normal, Math.Max(trueVal, ailment)); 
+          if (maxVal == trueVal) { SetDamageFilter(""True"", 60f); } else if (maxVal == ailment) 
+      { SetDamageFilter(""Dot"", 60f); } 
+      else { SetDamageFilter(""Normal"", 60f);
+       SetDamageFilter(""True"", 60f); }});
+
+SetStatus(""Self"");
+            AddBuff(DataId.buff_limitdamage, ""1"");
+        AddEvent(""StartRound"", () =>
+        {
+            if (Self==null)
+            {
+                return;
+            }
+            ChangeDynamicVarPercent(""MaxChangeHp"", (100f-Self.dynamicVariables[""MaxChangeHp""]*100f).ToString());
+            SetStatus(""Self"");
+        });",,0,0,0,1,Icon/Buff/魔女加护,特性,4,,,,FALSE
+CAR_Deadline,,"AddEvent(""StartRound"",()=> { for (int i = 0; i < 2; i++) { CreateCard(new DataConfig(""cursecard_14"", DataType.Card)); } });SetStatus(""AllTarget"");var targets = new List<IStatusManager>(Object);foreach (var target in targets){ if (target == null) { continue; } string bindId = target.InstanceId; EventCenter.Instance.AddEventListener<HurtData>(""Hurt"" + bindId, (data) => { if (data.fromDataId != ""enemycard_CAR_Sword"") { return; } int hurtVal = 0; int.TryParse(data.val, out hurtVal); if (hurtVal <= 0) { return; } int deathSightCount = HandCard.Count(x => x != null && x.dataConfig.data[""Id""] == ""cursecard_14""); if (deathSightCount <= 5) { return; } var handCopy = HandCard.ToList(); foreach (var card in handCopy){ if (card != null && card.dataConfig.data[""Id""] == ""cursecard_14"") { BurnCardByData(card.dataConfig); }} var hurted = FightManager.Instance.statuses.GetValueOrDefault(bindId, null); if (hurted == null || hurted.state == IStatusManager.State.Dead) { return; } hurted.Hit(hurted.MaxHp, ""True"", dataConfig.data[""Id""], Self.InstanceId); }, this, EventDispose.OnFightEnd);}",,0,0,0,1,Icon/Buff/死线,特性,4,,,,FALSE
+Dragon'sBlood,,"AddEvent(""EndRound"", () =>
+        {
+            ChangeHp(((Self.MaxHp-Self.CurHp)/2).ToString());
+            AddBuff(""buff_impregnable"",""1"");
+            AddBuff(""buff_extraordinary"",""20"");
+        });",,0,0,0,1,Icon/Buff/龙血,特性,4,,,,FALSE
+DesireWitch,,"SetStatus(""Self"");
+Vars[""LostHpCount""] = ""0"";
+
+AddEvent<HurtData>(""Hurt"", (data) =>
+{
+    int hurt = data.val.ToInt();
+    if (hurt <= 0 || Self == null || Self.IsNull() || Self.MaxHp <= 0)
+    {
+        return;
+    }
+
+    int before = Vars[""LostHpCount""].ToInt();
+    int after = before + hurt;
+
+    int beforeStep = (int)(before * 10f / Self.MaxHp);
+    int afterStep = (int)(after * 10f / Self.MaxHp);
+    int triggerCount = afterStep - beforeStep;
+
+    Vars[""LostHpCount""] = after.ToString();
+
+    for (int i = 0; i < triggerCount; i++)
+    {
+        SetStatus(""Self"");
+        AddBuff(DataId.buff_extraordinary, ""30"");
+        AddBuff(DataId.buff_impregnable, ""3"");
+    }
+});
+
+AddEvent(""EndRound"", () =>
+{
+    SetStatus(""Self"");
+    RemoveBuff(DataId.buff_extraordinary);
+    RemoveBuff(DataId.buff_impregnable);
+    Vars[""LostHpCount""] = ""0"";
+});",,0,0,0,1,Icon/Buff/欲念,特性,4,,,,FALSE
+Joker:King,,"SetStatus(""Target"");
+        AddFakeCard(false);
+        AddFakeCard(false);
+        AddEvent(""StartRound"",()=>{AddFakeCard(false);});",,0,0,0,1,Icon/Buff/鬼牌大王,特性,4,,,,FALSE

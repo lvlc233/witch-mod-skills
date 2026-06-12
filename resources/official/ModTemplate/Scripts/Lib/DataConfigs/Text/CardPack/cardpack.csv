@@ -1,0 +1,21 @@
+﻿Id,Name,Name_zh-Hant,Name_en,Name_ja,Description,Description_zh-Hant,Description_en,Description_ja,Icon,Type
+唯一的标识（不能重复）,,,,,描述,描述,Description,説明,图片路径,类型
+1,基础卡包,通用卡包,General Card Pack,汎用カードパック,通用卡包,通用卡包,General Card Pack,汎用カードパック,Icon/UI_Icons/Native/战备/战备3.0/战备3.0/卡包封面/必修,Basic
+2,通用卡包,擴展卡包,Expansion Card Pack,拡張カードパック,扩展卡包,擴展卡包,Expansion Card Pack,拡張カードパック,Icon/UI_Icons/Native/战备/战备3.0/战备3.0/卡包封面/必修二,Basic
+3,教廷防卫技战术,教廷防衛技戰術,Church Defense Tactics,教廷防衛戦術,教廷防卫技战术,教廷防衛技戰術,Church Defense Tactics,教廷防衛戦術,Icon/UI_Icons/Native/战备/战备3.0/战备3.0/卡包封面/反击,Expand
+*4,时空奇旅,時空奇旅,Chrono Journey,時空奇旅,时空奇旅,時空奇旅,Chrono Journey,時空奇旅,Icon/UI_Icons/Native/战备/战备3.0/战备3.0/卡包封面/时间,Expand
+*5,爱与梦魇的阶梯,愛與夢魘的階梯,Stairway of Love and Nightmare,愛と悪夢の階段,爱与梦魇的阶梯,愛與夢魘的階梯,Stairway of Love and Nightmare,愛と悪夢の階段,Icon/UI_Icons/Native/战备/战备3.0/战备3.0/卡包封面/怨念,Expand
+*6,黑色巫术,黑色巫術,Black Witchcraft,黒き巫術,黑色巫术,黑色巫術,Black Witchcraft,黒き巫術,Icon/UI_Icons/Native/战备/战备3.0/战备3.0/卡包封面/巫术,Expand
+*7,蛇自阴影中袭来,蛇自陰影中襲來,Serpent from the Shadows,蛇は陰より襲い来る,蛇自阴影中袭来,蛇自陰影中襲來,Serpent from the Shadows,蛇は陰より襲い来る,Icon/UI_Icons/Native/战备/战备3.0/战备3.0/卡包封面/蛇,Expand
+*8,七重试炼,七重試煉,Sevenfold Trial,七重の試練,七重试炼,七重試煉,Sevenfold Trial,七重の試練,,Expand
+9,奥尔德林诸神谕,奧爾德林諸神諭,Aldrin Divine Oracles,オルドリン諸神の神託,奥尔德林诸神谕,奧爾德林諸神諭,Aldrin Divine Oracles,オルドリン諸神の神託,Icon/UI_Icons/Native/战备/战备3.0/战备3.0/卡包封面/诸神,Expand
+*10,飞升之路,飛升之路,Path of Ascension,飛昇の道,飞升之路,飛升之路,Path of Ascension,飛昇の道,,Expand
+*11,高阶魔法基础·必修一,高階魔法基礎·必修一,Advanced Magic Fundamentals: Required I,高等魔法基礎・必修I,高阶魔法基础·必修一,高階魔法基礎·必修一,Advanced Magic Fundamentals: Required I,高等魔法基礎・必修I,Icon/UI_Icons/Native/战备/战备3.0/战备3.0/卡包封面/必修三,Expand
+*12,混沌乐团,混沌樂團,Chaos Ensemble,混沌楽団,混沌乐团,混沌樂團,Chaos Ensemble,混沌楽団,Icon/UI_Icons/Native/战备/战备3.0/战备3.0/卡包封面/混沌乐团,Expand
+*13,统合之约,統合之約,Pact of Unification,統合の約,统合之约,統合之約,Pact of Unification,統合の約,Icon/UI_Icons/Native/战备/战备3.0/战备3.0/卡包封面/统合之约,Expand
+14,血鬼谱系综述,血鬼譜系綜述,Bloodfiend Lineage Survey,血鬼系譜総述,血鬼谱系综述,血鬼譜系綜述,Bloodfiend Lineage Survey,血鬼系譜総述,Icon/UI_Icons/Native/战备/战备3.0/战备3.0/卡包封面/血鬼,Expand
+15,万物元素之始,萬物元素之始,Origin of All Elements,万物元素の始まり,万物元素之始,萬物元素之始,Origin of All Elements,万物元素の始まり,Icon/UI_Icons/Native/战备/战备3.0/战备3.0/卡包封面/元素,Expand
+*16,深渊生存法则,深淵生存法則,Abyss Survival Rules,深淵生存法則,深渊生存法则,深淵生存法則,Abyss Survival Rules,深淵生存法則,,Expand
+*17,鎏金要略,鎏金要略,Gilded Essentials,鎧金要略,鎏金要略,鎏金要略,Gilded Essentials,鎧金要略,,Expand
+*18,法术序列,法術序列,Spell Sequence,法術序列,法术序列,法術序列,Spell Sequence,法術序列,Icon/UI_Icons/Native/战备/战备3.0/战备3.0/卡包封面/法术,Expand
+*19,超位仪式,超位儀式,Supreme Rituals,超位儀式,超位仪式,超位儀式,Supreme Rituals,超位儀式,Icon/UI_Icons/Native/战备/战备3.0/战备3.0/卡包封面/仪式,Expand

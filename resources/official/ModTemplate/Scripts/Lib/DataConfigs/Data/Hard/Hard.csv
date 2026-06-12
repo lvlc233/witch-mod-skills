@@ -1,0 +1,97 @@
+﻿Id,Belong,Level,UseScript,FightScript,MaxCount,Type
+唯一Id,属于哪类,难度等级,对应脚本,,,
+1,命运锁定,1,"PlayerInfo.SetGameVar(""ExDeleteDes"",(int.Parse(PlayerInfo.GetGameVar(""ExDeleteDes""))+1).ToString());",,1,Normal
+2,命运锁定,2,"PlayerInfo.SetGameVar(""ExLockDes"",(int.Parse(PlayerInfo.GetGameVar(""ExLockDes""))+1).ToString());",,1,Normal
+3,生命增加,1,"PlayerInfo.SetGameVar(""EXEnemyHp"",(int.Parse(PlayerInfo.GetGameVar(""EXEnemyHp""))+10).ToString());",,4,Normal
+4,攻击增加,1,"PlayerInfo.SetGameVar(""EXEnemyAtk"",(int.Parse(PlayerInfo.GetGameVar(""EXEnemyAtk""))+10).ToString());",,4,Normal
+5,绝望深渊,1,"PlayerInfo.SetGameVar(""Difficulty"",(int.Parse(PlayerInfo.GetGameVar(""Difficulty""))+1).ToString());",,4,Normal
+6,卖方市场,3,"PlayerInfo.SetGameVar(""PriceMul"",(int.Parse(PlayerInfo.GetGameVar(""PriceMul""))+30).ToString());",,1,Normal
+7,战斗buff,2,,"SetStatus(""AllTarget"");
+            AddBuff(""buff_elements"",""4"");
+        
+        
+   ",1,Normal
+8,战斗buff,3,,"if (PlayerInfo.enemylevel==1||PlayerInfo.enemylevel==4)
+        {
+            return;
+        }
+        SetStatus(""AllTarget"");
+        string tempName = """";
+        int tempHp = 0;
+        foreach (var item in Object)
+        {
+            if (item.CurHp > tempHp)
+            {
+                tempHp = item.CurHp;
+                tempName = item.InstanceId;
+             }
+        }
+        SetStatusById(tempName);
+        int a = DefaultDice.Roll().Value;
+        if (a<30)
+        {
+            AddBuff(""SpecialBuff_Restrain"",""2"");
+        }
+        else if(a<60)
+        {
+            AddBuff(""SpecialBuff_Irritable"",""2"");
+        }
+        else 
+        {
+            AddBuff(""SpecialBuff_Hysteresis"",""2"");
+        }",1,Normal
+9,命运权重,1,"PlayerInfo.SetGameVar(""普通"",(float.Parse(PlayerInfo.GetGameVar(""普通""))+0.05f).ToString());
+        PlayerInfo.SetGameVar(""普通事件"",(float.Parse(PlayerInfo.GetGameVar(""普通事件""))-0.05f).ToString());",,1,Normal
+10,命运权重,2,"PlayerInfo.SetGameVar(""精英"",(float.Parse(PlayerInfo.GetGameVar(""精英""))+0.05f).ToString());
+        PlayerInfo.SetGameVar(""建筑"",(float.Parse(PlayerInfo.GetGameVar(""建筑""))-0.05f).ToString());",,1,Normal
+11,成本控制,1,"PlayerInfo.SetGameVar(""RefreshCount"",""3"");",,1,Normal
+*13,战斗buff,3,,"if (PlayerInfo.enemylevel!=2)
+        {
+            return;
+        }SetStatus(""AllTarget"");
+  AddBuff(""buff_elementalBody"",""1"");
+ ",1,Normal
+*14,防御增加,2,,"if (PlayerInfo.Level<6)
+        {
+            SetStatus(""AllTarget"");
+            ChangeDefence(""25"");
+        }
+        else if (PlayerInfo.Level<12)
+        {
+            SetStatus(""AllTarget"");
+            ChangeDefence(""75"");
+        }
+        else if (PlayerInfo.Level<18)
+        {
+            SetStatus(""AllTarget"");
+            ChangeDefence(""225"");
+        }
+        else if (PlayerInfo.Level<24)
+        {
+            SetStatus(""AllTarget"");
+            ChangeDefence(""675"");
+        }
+        else if (PlayerInfo.Level<30)
+        {
+            SetStatus(""AllTarget"");
+            ChangeDefence(""2025"");
+        }
+        else
+        {
+            SetStatus(""AllTarget"");
+            ChangeDefence(""6075"");
+        }",1,Normal
+15,测试效果,3,"PlayerInfo.SetGameVar(""LateThrow"",""True"");",,1,Test
+16,测试效果,2,"PlayerInfo.SetGameVar(""UselessWis"",""True"");",,1,Test
+17,测试效果,1,"PlayerInfo.SetGameVar(""ExpensiveCard"",""30"");",,1,Test
+18,测试效果,0,"PlayerInfo.SetGameVar(""TombUse"",""True"");",,1,Test
+*19,测试效果,1,,"SetStatus(""Self"");
+       AddCardToDeckById(DataId.cursecard_11);",2,Test
+*20,测试效果,2,"PlayerInfo.SetGameVar(""HighExHp"",(int.Parse(PlayerInfo.GetGameVar(""HighExHp""))+100).ToString());",,2,Test
+*21,测试效果,2,"PlayerInfo.SetGameVar(""ExBless"",""0"");",,1,Test
+*22,测试效果,2,," SetStatus(""AllFriends"");
+        AddEvent<ActionData>(""Action"", (fromdata) =>
+        {
+            SetStatusById(fromdata.Id);
+            PureChangeHp(""-1"");
+        });",1,Test

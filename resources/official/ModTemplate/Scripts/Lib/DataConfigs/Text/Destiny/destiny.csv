@@ -1,0 +1,11 @@
+﻿Id,Note,Name,Name_zh-Hant,Name_en,Name_ja,Description,Description_zh-Hant,Description_en,Description_ja,Tips,Tips_zh-Hant,Tips_en,Tips_ja
+（Id）唯一标识,备注,名称,名稱,Name,名称,效果描述,效果描述,Effect Description,効果説明,剧情描述,劇情描述,Story Description,ストーリー説明
+1,混沌乐园词条,巨人之力,巨人之力,Giant Strength,巨人の力,敌人的伤害提升30%,敵人的傷害提升30%,Enemy damage increases by 30%.,敵の与えるダメージが30%上昇する,,,,
+2,混沌乐园词条,泰坦身躯,泰坦身軀,Titan Body,タイタンの身体,敌人的生命提高50%,敵人的生命提高50%,Enemy HP increases by 50%.,敵のHPが50%増加する,,,,
+3,混沌乐园词条,枯萎化,枯萎化,Withering,枯萎化,魔女治疗效果减弱30%,魔女治療效果減弱30%,The witch's healing effects are reduced by 30%.,魔女の回復効果が30%低下する,,,,
+4,混沌乐园词条,无限进化,無限進化,Infinite Evolution,無限進化,敌人每次受到伤害，恢复1%生命并获得1层超凡,敵人每次受到傷害，恢復1%生命并獲得1層超凡,"Whenever an enemy takes damage, it recovers 1% HP and gains 1 stack of {buff_extraordinary}.",敵はダメージを受けるたび、HPを1%回復し、{buff_extraordinary}を1スタック獲得する,,,,
+5,混沌乐园词条,死亡保护,死亡保護,Death Protection,死亡保護,战斗开始时，敌人获得重生40,戰鬥開始時，敵人獲得重生40,"At the start of battle, enemies gain 40 stacks of {buff_rebirth}.",戦闘開始時、敵は{buff_rebirth}を40スタック獲得する,,,,
+6,混沌乐园词条,自主行动,自主行動,Autonomous Action,自律行動,敌人拥有额外1个意图,敵人擁有額外一個意圖,Enemies have 1 additional intent.,敵は追加で1つのインテントを持つ,,,,
+7,混沌乐园词条,紊乱增生,紊亂增生,Chaotic Proliferation,紊乱増殖,每使用1张卡牌，生成1张相同复制并置入弃牌堆,每使用一張卡牌，生成一張相同復制并置入棄牌堆,"Whenever you play a card, create a copy of it and add it to your discard pile.",カードを1枚使うたび、同じカードのコピーを1枚生成し、捨て札に加える,,,,
+8,混沌乐园词条,行为诅咒,行為詛咒,Behavior Curse,行動の呪い,每使用17张卡牌，将1张随机诅咒塞入你的弃牌堆,每使用17張卡牌，將一張隨機詛咒塞入你的棄牌堆,"Whenever you play 17 cards, shuffle 1 random Curse into your discard pile.",カードを17枚使うたび、ランダムな呪いカード1枚をあなたの捨て札に加える,,,,
+9,混沌乐园词条,凋零世界,凋零世界,Withering World,凋零世界,我方回合开始时，魔女减少9999护盾,我方回合開始時，魔女減少9999護盾,"At the start of your turn, the witch loses 9999 Shield.",自分のターン開始時、魔女はシールドを9999失う,,,,
