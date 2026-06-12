@@ -27,7 +27,7 @@ resources/
 | `witch-mod-api` | 只回答整理后的 API references 能确认什么 | 不读取 `resources/`，不做第一事实调研 | 已完成基础版 |
 | `witch-mod-research` | 带着 API 结论、用户线索和问题假设调研第一事实 | 不直接写最终 API 文档，不生成 Mod 文件 | 已补强方法版 |
 | `witch-mod-case-guide` | 给 agent 用的案例桥梁：把用户目标转成案例、API 查询点、resources 调研点和 builder brief | 不自己翻第一事实，不生产文件，不把案例当权威事实 | 已重设为案例方法版 |
-| `witch-mod-builder` | 从官方模板复制并生成/修改 Mod 文件 | 不维护自造模板，不猜复杂机制 | 已补强方法版 |
+| `witch-mod-builder` | 用脚本从官方模板复制并生成/修改 Mod 文件 | 不维护自造模板，不猜复杂机制 | 已补强脚本版 |
 
 ## 事实层级
 
@@ -44,6 +44,7 @@ resources/
 - Research skill 是“深度思考和证据收集”入口，必须显式使用用户线索和 API 缺口。
 - Case Guide skill 是 agent 的案例桥梁；遇到缺口时生成 research 任务，遇到可实现目标时生成 builder brief。
 - Builder skill 以官方模板为起点；所有改动发生在目标 Mod 副本，不改 `resources/official`。
+- Builder skill 优先执行 `scripts/copy_official_template.py` 和 `scripts/check_mod_artifact.py`，文档流程作为脚本后的人工确认。
 - `resources/` 是可扩展调研材料区，可以包含官方材料、反编译、用户提供的其他 Mod。
 
 ## 已完成
@@ -70,7 +71,7 @@ resources/
   - 处理问题表，但重点是路由到 API/research/builder，而不是人类教学。
 - `witch-mod-builder` 需要能指导 agent：
   - 选择官方模板。
-  - 复制、裁剪、改写模板。
+  - 用脚本复制、裁剪、改写模板。
   - 对 ID、CSV、Lua、资源和运行风险做检查。
 - `resources/` 需要资源索引，说明每类材料回答什么问题。
 
@@ -79,6 +80,8 @@ resources/
 - `skills/witch-mod-research/references/deep-research-method.md`
 - `skills/witch-mod-case-guide/references/case-method.md`
 - `skills/witch-mod-builder/references/template-driven-development.md`
+- `skills/witch-mod-builder/scripts/copy_official_template.py`
+- `skills/witch-mod-builder/scripts/check_mod_artifact.py`
 - `resources/README.md`
 
 ## 后续验证

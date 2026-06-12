@@ -19,7 +19,7 @@ resources/
 - `witch-mod-api`：干净 API 边界，只回答整理后的 API references 能确认什么。
 - `witch-mod-research`：第一事实调研，读取 `resources/` 中的官方模板、Example、Lib、反编译和其他 Mod。
 - `witch-mod-case-guide`：给 agent 用的 Mod 案例桥梁，把用户目标转成案例、API 查询点、resources 调研点和 builder brief。
-- `witch-mod-builder`：创建或修改 Mod 文件，优先从 `resources/official` 复制官方模板。
+- `witch-mod-builder`：创建或修改 Mod 文件，优先用脚本从 `resources/official` 复制官方模板并做静态检查。
 
 ## 安装
 
@@ -79,6 +79,13 @@ cp -R skills/witch-mod-builder ~/.codex/skills/
 
 ```text
 用 Witch Mod Builder 基于官方 ModTemplate 创建一个最小 Lua Mod。
+```
+
+Builder skill 内置脚本：
+
+```bash
+python3 skills/witch-mod-builder/scripts/copy_official_template.py --help
+python3 skills/witch-mod-builder/scripts/check_mod_artifact.py --help
 ```
 
 ```text

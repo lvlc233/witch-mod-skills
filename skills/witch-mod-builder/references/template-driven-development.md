@@ -1,6 +1,6 @@
 # Template Driven Development
 
-Builder 的核心原则：从官方模板复制，改目标副本，不发明模板。
+Builder 的核心原则：用脚本从官方模板复制，改目标副本，不发明模板。
 
 ## 输入
 
@@ -10,6 +10,12 @@ Builder 的核心原则：从官方模板复制，改目标副本，不发明模
 - 必要时的 research 报告。
 
 ## 选择模板
+
+短路径均相对：
+
+```text
+../../resources/official/
+```
 
 | 目标 | 首选模板 |
 |---|---|
@@ -23,7 +29,7 @@ Builder 的核心原则：从官方模板复制，改目标副本，不发明模
 
 ## 开发流程
 
-1. 复制模板到目标工作区。
+1. 用 `scripts/copy_official_template.py` 复制模板到目标工作区。
 2. 删除目标不需要的样例行，但保留 row 1 表头和 row 2 备注。
 3. 修改 `ModConfig.json`。
 4. 确认文件名，因为运行时完整 ID 使用文件名。
@@ -32,7 +38,36 @@ Builder 的核心原则：从官方模板复制，改目标副本，不发明模
 7. 填 Data 行和 Text 行，确保同目录、同文件名、同局部 ID 配对。
 8. 写 Lua 脚本；如果参考 Lib 原版 C# 脚本，先改写为 Lua/XLua。
 9. 填资源路径；区分原版路径和 `Mods/<ModName>/...`。
-10. 跑 `implementation-checklist.md` 和 `verification.md`。
+10. 跑 `scripts/check_mod_artifact.py`、`implementation-checklist.md` 和 `verification.md`。
+
+## 脚本
+
+复制 Lua Mod 骨架：
+
+```bash
+python3 skills/witch-mod-builder/scripts/copy_official_template.py lua-mod --to /path/MyMod
+```
+
+复制 C# DLL Hook 骨架：
+
+```bash
+python3 skills/witch-mod-builder/scripts/copy_official_template.py dll-mod --to /path/MyDllMod
+```
+
+复制成对 Data/Text CSV：
+
+```bash
+python3 skills/witch-mod-builder/scripts/copy_official_template.py csv Card --to /path/MyMod --name mycards.csv
+python3 skills/witch-mod-builder/scripts/copy_official_template.py csv Partner --to /path/MyMod
+```
+
+检查目标 Mod：
+
+```bash
+python3 skills/witch-mod-builder/scripts/check_mod_artifact.py /path/MyMod
+```
+
+脚本会拒绝写入或检查 `resources/official` 内部路径。
 
 ## 不确定机制处理
 
@@ -49,6 +84,7 @@ Builder 的核心原则：从官方模板复制，改目标副本，不发明模
 ```text
 变更文件:
 使用模板:
+使用脚本:
 ID 映射:
 API 依据:
 Research 依据:

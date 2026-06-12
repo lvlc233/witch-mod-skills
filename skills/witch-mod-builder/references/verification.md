@@ -2,12 +2,22 @@
 
 ## Static Review
 
+- Run `scripts/check_mod_artifact.py /path/MyMod`.
 - Run a diff check for accidental changes outside target files.
+- Confirm no files under `resources/official` changed.
 - Inspect CSV row count and headers.
+- Confirm Data/Text paired rows for edited files.
+- Search for unresolved placeholders:
+  - `YourModName`
+  - `OriginalRole`
+  - `YourRole`
+  - `ModTemplate`
 - Search for forbidden patterns:
   - `Vars[`
   - `PlayerInfo.` in Lua Mod CSV where `ScriptExecutor.PlayerInfo.` is required
   - `AddEvent<`
+  - `foreach (`
+  - `new Dictionary`
   - local IDs used in runtime references
 
 ## Runtime Review
