@@ -7,7 +7,7 @@
 - ModId is `ModName.ModAuthor` and is used for Mod identity and dependencies.
 - DataId is for original/static ID constants, for example `DataId.buff_bleeding`.
 
-## Teaching Pattern
+## Agent Pattern
 
 Use this contrast:
 

@@ -8,7 +8,7 @@
 - Global/UI events are separate from ordinary fight events.
 - C# generic typed events exist in original scripts, but Lua typed payload availability needs runtime verification.
 
-## Teaching Pattern
+## Agent Pattern
 
 Teach events as "run this script when the named game moment happens".
 

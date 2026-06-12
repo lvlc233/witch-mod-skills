@@ -10,7 +10,7 @@
 - `CS.*` accesses C# types, namespaces, static properties, and static methods.
 - EmmyLua hints such as `---@type CS.ScriptExecutor` are for IDE/type completion.
 
-## Teaching Pattern
+## Agent Pattern
 
 Use two contexts:
 

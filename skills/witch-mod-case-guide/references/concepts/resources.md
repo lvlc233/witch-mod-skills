@@ -9,7 +9,7 @@
 - Not every resource field should be prefixed with `Mods/<ModName>/ModResource/`; original resources keep original paths.
 - Animation states use `config.json` with `AnimationPerFrame`, `isLoop`, and `Direction`.
 
-## Teaching Pattern
+## Agent Pattern
 
 Teach resource work as two use cases:
 

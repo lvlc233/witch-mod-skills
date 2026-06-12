@@ -70,4 +70,4 @@ description: Use when Witch's Apocalyptic Journey mod questions require first-fa
 - 不要修改 `resources/official` 里的官方材料。
 - 不要忽略用户提供的线索；线索必须进入“假设”或“调研路径”。
 - 不要只看一个文件就下结论；复杂机制至少尝试模板、Example、Lib/API 交叉验证。
-- 如果要沉淀结论，先说明应进入 `witch-mod-api`、`witch-mod-teaching` 还是 `witch-mod-builder`。
+- 如果要沉淀结论，先说明应进入 `witch-mod-api`、`witch-mod-case-guide` 还是 `witch-mod-builder`。

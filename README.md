@@ -8,7 +8,7 @@
 skills/
   witch-mod-api/
   witch-mod-research/
-  witch-mod-teaching/
+  witch-mod-case-guide/
   witch-mod-builder/
 resources/
   official/
@@ -18,7 +18,7 @@ resources/
 
 - `witch-mod-api`：干净 API 边界，只回答整理后的 API references 能确认什么。
 - `witch-mod-research`：第一事实调研，读取 `resources/` 中的官方模板、Example、Lib、反编译和其他 Mod。
-- `witch-mod-teaching`：中文教学、问题表评估、学习路径，只讲已确认事实。
+- `witch-mod-case-guide`：给 agent 用的 Mod 案例桥梁，把用户目标转成案例、API 查询点、resources 调研点和 builder brief。
 - `witch-mod-builder`：创建或修改 Mod 文件，优先从 `resources/official` 复制官方模板。
 
 ## 安装
@@ -36,7 +36,7 @@ cd witch-mod-skills
 mkdir -p ~/.codex/skills
 ln -s "$(pwd)/skills/witch-mod-api" ~/.codex/skills/witch-mod-api
 ln -s "$(pwd)/skills/witch-mod-research" ~/.codex/skills/witch-mod-research
-ln -s "$(pwd)/skills/witch-mod-teaching" ~/.codex/skills/witch-mod-teaching
+ln -s "$(pwd)/skills/witch-mod-case-guide" ~/.codex/skills/witch-mod-case-guide
 ln -s "$(pwd)/skills/witch-mod-builder" ~/.codex/skills/witch-mod-builder
 ```
 
@@ -46,7 +46,7 @@ ln -s "$(pwd)/skills/witch-mod-builder" ~/.codex/skills/witch-mod-builder
 mkdir -p ~/.codex/skills
 cp -R skills/witch-mod-api ~/.codex/skills/
 cp -R skills/witch-mod-research ~/.codex/skills/
-cp -R skills/witch-mod-teaching ~/.codex/skills/
+cp -R skills/witch-mod-case-guide ~/.codex/skills/
 cp -R skills/witch-mod-builder ~/.codex/skills/
 ```
 
@@ -57,7 +57,7 @@ cp -R skills/witch-mod-builder ~/.codex/skills/
   skills/
     witch-mod-api/
     witch-mod-research/
-    witch-mod-teaching/
+    witch-mod-case-guide/
     witch-mod-builder/
   resources/
     official/
@@ -82,14 +82,14 @@ cp -R skills/witch-mod-builder ~/.codex/skills/
 ```
 
 ```text
-用 Witch Mod Teaching 解释局部 ID、运行时完整 ID、ModId、DataId 的区别。
+用 Witch Mod Case Guide 设计一个“使魔/随从”Mod 案例 brief，列出 API 查询点、resources 调研点和 builder brief。
 ```
 
 推荐职责拆分：
 
 - API 支持度判断：用 `witch-mod-api`。
 - 第一事实调研：用 `witch-mod-research`。
-- 学习解释和问题表：用 `witch-mod-teaching`。
+- 案例选择、问题表、给 builder 的 brief：用 `witch-mod-case-guide`。
 - 写 Mod 文件：用 `witch-mod-builder`。
 
 ## Resources

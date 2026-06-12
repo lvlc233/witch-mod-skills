@@ -10,7 +10,7 @@
 - Data and Text pair by same directory, same file name, and same local `Id`.
 - Script columns in Mod CSV should be Lua.
 
-## Teaching Pattern
+## Agent Pattern
 
 Explain Data/Text as two halves of one game entry:
 

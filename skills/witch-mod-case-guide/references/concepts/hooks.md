@@ -8,7 +8,7 @@
 - C# DLL Hook mods use `[ModInitialize]`, `[HookBefore]`, and `[HookAfter]`.
 - C# patch methods must be static, and instance method hooks receive the instance as the first parameter.
 
-## Teaching Pattern
+## Agent Pattern
 
 Explain Hook as "run code before or after an existing method runs".
 

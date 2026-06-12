@@ -1,6 +1,6 @@
 # Research Report Format
 
-用于把第一事实调研结果交给 API、teaching 或 builder 使用。
+用于把第一事实调研结果交给 API、case-guide 或 builder 使用。
 
 ```text
 结论等级: 已确认/部分确认/不可确认
@@ -14,7 +14,7 @@
 不能推广:
 - 哪些结论不能从当前证据推出
 建议沉淀到:
-- witch-mod-api / witch-mod-teaching / witch-mod-builder / 暂不沉淀
+- witch-mod-api / witch-mod-case-guide / witch-mod-builder / 暂不沉淀
 ```
 
 ## 判定准则

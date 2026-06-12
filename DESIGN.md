@@ -12,7 +12,7 @@
 skills/
   witch-mod-api/
   witch-mod-research/
-  witch-mod-teaching/
+  witch-mod-case-guide/
   witch-mod-builder/
 resources/
   official/
@@ -26,7 +26,7 @@ resources/
 |---|---|---|---|
 | `witch-mod-api` | 只回答整理后的 API references 能确认什么 | 不读取 `resources/`，不做第一事实调研 | 已完成基础版 |
 | `witch-mod-research` | 带着 API 结论、用户线索和问题假设调研第一事实 | 不直接写最终 API 文档，不生成 Mod 文件 | 已补强方法版 |
-| `witch-mod-teaching` | 把已确认事实转成中文教学、问题表评估、学习路径和练习 | 不自己翻第一事实，不生产文件 | 已补强方法版 |
+| `witch-mod-case-guide` | 给 agent 用的案例桥梁：把用户目标转成案例、API 查询点、resources 调研点和 builder brief | 不自己翻第一事实，不生产文件，不把案例当权威事实 | 已重设为案例方法版 |
 | `witch-mod-builder` | 从官方模板复制并生成/修改 Mod 文件 | 不维护自造模板，不猜复杂机制 | 已补强方法版 |
 
 ## 事实层级
@@ -42,7 +42,7 @@ resources/
 
 - API skill 保持干净，不能因为调研需求而污染事实边界。
 - Research skill 是“深度思考和证据收集”入口，必须显式使用用户线索和 API 缺口。
-- Teaching skill 只讲已确认事实；遇到缺口时生成调研问题。
+- Case Guide skill 是 agent 的案例桥梁；遇到缺口时生成 research 任务，遇到可实现目标时生成 builder brief。
 - Builder skill 以官方模板为起点；所有改动发生在目标 Mod 副本，不改 `resources/official`。
 - `resources/` 是可扩展调研材料区，可以包含官方材料、反编译、用户提供的其他 Mod。
 
@@ -63,10 +63,11 @@ resources/
   - 使用用户线索形成调研假设。
   - 在模板、Example、Lib、反编译之间交叉验证。
   - 输出可沉淀、可追溯的结论。
-- `witch-mod-teaching` 需要能指导 agent：
-  - 把 API/research 结论转成教学解释。
-  - 处理问题表。
-  - 生成学习路径、练习、常见误解。
+- `witch-mod-case-guide` 需要能指导 agent：
+  - 把用户目标归类到具体 Mod 案例。
+  - 为案例列出 API 查询点和 resources 调研点。
+  - 生成给 builder 的 brief、不可越界项和验证清单。
+  - 处理问题表，但重点是路由到 API/research/builder，而不是人类教学。
 - `witch-mod-builder` 需要能指导 agent：
   - 选择官方模板。
   - 复制、裁剪、改写模板。
@@ -76,7 +77,7 @@ resources/
 上述内容已分别沉淀到：
 
 - `skills/witch-mod-research/references/deep-research-method.md`
-- `skills/witch-mod-teaching/references/teaching-method.md`
+- `skills/witch-mod-case-guide/references/case-method.md`
 - `skills/witch-mod-builder/references/template-driven-development.md`
 - `resources/README.md`
 
@@ -85,7 +86,7 @@ resources/
 这些方法文件还需要用真实任务做 forward-test：
 
 - 用 `witch-mod-research` 调研一个 API 不足的问题，例如 `PackBelong` 或 EventList/Dialog 关系。
-- 用 `witch-mod-teaching` 处理一段问题表，观察是否能保持事实等级。
+- 用 `witch-mod-case-guide` 处理“使魔/宠物系统”目标，观察是否能生成 API 查询点、resources 调研点和 builder brief。
 - 用 `witch-mod-builder` 从官方模板复制生成一个最小 Lua Mod，观察是否会误改 `resources/official`。
 
 ## 质量检查清单
@@ -98,4 +99,4 @@ resources/
 - 不存在 `tests/skill-checks/`。
 - `skills/witch-mod-builder/assets/templates/` 不存在。
 - README 安装说明仍与目录结构一致。
-- Research/teaching/builder 的工作流能对应本文档的职责边界。
+- Research/case-guide/builder 的工作流能对应本文档的职责边界。
