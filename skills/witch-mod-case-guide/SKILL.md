@@ -28,8 +28,13 @@ description: Use when an agent needs Witch's Apocalyptic Journey mod case guidan
 |---|---|
 | 案例拆解、输出格式、builder brief | `references/case-method.md` |
 | 问题表评估 | `references/question-table-method.md` |
-| 基础概念卡片 | `references/concepts/` |
-| 具体 Mod 案例 | `references/cases/` |
+| ID、CSV、Lua、事件、Hook、资源基础概念 | `references/concepts/ids.md`、`csv-data-text.md`、`lua-xlua.md`、`events.md`、`hooks.md`、`resources.md` 中相关文件 |
+| 卡牌 | `references/cases/card-basic.md` |
+| Buff/事件触发效果 | `references/cases/buff-event.md` |
+| 职业/技能 | `references/cases/career-skill.md` |
+| 使魔/随从/伙伴 | `references/cases/partner-companion.md` |
+| 宠物系统组合目标 | `references/cases/pet-system.md` |
+| 资源替换 | `references/cases/resource-replace.md` |
 
 ## 输出形状
 

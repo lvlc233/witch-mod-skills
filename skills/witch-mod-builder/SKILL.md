@@ -51,11 +51,13 @@ description: Use when creating or modifying Witch's Apocalyptic Journey mod arti
 | Lua/XLua 常用片段 | `references/lua-patterns.md` |
 | 实现前后检查 | `references/implementation-checklist.md` |
 | 静态/运行验证 | `references/verification.md` |
+| 小段 Lua 参考片段 | `assets/snippets/` 中按任务选择；只能作为片段，不是官方模板 |
 
 ## 硬规则
 
 - 官方模板只读；任何修改都发生在目标 Mod 副本中。
 - 不要手写复制流程，除非脚本不能覆盖当前任务；脚本不能覆盖时要说明原因。
+- `assets/snippets/` 只用于小段 Lua 写法参考，不能替代官方模板、API 判断或 research 结论。
 - CSV 第 1 行表头和第 2 行备注行必须保留。
 - 用目标 CSV 的现有表头，不发明列。
 - Mod 新增行写 CSV 局部 ID；脚本和跨表引用用运行时完整 ID。

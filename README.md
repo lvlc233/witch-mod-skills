@@ -40,6 +40,13 @@ ln -s "$(pwd)/skills/witch-mod-case-guide" ~/.codex/skills/witch-mod-case-guide
 ln -s "$(pwd)/skills/witch-mod-builder" ~/.codex/skills/witch-mod-builder
 ```
 
+软链接安装后，调研和 builder 脚本应从仓库真实目录读取 `resources/`。如果某个 agent 或工具按 `~/.codex/skills/...` 链接路径解析相对路径，先让它确认 skill 文件的真实路径：
+
+```bash
+realpath ~/.codex/skills/witch-mod-research
+realpath ~/.codex/skills/witch-mod-builder
+```
+
 如果不想用软链接，也可以复制：
 
 ```bash
@@ -84,8 +91,8 @@ cp -R skills/witch-mod-builder ~/.codex/skills/
 Builder skill 内置脚本：
 
 ```bash
-python3 skills/witch-mod-builder/scripts/copy_official_template.py --help
-python3 skills/witch-mod-builder/scripts/check_mod_artifact.py --help
+python3 /path/to/witch-mod-skills/skills/witch-mod-builder/scripts/copy_official_template.py --help
+python3 /path/to/witch-mod-skills/skills/witch-mod-builder/scripts/check_mod_artifact.py --help
 ```
 
 ```text

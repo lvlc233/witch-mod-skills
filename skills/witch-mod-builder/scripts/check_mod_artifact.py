@@ -23,6 +23,7 @@ FORBIDDEN_PATTERNS = [
     ("C# dictionary index syntax Vars[", re.compile(r"\bVars\s*\[")),
     ("C# foreach syntax", re.compile(r"\bforeach\s*\(")),
     ("C# new Dictionary", re.compile(r"new\s+Dictionary\s*<")),
+    ("bare PlayerInfo. in Lua; use ScriptExecutor.PlayerInfo.", re.compile(r"(?<!ScriptExecutor\.)\bPlayerInfo\.")),
 ]
 
 
